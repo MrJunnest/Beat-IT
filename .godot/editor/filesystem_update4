@@ -1,0 +1,8 @@
+res://scenes/home-screen.tscn
+res://scripts/home/home-play.gd
+res://scenes/test-button.tscn
+res://scenes/test_debug.tscn
+res://scenes/test_debug_char.tscn
+res://scripts/home/Play-Button.gd
+res://README.md
+res://material/scrolls/scrollmenu.gdshader
