@@ -1,9 +1,9 @@
 [gd_scene load_steps=7 format=3 uid="uid://cbj3amxdytmxf"]
 
 [ext_resource type="Script" path="res://scripts/home/home-play.gd" id="1_0nq01"]
-[ext_resource type="FontFile" uid="uid://d3rtuyfllde7o" path="res://material/font/Silver.ttf" id="2_d1rcr"]
-[ext_resource type="Texture2D" uid="uid://d3jsblcke2k1q" path="res://assets/home/background.png" id="2_d4v82"]
-[ext_resource type="Shader" path="res://material/scrolls/scrollmenu.gdshader" id="2_el4xk"]
+[ext_resource type="FontFile" uid="uid://d3rtuyfllde7o" path="res://assets/fonts/Silver.ttf" id="2_d1rcr"]
+[ext_resource type="Shader" path="res://src/MainScreens/scrolls/scrollmenu.gdshader" id="2_el4xk"]
+[ext_resource type="Texture2D" uid="uid://d3jsblcke2k1q" path="res://assets/pictures/home/background.png" id="3_yowau"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_2oq44"]
 shader = ExtResource("2_el4xk")
@@ -34,7 +34,7 @@ offset_bottom = 5370.0
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.11, 0.11)
-texture = ExtResource("2_d4v82")
+texture = ExtResource("3_yowau")
 
 [node name="VBox-Main" type="VBoxContainer" parent="."]
 layout_mode = 1

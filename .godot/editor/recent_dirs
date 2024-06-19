@@ -1,4 +1,2 @@
-res://material/scrolls
-res://material/font
-res://scripts/home
-res://scenes
+res://src/MainScreens/scrolls
+res://src/MainScreens
