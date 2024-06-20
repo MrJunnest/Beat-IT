@@ -1,2 +1,4 @@
-res://src/MainScreens/scrolls
+res://src/Transition
+res://src/Transition/scripts
+res://src/MainScreens/scripts
 res://src/MainScreens
