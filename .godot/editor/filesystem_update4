@@ -2,3 +2,4 @@ res://src/Transition/Trans_1.tscn
 res://src/MainScreens/home-screen.tscn
 res://src/MainScreens/scripts/home_cmd.gd
 res://src/Transition/scripts/trans_1.gd
+res://src/Levels/Level_Selector/selector_screens.tscn

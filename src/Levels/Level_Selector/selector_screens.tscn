@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://cwrebm0mqpy3h"]
+
+[ext_resource type="Texture2D" uid="uid://ccv3k4adqgqte" path="res://assets/pictures/selector/background.webp" id="1_rcmvn"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="background" type="Sprite2D" parent="."]
+position = Vector2(582.697, 260.169)
+scale = Vector2(0.903598, 1.4954)
+texture = ExtResource("1_rcmvn")
+metadata/_edit_group_ = true

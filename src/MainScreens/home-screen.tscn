@@ -1,9 +1,9 @@
 [gd_scene load_steps=7 format=3 uid="uid://cbj3amxdytmxf"]
 
 [ext_resource type="Script" path="res://src/MainScreens/scripts/home_cmd.gd" id="1_0nq01"]
-[ext_resource type="FontFile" uid="uid://d3rtuyfllde7o" path="res://assets/fonts/Silver.ttf" id="2_d1rcr"]
 [ext_resource type="Shader" path="res://src/MainScreens/scrolls/scrollmenu.gdshader" id="2_el4xk"]
 [ext_resource type="Texture2D" uid="uid://d3jsblcke2k1q" path="res://assets/pictures/home/background.png" id="3_yowau"]
+[ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="4_7s52y"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_2oq44"]
 shader = ExtResource("2_el4xk")
@@ -56,7 +56,7 @@ layout_mode = 2
 theme_override_colors/font_hover_color = Color(0.739001, 0.0581316, 0.310667, 1)
 theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
 theme_override_constants/outline_size = 10
-theme_override_fonts/font = ExtResource("2_d1rcr")
+theme_override_fonts/font = ExtResource("4_7s52y")
 theme_override_font_sizes/font_size = 45
 text = "Play"
 script = SubResource("GDScript_4xt64")
@@ -65,7 +65,7 @@ script = SubResource("GDScript_4xt64")
 layout_mode = 2
 theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
 theme_override_constants/outline_size = 10
-theme_override_fonts/font = ExtResource("2_d1rcr")
+theme_override_fonts/font = ExtResource("4_7s52y")
 theme_override_font_sizes/font_size = 45
 text = "Settings"
 
@@ -73,7 +73,7 @@ text = "Settings"
 layout_mode = 2
 theme_override_colors/font_outline_color = Color(0.419205, 0.388679, 0.663763, 1)
 theme_override_constants/outline_size = 10
-theme_override_fonts/font = ExtResource("2_d1rcr")
+theme_override_fonts/font = ExtResource("4_7s52y")
 theme_override_font_sizes/font_size = 45
 text = "Quit"
 
