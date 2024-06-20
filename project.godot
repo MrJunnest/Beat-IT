@@ -19,6 +19,10 @@ config/icon="res://icon.svg"
 
 Trans1="*res://src/Transition/Trans_1.tscn"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/sprite_cutter/plugin.cfg")
+
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0

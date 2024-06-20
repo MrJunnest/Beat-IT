@@ -1,14 +1,29 @@
-[gd_scene load_steps=7 format=3 uid="uid://cbj3amxdytmxf"]
+[gd_scene load_steps=11 format=3 uid="uid://cbj3amxdytmxf"]
 
 [ext_resource type="Script" path="res://src/MainScreens/scripts/home_cmd.gd" id="1_0nq01"]
 [ext_resource type="Shader" path="res://src/MainScreens/scrolls/scrollmenu.gdshader" id="2_el4xk"]
 [ext_resource type="Texture2D" uid="uid://d3jsblcke2k1q" path="res://assets/pictures/home/background.png" id="3_yowau"]
 [ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="4_7s52y"]
+[ext_resource type="Texture2D" uid="uid://8lqbix2eiyxo" path="res://assets/packs/GUI_1/GUI.png" id="5_xxsu8"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_2oq44"]
 shader = ExtResource("2_el4xk")
 
-[sub_resource type="GDScript" id="GDScript_4xt64"]
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gp1j2"]
+texture = ExtResource("5_xxsu8")
+region_rect = Rect2(113, 98, 30, 13)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8qeyo"]
+texture = ExtResource("5_xxsu8")
+region_rect = Rect2(113, 98, 30, 13)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6sw8h"]
+texture = ExtResource("5_xxsu8")
+region_rect = Rect2(113, 98, 30, 13)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1i8qv"]
+texture = ExtResource("5_xxsu8")
+region_rect = Rect2(113, 98, 30, 13)
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -53,13 +68,13 @@ theme_override_constants/separation = 10
 
 [node name="Play-Button" type="Button" parent="VBox-Main"]
 layout_mode = 2
-theme_override_colors/font_hover_color = Color(0.739001, 0.0581316, 0.310667, 1)
+mouse_force_pass_scroll_events = false
 theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
 theme_override_constants/outline_size = 10
 theme_override_fonts/font = ExtResource("4_7s52y")
 theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_gp1j2")
 text = "Play"
-script = SubResource("GDScript_4xt64")
 
 [node name="Settings-Button" type="Button" parent="VBox-Main"]
 layout_mode = 2
@@ -67,6 +82,7 @@ theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1
 theme_override_constants/outline_size = 10
 theme_override_fonts/font = ExtResource("4_7s52y")
 theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_8qeyo")
 text = "Settings"
 
 [node name="Quit-Button" type="Button" parent="VBox-Main"]
@@ -75,7 +91,17 @@ theme_override_colors/font_outline_color = Color(0.419205, 0.388679, 0.663763, 1
 theme_override_constants/outline_size = 10
 theme_override_fonts/font = ExtResource("4_7s52y")
 theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_6sw8h")
 text = "Quit"
+
+[node name="Admin-Panel" type="Button" parent="VBox-Main"]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_7s52y")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_1i8qv")
+text = "Admin Panel"
 
 [connection signal="pressed" from="VBox-Main/Play-Button" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="VBox-Main/Quit-Button" to="." method="_on_quit_button_pressed"]

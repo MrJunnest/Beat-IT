@@ -1,0 +1,53 @@
+[gd_scene load_steps=9 format=3 uid="uid://bwavb6r2uk555"]
+
+[ext_resource type="Texture2D" uid="uid://bfja05brjccax" path="res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png" id="1_jcw4t"]
+[ext_resource type="Script" path="res://src/Characters/Ape/script/Ape.gd" id="1_w34g3"]
+[ext_resource type="Texture2D" uid="uid://dstj2jhfj544c" path="res://assets/characters/Jungle Monkey Platformer/Cutted/Run2.atlastex" id="3_ndnuq"]
+[ext_resource type="Texture2D" uid="uid://c1rxeavevjeui" path="res://assets/characters/Jungle Monkey Platformer/Cutted/Run3.atlastex" id="4_q760o"]
+[ext_resource type="Texture2D" uid="uid://01knmvs3c2fy" path="res://assets/characters/Jungle Monkey Platformer/Cutted/Run4.atlastex" id="5_5edbb"]
+[ext_resource type="Texture2D" uid="uid://dsbavkklpjyes" path="res://assets/characters/Jungle Monkey Platformer/Cutted/Run.atlastex" id="6_j54pm"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bycxo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_ndnuq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_q760o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_5edbb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_j54pm")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 1.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vt2wp"]
+size = Vector2(80, 119)
+
+[node name="Ape" type="CharacterBody2D"]
+script = ExtResource("1_w34g3")
+
+[node name="Ape-Sprite" type="Sprite2D" parent="."]
+position = Vector2(100, 500)
+scale = Vector2(5.243, 5)
+texture = ExtResource("1_jcw4t")
+region_enabled = true
+region_rect = Rect2(296, 3, 20, 29)
+
+[node name="Ape-Animation" type="AnimatedSprite2D" parent="."]
+position = Vector2(100, 500)
+scale = Vector2(5.266, 5)
+sprite_frames = SubResource("SpriteFrames_bycxo")
+animation = &"Run"
+frame = 2
+frame_progress = 0.0610643
+
+[node name="Ape-Collition" type="CollisionShape2D" parent="."]
+position = Vector2(167, 510.5)
+shape = SubResource("RectangleShape2D_vt2wp")
