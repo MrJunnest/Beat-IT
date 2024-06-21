@@ -33,11 +33,11 @@ func _process(delta):
 			position = target_position
 			is_moving = false
 
-	if position.y < WORLD_TOP_BOUND:
+	if position.y < WORLD_TOP_BOUND: #check bounds
 		position.y = WORLD_TOP_BOUND
 		target_position.y = WORLD_TOP_BOUND
 		is_moving = false
-		animated_sprite.play("bumped")
+		animated_sprite.play("bumped") #debug check play if colliding
 	elif position.y > WORLD_BOTTOM_BOUND:
 		position.y = WORLD_BOTTOM_BOUND
 		target_position.y = WORLD_BOTTOM_BOUND
