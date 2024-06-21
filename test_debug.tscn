@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://c4b2gsvokpqrw"]
+[gd_scene load_steps=4 format=3 uid="uid://c4seyip28swxl"]
 
 [ext_resource type="PackedScene" uid="uid://dsielojpej1td" path="res://scenes/test_debug_char.tscn" id="1_k6u4x"]
 
@@ -7,7 +7,7 @@ distance = -7.77974
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_mg1nr"]
 normal = Vector2(0, 1)
-distance = -18.0
+distance = -67.0
 
 [node name="TEST_DEBUG" type="Node2D"]
 position = Vector2(0, -4)
@@ -24,10 +24,10 @@ zoom = Vector2(1.5, 1.5)
 position = Vector2(15, 35)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(-15, 3)
+position = Vector2(-15, 42)
 scale = Vector2(1, 1.02831)
 shape = SubResource("WorldBoundaryShape2D_f4gq8")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(-15, -70)
+position = Vector2(-15, -69)
 shape = SubResource("WorldBoundaryShape2D_mg1nr")

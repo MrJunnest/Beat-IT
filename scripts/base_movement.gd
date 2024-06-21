@@ -9,7 +9,7 @@ var is_moving = false
 const MOVE_DISTANCE = 50.0  # Distance the character moves up or down
 const MOVE_SPEED = 5.0       # Speed of the movement
 # Define the bounds of the game world
-const WORLD_TOP_BOUND = -50.0
+const WORLD_TOP_BOUND = -49.0
 const WORLD_BOTTOM_BOUND = 0
 
 @onready var animated_sprite = $AnimatedSprite2D
@@ -23,11 +23,11 @@ func _ready():
 	target_position = position #on test position not sure yet
 	 #start the normal anim just to test, subject of change to idle
 
-func _physics_process(delta):
+func _process(delta):
 	if is_moving: 
 		# Move towards the target position smoothly (the main moving code) 星
 		position = position.move_toward(target_position, MOVE_SPEED)
-
+		animated_sprite.play("normal")
 		# Check if the character has reached the target position
 		if position.distance_to(target_position) < 1.0:
 			position = target_position
@@ -37,12 +37,12 @@ func _physics_process(delta):
 		position.y = WORLD_TOP_BOUND
 		target_position.y = WORLD_TOP_BOUND
 		is_moving = false
-		$AnimationPlayer.play("bumped")  # Play the bumped animation to test
+		animated_sprite.play("bumped")
 	elif position.y > WORLD_BOTTOM_BOUND:
 		position.y = WORLD_BOTTOM_BOUND
 		target_position.y = WORLD_BOTTOM_BOUND
 		is_moving = false
-		$AnimationPlayer.play("bumped") 
+		animated_sprite.play("bumped")
 
 func _input(event): #check bound + inputs
 	# Get the input direction and handle the movement/deceleration.
