@@ -1,6 +1,15 @@
+res://src/Transition/Pause/Pause.tscn
 res://src/Levels/Level_Selector/selector_screens.tscn
 res://src/Header/adm-panel.tscn
 res://src/MainScreens/home-screen.tscn
 res://src/Levels/Tests/TestLevel/Test1/Test1.tscn
 res://src/Characters/Ape/Ape.tscn
+res://src/Transition/Pause/Pause.gd
+res://src/Transition/Trans_1/Trans_1.tscn
+res://src/MainScreens/scripts/home_cmd.gd
+res://src/Transition/Trans_1/scripts/trans_1.gd
+res://src/Levels/Map1/Map1.tscn
 res://src/Levels/Map1/Background/Background.tscn
+res://src/Levels/Map1/Scroll/Scroll.tscn
+res://addons/sprite_cutter/AtlasScene.gd
+res://src/Characters/Ape/script/Ape.gd

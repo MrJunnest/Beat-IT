@@ -1,9 +1,11 @@
-[gd_scene load_steps=39 format=3 uid="uid://bwavb6r2uk555"]
+[gd_scene load_steps=41 format=3 uid="uid://bwavb6r2uk555"]
 
 [ext_resource type="Texture2D" uid="uid://bfja05brjccax" path="res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png" id="1_jcw4t"]
+[ext_resource type="Script" path="res://src/Characters/Ape/script/Ape.gd" id="1_w34g3"]
 [ext_resource type="Texture2D" uid="uid://cfcoo1u854wak" path="res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump/Jump.png" id="2_ko2yw"]
 [ext_resource type="Texture2D" uid="uid://dijdigyfu5tt" path="res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit/Hit.png" id="3_d6q1i"]
 [ext_resource type="Texture2D" uid="uid://b5uj8ll6vc1tf" path="res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run/Run.png" id="4_qsaq4"]
+[ext_resource type="AudioStream" uid="uid://ddy7b6awp7q2m" path="res://assets/characters/Jungle Monkey Platformer/miscellaneous_4_alex.wav" id="6_rhvn5"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a6iry"]
 atlas = ExtResource("1_jcw4t")
@@ -253,14 +255,22 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ay6tb"]
-size = Vector2(20, 28)
+size = Vector2(77, 112)
 
 [node name="Ape" type="CharacterBody2D"]
+z_index = 1
+position = Vector2(82, 50)
+script = ExtResource("1_w34g3")
 
 [node name="Ape" type="AnimatedSprite2D" parent="."]
+position = Vector2(47, 141)
+scale = Vector2(4.0625, 4)
 sprite_frames = SubResource("SpriteFrames_koa7f")
 animation = &"Idle"
 
 [node name="Collision-Run" type="CollisionShape2D" parent="."]
-position = Vector2(0, 2)
+position = Vector2(51.5, 145)
 shape = SubResource("RectangleShape2D_ay6tb")
+
+[node name="Jump" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_rhvn5")

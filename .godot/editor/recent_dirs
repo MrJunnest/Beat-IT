@@ -1,3 +1,5 @@
+res://src/Characters/Ape/script
+res://src/Levels/Map1
 res://src/Levels/Map1/Background
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump
@@ -6,12 +8,10 @@ res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheet
 res://assets/characters/Jungle Monkey Platformer/CUT-Lose
 res://assets/characters/Jungle Monkey Platformer/CUT-Jump
 res://assets/characters/Jungle Monkey Platformer/CUT-Idle
-res://src/Levels/Map1
 res://src/Transition/Trans_2
 res://src/Transition/Trans_1/scripts
 res://src/Transition/Trans_1
 res://
-res://src/Characters/Ape/script
 res://src/Characters/Ape
 res://src/Levels/Level_Selector/scripts
 res://src/Levels/Tests/TestLevel/Test1

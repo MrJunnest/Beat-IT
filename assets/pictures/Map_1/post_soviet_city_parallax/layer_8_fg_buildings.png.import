@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cvnislteqiapj"
-path="res://.godot/imported/4.png-8245e85b703afa7e3de19c7c306d4aa9.ctex"
+uid="uid://cmcc5xgly24m"
+path="res://.godot/imported/layer_8_fg_buildings.png-f8d4a3876d5d9771f879550f0730f0ad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/packs/scrolling-city-background 2/1/Night/4.png"
-dest_files=["res://.godot/imported/4.png-8245e85b703afa7e3de19c7c306d4aa9.ctex"]
+source_file="res://assets/pictures/Map_1/post_soviet_city_parallax/layer_8_fg_buildings.png"
+dest_files=["res://.godot/imported/layer_8_fg_buildings.png-f8d4a3876d5d9771f879550f0730f0ad.ctex"]
 
 [params]
 

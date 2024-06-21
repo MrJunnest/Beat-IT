@@ -1,41 +1,73 @@
-[gd_scene load_steps=6 format=3 uid="uid://c4hk7ypikkhq4"]
+[gd_scene load_steps=12 format=3 uid="uid://c4hk7ypikkhq4"]
 
-[ext_resource type="Texture2D" uid="uid://cpefyc5w80317" path="res://assets/packs/scrolling-city-background 2/4/Night/2.png" id="2_ga587"]
+[ext_resource type="Texture2D" uid="uid://hpj15o27v5oq" path="res://assets/pictures/Map_1/post_soviet_city_parallax/layer_1_ground.png" id="1_ab1fw"]
+[ext_resource type="Texture2D" uid="uid://utxecgyssduv" path="res://assets/packs/scrolling-city-background 2/6/Day/1.png" id="1_ghp4d"]
+[ext_resource type="Texture2D" uid="uid://dbfhjp5xem1mp" path="res://assets/packs/scrolling-city-background 2/1/Night/2.png" id="1_hgpvj"]
+[ext_resource type="Texture2D" uid="uid://ddajc7d7dfo3w" path="res://assets/pictures/Map_1/post_soviet_city_parallax/layer_3_moon.png" id="2_hrpbj"]
+[ext_resource type="Texture2D" uid="uid://cympajwk8gcqo" path="res://assets/pictures/Map_1/post_soviet_city_parallax/layer_6_far_buildings.png" id="3_2n3ub"]
 [ext_resource type="Texture2D" uid="uid://d0x31d2xphb0e" path="res://assets/packs/scrolling-city-background 2/3/Night/2.png" id="3_e24ml"]
+[ext_resource type="Texture2D" uid="uid://cbxsdgpcoixgh" path="res://assets/pictures/Map_1/post_soviet_city_parallax/layer_7_bg_buildings.png" id="4_achuj"]
 [ext_resource type="Texture2D" uid="uid://eoksnds6cqbm" path="res://assets/packs/scrolling-city-background 2/1/Night/3.png" id="4_e5s5f"]
-[ext_resource type="Texture2D" uid="uid://diuuxqgkdp3su" path="res://assets/packs/scrolling-city-background 2/3/Night/3.png" id="5_evlq5"]
-[ext_resource type="Texture2D" uid="uid://d0rnxl5t0fj30" path="res://assets/packs/scrolling-city-background 2/4/Night/5.png" id="6_1twga"]
+[ext_resource type="Texture2D" uid="uid://cncrd0efs16qf" path="res://assets/pictures/Map_1/post_soviet_city_parallax/layer_9_wall.png" id="5_gg2t1"]
+[ext_resource type="Texture2D" uid="uid://637rbpfxhs4s" path="res://assets/packs/scrolling-city-background 2/8/Night/5.png" id="6_ad86k"]
+[ext_resource type="Texture2D" uid="uid://cmcc5xgly24m" path="res://assets/pictures/Map_1/post_soviet_city_parallax/layer_8_fg_buildings.png" id="8_q5or8"]
 
 [node name="Background" type="ParallaxBackground"]
 
-[node name="ColorRect" type="ColorRect" parent="."]
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0.332811, 0.204205, 0.55371, 1)
+[node name="1" type="Sprite2D" parent="."]
+position = Vector2(287, 175)
+texture = ExtResource("1_ghp4d")
 
-[node name="Background" type="ParallaxLayer" parent="."]
+[node name="Background2" type="Sprite2D" parent="."]
+position = Vector2(584.5, 319.5)
+scale = Vector2(1.63071, 2.56641)
+texture = ExtResource("1_ab1fw")
 
-[node name="5" type="Sprite2D" parent="Background"]
-position = Vector2(261, 285)
-texture = ExtResource("2_ga587")
+[node name="Moon" type="Sprite2D" parent="."]
+position = Vector2(572.75, 207.5)
+scale = Vector2(1.55947, 1.49609)
+texture = ExtResource("2_hrpbj")
 
-[node name="2" type="Sprite2D" parent="Background/5"]
-position = Vector2(645.5, 7)
-scale = Vector2(1.03646, 1)
+[node name="g" type="ParallaxLayer" parent="."]
+position = Vector2(-62, 76)
+motion_mirroring = Vector2(1201, 0)
+
+[node name="2" type="Sprite2D" parent="g"]
+position = Vector2(304, 260.5)
+scale = Vector2(0.956597, 1)
+texture = ExtResource("1_hgpvj")
+
+[node name="4" type="Sprite2D" parent="g"]
+position = Vector2(617.5, 212.5)
 texture = ExtResource("3_e24ml")
 
-[node name="3" type="Sprite2D" parent="Background/5/2"]
-position = Vector2(-79, 14)
+[node name="5" type="Sprite2D" parent="g"]
+position = Vector2(897.75, 203.75)
+scale = Vector2(0.962674, 1.20525)
+texture = ExtResource("6_ad86k")
+
+[node name="3" type="Sprite2D" parent="g"]
+position = Vector2(746.5, 251.5)
 texture = ExtResource("4_e5s5f")
 
-[node name="4" type="Sprite2D" parent="Background/5/2/3"]
-position = Vector2(-533, 33)
-texture = ExtResource("5_evlq5")
+[node name="Layer8FgBuildings" type="Sprite2D" parent="g"]
+position = Vector2(351.5, 200.5)
+texture = ExtResource("8_q5or8")
 
-[node name="6" type="Sprite2D" parent="Background/5/2/3/4"]
-position = Vector2(578, 12)
-scale = Vector2(1.02083, 1)
-texture = ExtResource("6_1twga")
+[node name="Layer6FarBuildings" type="Sprite2D" parent="g"]
+position = Vector2(579, 289)
+scale = Vector2(1.52109, 2.23828)
+texture = ExtResource("3_2n3ub")
+
+[node name="Layer7BgBuildings" type="Sprite2D" parent="g"]
+position = Vector2(781, 274)
+scale = Vector2(1.5242, 1.64063)
+texture = ExtResource("4_achuj")
+
+[node name="Layer9Wall2" type="Sprite2D" parent="g"]
+position = Vector2(1096.5, 368.5)
+texture = ExtResource("5_gg2t1")
+
+[node name="Layer9Wall" type="Sprite2D" parent="g"]
+position = Vector2(382.5, 370.5)
+texture = ExtResource("5_gg2t1")
