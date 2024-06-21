@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1718933015
+::res://::1718951269
 icon.svg::CompressedTexture2D::296956262275410456::1718694377::1718694377::1::::<><>::
 LICENSE.md::TextFile::-1::1718931754::0::1::::<><>::
 README.md::TextFile::-1::1718694377::0::1::::<><>::
@@ -949,89 +949,89 @@ X.png::CompressedTexture2D::3634906512488997129::1718931754::1718931754::1::::<>
 Y.png::CompressedTexture2D::2155236423504567595::1718931754::1718931754::1::::<><>::
 Z.png::CompressedTexture2D::624409751668488918::1718931754::1718931754::1::::<><>::
 ::res://assets/packs/Test_Assets_Luciano/::1718933439
-::res://assets/packs/Test_Assets_Luciano/gdb-gamepad-2(all)/::1718933412
+::res://assets/packs/Test_Assets_Luciano/gdb-gamepad-2(all)/::1718933444
 gdb-keyboard-2.png::CompressedTexture2D::236159392652462405::1640709066::1718933444::1::::<><>::
 gdb-playstation-2.png::CompressedTexture2D::347866872569676098::1640709054::1718933444::1::::<><>::
 gdb-switch-2.png::CompressedTexture2D::7598688161241062597::1640710508::1718933444::1::::<><>::
 gdb-xbox-2.png::CompressedTexture2D::1470147374020001965::1640709064::1718933444::1::::<><>::
 ::res://assets/packs/Test_Assets_Luciano/generic_char_v0.2/::1718933425
-::res://assets/packs/Test_Assets_Luciano/generic_char_v0.2/generic_char_v0.2/::1718933425
+::res://assets/packs/Test_Assets_Luciano/generic_char_v0.2/generic_char_v0.2/::1718933444
 guide.png::CompressedTexture2D::4758105306058888822::1573744506::1718933444::1::::<><>::
 guide_2.png::CompressedTexture2D::6075145324797955995::1574785434::1718933444::1::::<><>::
 readme.TXT::TextFile::-1::1574783788::0::1::::<><>::
 ::res://assets/packs/Test_Assets_Luciano/generic_char_v0.2/generic_char_v0.2/png/::1718933425
-::res://assets/packs/Test_Assets_Luciano/generic_char_v0.2/generic_char_v0.2/png/blue/::1718933425
+::res://assets/packs/Test_Assets_Luciano/generic_char_v0.2/generic_char_v0.2/png/blue/::1718933444
 char_blue_1.png::CompressedTexture2D::1391705663066796331::1573707996::1718933444::1::::<><>::
 char_blue_2.png::CompressedTexture2D::7188840854300165200::1574783978::1718933444::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/generic_char_v0.2/generic_char_v0.2/png/green/::1718933425
+::res://assets/packs/Test_Assets_Luciano/generic_char_v0.2/generic_char_v0.2/png/green/::1718933444
 char_green_1.png::CompressedTexture2D::5938029991529170281::1573707770::1718933444::1::::<><>::
 char_green_2.png::CompressedTexture2D::557414385680149829::1574784662::1718933444::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/generic_char_v0.2/generic_char_v0.2/png/purple/::1718933425
+::res://assets/packs/Test_Assets_Luciano/generic_char_v0.2/generic_char_v0.2/png/purple/::1718933444
 char_purple_1.png::CompressedTexture2D::1652299352195684828::1573707966::1718933444::1::::<><>::
 char_purple_2.png::CompressedTexture2D::2970793037858891113::1574784726::1718933444::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/generic_char_v0.2/generic_char_v0.2/png/red/::1718933425
+::res://assets/packs/Test_Assets_Luciano/generic_char_v0.2/generic_char_v0.2/png/red/::1718933444
 char_red_1.png::CompressedTexture2D::4570204997363113527::1573707636::1718933444::1::::<><>::
 char_red_2.png::CompressedTexture2D::4102497402222619157::1574784786::1718933444::1::::<><>::
 ::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/::1718933434
 ::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/::1718933434
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/::1718933444
 Buildings.png::CompressedTexture2D::2461854603090174234::1664872552::1718933444::1::::<><>::
 Hive.png::CompressedTexture2D::5455661094347624603::1664872412::1718933444::1::::<><>::
 Interior-01.png::CompressedTexture2D::7362193260044831316::1667208930::1718933444::1::::<><>::
 Props-Rocks.png::CompressedTexture2D::3391239762065874781::1664872204::1718933444::1::::<><>::
 Tiles.png::CompressedTexture2D::4559413103249815701::1667208974::1718933444::1::::<><>::
 Tree-Assets.png::CompressedTexture2D::208909673283151089::1667208990::1718933444::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Background/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Background/::1718933444
 Background.png::CompressedTexture2D::4561794208613606955::1667209646::1718933444::1::::<><>::
 ::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/::1718933434
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/::1718933444
 Attack-01-Sheet.png::CompressedTexture2D::1721843980141293862::1657194656::1718933444::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Dead/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Dead/::1718933444
 Dead-Sheet.png::CompressedTexture2D::1298268877447303304::1657197608::1718933444::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Idle/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Idle/::1718933444
 Idle-Sheet.png::CompressedTexture2D::1580068061479734142::1657186076::1718933444::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/::1718933444
 Jump-All-Sheet.png::CompressedTexture2D::8346466155167374128::1657197636::1718933444::1::::<><>::
 ::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jump/::1718933434
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jump-End/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jump-End/::1718933444
 Jump-End-Sheet.png::CompressedTexture2D::3084811979927819244::1657197770::1718933444::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/::1718933444
 Jump-Start-Sheet.png::CompressedTexture2D::8810122517377384245::1657197716::1718933444::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Run/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Run/::1718933443
 Run-Sheet.png::CompressedTexture2D::7533026534305078718::1657186042::1718933443::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/HUD/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/HUD/::1718933443
 Base-01.png::CompressedTexture2D::8657983680097706499::1656562566::1718933443::1::::<><>::
 ::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/::1718933434
 ::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/::1718933434
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Hit-Vanish/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Hit-Vanish/::1718933443
 Hit-Sheet-Black.png::CompressedTexture2D::2177456358302734009::1663996224::1718933443::1::::<><>::
 Hit-Sheet-White.png::CompressedTexture2D::3566008543751080943::1663996254::1718933443::1::::<><>::
 Hit-Sheet.png::CompressedTexture2D::7976951340607892451::1656651542::1718933443::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/::1718933443
 Idle-Sheet-export-Back.png::CompressedTexture2D::365789020714227833::1663996136::1718933443::1::::<><>::
 Idle-Sheet-White.png::CompressedTexture2D::3648082492068336619::1663996174::1718933443::1::::<><>::
 Idle-Sheet.png::CompressedTexture2D::5017438056955416728::1656651570::1718933443::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Run/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Run/::1718933443
 Run-Sheet-Black.png::CompressedTexture2D::6533057050628976432::1663995952::1718933443::1::::<><>::
 Run-Sheet-White.png::CompressedTexture2D::2897684827760015299::1663996004::1718933443::1::::<><>::
 Run-Sheet.png::CompressedTexture2D::5417897730545465526::1656651590::1718933443::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Walk/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Walk/::1718933443
 Walk-Base-Sheet-White.png::CompressedTexture2D::766706402657567029::1663996092::1718933443::1::::<><>::
 Walk-Base-Sheet.png::CompressedTexture2D::9028275151936561299::1656651616::1718933443::1::::<><>::
 Walk-Base-SheetBlack.png::CompressedTexture2D::6557409033051082063::1663996046::1718933443::1::::<><>::
 ::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/::1718933434
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Attack/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Attack/::1718933443
 Attack-Sheet.png::CompressedTexture2D::7061185859057625138::1664526146::1718933443::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Fly/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Fly/::1718933443
 Fly-Sheet.png::CompressedTexture2D::2968370773062262408::1664526162::1718933443::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Hit/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Hit/::1718933443
 Hit-Sheet.png::CompressedTexture2D::6991606652344150315::1664526182::1718933443::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Snail/::1718933434
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Snail/::1718933443
 all.png::CompressedTexture2D::2276844044186354464::1635484046::1718933443::1::::<><>::
 Dead-Sheet.png::CompressedTexture2D::6470943921717162280::1635484046::1718933443::1::::<><>::
 Hide-Sheet.png::CompressedTexture2D::4323199117241038810::1635484046::1718933443::1::::<><>::
 walk-Sheet.png::CompressedTexture2D::7311774152685483621::1635484046::1718933443::1::::<><>::
-::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/::1718933435
+::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/::1718933444
 Background.png::CompressedTexture2D::8372839444686401515::1664872680::1718933444::1::::<><>::
 Dark-Tree.png::CompressedTexture2D::7734796135068458771::1657202636::1718933444::1::::<><>::
 Golden-Tree.png::CompressedTexture2D::7060276735078467726::1656997518::1718933444::1::::<><>::
@@ -1063,8 +1063,11 @@ selector_screens.gd::GDScript::-1::1718931754::0::1::::<>Control<>::
 ::res://src/Levels/Tests/TestLevel/::1718931963
 ::res://src/Levels/Tests/TestLevel/Test1/::1718931754
 Test1.tscn::PackedScene::742119041763967950::1718931754::0::1::::<><>::
-::res://src/Levels/Tests/TestLuciano/::1718932999
-TestMap.tscn::PackedScene::964260212007056026::1718932999::0::1::::<><>::
+::res://src/Levels/Tests/TestLuciano/::1718941671
+player.gd::GDScript::-1::1718941651::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::8899292950589201867::1718941381::0::1::::<><>::res://src/Levels/Tests/TestLuciano/player.gd<>uid://t3fgoodjtbp8::::res://assets/packs/Test_Assets_Luciano/generic_char_v0.2/generic_char_v0.2/png/blue/char_blue_1.png
+TestMap.gd::GDScript::-1::1718941671::0::1::::<>Node2D<>::
+TestMap.tscn::PackedScene::964260212007056026::1718941671::0::1::::<><>::res://src/Levels/Tests/TestLuciano/TestMap.gd<>uid://c8gyg3p2oi30::::res://assets/packs/Test_Assets_Luciano/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Tree-Assets.png<>uid://dy15b4hwsgmj0::::res://src/Levels/Tests/TestLuciano/player.tscn
 ::res://src/Levels/Tests/TestLuciano/Test_assets_Luciano/::1718932154
 ::res://src/MainScreens/::1718931754
 download.png::CompressedTexture2D::60834593750847934::1718931754::1718931754::1::::<><>::
