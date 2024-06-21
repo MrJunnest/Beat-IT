@@ -1,12 +1,16 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1718694392
+::res://::1718700260
 icon.svg::CompressedTexture2D::296956262275410456::1718694280::1718694280::1::::<><>::
 README.md::TextFile::-1::1718694280::0::1::::<><>::
-test_debug.tscn::PackedScene::6812033262722588208::1718694280::0::1::::<><>::uid://dsielojpej1td::::res://scenes/test_debug_char.tscn
-::res://assets/::1718694280
-::res://assets/sprites/::1718694280
-debug char.png::CompressedTexture2D::2782686166284303388::1718694280::1718694393::1::::<><>::
-::res://scenes/::1718694280
-base_movement.gd::GDScript::-1::1718694280::0::1::::<>CharacterBody2D<>::
+test_debug.tscn::PackedScene::6812033262722588208::1718700260::0::1::::<><>::uid://dsielojpej1td::::res://scenes/test_debug_char.tscn
+::res://assets/::1718698349
+::res://assets/fonts/::1718698339
+::res://assets/music/::1718698344
+::res://assets/sounds/::1718698347
+::res://assets/sprites/::1718700541
+debug char.png::CompressedTexture2D::2782686166284303388::1718700541::1718700545::1::::<><>::
+::res://scenes/::1718699876
 test_debug.tscn::PackedScene::3461845787794299092::1718694280::0::1::::<><>::
-test_debug_char.tscn::PackedScene::8439439520217786905::1718694280::0::1::::<><>::uid://bfv7o1nv4dliy::::res://assets/sprites/debug char.png<>res://scenes/base_movement.gd
+test_debug_char.tscn::PackedScene::8439439520217786905::1718699876::0::1::::<><>::uid://bfv7o1nv4dliy::::res://assets/sprites/debug char.png<>res://scripts/base_movement.gd
+::res://scripts/::1718700260
+base_movement.gd::GDScript::-1::1718700260::0::1::::<>CharacterBody2D<>::

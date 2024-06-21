@@ -1,2 +1,4 @@
 res://scenes/test_debug_char.tscn
 res://scenes/base_movement.gd
+res://test_debug.tscn
+res://scripts/base_movement.gd
