@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 res://src/Characters/Ape/script
 res://assets/characters/Jungle Monkey Platformer/Cutted
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle
@@ -12,3 +13,6 @@ res://src/Transition
 res://src/Transition/scripts
 res://src/MainScreens/scripts
 res://src/MainScreens
+=======
+res://assets/sprites
+>>>>>>> dev_movesets
