@@ -1,0 +1,41 @@
+[gd_scene load_steps=6 format=3 uid="uid://c4hk7ypikkhq4"]
+
+[ext_resource type="Texture2D" uid="uid://cpefyc5w80317" path="res://assets/packs/scrolling-city-background 2/4/Night/2.png" id="2_ga587"]
+[ext_resource type="Texture2D" uid="uid://d0x31d2xphb0e" path="res://assets/packs/scrolling-city-background 2/3/Night/2.png" id="3_e24ml"]
+[ext_resource type="Texture2D" uid="uid://eoksnds6cqbm" path="res://assets/packs/scrolling-city-background 2/1/Night/3.png" id="4_e5s5f"]
+[ext_resource type="Texture2D" uid="uid://diuuxqgkdp3su" path="res://assets/packs/scrolling-city-background 2/3/Night/3.png" id="5_evlq5"]
+[ext_resource type="Texture2D" uid="uid://d0rnxl5t0fj30" path="res://assets/packs/scrolling-city-background 2/4/Night/5.png" id="6_1twga"]
+
+[node name="Background" type="ParallaxBackground"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.332811, 0.204205, 0.55371, 1)
+
+[node name="Background" type="ParallaxLayer" parent="."]
+
+[node name="5" type="Sprite2D" parent="Background"]
+position = Vector2(261, 285)
+texture = ExtResource("2_ga587")
+
+[node name="2" type="Sprite2D" parent="Background/5"]
+position = Vector2(645.5, 7)
+scale = Vector2(1.03646, 1)
+texture = ExtResource("3_e24ml")
+
+[node name="3" type="Sprite2D" parent="Background/5/2"]
+position = Vector2(-79, 14)
+texture = ExtResource("4_e5s5f")
+
+[node name="4" type="Sprite2D" parent="Background/5/2/3"]
+position = Vector2(-533, 33)
+texture = ExtResource("5_evlq5")
+
+[node name="6" type="Sprite2D" parent="Background/5/2/3/4"]
+position = Vector2(578, 12)
+scale = Vector2(1.02083, 1)
+texture = ExtResource("6_1twga")
