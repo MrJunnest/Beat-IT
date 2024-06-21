@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1718953348
+::res://::1718958434
 icon.svg::CompressedTexture2D::3838539191210772969::1718951617::1718951617::1::::<><>::
 LICENSE.md::TextFile::-1::1718931297::0::1::::<><>::
 ::res://addons/::1718931297
@@ -11,7 +11,7 @@ plugin.cfg::TextFile::-1::1718931297::0::1::::<><>::
 sprite_cutter.gd::GDScript::-1::1718931297::0::1::::<>EditorPlugin<>::
 ::res://assets/::1718951617
 ::res://assets/characters/::1718931297
-::res://assets/characters/Jungle Monkey Platformer/::1718955502
+::res://assets/characters/Jungle Monkey Platformer/::1718955504
 miscellaneous_4_alex.wav::AudioStreamWAV::7421320006898022674::1492849630::1718955504::1::::<><>::
 ::res://assets/characters/Jungle Monkey Platformer/1-Sprites/::1718931297
 ::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/::1718931297
@@ -1134,9 +1134,34 @@ WINDOWS.png::CompressedTexture2D::2347930535283438998::1718931297::1718931297::1
 X.png::CompressedTexture2D::3634906512488997129::1718931297::1718931297::1::::<><>::
 Y.png::CompressedTexture2D::2155236423504567595::1718931297::1718931297::1::::<><>::
 Z.png::CompressedTexture2D::624409751668488918::1718931297::1718931297::1::::<><>::
-::res://assets/pictures/::1718952550
+::res://assets/pictures/::1718958921
 ::res://assets/pictures/adm-panel/::1718931297
 download.png::CompressedTexture2D::7788818594909395524::1718931297::1718931297::1::::<><>::
+::res://assets/pictures/enemy/::1718958935
+::res://assets/pictures/enemy/Slime/::1718958937
+slime-Sheet.png::CompressedTexture2D::7358183866293583005::1520324822::1718958953::1::::<><>::
+::res://assets/pictures/enemy/Slime/Individual Sprites/::1520561002
+slime-attack-0.png::CompressedTexture2D::3294116242598886912::1520561002::1718958953::1::::<><>::
+slime-attack-1.png::CompressedTexture2D::2252745842639700086::1520561002::1718958953::1::::<><>::
+slime-attack-2.png::CompressedTexture2D::2573872201112548340::1520561002::1718958953::1::::<><>::
+slime-attack-3.png::CompressedTexture2D::8114875239912775594::1520561002::1718958953::1::::<><>::
+slime-attack-4.png::CompressedTexture2D::1682862127164041284::1520561002::1718958953::1::::<><>::
+slime-die-0.png::CompressedTexture2D::7471926991349136325::1520561002::1718958953::1::::<><>::
+slime-die-1.png::CompressedTexture2D::603190607190998733::1520561002::1718958953::1::::<><>::
+slime-die-2.png::CompressedTexture2D::4280705381500264366::1520561002::1718958953::1::::<><>::
+slime-die-3.png::CompressedTexture2D::3283735529721813090::1520561002::1718958953::1::::<><>::
+slime-hurt-0.png::CompressedTexture2D::2292616348363235890::1520561002::1718958953::1::::<><>::
+slime-hurt-1.png::CompressedTexture2D::9108962392303918224::1520561002::1718958953::1::::<><>::
+slime-hurt-2.png::CompressedTexture2D::2935401161298479332::1520561002::1718958953::1::::<><>::
+slime-hurt-3.png::CompressedTexture2D::7697775662007988986::1520561002::1718958953::1::::<><>::
+slime-idle-0.png::CompressedTexture2D::5943983754194277079::1520561002::1718958953::1::::<><>::
+slime-idle-1.png::CompressedTexture2D::8160965550728555194::1520561002::1718958953::1::::<><>::
+slime-idle-2.png::CompressedTexture2D::5198842999182233568::1520561002::1718958953::1::::<><>::
+slime-idle-3.png::CompressedTexture2D::6045760928086568463::1520561002::1718958953::1::::<><>::
+slime-move-0.png::CompressedTexture2D::1575031471396205414::1520561002::1718958953::1::::<><>::
+slime-move-1.png::CompressedTexture2D::4203016814353307072::1520561002::1718958953::1::::<><>::
+slime-move-2.png::CompressedTexture2D::1773952075372551766::1520561002::1718958953::1::::<><>::
+slime-move-3.png::CompressedTexture2D::6245725673049530856::1520561002::1718958953::1::::<><>::
 ::res://assets/pictures/home/::1718931297
 a578391add06b6ea5fec02dd19090bc6_400x400.png::CompressedTexture2D::7452832544633818487::1718931297::1718931297::1::::<><>::
 background.png::CompressedTexture2D::9144224345701682820::1718931297::1718931297::1::::<><>::
@@ -1169,34 +1194,36 @@ layer_9_wall.png::CompressedTexture2D::5690463955962747953::1648195907::17189530
 background.webp::CompressedTexture2D::4958290444569128922::1718931297::1718931297::1::::<><>::
 ::res://assets/sounds/::1718951617
 MI_SFX 43.wav::AudioStreamWAV::49002531712658450::1718951617::1718951617::1::::<><>::
-::res://src/::1718951617
+::res://src/::1718958947
 ::res://src/Characters/::1718931297
-::res://src/Characters/Ape/::1718955223
-Ape.tscn::PackedScene::3931853742111255618::1718955223::0::1::::<><>::uid://bfja05brjccax::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png<>res://src/Characters/Ape/script/Ape.gd<>uid://cfcoo1u854wak::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump/Jump.png<>uid://dijdigyfu5tt::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit/Hit.png<>uid://b5uj8ll6vc1tf::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run/Run.png
-::res://src/Characters/Ape/script/::1718931297
-Ape.gd::GDScript::-1::1718931297::0::1::::<>CharacterBody2D<>::
-::res://src/Header/::1718955223
-adm-panel.tscn::PackedScene::5011312506538759355::1718955223::0::1::::<><>::uid://di77x7fyeohm7::::res://assets/pictures/adm-panel/download.png
+::res://src/Characters/Ape/::1718958833
+Ape.tscn::PackedScene::3931853742111255618::1718958833::0::1::::<><>::uid://bfja05brjccax::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png<>res://src/Characters/Ape/script/Ape.gd<>uid://cfcoo1u854wak::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump/Jump.png<>uid://dijdigyfu5tt::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit/Hit.png<>uid://b5uj8ll6vc1tf::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run/Run.png<>uid://ddy7b6awp7q2m::::res://assets/characters/Jungle Monkey Platformer/miscellaneous_4_alex.wav
+::res://src/Characters/Ape/script/::1718958826
+Ape.gd::GDScript::-1::1718958826::0::1::::<>CharacterBody2D<>::
+::res://src/Enemies/::1718958951
+::res://src/Enemies/Slime/::1718958949
+::res://src/Header/::1718958833
+adm-panel.tscn::PackedScene::5011312506538759355::1718958833::0::1::::<><>::uid://di77x7fyeohm7::::res://assets/pictures/adm-panel/download.png
 ::res://src/Levels/::1718951617
-::res://src/Levels/Level_Selector/::1718955223
-selector_screens.tscn::PackedScene::6352335672474438359::1718955223::0::1::::<><>::res://src/Levels/Level_Selector/scripts/selector_screens.gd<>uid://ccv3k4adqgqte::::res://assets/pictures/selector/background.webp<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png
+::res://src/Levels/Level_Selector/::1718958833
+selector_screens.tscn::PackedScene::6352335672474438359::1718958833::0::1::::<><>::res://src/Levels/Level_Selector/scripts/selector_screens.gd<>uid://ccv3k4adqgqte::::res://assets/pictures/selector/background.webp<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png
 ::res://src/Levels/Level_Selector/scripts/::1718931297
 selector_screens.gd::GDScript::-1::1718931297::0::1::::<>Control<>::
-::res://src/Levels/Map1/::1718955223
-Map1.tscn::PackedScene::3467303016428094389::1718955223::0::1::::<><>::uid://c4hk7ypikkhq4::::res://src/Levels/Map1/Background/Background.tscn<>uid://t5hemb7qyves::::res://src/Levels/Map1/Scroll/Scroll.tscn<>uid://bwavb6r2uk555::::res://src/Characters/Ape/Ape.tscn
+::res://src/Levels/Map1/::1718958833
 made_node.tscn::PackedScene::2782171183979453818::1718954330::0::1::::<><>::
-::res://src/Levels/Map1/Background/::1718955223
-Background.tscn::PackedScene::6823434076609899145::1718955223::0::1::::<><>::uid://hpj15o27v5oq::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_1_ground.png<>uid://utxecgyssduv::::res://assets/packs/scrolling-city-background 2/6/Day/1.png<>uid://dbfhjp5xem1mp::::res://assets/packs/scrolling-city-background 2/1/Night/2.png<>uid://ddajc7d7dfo3w::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_3_moon.png<>uid://cympajwk8gcqo::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_6_far_buildings.png<>uid://d0x31d2xphb0e::::res://assets/packs/scrolling-city-background 2/3/Night/2.png<>uid://cbxsdgpcoixgh::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_7_bg_buildings.png<>uid://eoksnds6cqbm::::res://assets/packs/scrolling-city-background 2/1/Night/3.png<>uid://cncrd0efs16qf::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_9_wall.png<>uid://637rbpfxhs4s::::res://assets/packs/scrolling-city-background 2/8/Night/5.png<>uid://cmcc5xgly24m::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_8_fg_buildings.png
-::res://src/Levels/Map1/Scroll/::1718955223
-Scroll.tscn::PackedScene::1395952157170682222::1718955223::0::1::::<><>::uid://bpmerqpacp14j::::res://assets/pictures/Map_1/ground.png
+Map1.tscn::PackedScene::3467303016428094389::1718958833::0::1::::<><>::uid://c4hk7ypikkhq4::::res://src/Levels/Map1/Background/Background.tscn<>uid://t5hemb7qyves::::res://src/Levels/Map1/Scroll/Scroll.tscn<>uid://bwavb6r2uk555::::res://src/Characters/Ape/Ape.tscn
+::res://src/Levels/Map1/Background/::1718958833
+Background.tscn::PackedScene::6823434076609899145::1718958833::0::1::::<><>::uid://hpj15o27v5oq::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_1_ground.png<>uid://utxecgyssduv::::res://assets/packs/scrolling-city-background 2/6/Day/1.png<>uid://dbfhjp5xem1mp::::res://assets/packs/scrolling-city-background 2/1/Night/2.png<>uid://ddajc7d7dfo3w::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_3_moon.png<>uid://cympajwk8gcqo::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_6_far_buildings.png<>uid://d0x31d2xphb0e::::res://assets/packs/scrolling-city-background 2/3/Night/2.png<>uid://cbxsdgpcoixgh::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_7_bg_buildings.png<>uid://eoksnds6cqbm::::res://assets/packs/scrolling-city-background 2/1/Night/3.png<>uid://cncrd0efs16qf::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_9_wall.png<>uid://637rbpfxhs4s::::res://assets/packs/scrolling-city-background 2/8/Night/5.png<>uid://cmcc5xgly24m::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_8_fg_buildings.png
+::res://src/Levels/Map1/Scroll/::1718958056
+Scroll.tscn::PackedScene::1395952157170682222::1718958056::0::1::::<><>::uid://bpmerqpacp14j::::res://assets/pictures/Map_1/ground.png
 ::res://src/Levels/Tests/::1718931399
 ::res://src/Levels/Tests/TestLevel/::1718931297
-::res://src/Levels/Tests/TestLevel/Test1/::1718955223
-Test1.tscn::PackedScene::742119041763967950::1718955223::0::1::::<><>::
+::res://src/Levels/Tests/TestLevel/Test1/::1718958833
+Test1.tscn::PackedScene::742119041763967950::1718958833::0::1::::<><>::
 ::res://src/Levels/Tests/TestMap/::1718931391
-::res://src/MainScreens/::1718955223
+::res://src/MainScreens/::1718958833
 download.png::CompressedTexture2D::60834593750847934::1718931297::1718931297::1::::<><>::
-home-screen.tscn::PackedScene::4863310352588076539::1718955223::0::1::::<><>::res://src/MainScreens/scripts/home_cmd.gd<>res://src/MainScreens/scrolls/scrollmenu.gdshader<>uid://d3jsblcke2k1q::::res://assets/pictures/home/background.png<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav
+home-screen.tscn::PackedScene::4863310352588076539::1718958833::0::1::::<><>::res://src/MainScreens/scripts/home_cmd.gd<>res://src/MainScreens/scrolls/scrollmenu.gdshader<>uid://d3jsblcke2k1q::::res://assets/pictures/home/background.png<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav
 ::res://src/MainScreens/scripts/::1718951617
 home_cmd.gd::GDScript::-1::1718951617::0::1::::<>Control<>::
 ::res://src/MainScreens/scrolls/::1718931297

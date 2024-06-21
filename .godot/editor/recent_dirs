@@ -1,3 +1,4 @@
+res://src/Enemies/Slime
 res://src/Characters/Ape/script
 res://src/Levels/Map1
 res://src/Levels/Map1/Background
@@ -19,4 +20,3 @@ res://assets/packs/GUI_1
 res://src/Header
 res://assets/fonts
 res://src/Levels/Level_Selector
-res://src/Transition

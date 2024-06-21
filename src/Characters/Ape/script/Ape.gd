@@ -11,12 +11,16 @@ var target_position = Vector2()
 func _ready():
 	# Initially, set the target position to the current position
 	target_position = global_position
+	$Ape.play("Run")
 
 func _process(delta):
 	if Input.is_action_just_pressed("ui_up"):
+		$Ape.play("Jump")
 		target_position = global_position + top_position
+		$Ape.play("Jump")
 	elif Input.is_action_just_pressed("ui_down"):
 		target_position = global_position + bottom_position
+		$Ape.play("Run")
 	
 	# Calculate the direction to move
 	var direction = (target_position - global_position).normalized()
