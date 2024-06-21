@@ -1,12 +1,3 @@
-res://src/Transition/Trans_1.tscn
-res://src/MainScreens/home-screen.tscn
-res://src/MainScreens/scripts/home_cmd.gd
-res://src/Transition/scripts/trans_1.gd
-res://src/Levels/Level_Selector/selector_screens.tscn
-res://src/Header/header.tscn
-res://src/Header/adm-panel.tscn
-res://src/Levels/Level_Selector/scripts/selector_screens.gd
-res://src/Levels/Tests/TestLevel/Test1/Test1.tscn
-res://src/Characters/Ape/Ape.tscn
-res://assets/characters/Jungle Monkey Platformer/Cutted/Run.atlastex
-res://src/Characters/Ape/script/Ape.gd
+res://src/Levels/Tests/TestLuciano/TestMap.tscn
+res://src/Levels/Tests/TestLuciano/player.tscn
+res://src/Levels/Tests/TestLuciano/player.gd
