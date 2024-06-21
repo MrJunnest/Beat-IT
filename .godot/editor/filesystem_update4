@@ -1,0 +1,5 @@
+res://src/Levels/Level_Selector/selector_screens.tscn
+res://src/Header/adm-panel.tscn
+res://src/MainScreens/home-screen.tscn
+res://src/Levels/Tests/TestLevel/Test1/Test1.tscn
+res://src/Characters/Ape/Ape.tscn

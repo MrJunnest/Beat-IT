@@ -1,19 +1,17 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1718700032
-icon.svg::CompressedTexture2D::5431151295479688424::1718693477::1718694079::1::::<><>::
+::res://::1718930509
+icon.svg::CompressedTexture2D::296956262275410456::1718693477::1718694079::1::::<><>::
 README.md::TextFile::-1::1718699985::0::1::::<><>::
-::res://assets/::1718698325
-::res://assets/home/::1718702166
-a578391add06b6ea5fec02dd19090bc6_400x400.png::CompressedTexture2D::7452832544633818487::1718698440::1718698440::1::::<><>::
-background.png::CompressedTexture2D::9144224345701682820::1718702166::1718702168::1::::<><>::
-::res://assets/sprites/::1718694449
-debug char.png::CompressedTexture2D::2782686166284303388::1718694079::1718694449::1::::<><>::
-::res://material/::1718696106
-::res://material/font/::1718699418
-Silver.ttf::FontFile::9160834702302925382::1718696073::1718699418::1::::<><>::
-::res://scenes/::1718701157
-home-screen.tscn::PackedScene::4863310352588076539::1718701157::0::1::::<><>::res://scripts/home/home-play.gd<>uid://d3rtuyfllde7o::::res://material/font/Silver.ttf
-::res://scenes/screens/::1718699852
-::res://scenes/test-scenes/::1718699977
-test-button.tscn::PackedScene::-1::1718699831::0::1::::<><>::
-::res://scripts/::1718698155
+test_debug.tscn::PackedScene::6812033262722588208::1718930100::0::1::::<><>::uid://dsielojpej1td::::res://scenes/test_debug_char.tscn
+::res://assets/::1718930100
+::res://assets/musics/::1718799995
+::res://assets/sprites/::1718930100
+debug char.png::CompressedTexture2D::2782686166284303388::1718930100::1718930100::1::::<><>::
+::res://scenes/::1718930100
+base_movement.gd::GDScript::-1::1718930100::0::1::::<>CharacterBody2D<>::
+test_debug.tscn::PackedScene::3461845787794299092::1718930100::0::1::::<><>::
+test_debug_char.tscn::PackedScene::8439439520217786905::1718930100::0::1::::<><>::uid://bfv7o1nv4dliy::::res://assets/sprites/debug char.png<>res://scenes/base_movement.gd
+::res://src/::1718930100
+::res://src/Characters/::1718930100
+::res://src/Characters/Ape/::1718930100
+Ape.tscn::PackedScene::3931853742111255618::1718930100::0::1::::<><>::uid://bfja05brjccax::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png<>res://src/Characters/Ape/script/Ape.gd<>uid://dstj2jhfj544c::::res://assets/characters/Jungle Monkey Platformer/Cutted/Run2.atlastex<>uid://c1rxeavevjeui::::res://assets/characters/Jungle Monkey Platformer/Cutted/Run3.atlastex<>uid://01knmvs3c2fy::::res://assets/characters/Jungle Monkey Platformer/Cutted/Run4.atlastex<>uid://dsbavkklpjyes::::res://assets/characters/Jungle Monkey Platformer/Cutted/Run.atlastex
