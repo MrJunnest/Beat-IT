@@ -11,9 +11,17 @@ config_version=5
 [application]
 
 config/name="New Game"
-run/main_scene="res://test_debug.tscn"
+run/main_scene="res://src/MainScreens/home-screen.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Trans1="*res://src/Transition/Trans_1.tscn"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/sprite_cutter/plugin.cfg")
 
 [rendering]
 

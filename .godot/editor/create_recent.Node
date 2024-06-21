@@ -1,0 +1,15 @@
+Container
+Sprite2D
+AtlasScene
+CollisionShape2D
+AnimatedSprite2D
+CharacterBody2D
+ParallaxLayer
+OptionButton
+MenuButton
+Button
+Control
+ColorRect
+TextureRect
+TextEdit
+VBoxContainer

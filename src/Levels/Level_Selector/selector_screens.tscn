@@ -1,0 +1,47 @@
+[gd_scene load_steps=6 format=3 uid="uid://cwrebm0mqpy3h"]
+
+[ext_resource type="Script" path="res://src/Levels/Level_Selector/scripts/selector_screens.gd" id="1_iyux2"]
+[ext_resource type="Texture2D" uid="uid://ccv3k4adqgqte" path="res://assets/pictures/selector/background.webp" id="1_rcmvn"]
+[ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="3_2vsdf"]
+[ext_resource type="Texture2D" uid="uid://8lqbix2eiyxo" path="res://assets/packs/GUI_1/GUI.png" id="4_xptjt"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jylki"]
+texture = ExtResource("4_xptjt")
+region_rect = Rect2(113, 98, 30, 13)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_iyux2")
+
+[node name="background" type="Sprite2D" parent="."]
+position = Vector2(582.697, 260.169)
+scale = Vector2(0.903598, 1.4954)
+texture = ExtResource("1_rcmvn")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_left = 103.0
+offset_top = 138.0
+offset_right = 323.0
+offset_bottom = -351.0
+grow_vertical = 2
+alignment = 1
+
+[node name="Test1-Level" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_2vsdf")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_jylki")
+text = "Test1"
+
+[connection signal="pressed" from="VBoxContainer/Test1-Level" to="." method="_on_settings_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/Test1-Level" to="." method="_on_test_1_level_pressed"]
