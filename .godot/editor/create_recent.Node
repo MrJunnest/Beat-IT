@@ -1,11 +1,11 @@
 Area2D
-Label
+CollisionShape2D
 Sprite2D
+Label
 Timer
 AudioStreamPlayer
 CanvasLayer
 ParallaxLayer
-CollisionShape2D
 VBoxContainer
 TextureRect
 AnimatedSprite2D

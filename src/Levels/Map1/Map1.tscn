@@ -10,7 +10,8 @@
 
 [node name="Main" type="Node"]
 script = ExtResource("1_fepc6")
-metadata/_edit_horizontal_guides_ = [324.0]
+metadata/_edit_horizontal_guides_ = [509.0, 512.0]
+metadata/_edit_vertical_guides_ = [-167.0, 95.0]
 
 [node name="Background" parent="." instance=ExtResource("1_ud224")]
 
@@ -28,3 +29,4 @@ position = Vector2(58, 26)
 [node name="HUD" parent="." instance=ExtResource("6_7e7wc")]
 
 [node name="Pause" parent="." instance=ExtResource("7_qxjlt")]
+visible = false
