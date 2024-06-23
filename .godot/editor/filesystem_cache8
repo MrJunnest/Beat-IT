@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1719102652
+::res://::1719124222
 icon.svg::CompressedTexture2D::3057571810608021860::1718935108::1718954027::1::::<><>::
 LICENSE.md::TextFile::-1::1718936857::0::1::::<><>::
 LICENSE.txt::TextFile::-1::1718940771::0::1::::<><>::
@@ -972,7 +972,8 @@ background.png::CompressedTexture2D::9144224345701682820::1718936858::1718936858
 ::res://assets/pictures/selector/::1718936858
 background.webp::CompressedTexture2D::4958290444569128922::1718936858::1718936858::1::::<><>::
 ::res://assets/sounds/::1718698347
-::res://assets/sprites/::1718939665
+::res://assets/sprites/::1719127321
+arrow_debug.png::CompressedTexture2D::8622969903147775411::1719127275::1719127340::1::::<><>::
 debug char.png::CompressedTexture2D::4957068536142281667::1718939665::1718939665::1::::<><>::
 ::res://scenes/::1718940507
 test_debug_char.tscn::PackedScene::8439439520217786905::1718940507::0::1::::<><>::uid://ccvigu5y3e8c2::::res://assets/sprites/debug char.png<>res://scripts/base_movement.gd
@@ -993,11 +994,12 @@ selector_screens.tscn::PackedScene::6352335672474438359::1718936858::0::1::::<><
 selector_screens.gd::GDScript::-1::1718936858::0::1::::<>Control<>::
 ::res://src/Levels/Tests/::1718939665
 ::res://src/Levels/Tests/TestLevel/::1718940944
-::res://src/Levels/Tests/TestLevel/Test1/::1718962367
-main_game_logic.gd::GDScript::-1::1718960663::0::1::::<>Node2D<>::
-note_logic.gd::GDScript::-1::1718960674::0::1::::<>Area2D<>::
-Test1.tscn::PackedScene::742119041763967950::1718937813::0::1::::<><>::
-test_midi.tscn::PackedScene::612965568215750305::1718962265::0::1::::<><>::res://src/Levels/Tests/TestLevel/Test1/main_game_logic.gd<>uid://bdvkdv77fslji::::res://addons/midi/ADSR.tscn<>uid://cuyd1qv0pn26e::::res://addons/midi/MidiPlayer.tscn<>uid://das23sduk74x2::::res://addons/sprite_cutter/icon.svg
+::res://src/Levels/Tests/TestLevel/Test1/::1719126458
+main_game_logic.gd::GDScript::-1::1719126449::0::1::::<>Node2D<>::
+note.tscn::PackedScene::1712235687832560023::1719126458::0::1::::<><>::
+note_logic.gd::GDScript::-1::1719107767::0::1::::<>Area2D<>::
+Test1.tscn::PackedScene::742119041763967950::1719126458::0::1::::<><>::
+test_midi.tscn::PackedScene::612965568215750305::1719126458::0::1::::<><>::res://src/Levels/Tests/TestLevel/Test1/main_game_logic.gd<>uid://bdvkdv77fslji::::res://addons/midi/ADSR.tscn<>uid://cuyd1qv0pn26e::::res://addons/midi/MidiPlayer.tscn<>uid://das23sduk74x2::::res://addons/sprite_cutter/icon.svg
 ::res://src/MainScreens/::1718936858
 download.png::CompressedTexture2D::60834593750847934::1718936858::1718936858::1::::<><>::
 home-screen.tscn::PackedScene::4863310352588076539::1718936858::0::1::::<><>::res://src/MainScreens/scripts/home_cmd.gd<>res://src/MainScreens/scrolls/scrollmenu.gdshader<>uid://d3jsblcke2k1q::::res://assets/pictures/home/background.png<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png
