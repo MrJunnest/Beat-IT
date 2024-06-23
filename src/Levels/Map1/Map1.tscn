@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://bpnt8ecct1ly0"]
+[gd_scene load_steps=8 format=3 uid="uid://bpnt8ecct1ly0"]
 
 [ext_resource type="Script" path="res://src/Levels/Map1/Script/Map1.gd" id="1_fepc6"]
 [ext_resource type="PackedScene" uid="uid://c4hk7ypikkhq4" path="res://src/Levels/Map1/Background/Background.tscn" id="1_ud224"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://bwavb6r2uk555" path="res://src/Characters/Ape/Ape.tscn" id="3_am1wm"]
 [ext_resource type="PackedScene" uid="uid://c2ti566slfiws" path="res://src/Extra/HitChart/hit_chart.tscn" id="4_fl4fn"]
 [ext_resource type="PackedScene" uid="uid://7vkajok2ya66" path="res://src/Extra/HUD/hud.tscn" id="6_7e7wc"]
+[ext_resource type="PackedScene" uid="uid://be1egpjfr8n0b" path="res://src/Transition/Pause/Pause.tscn" id="7_qxjlt"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_fepc6")
@@ -16,12 +17,14 @@ metadata/_edit_horizontal_guides_ = [324.0]
 [node name="Scroll" parent="." instance=ExtResource("2_irptq")]
 position = Vector2(-11, 11)
 
-[node name="Ape" parent="." instance=ExtResource("3_am1wm")]
-position = Vector2(35, 350)
-
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(600, 320)
+
+[node name="Ape" parent="." instance=ExtResource("3_am1wm")]
+position = Vector2(58, 26)
 
 [node name="HitChart" parent="." instance=ExtResource("4_fl4fn")]
 
 [node name="HUD" parent="." instance=ExtResource("6_7e7wc")]
+
+[node name="Pause" parent="." instance=ExtResource("7_qxjlt")]

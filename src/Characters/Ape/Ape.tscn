@@ -259,17 +259,17 @@ size = Vector2(77, 112)
 
 [node name="Ape" type="CharacterBody2D"]
 z_index = 1
-position = Vector2(82, 50)
+position = Vector2(65, -95)
 script = ExtResource("1_w34g3")
 
 [node name="Body" type="AnimatedSprite2D" parent="."]
-position = Vector2(47, 141)
+position = Vector2(20, 467)
 scale = Vector2(4.0625, 4)
 sprite_frames = SubResource("SpriteFrames_koa7f")
 animation = &"Idle"
 
 [node name="Collision-Run" type="CollisionShape2D" parent="."]
-position = Vector2(51.5, 145)
+position = Vector2(25, 471)
 shape = SubResource("RectangleShape2D_ay6tb")
 
 [node name="Jump" type="AudioStreamPlayer" parent="."]

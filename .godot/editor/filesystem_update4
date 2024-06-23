@@ -12,10 +12,6 @@ res://src/Levels/Map1/Background/Background.tscn
 res://src/Levels/Map1/Map1.tscn
 res://src/Levels/Map1/Scroll/Scroll.tscn
 res://src/Extra/HitChart/hit_chart.tscn
-res://src/Levels/Level_Selector/scripts/selector_screens.gd
-res://src/Extra/HUD/hud.tscn
-res://src/Extra/HitChart/script/hit_chart.gd
-res://src/Extra/Conductor/conductor.tscn
-res://src/Extra/Conductor/conductor.gd
 res://src/Extra/Conductor/Conductor.tscn
-res://src/Extra/Conductor/Conductor.gd
+res://src/Transition/Pause/Pause.gd
+res://src/Transition/Pause/Pause.tscn

@@ -1,33 +1,18 @@
 extends CharacterBody2D
 
-# Vertical movement speed
-var speed = 2000.0
-
-# Variables for initial and final positions
-var top_position = Vector2(0, -150)  # Adjust this according to your scene
-var bottom_position = Vector2(0, 150)  # Adjust this according to your scene
-var target_position = Vector2()
+# Posiciones de teletransporte
+@export var going_up = Vector2(65, -95)
+@export var going_down = Vector2(65, 40)
+@export var START = Vector2i(65,40)
 
 func _ready():
-	# Initially, set the target position to the current position
-	target_position = global_position
+	global_position = START
 	$Body.play("Run")
 
-func _process(delta):
-	if Input.is_action_just_pressed("ui_up"):
+func _input(event):
+	if event.is_action_pressed("ui_right"):
+		global_position = going_up
 		$Body.play("Jump")
-		target_position = global_position + top_position
-	elif Input.is_action_just_pressed("ui_down"):
-		target_position = global_position + bottom_position
+	elif event.is_action_pressed("ui_left"):
+		global_position = going_down
 		$Body.play("Run")
-	
-	# Calculate the direction to move
-	var direction = (target_position - global_position).normalized()
-	
-	# Move the character towards the target position
-	if global_position.distance_to(target_position) > speed * delta:
-		velocity = direction * speed
-	else:
-		velocity = Vector2.ZERO
-	
-	move_and_slide()
