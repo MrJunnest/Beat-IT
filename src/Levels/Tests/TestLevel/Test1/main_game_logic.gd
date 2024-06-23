@@ -1,7 +1,7 @@
 extends Node2D
 
 # Variables for managing note spawning and player input
-var note_scene = preload("res://src/Levels/Tests/TestLevel/Test1/test_midi.tscn")
+var note_scene = preload("res://src/Levels/Tests/TestLevel/Test1/note.tscn") #suc cock
 var notes = []
 
 # Load and parse the MIDI file

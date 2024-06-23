@@ -3,3 +3,4 @@ res://src/Levels/Tests/TestLevel/Test1/level default/default.tscn
 res://src/Levels/Tests/TestLevel/Test1/test_midi.tscn
 res://src/Levels/Tests/TestLevel/Test1/Test1.tscn
 res://src/Levels/Tests/TestLevel/Test1/note_logic.gd
+res://src/Levels/Tests/TestLevel/Test1/note.tscn
