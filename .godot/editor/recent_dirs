@@ -1,3 +1,6 @@
+res://src/Extra/Conductor
+res://src/Extra/HitChart/script
+res://src/Extra/HUD
 res://src/Levels/Map1/Script
 res://src/Extra/HitChart
 res://src/Levels/Tests/shader
@@ -17,6 +20,3 @@ res://src/Transition/Trans_1
 res://
 res://src/Characters/Ape
 res://src/Levels/Level_Selector/scripts
-res://src/Levels/Tests/TestLevel/Test1
-res://assets/packs/GUI_1
-res://src/Header

@@ -1,4 +1,7 @@
+Timer
+AudioStreamPlayer
 Area2D
+Label
 CanvasLayer
 ParallaxLayer
 CollisionShape2D
@@ -8,7 +11,5 @@ TextureRect
 AnimatedSprite2D
 StaticBody2D
 CharacterBody2D
-AudioStreamPlayer
 Camera2D
 Node
-ColorRect

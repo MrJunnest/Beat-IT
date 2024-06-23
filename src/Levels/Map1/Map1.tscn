@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://bpnt8ecct1ly0"]
+[gd_scene load_steps=7 format=3 uid="uid://bpnt8ecct1ly0"]
 
 [ext_resource type="Script" path="res://src/Levels/Map1/Script/Map1.gd" id="1_fepc6"]
 [ext_resource type="PackedScene" uid="uid://c4hk7ypikkhq4" path="res://src/Levels/Map1/Background/Background.tscn" id="1_ud224"]
 [ext_resource type="PackedScene" uid="uid://t5hemb7qyves" path="res://src/Levels/Map1/Scroll/Scroll.tscn" id="2_irptq"]
 [ext_resource type="PackedScene" uid="uid://bwavb6r2uk555" path="res://src/Characters/Ape/Ape.tscn" id="3_am1wm"]
 [ext_resource type="PackedScene" uid="uid://c2ti566slfiws" path="res://src/Extra/HitChart/hit_chart.tscn" id="4_fl4fn"]
+[ext_resource type="PackedScene" uid="uid://7vkajok2ya66" path="res://src/Extra/HUD/hud.tscn" id="6_7e7wc"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_fepc6")
@@ -22,3 +23,5 @@ position = Vector2(35, 350)
 position = Vector2(600, 320)
 
 [node name="HitChart" parent="." instance=ExtResource("4_fl4fn")]
+
+[node name="HUD" parent="." instance=ExtResource("6_7e7wc")]
