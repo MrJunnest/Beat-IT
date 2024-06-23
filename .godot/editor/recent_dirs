@@ -1,9 +1,11 @@
+res://src/Levels/Tests/TestLuciano/Test_assets_Luciano/Knight_player
+res://src/Levels/Tests/TestLuciano/Test_Map_Luciano/src
+res://src/Levels/Tests/TestLuciano/Test_Platform_Game/src
 res://src/Levels/Map1/Background
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle
-res://assets/characters/Jungle Monkey Platformer/CUT-Lose
 res://assets/characters/Jungle Monkey Platformer/CUT-Jump
 res://assets/characters/Jungle Monkey Platformer/CUT-Idle
 res://src/Levels/Map1
@@ -18,5 +20,3 @@ res://src/Levels/Tests/TestLevel/Test1
 res://assets/packs/GUI_1
 res://src/Header
 res://assets/fonts
-res://src/Levels/Level_Selector
-res://src/Transition

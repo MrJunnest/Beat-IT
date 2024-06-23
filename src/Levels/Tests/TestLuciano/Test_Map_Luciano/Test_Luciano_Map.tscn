@@ -1,0 +1,89 @@
+[gd_scene load_steps=10 format=3 uid="uid://ccswl1sj2diui"]
+
+[ext_resource type="Texture2D" uid="uid://bx11w4vyp5fig" path="res://src/Levels/Tests/TestLuciano/Test_Map_Luciano/assets/parallax_mountain_pack/layers/parallax-mountain-bg.png" id="1_2voiy"]
+[ext_resource type="Texture2D" uid="uid://m1wtyqkv1kkr" path="res://src/Levels/Tests/TestLuciano/Test_Map_Luciano/assets/parallax_mountain_pack/layers/parallax-mountain-montain-far.png" id="2_emho6"]
+[ext_resource type="Texture2D" uid="uid://b2wfj11qsod6r" path="res://src/Levels/Tests/TestLuciano/Test_Map_Luciano/assets/parallax_mountain_pack/layers/parallax-mountain-mountains.png" id="2_iuegs"]
+[ext_resource type="Texture2D" uid="uid://bkprl7lj13gx" path="res://src/Levels/Tests/TestLuciano/Test_Map_Luciano/assets/parallax_mountain_pack/layers/parallax-mountain-trees.png" id="4_80nkr"]
+[ext_resource type="PackedScene" uid="uid://rtcgr1v3u8md" path="res://src/Levels/Tests/TestLuciano/Test_Platform_Game/player.tscn" id="4_ihmmk"]
+[ext_resource type="Texture2D" uid="uid://ow2q0re483ei" path="res://src/Levels/Tests/TestLuciano/Test_Platform_Game/assets/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png" id="4_nkanl"]
+[ext_resource type="PackedScene" uid="uid://cd4ykjpe8h7a3" path="res://src/Levels/Tests/TestLuciano/Test_Map_Luciano/src/player_2.tscn" id="4_ognog"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_41idi"]
+texture = ExtResource("4_nkanl")
+1:0/0 = 0
+1:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:0/0/physics_layer_0/angular_velocity = 0.0
+1:1/0 = 0
+1:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:1/0/physics_layer_0/angular_velocity = 0.0
+1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:2/0 = 0
+1:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:2/0/physics_layer_0/angular_velocity = 0.0
+1:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSet" id="TileSet_bte5j"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_41idi")
+
+[node name="Map" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(697, 331)
+limit_left = 5
+limit_top = 0
+limit_right = 1160
+limit_bottom = 650
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="Lua" type="Sprite2D" parent="ParallaxBackground"]
+scale = Vector2(4.25, 4.04375)
+texture = ExtResource("1_2voiy")
+centered = false
+
+[node name="Mountain_longe" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.6, 0.6)
+motion_mirroring = Vector2(1140, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/Mountain_longe"]
+position = Vector2(578.5, 328.75)
+scale = Vector2(4.23897, 3.99062)
+texture = ExtResource("2_emho6")
+
+[node name="Mountain_perto" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.6, 0.6)
+motion_mirroring = Vector2(1140, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/Mountain_perto"]
+position = Vector2(573.5, 443.5)
+scale = Vector2(2.09743, 2.58125)
+texture = ExtResource("2_iuegs")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.6, 0.6)
+motion_mirroring = Vector2(1140, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
+position = Vector2(576, 325)
+scale = Vector2(2.125, 4.0375)
+texture = ExtResource("4_80nkr")
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_bte5j")
+format = 2
+
+[node name="Player" parent="." instance=ExtResource("4_ihmmk")]
+visible = false
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(206, 306)
+zoom = Vector2(1.5, 1.5)
+position_smoothing_enabled = true
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+editor_draw_drag_margin = true
+
+[node name="Player_2" parent="." instance=ExtResource("4_ognog")]
+position = Vector2(128, 501)
+scale = Vector2(2.40781, 2.40781)
