@@ -1,15 +1,30 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1718936879
+::res://::1719102652
+icon.svg::CompressedTexture2D::3057571810608021860::1718935108::1718954027::1::::<><>::
 LICENSE.md::TextFile::-1::1718936857::0::1::::<><>::
-test_debug.tscn::PackedScene::6845762804117457201::1718936732::0::1::::<><>::uid://dsielojpej1td::::res://scenes/test_debug_char.tscn
-::res://addons/::1718936857
+LICENSE.txt::TextFile::-1::1718940771::0::1::::<><>::
+readme.md::TextFile::-1::1718940771::0::1::::<><>::
+test_debug.tscn::PackedScene::2027595373601992208::1718940507::0::1::::<><>::uid://dsielojpej1td::::res://scenes/test_debug_char.tscn
+::res://addons/::1718941281
+::res://addons/midi/::1718955282
+ADSR.gd::GDScript::-1::1718955158::0::1::::AudioStreamPlayerADSR<>AudioStreamPlayer<>::
+ADSR.tscn::PackedScene::2640952828637262918::1713231696::0::1::::<><>::res://addons/midi/ADSR.gd
+Bank.gd::GDScript::-1::1713231696::0::1::::Bank<>RefCounted<>::
+GMP.gd::GDScript::-1::1713231696::0::1::::<>EditorPlugin<>::
+icon.png::CompressedTexture2D::8102590895663672777::1713231696::1718940773::1::::<><>::
+MidiPlayer.gd::GDScript::-1::1713231696::0::1::::MidiPlayer<>Node<>res://addons/midi/icon.png::
+MidiPlayer.tscn::PackedScene::6226392761835080006::1713231696::0::1::::<><>::res://addons/midi/MidiPlayer.gd
+plugin.cfg::TextFile::-1::1713231696::0::1::::<><>::
+SMF.gd::GDScript::-1::1713231696::0::1::::SMF<>RefCounted<>::
+SoundFont.gd::GDScript::-1::1718955282::0::1::::SoundFont<>RefCounted<>::
+Utility.gd::GDScript::-1::1713231696::0::1::::<>RefCounted<>::
 ::res://addons/sprite_cutter/::1718936857
 asset_library_icon.png::CompressedTexture2D::936043149765368835::1718936857::1718936857::1::::<><>::
 AtlasScene.gd::GDScript::-1::1718936857::0::1::::AtlasScene<>Node<>::
 icon.svg::CompressedTexture2D::7198111162664490493::1718936857::1718936857::1::::<><>::
 plugin.cfg::TextFile::-1::1718936857::0::1::::<><>::
 sprite_cutter.gd::GDScript::-1::1718936857::0::1::::<>EditorPlugin<>::
-::res://assets/::1718936879
+::res://assets/::1718939665
 ::res://assets/characters/::1718936857
 ::res://assets/characters/Jungle Monkey Platformer/::1718936857
 ::res://assets/characters/Jungle Monkey Platformer/1-Sprites/::1718936857
@@ -53,7 +68,7 @@ Abaddon Bold.ttf::FontFile::7233662615732823947::1718936857::1718936857::1::::<>
 Abaddon Light.ttf::FontFile::1809076127323556293::1718936857::1718936857::1::::<><>::
 Silver.ttf::FontFile::9160834702302925382::1718936857::1718936857::1::::<><>::
 ::res://assets/music/::1718698344
-::res://assets/packs/::1718936857
+::res://assets/packs/::1718939665
 ::res://assets/packs/GUI_1/::1718936857
 GUI.png::CompressedTexture2D::2339913709977642012::1718936857::1718936857::1::::<><>::
 ::res://assets/packs/Prinbles_Buttons_Legend  (v 1.0.0) (9_6_2023)/::1718936857
@@ -957,12 +972,12 @@ background.png::CompressedTexture2D::9144224345701682820::1718936858::1718936858
 ::res://assets/pictures/selector/::1718936858
 background.webp::CompressedTexture2D::4958290444569128922::1718936858::1718936858::1::::<><>::
 ::res://assets/sounds/::1718698347
-::res://assets/sprites/::1718936879
-debug char.png::CompressedTexture2D::4957068536142281667::1718936879::1718936949::1::::<><>::
-::res://scenes/::1718936879
-test_debug_char.tscn::PackedScene::8439439520217786905::1718936879::0::1::::<><>::uid://bfv7o1nv4dliy::::res://assets/sprites/debug char.png<>res://scripts/base_movement.gd
-::res://scripts/::1718936879
-base_movement.gd::GDScript::-1::1718936879::0::1::::<>CharacterBody2D<>::
+::res://assets/sprites/::1718939665
+debug char.png::CompressedTexture2D::4957068536142281667::1718939665::1718939665::1::::<><>::
+::res://scenes/::1718940507
+test_debug_char.tscn::PackedScene::8439439520217786905::1718940507::0::1::::<><>::uid://ccvigu5y3e8c2::::res://assets/sprites/debug char.png<>res://scripts/base_movement.gd
+::res://scripts/::1718940506
+base_movement.gd::GDScript::-1::1718940506::0::1::::<>CharacterBody2D<>::
 ::res://src/::1718936858
 ::res://src/Characters/::1718936858
 ::res://src/Characters/Ape/::1718936858
@@ -976,10 +991,13 @@ adm-panel.tscn::PackedScene::5011312506538759355::1718936858::0::1::::<><>::uid:
 selector_screens.tscn::PackedScene::6352335672474438359::1718936858::0::1::::<><>::res://src/Levels/Level_Selector/scripts/selector_screens.gd<>uid://ccv3k4adqgqte::::res://assets/pictures/selector/background.webp<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png
 ::res://src/Levels/Level_Selector/scripts/::1718936858
 selector_screens.gd::GDScript::-1::1718936858::0::1::::<>Control<>::
-::res://src/Levels/Tests/::1718936858
-::res://src/Levels/Tests/TestLevel/::1718936858
-::res://src/Levels/Tests/TestLevel/Test1/::1718936858
-Test1.tscn::PackedScene::742119041763967950::1718936858::0::1::::<><>::
+::res://src/Levels/Tests/::1718939665
+::res://src/Levels/Tests/TestLevel/::1718940944
+::res://src/Levels/Tests/TestLevel/Test1/::1718962367
+main_game_logic.gd::GDScript::-1::1718960663::0::1::::<>Node2D<>::
+note_logic.gd::GDScript::-1::1718960674::0::1::::<>Area2D<>::
+Test1.tscn::PackedScene::742119041763967950::1718937813::0::1::::<><>::
+test_midi.tscn::PackedScene::612965568215750305::1718962265::0::1::::<><>::res://src/Levels/Tests/TestLevel/Test1/main_game_logic.gd<>uid://bdvkdv77fslji::::res://addons/midi/ADSR.tscn<>uid://cuyd1qv0pn26e::::res://addons/midi/MidiPlayer.tscn<>uid://das23sduk74x2::::res://addons/sprite_cutter/icon.svg
 ::res://src/MainScreens/::1718936858
 download.png::CompressedTexture2D::60834593750847934::1718936858::1718936858::1::::<><>::
 home-screen.tscn::PackedScene::4863310352588076539::1718936858::0::1::::<><>::res://src/MainScreens/scripts/home_cmd.gd<>res://src/MainScreens/scrolls/scrollmenu.gdshader<>uid://d3jsblcke2k1q::::res://assets/pictures/home/background.png<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png

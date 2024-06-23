@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+Node2D
 Container
 Sprite2D
 AtlasScene
@@ -13,8 +13,3 @@ Control
 ColorRect
 TextureRect
 TextEdit
-VBoxContainer
-=======
-CollisionShape2D
-StaticBody2D
->>>>>>> dev_movesets

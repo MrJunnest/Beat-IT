@@ -22,7 +22,7 @@ Trans1="*res://src/Transition/Trans_1.tscn"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/sprite_cutter/plugin.cfg")
+enabled=PackedStringArray("res://addons/midi/plugin.cfg", "res://addons/sprite_cutter/plugin.cfg")
 
 [input]
 

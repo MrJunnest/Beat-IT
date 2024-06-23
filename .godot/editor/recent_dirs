@@ -1,18 +1,2 @@
-<<<<<<< HEAD
-res://src/Characters/Ape/script
-res://assets/characters/Jungle Monkey Platformer/Cutted
-res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle
-res://src/Characters/Ape
-res://src/Levels/Level_Selector/scripts
 res://src/Levels/Tests/TestLevel/Test1
-res://assets/packs/GUI_1
-res://src/Header
-res://assets/fonts
-res://src/Levels/Level_Selector
-res://src/Transition
-res://src/Transition/scripts
-res://src/MainScreens/scripts
-res://src/MainScreens
-=======
 res://assets/sprites
->>>>>>> dev_movesets
