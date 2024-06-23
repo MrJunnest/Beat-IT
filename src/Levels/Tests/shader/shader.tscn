@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bies7caupqdng"]
+
+[ext_resource type="Shader" path="res://src/Levels/Tests/shader/shader.gdshader" id="1_3dgwr"]
+[ext_resource type="Texture2D" uid="uid://cri4l3pex2dfe" path="res://assets/pictures/Map_1/sky.jpg" id="2_oybiv"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5vyrx"]
+shader = ExtResource("1_3dgwr")
+
+[node name="TextureRect" type="TextureRect"]
+texture_repeat = 2
+material = SubResource("ShaderMaterial_5vyrx")
+layout_direction = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_oybiv")

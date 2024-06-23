@@ -29,6 +29,7 @@ scale = Vector2(1.55947, 1.49609)
 texture = ExtResource("2_hrpbj")
 
 [node name="g" type="ParallaxLayer" parent="."]
+texture_repeat = 2
 position = Vector2(-62, 76)
 motion_mirroring = Vector2(1201, 0)
 

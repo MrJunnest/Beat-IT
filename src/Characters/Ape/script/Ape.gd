@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 # Vertical movement speed
-var speed = 2000
+var speed = 2000.0
 
 # Variables for initial and final positions
 var top_position = Vector2(0, -150)  # Adjust this according to your scene
@@ -11,16 +11,15 @@ var target_position = Vector2()
 func _ready():
 	# Initially, set the target position to the current position
 	target_position = global_position
-	$Ape.play("Run")
+	$Body.play("Run")
 
 func _process(delta):
 	if Input.is_action_just_pressed("ui_up"):
-		$Ape.play("Jump")
+		$Body.play("Jump")
 		target_position = global_position + top_position
-		$Ape.play("Jump")
 	elif Input.is_action_just_pressed("ui_down"):
 		target_position = global_position + bottom_position
-		$Ape.play("Run")
+		$Body.play("Run")
 	
 	# Calculate the direction to move
 	var direction = (target_position - global_position).normalized()

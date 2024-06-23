@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3 uid="uid://c2ti566slfiws"]
+
+[ext_resource type="Texture2D" uid="uid://wq4v756w1nxg" path="res://assets/pictures/HitChart.png" id="1_f8t8v"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_y0om4"]
+radius = 69.0507
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_m0ixw"]
+radius = 70.342
+
+[node name="HitChart" type="CanvasLayer"]
+
+[node name="HitChart" type="VBoxContainer" parent="."]
+modulate = Color(1, 1, 1, 0.407843)
+offset_left = 134.0
+offset_top = 286.0
+offset_right = 281.0
+offset_bottom = 552.0
+
+[node name="HitChart" type="Area2D" parent="HitChart"]
+position = Vector2(-105, 62)
+
+[node name="UP" type="Sprite2D" parent="HitChart/HitChart"]
+position = Vector2(179, 32)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_f8t8v")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitChart/HitChart/UP"]
+shape = SubResource("CircleShape2D_y0om4")
+
+[node name="Down" type="Sprite2D" parent="HitChart/HitChart"]
+position = Vector2(179, 163)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_f8t8v")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitChart/HitChart/Down"]
+shape = SubResource("CircleShape2D_m0ixw")
