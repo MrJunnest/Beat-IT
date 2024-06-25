@@ -1,7 +1,7 @@
-Area2D
-Timer
 CollisionShape2D
 AnimatedSprite2D
+Area2D
+Timer
 Node
 Node2D
 Container

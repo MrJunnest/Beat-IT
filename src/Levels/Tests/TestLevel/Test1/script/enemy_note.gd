@@ -17,10 +17,10 @@ func _ready():
 
 func initialize(lane): #starting lane location
 	if lane == 0:
-		#$AnimatedSprite2D.frame = 0 Subject to change, will change to animated sprite or something else
+		$AnimatedSprite2D.frame = 0 #Subject to change, will change to animated sprite or something else
 		position = UP_LANE_SPAWN
 	elif lane ==1:
-		#add another animsprite
+		$AnimatedSprite2D.frame = 0
 		position = DOWN_LANE_SPAWN
 	else:
 		printerr("WHAT THE DAWG DOIN??: " + str(lane)) #debug line IF there is a spawn error :P
@@ -29,9 +29,16 @@ func initialize(lane): #starting lane location
 	speed = DIST_TO_TARGET / 2.0 #SUBJECT TO CHANGE!!!
 
 # for movement later
-func _process(delta):
-	pass
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _physics_process(delta):
+	if !hit:
+		position.x += speed * delta #subject to change
+		if position.x > 200: # subject to change
+			queue_free()
+			get_parent()
+	else:
+		$Node2D.position.y -= speed * delta
 
-func GETRAILED(score): #destroy note + get score based on hit timing
+func GETRAILED(_score): #destroy note + get score based on hit timing
 	pass
  
