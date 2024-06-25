@@ -20,7 +20,7 @@ func _ready():
 
 # Spawns a note at a specific position WIP
 func spawn_note(to_spawn):
-	if to_spawn > 0: #spawn first time
+	if to_spawn > 0: #spawn first time	
 		var rand = randi() % 3
 		var instance = note.instantiate()
 		lane = rand
@@ -37,9 +37,16 @@ func spawn_note(to_spawn):
 
 # Handle MIDI events to spawn notes
 func _on_midi_player_midi_event(channel, event):
-	if channel.number == 0 and event.type == 144:  # Note On event (adjust condition as per MIDI events)
-		spawn_note(1)
-
+	#print(channel.number)
+	if channel.number == 0:
+		print(event.type)
+	
+	if channel.number == 0 :  # Note On event (adjust condition as per MIDI events)
+		if event.type == 144 or event.type == 128:
+			spawn_note(1)
+			
+			
+	
 # Detect player input to hit notes (placeholder)
 func _input(event):
 	if event.is_action_pressed("move_up") or event.is_action_pressed("move_down"):
@@ -48,3 +55,5 @@ func _input(event):
 				note.hit()  # Custom method to handle note hit
 				notes.erase(note)
 				break
+
+

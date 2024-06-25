@@ -32,6 +32,7 @@ func initialize(lane): #starting lane location
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
 	if !hit:
+		await(get_tree().create_timer(speed))
 		position.x += speed * delta #subject to change
 		if position.x < 350: # subject to change
 			queue_free()
