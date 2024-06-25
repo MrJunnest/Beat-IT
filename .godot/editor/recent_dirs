@@ -1,3 +1,8 @@
+res://assets/characters/Little witch/69x56/Sprite sheet
+res://src/Levels/Map2/Script
+res://src/Levels/Map2/Scroll
+res://src/Levels/Map2/Background
+res://src/Levels/Map2
 res://assets/characters/Little witch/85x56/Sprite sheet
 res://assets/characters/Little witch/85x56/Pngs/Idle Animation
 res://src/Characters/Little_Witch/script
@@ -15,8 +20,3 @@ res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheet
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle
-res://assets/characters/Jungle Monkey Platformer/CUT-Jump
-res://assets/characters/Jungle Monkey Platformer/CUT-Idle
-res://src/Transition/Trans_2
-res://src/Transition/Trans_1/scripts
-res://src/Transition/Trans_1

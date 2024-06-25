@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://snyaihfknssa"]
+
+[ext_resource type="Script" path="res://src/Levels/Map2/Script/Map2.gd" id="1_h3l3k"]
+[ext_resource type="PackedScene" uid="uid://dvb2k4uxgndq8" path="res://src/Levels/Map2/Background/Background.tscn" id="2_3e5ch"]
+[ext_resource type="PackedScene" uid="uid://dsw1e7c82xsd3" path="res://src/Levels/Map2/Scroll/scroll.tscn" id="3_m3duc"]
+[ext_resource type="PackedScene" uid="uid://dv8pm11dyd1p" path="res://src/Characters/Little_Witch/little_witch.tscn" id="4_4kjpo"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_h3l3k")
+
+[node name="Background" parent="." instance=ExtResource("2_3e5ch")]
+
+[node name="Map2_Scroll" parent="." instance=ExtResource("3_m3duc")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+visible = false
+position = Vector2(600, 320)
+
+[node name="Little_Witch" parent="." instance=ExtResource("4_4kjpo")]

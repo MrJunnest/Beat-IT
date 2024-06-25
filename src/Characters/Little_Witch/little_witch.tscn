@@ -1,8 +1,8 @@
-[gd_scene load_steps=52 format=3 uid="uid://dv8pm11dyd1p"]
+[gd_scene load_steps=53 format=3 uid="uid://dv8pm11dyd1p"]
 
 [ext_resource type="Script" path="res://src/Characters/Little_Witch/script/little_witch.gd" id="1_64eel"]
 [ext_resource type="Texture2D" uid="uid://eawnfg2l4yhh" path="res://assets/characters/Little witch/85x56/Sprite sheet/IdleAnimation.png" id="2_hmoxy"]
-[ext_resource type="Texture2D" uid="uid://cl1ar2wduowfp" path="res://assets/characters/Little witch/85x56/Sprite sheet/JumpUpAndDownAttack.png" id="3_ufeqj"]
+[ext_resource type="Texture2D" uid="uid://dc77uwkwcu5kd" path="res://assets/characters/Little witch/69x56/Sprite sheet/JumpUpAndDownAttackAnimation2.png" id="3_kffgm"]
 [ext_resource type="Texture2D" uid="uid://4v1vaqky3cgq" path="res://assets/characters/Little witch/85x56/Sprite sheet/deathAnimation.png" id="4_yxew8"]
 [ext_resource type="Texture2D" uid="uid://g4d4ov0oesmj" path="res://assets/characters/Little witch/85x56/Sprite sheet/RunAnimation.png" id="5_cls31"]
 [ext_resource type="AudioStream" uid="uid://ddy7b6awp7q2m" path="res://assets/characters/Jungle Monkey Platformer/miscellaneous_4_alex.wav" id="6_sams0"]
@@ -59,21 +59,25 @@ region = Rect2(935, 0, 85, 56)
 atlas = ExtResource("2_hmoxy")
 region = Rect2(1020, 0, 85, 56)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_h7yw2"]
-atlas = ExtResource("3_ufeqj")
-region = Rect2(0, 0, 80, 59)
+[sub_resource type="AtlasTexture" id="AtlasTexture_ufxgl"]
+atlas = ExtResource("3_kffgm")
+region = Rect2(0, 0, 54, 62)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_3xv28"]
-atlas = ExtResource("3_ufeqj")
-region = Rect2(80, 0, 80, 59)
+[sub_resource type="AtlasTexture" id="AtlasTexture_qe71v"]
+atlas = ExtResource("3_kffgm")
+region = Rect2(54, 0, 54, 62)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_2uyie"]
-atlas = ExtResource("3_ufeqj")
-region = Rect2(160, 0, 80, 59)
+[sub_resource type="AtlasTexture" id="AtlasTexture_hmjky"]
+atlas = ExtResource("3_kffgm")
+region = Rect2(108, 0, 54, 62)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_lyp8k"]
-atlas = ExtResource("3_ufeqj")
-region = Rect2(240, 0, 80, 59)
+[sub_resource type="AtlasTexture" id="AtlasTexture_clgrk"]
+atlas = ExtResource("3_kffgm")
+region = Rect2(162, 0, 54, 62)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gugr6"]
+atlas = ExtResource("3_kffgm")
+region = Rect2(216, 0, 54, 62)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4afuu"]
 atlas = ExtResource("4_yxew8")
@@ -227,20 +231,23 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_h7yw2")
+"texture": SubResource("AtlasTexture_ufxgl")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_3xv28")
+"texture": SubResource("AtlasTexture_qe71v")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_2uyie")
+"texture": SubResource("AtlasTexture_hmjky")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_lyp8k")
+"texture": SubResource("AtlasTexture_clgrk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gugr6")
 }],
 "loop": true,
 "name": &"Jump",
-"speed": 8.0
+"speed": 7.0
 }, {
 "frames": [{
 "duration": 1.0,

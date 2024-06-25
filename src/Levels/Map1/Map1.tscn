@@ -19,6 +19,7 @@ metadata/_edit_horizontal_guides_ = [324.0]
 position = Vector2(-11, 11)
 
 [node name="Camera2D" type="Camera2D" parent="."]
+visible = false
 position = Vector2(600, 320)
 
 [node name="Ape" parent="." instance=ExtResource("3_am1wm")]
@@ -26,10 +27,14 @@ visible = false
 position = Vector2(58, 26)
 
 [node name="HitChart" parent="." instance=ExtResource("4_fl4fn")]
+visible = false
 
 [node name="HUD" parent="." instance=ExtResource("6_7e7wc")]
+visible = false
 
 [node name="Pause" parent="." instance=ExtResource("7_qxjlt")]
+visible = false
 
 [node name="Little_Witch" parent="." instance=ExtResource("8_wlbno")]
+visible = false
 position = Vector2(99, -15)
