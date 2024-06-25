@@ -2,7 +2,7 @@ extends Area2D
 #for note spawn and deletion.
 
 const TARGET_X = 360
-const SPAWN_X = 500 #Subject to change!!!
+const SPAWN_X = 1010 #Subject to change!!!
 const DIST_TO_TARGET = TARGET_X - SPAWN_X 
 
 const UP_LANE_SPAWN = Vector2(SPAWN_X, 180) 
@@ -33,11 +33,11 @@ func initialize(lane): #starting lane location
 func _physics_process(delta):
 	if !hit:
 		position.x += speed * delta #subject to change
-		if position.x > 200: # subject to change
+		if position.x < 350: # subject to change
 			queue_free()
 			get_parent()
 	else:
-		$Node2D.position.y -= speed * delta
+		$Node2D.position.x -= speed * delta
 
 func GETRAILED(_score): #destroy note + get score based on hit timing
 	pass
