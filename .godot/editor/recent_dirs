@@ -1,3 +1,6 @@
+res://src/Levels/Tests/Test-Signals
+res://
+res://assets/pictures/enemy/Slime
 res://src/Obstacles/Antena
 res://src/Extra/Conductor
 res://src/Extra/HitChart/script
@@ -17,6 +20,3 @@ res://assets/characters/Jungle Monkey Platformer/CUT-Jump
 res://assets/characters/Jungle Monkey Platformer/CUT-Idle
 res://src/Transition/Trans_2
 res://src/Transition/Trans_1/scripts
-res://src/Transition/Trans_1
-res://
-res://src/Characters/Ape
