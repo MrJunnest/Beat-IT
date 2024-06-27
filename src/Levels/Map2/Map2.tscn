@@ -10,7 +10,7 @@ script = ExtResource("1_h3l3k")
 
 [node name="Background" parent="." instance=ExtResource("2_3e5ch")]
 
-[node name="Map2_Scroll" parent="." instance=ExtResource("3_m3duc")]
+[node name="Map_Scroll" parent="." instance=ExtResource("3_m3duc")]
 
 [node name="Camera2D" type="Camera2D" parent="."]
 visible = false

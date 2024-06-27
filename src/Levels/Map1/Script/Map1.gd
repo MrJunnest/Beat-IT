@@ -18,16 +18,21 @@ func _ready():
 func new_game():
 	#reset all nodes
 	score = 0
-	$Little_Witch.position = APE_START_POS
+	$Little_Witch.position = Vector2i(100,40)
 	$Little_Witch.velocity = Vector2i(0,0)
 	$Camera2D.position = CAM_START_POS
 	$Scroll.position = Vector2i(0, 0)
+	
+	$Ape.position = APE_START_POS
+	$Ape.velocity = Vector2i(0,0)
 
 func _process(_delta):
 	speed = START_SPEED 
 	
 	#move Ape and camera
 	$Little_Witch/Body.position.x += speed 
+	$Ape/Body.position.x += speed 
+	$Little_Elvis.position.x += speed
 	$Camera2D.position.x += speed
 	
 	#update ground position

@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://bpnt8ecct1ly0"]
+[gd_scene load_steps=10 format=3 uid="uid://bpnt8ecct1ly0"]
 
 [ext_resource type="Script" path="res://src/Levels/Map1/Script/Map1.gd" id="1_fepc6"]
 [ext_resource type="PackedScene" uid="uid://c4hk7ypikkhq4" path="res://src/Levels/Map1/Background/Background.tscn" id="1_ud224"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://c2ti566slfiws" path="res://src/Extra/HitChart/hit_chart.tscn" id="4_fl4fn"]
 [ext_resource type="PackedScene" uid="uid://7vkajok2ya66" path="res://src/Extra/HUD/hud.tscn" id="6_7e7wc"]
 [ext_resource type="PackedScene" uid="uid://be1egpjfr8n0b" path="res://src/Transition/Pause/Pause.tscn" id="7_qxjlt"]
+[ext_resource type="PackedScene" uid="uid://c62ulywtyxpu6" path="res://src/Characters/Little_Elvis/little_elvis.tscn" id="8_pwo3o"]
 [ext_resource type="PackedScene" uid="uid://dv8pm11dyd1p" path="res://src/Characters/Little_Witch/little_witch.tscn" id="8_wlbno"]
 
 [node name="Main" type="Node"]
@@ -22,10 +23,6 @@ position = Vector2(-11, 11)
 visible = false
 position = Vector2(600, 320)
 
-[node name="Ape" parent="." instance=ExtResource("3_am1wm")]
-visible = false
-position = Vector2(58, 26)
-
 [node name="HitChart" parent="." instance=ExtResource("4_fl4fn")]
 visible = false
 
@@ -35,6 +32,11 @@ visible = false
 [node name="Pause" parent="." instance=ExtResource("7_qxjlt")]
 visible = false
 
+[node name="Ape" parent="." instance=ExtResource("3_am1wm")]
+position = Vector2(58, 26)
+
+[node name="Little_Elvis" parent="." instance=ExtResource("8_pwo3o")]
+position = Vector2(105, 497)
+
 [node name="Little_Witch" parent="." instance=ExtResource("8_wlbno")]
-visible = false
-position = Vector2(99, -15)
+position = Vector2(107, -31)
