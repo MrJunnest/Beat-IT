@@ -1,0 +1,198 @@
+[gd_scene load_steps=22 format=3 uid="uid://cd24cu63sifmk"]
+
+[ext_resource type="Script" path="res://src/Levels/Characters_Selector/scripts/characters_selector.gd" id="1_4llab"]
+[ext_resource type="Texture2D" uid="uid://ccv3k4adqgqte" path="res://assets/pictures/selector/background.webp" id="1_lxnjf"]
+[ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="2_rt7aq"]
+[ext_resource type="Texture2D" uid="uid://8lqbix2eiyxo" path="res://assets/packs/GUI_1/GUI.png" id="3_fnbf4"]
+[ext_resource type="AudioStream" uid="uid://x0cguunbcqs" path="res://assets/sounds/MI_SFX 43.wav" id="5_4uvm2"]
+[ext_resource type="Texture2D" uid="uid://333qbt02n4rh" path="res://assets/characters/Little witch/69x56/Sprite sheet/IdleAnimation.png" id="5_hoabu"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_05h2d"]
+texture = ExtResource("3_fnbf4")
+region_rect = Rect2(113, 98, 30, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sblyr"]
+atlas = ExtResource("5_hoabu")
+region = Rect2(0, 0, 69, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tdiey"]
+atlas = ExtResource("5_hoabu")
+region = Rect2(69, 0, 69, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sorsv"]
+atlas = ExtResource("5_hoabu")
+region = Rect2(138, 0, 69, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gvbel"]
+atlas = ExtResource("5_hoabu")
+region = Rect2(207, 0, 69, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ewfl"]
+atlas = ExtResource("5_hoabu")
+region = Rect2(276, 0, 69, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_42ep5"]
+atlas = ExtResource("5_hoabu")
+region = Rect2(345, 0, 69, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fhj2e"]
+atlas = ExtResource("5_hoabu")
+region = Rect2(414, 0, 69, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s3nm6"]
+atlas = ExtResource("5_hoabu")
+region = Rect2(483, 0, 69, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6owsr"]
+atlas = ExtResource("5_hoabu")
+region = Rect2(552, 0, 69, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kppc3"]
+atlas = ExtResource("5_hoabu")
+region = Rect2(621, 0, 69, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gd8p8"]
+atlas = ExtResource("5_hoabu")
+region = Rect2(690, 0, 69, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rhyjb"]
+atlas = ExtResource("5_hoabu")
+region = Rect2(759, 0, 69, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dws8f"]
+atlas = ExtResource("5_hoabu")
+region = Rect2(828, 0, 69, 56)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0dm64"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sblyr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tdiey")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sorsv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gvbel")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ewfl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_42ep5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fhj2e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s3nm6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6owsr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kppc3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gd8p8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rhyjb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dws8f")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+script = ExtResource("1_4llab")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(0.9, 1.27559)
+texture = ExtResource("1_lxnjf")
+
+[node name="Little-Witch" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.296
+anchor_bottom = 0.296
+offset_left = 26.0
+offset_top = -6.808
+offset_right = 350.0
+offset_bottom = 44.192
+theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_rt7aq")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_05h2d")
+text = "Little Witch
+"
+
+[node name="Witch" type="AnimatedSprite2D" parent="Little-Witch"]
+position = Vector2(144, 212)
+scale = Vector2(4.98036, 4.85571)
+sprite_frames = SubResource("SpriteFrames_0dm64")
+animation = &"idle"
+
+[node name="Little-Elvis" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.414063
+anchor_top = 0.283951
+anchor_right = 0.595486
+anchor_bottom = 0.362654
+offset_left = -61.0006
+offset_top = 0.999741
+offset_right = 54.0001
+offset_bottom = 1.00021
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_rt7aq")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_05h2d")
+text = "Little Elvis
+"
+
+[node name="Elementals-Water-Priestess" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.02
+anchor_top = 0.323
+anchor_right = -0.02
+anchor_bottom = 0.327
+offset_left = 825.04
+offset_top = -24.304
+offset_right = 1149.04
+offset_bottom = 24.104
+theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_rt7aq")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_05h2d")
+text = "Water Priestess"
+
+[node name="Hitsound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_4uvm2")
+
+[connection signal="mouse_entered" from="Little-Witch" to="." method="_on_little_witch_mouse_entered"]
+[connection signal="pressed" from="Little-Witch" to="." method="_on_little_witch_pressed"]
+[connection signal="mouse_entered" from="Little-Elvis" to="." method="_on_little_elvis_mouse_entered"]
+[connection signal="pressed" from="Little-Elvis" to="." method="_on_little_elvis_pressed"]
+[connection signal="mouse_entered" from="Elementals-Water-Priestess" to="." method="_on_elementals_water_priestess_mouse_entered"]
+[connection signal="pressed" from="Elementals-Water-Priestess" to="." method="_on_elementals_water_priestess_pressed"]

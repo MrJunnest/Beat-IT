@@ -39,6 +39,9 @@ region_rect = Rect2(113, 98, 30, 13)
 texture = ExtResource("5_xxsu8")
 region_rect = Rect2(113, 98, 30, 13)
 
+<<<<<<< HEAD
+[node name="Control2" type="Control"]
+=======
 [sub_resource type="AtlasTexture" id="AtlasTexture_bval0"]
 atlas = ExtResource("7_stecg")
 region = Rect2(0, 0, 494, 133)
@@ -139,6 +142,7 @@ animations = [{
 }]
 
 [node name="Control" type="Control"]
+>>>>>>> 7d97e750ca79d86419a4d32e16c8e018b444c801
 layout_mode = 3
 anchor_left = 0.00520833
 anchor_top = -0.00154321
