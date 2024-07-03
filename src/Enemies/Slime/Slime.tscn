@@ -1,0 +1,63 @@
+[gd_scene load_steps=11 format=3 uid="uid://ca0nb4y8e5j6m"]
+
+[ext_resource type="Texture2D" uid="uid://deppstbqhggy4" path="res://assets/pictures/enemy/Slime/Individual Sprites/slime-die-0.png" id="1_paipn"]
+[ext_resource type="Texture2D" uid="uid://iugpxd7lg6m0" path="res://assets/pictures/enemy/Slime/Individual Sprites/slime-die-1.png" id="2_t7jb8"]
+[ext_resource type="Texture2D" uid="uid://b18uueunpsq7o" path="res://assets/pictures/enemy/Slime/Individual Sprites/slime-die-2.png" id="3_y48cn"]
+[ext_resource type="Texture2D" uid="uid://bm1wv57cvso5o" path="res://assets/pictures/enemy/Slime/Individual Sprites/slime-die-3.png" id="4_jnthw"]
+[ext_resource type="Texture2D" uid="uid://wo7skgfky0pe" path="res://assets/pictures/enemy/Slime/Individual Sprites/slime-move-0.png" id="5_kty74"]
+[ext_resource type="Texture2D" uid="uid://b048cqh3y2biu" path="res://assets/pictures/enemy/Slime/Individual Sprites/slime-move-1.png" id="6_l5wi5"]
+[ext_resource type="Texture2D" uid="uid://0jky4va11hlu" path="res://assets/pictures/enemy/Slime/Individual Sprites/slime-move-2.png" id="7_6ua3g"]
+[ext_resource type="Texture2D" uid="uid://cu8qgo4fngah1" path="res://assets/pictures/enemy/Slime/Individual Sprites/slime-move-3.png" id="8_fpc4l"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_f5u64"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_paipn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_t7jb8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_y48cn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_jnthw")
+}],
+"loop": true,
+"name": &"Die",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_kty74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_l5wi5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_6ua3g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_fpc4l")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7nmer"]
+size = Vector2(176.5, 151.5)
+
+[node name="Slime" type="StaticBody2D"]
+
+[node name="Slime" type="AnimatedSprite2D" parent="."]
+position = Vector2(420, 375)
+scale = Vector2(6.0625, 6.32)
+sprite_frames = SubResource("SpriteFrames_f5u64")
+animation = &"Run"
+frame_progress = 0.413071
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(415, 384)
+shape = SubResource("RectangleShape2D_7nmer")

@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://cttsjuhtbmvtq"]
+
+[ext_resource type="Script" path="res://addons/sprite_cutter/AtlasScene.gd" id="1_r5uxl"]
+[ext_resource type="Texture2D" uid="uid://bfja05brjccax" path="res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png" id="2_fdev8"]
+
+[node name="AtlasScene" type="Node"]
+script = ExtResource("1_r5uxl")
+
+[node name="Idle" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(288, 25)
+texture = ExtResource("2_fdev8")
+region_enabled = true
+region_rect = Rect2(8, 3, 19, 29)
+
+[node name="Idle2" type="Sprite2D" parent="."]
+position = Vector2(417, 57)
+texture = ExtResource("2_fdev8")
+region_enabled = true
+region_rect = Rect2(40, 3, 19, 29)
+
+[node name="Idle3" type="Sprite2D" parent="."]
+position = Vector2(288, 25)
+texture = ExtResource("2_fdev8")
+region_enabled = true
+region_rect = Rect2(72, 3, 19, 29)
+
+[node name="Idle4" type="Sprite2D" parent="."]
+position = Vector2(288, 25)
+texture = ExtResource("2_fdev8")
+region_enabled = true
+region_rect = Rect2(104, 3, 19, 29)

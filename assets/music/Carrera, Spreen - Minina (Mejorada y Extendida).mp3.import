@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cpldst0y5pfdm"
+path="res://.godot/imported/Carrera, Spreen - Minina (Mejorada y Extendida).mp3-a88345a578595545329de0286e4d4a3d.mp3str"
+
+[deps]
+
+source_file="res://assets/music/Carrera, Spreen - Minina (Mejorada y Extendida).mp3"
+dest_files=["res://.godot/imported/Carrera, Spreen - Minina (Mejorada y Extendida).mp3-a88345a578595545329de0286e4d4a3d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

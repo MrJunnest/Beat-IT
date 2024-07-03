@@ -1,29 +1,18 @@
 extends CharacterBody2D
 
+# Posiciones de teletransporte
+@export var going_up = Vector2(65, -95)
+@export var going_down = Vector2(65, 40)
+@export var START = Vector2i(65,40)
 
-const SPEED = 300.0
-const JUMP_VELOCITY = -400.0
+func _ready():
+	global_position = START
+	$Body.play("Run")
 
-# Get the gravity from the project settings to be synced with RigidBody nodes.
-#var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
-
-
-func _physics_process(delta):
-	# Add the gravity.
-	if not is_on_floor():
-		#velocity.y += gravity * delta
-		velocity.y += delta
-
-	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
-
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
-	var direction = Input.get_axis("ui_left", "ui_right")
-	if direction:
-		velocity.x = direction * SPEED
-	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
-
-	move_and_slide()
+func _input(event):
+	if event.is_action_pressed("ui_right"):
+		global_position = going_up
+		$Body.play("Jump")
+	elif event.is_action_pressed("ui_left"):
+		global_position = going_down
+		$Body.play("Run")

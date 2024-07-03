@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://be1egpjfr8n0b"]
+
+[ext_resource type="Script" path="res://src/Transition/Pause/Pause.gd" id="1_xirlt"]
+[ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="2_irawm"]
+
+[node name="Pause" type="CanvasLayer"]
+process_mode = 3
+script = ExtResource("1_xirlt")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.607843)
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -128.0
+offset_top = 56.0
+offset_right = -78.0
+offset_bottom = 80.0
+grow_horizontal = 2
+scale = Vector2(6, 6)
+theme_override_fonts/font = ExtResource("2_irawm")
+text = "Pause"
