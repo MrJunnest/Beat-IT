@@ -1,5 +1,6 @@
-CollisionShape2D
 AnimatedSprite2D
+Label
+CollisionShape2D
 Area2D
 Timer
 Node
@@ -11,4 +12,3 @@ CharacterBody2D
 ParallaxLayer
 OptionButton
 MenuButton
-Button

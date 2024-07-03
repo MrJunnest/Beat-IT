@@ -1,4 +1,7 @@
-res://src/Levels/Tests/TestLevel/Test1/scene/Test_game.tscn
+res://src/MainScreens/home-screen.tscn
 res://addons/midi/MidiPlayer.gd
-res://src/Levels/Tests/TestLevel/Test1/scene/updown_button_collision.tscn
-res://src/Levels/Tests/TestLevel/Test1/scene/enemy_note.tscn
+res://src/Characters/Ape/script/Ape.gd
+res://src/Levels/Map1/Script/Map1.gd
+res://src/Transition/Pause/Pause.gd
+res://src/MainScreens/scrolls/scrollmenu.gdshader
+res://src/LICENSE.md
