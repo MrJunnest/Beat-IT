@@ -1,6 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 6a40f73 (Character and map selection screen)
 ::res://::1719967075
 icon.svg::CompressedTexture2D::3838539191210772969::1718951759::1719472010::1::::<><>::
 ::res://addons/::1719472009
@@ -1774,6 +1777,7 @@ Trans_1.tscn::PackedScene::593642795758482004::1719472010::0::1::::<><>::res://s
 trans_1.gd::GDScript::-1::1719472010::0::1::::<>CanvasLayer<>::
 ::res://src/Transition/Trans_2/::1719472010
 Trans_2.tscn::PackedScene::3447422660078305955::1719472010::0::1::::<><>::
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of e6f5fec (a)
@@ -3590,3 +3594,5 @@ trans_1.gd::GDScript::-1::1719471558::0::1::::<>CanvasLayer<>::
 ::res://src/Transition/Trans_2/::1719471558
 Trans_2.tscn::PackedScene::3447422660078305955::1719471558::0::1::::<><>::
 >>>>>>> 7d97e750ca79d86419a4d32e16c8e018b444c801
+=======
+>>>>>>> parent of 6a40f73 (Character and map selection screen)

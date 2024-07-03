@@ -1,5 +1,4 @@
 Label
-<<<<<<< HEAD
 Node
 AnimatedSprite2D
 Sprite2D
@@ -13,18 +12,3 @@ CharacterBody2D
 ParallaxLayer
 ParallaxBackground
 Area2D
-=======
-AnimatedSprite2D
-CollisionShape2D
-Area2D
-Timer
-Node
-Node2D
-Container
-Sprite2D
-AtlasScene
-CharacterBody2D
-ParallaxLayer
-OptionButton
-MenuButton
->>>>>>> 7d97e750ca79d86419a4d32e16c8e018b444c801
