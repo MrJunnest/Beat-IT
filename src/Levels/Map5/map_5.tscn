@@ -1,10 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://du4r854onegf1"]
+[gd_scene load_steps=6 format=3 uid="uid://dfkb6yhd54j5t"]
 
 [ext_resource type="Script" path="res://src/Levels/Map5/Script/map_5.gd" id="1_awrbu"]
 [ext_resource type="PackedScene" uid="uid://crf1gdo1ogqq8" path="res://src/Levels/Map5/Background/map_5_background.tscn" id="2_56otn"]
-[ext_resource type="PackedScene" uid="uid://dsw1e7c82xsd3" path="res://src/Levels/Map2/Scroll/scroll.tscn" id="3_3lhlt"]
-[ext_resource type="PackedScene" uid="uid://dv8pm11dyd1p" path="res://src/Characters/Little_Witch/little_witch.tscn" id="4_be0yc"]
-[ext_resource type="PackedScene" uid="uid://c62ulywtyxpu6" path="res://src/Characters/Little_Elvis/little_elvis.tscn" id="5_kgdg8"]
+[ext_resource type="PackedScene" uid="uid://nbrdrgot62h6" path="res://src/Levels/Map2/Scroll/scroll.tscn" id="3_3lhlt"]
+[ext_resource type="PackedScene" uid="uid://ccldp7qiqx7ae" path="res://src/Characters/Little_Witch/little_witch.tscn" id="4_be0yc"]
+[ext_resource type="PackedScene" uid="uid://dvij0t03ys2m5" path="res://src/Characters/Little_Elvis/little_elvis.tscn" id="5_kgdg8"]
 
 [node name="Map5" type="Node2D"]
 script = ExtResource("1_awrbu")

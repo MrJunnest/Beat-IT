@@ -24,3 +24,4 @@ res://src/Label.gd
 res://src/control.tscn
 res://src/Levels/Level_Selector/scripts/selector_screens.gd
 res://src/MainScreens/scripts/home_cmd.gd
+res://addons/midi/MidiPlayer.gd

@@ -20,6 +20,8 @@ config/icon="res://icon.svg"
 Global="*res://src/Global.gd"
 Conductor="*res://src/Extra/Conductor/Conductor.tscn"
 Trans_1="res://src/Transition/Trans_1/Trans_1.tscn"
+<<<<<<<HEADGlobal="*res://src/Global.gd"
+Trans1="*res://src/Transition/Trans_1.tscn"
 
 [display]
 
@@ -33,6 +35,18 @@ enabled=PackedStringArray("res://addons/sprite_cutter/plugin.cfg")
 [input]
 
 Pause={
+<<<<<<< Updated upstream
+=======
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":80,"key_label":0,"unicode":112,"echo":false,"script":null)
+]
+}
+Jump={
+"deadzone": 0.5,
+"events": []
+}
+move_up={
+>>>>>>> Stashed changes
 "deadzone": 0.5,
 "events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":80,"key_label":0,"unicode":112,"echo":false,"script":null)
 ]
