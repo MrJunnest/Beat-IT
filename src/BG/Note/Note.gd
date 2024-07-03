@@ -39,6 +39,7 @@ func initialize(lane):
 	speed = DIST_TO_TARGET / 2.0
 
 func destroy(score):
+	$Hitsound.play(0.2)
 	$CPUParticles2D.emitting = true
 	$AnimatedSprite2D.visible = false
 	$Timer.start()

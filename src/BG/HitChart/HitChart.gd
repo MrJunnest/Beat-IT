@@ -51,6 +51,7 @@ func _on_GoodArea_area_exited(area):
 
 func _on_OkayArea_area_entered(area):
 	if area.is_in_group("note"):
+
 		okay = true
 		current_note = area
 

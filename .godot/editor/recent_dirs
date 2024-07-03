@@ -1,5 +1,6 @@
-res://src/BG/Note
+res://assets/sounds
 res://assets/music
+res://src/BG/Note
 res://assets/pop
 res://src/Levels/Map1
 res://src/Levels/Tests/Test-Signal2

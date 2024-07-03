@@ -106,9 +106,6 @@ text = "Admin Panel"
 
 [node name="Hitsound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("6_rxdhw")
-volume_db = -20.0
-pitch_scale = 0.7
-mix_target = 2
 
 [connection signal="mouse_entered" from="VBox-Main/Play-Button" to="." method="_on_play_button_mouse_entered"]
 [connection signal="pressed" from="VBox-Main/Play-Button" to="." method="_on_play_button_pressed"]

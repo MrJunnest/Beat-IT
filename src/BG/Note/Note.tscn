@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=3 uid="uid://cnmvvv17lpy6"]
+[gd_scene load_steps=36 format=3 uid="uid://cnmvvv17lpy6"]
 
 [ext_resource type="Texture2D" uid="uid://ty47xnvevqb8" path="res://assets/obstacles/spells/2/1.png" id="1_lqr7g"]
 [ext_resource type="Script" path="res://src/BG/Note/Note.gd" id="1_n0ww0"]
@@ -32,6 +32,7 @@
 [ext_resource type="Texture2D" uid="uid://d3xri781slhax" path="res://assets/obstacles/spells/2/29.png" id="29_2i8se"]
 [ext_resource type="Texture2D" uid="uid://cxtfg2d3dcc4t" path="res://assets/obstacles/spells/2/30.png" id="30_k2be5"]
 [ext_resource type="Texture2D" uid="uid://1kqdo84ddn70" path="res://assets/pop/star/star.png" id="31_2mkkb"]
+[ext_resource type="AudioStream" uid="uid://blfxowi1r7hnt" path="res://assets/sounds/HitChart.mp3" id="33_plb0o"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_b7yuu"]
 animations = [{
@@ -164,3 +165,7 @@ spread = 180.0
 offset_right = 1.0
 offset_bottom = 23.0
 metadata/_edit_use_anchors_ = true
+
+[node name="Hitsound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("33_plb0o")
+volume_db = 10.0

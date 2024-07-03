@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://src/BG/Game/Game.gd" id="1_cx3i0"]
 [ext_resource type="PackedScene" uid="uid://m5agv6axbsc6" path="res://src/BG/HitChart/HitChart.tscn" id="1_qoux8"]
 [ext_resource type="PackedScene" uid="uid://d3i85vy85kakk" path="res://src/BG/Conductor/Conductor.tscn" id="3_g65b7"]
-[ext_resource type="AudioStream" uid="uid://cpldst0y5pfdm" path="res://assets/music/Carrera, Spreen - Minina (Mejorada y Extendida).mp3" id="4_l3qyg"]
+[ext_resource type="AudioStream" uid="uid://c8pfb1xuokoam" path="res://assets/music/Super Idol full song.mp3" id="4_63ki6"]
 
 [node name="Game" type="Node2D"]
 script = ExtResource("1_cx3i0")
@@ -31,6 +31,6 @@ offset_bottom = 23.0
 metadata/_edit_use_anchors_ = true
 
 [node name="Conductor" parent="." instance=ExtResource("3_g65b7")]
-stream = ExtResource("4_l3qyg")
-bpm = 132
+stream = ExtResource("4_63ki6")
+bpm = 130
 measures = 4
