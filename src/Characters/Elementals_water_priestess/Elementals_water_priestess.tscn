@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=3 uid="uid://ytgnhlylgqpb"]
+[gd_scene load_steps=43 format=3 uid="uid://dgafsrhclm8uk"]
 
 [ext_resource type="Script" path="res://src/Characters/Elementals_water_priestess/Script/Elementals_water_priestess.gd" id="1_67vov"]
 [ext_resource type="Texture2D" uid="uid://colsijajyqug6" path="res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet3.png" id="2_sfcv6"]
