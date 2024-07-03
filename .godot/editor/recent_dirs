@@ -1,3 +1,9 @@
+res://src/Levels/Tests/Test-HitChart
+res://src/Levels/Tests/Test Enemy
+res://assets/music
+res://src/Levels/Map1
+res://src/Levels/Test-AudioManage
+res://src/Levels/Tests/Test-Signal2
 res://src/Levels/Tests/Test-Signals
 res://
 res://assets/pictures/enemy/Slime
@@ -10,13 +16,7 @@ res://src/Extra/HitChart
 res://src/Levels/Tests/shader
 res://src/Levels/Map1/Background
 res://src/Characters/Ape/script
-res://src/Levels/Map1
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle
-res://assets/characters/Jungle Monkey Platformer/CUT-Lose
-res://assets/characters/Jungle Monkey Platformer/CUT-Jump
-res://assets/characters/Jungle Monkey Platformer/CUT-Idle
-res://src/Transition/Trans_2
-res://src/Transition/Trans_1/scripts

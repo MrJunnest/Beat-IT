@@ -1,15 +1,64 @@
-[gd_scene load_steps=8 format=3 uid="uid://bpnt8ecct1ly0"]
+[gd_scene load_steps=11 format=3 uid="uid://bpnt8ecct1ly0"]
 
-[ext_resource type="Script" path="res://src/Levels/Map1/Script/Map1.gd" id="1_fepc6"]
 [ext_resource type="PackedScene" uid="uid://c4hk7ypikkhq4" path="res://src/Levels/Map1/Background/Background.tscn" id="1_ud224"]
 [ext_resource type="PackedScene" uid="uid://t5hemb7qyves" path="res://src/Levels/Map1/Scroll/Scroll.tscn" id="2_irptq"]
 [ext_resource type="PackedScene" uid="uid://bwavb6r2uk555" path="res://src/Characters/Ape/Ape.tscn" id="3_am1wm"]
 [ext_resource type="PackedScene" uid="uid://c2ti566slfiws" path="res://src/Extra/HitChart/hit_chart.tscn" id="4_fl4fn"]
 [ext_resource type="PackedScene" uid="uid://7vkajok2ya66" path="res://src/Extra/HUD/hud.tscn" id="6_7e7wc"]
 [ext_resource type="PackedScene" uid="uid://be1egpjfr8n0b" path="res://src/Transition/Pause/Pause.tscn" id="7_qxjlt"]
+[ext_resource type="Script" path="res://src/Levels/Map1/Conductor.gd" id="8_6ftys"]
+[ext_resource type="PackedScene" uid="uid://d3i85vy85kakk" path="res://src/Extra/Conductor/Conductor.tscn" id="8_agui0"]
+[ext_resource type="AudioStream" uid="uid://doswvqa1sey28" path="res://assets/music/Carrera_-Spreen-Minina-_Mejorada-y-Extendida_.ogg" id="9_sa6kv"]
+
+[sub_resource type="GDScript" id="GDScript_od5wu"]
+script/source = "extends Node
+
+#game variables
+var instantiate
+const APE_START_POS := Vector2i(70,240)
+const CAM_START_POS := Vector2i(600, 320)
+var score: float
+
+var speed : float
+const START_SPEED : float = 8.0
+const MAX_SPEED : float = 25
+var screen_size : Vector2i
+
+func _ready():
+	new_game()
+	randomize()
+	screen_size = get_window().size
+	#var Conductor_node = $Conductor.instantiate()
+	#$Conductor.play_with_beat_offset(8)
+	$Conductor.play_from_beat(140,8)
+	
+
+
+	pass
+
+func new_game():
+	#reset all nodes
+	score = 0
+	$Ape.position = APE_START_POS
+	$Ape.velocity = Vector2i(0,0)
+	$Camera2D.position = CAM_START_POS
+	$Scroll.position = Vector2i(0, 0)
+
+func _process(_delta):
+	speed = START_SPEED 
+	
+	#move Ape and camera
+	$Ape/Body.position.x += speed 
+	$Camera2D.position.x += speed
+	
+	#update ground position
+	if $Camera2D.position.x - $Scroll.position.x > screen_size.x * 1.5:
+		$Scroll.position.x += screen_size.x
+
+"
 
 [node name="Main" type="Node"]
-script = ExtResource("1_fepc6")
+script = SubResource("GDScript_od5wu")
 metadata/_edit_horizontal_guides_ = [509.0, 512.0]
 metadata/_edit_vertical_guides_ = [-167.0, 95.0]
 
@@ -30,3 +79,10 @@ position = Vector2(58, 26)
 
 [node name="Pause" parent="." instance=ExtResource("7_qxjlt")]
 visible = false
+
+[node name="Conductor" parent="." instance=ExtResource("8_agui0")]
+stream = ExtResource("9_sa6kv")
+volume_db = -20.0
+script = ExtResource("8_6ftys")
+bpm = 115
+measures = 4

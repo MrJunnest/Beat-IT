@@ -17,8 +17,8 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-Conductor="*res://src/Extra/Conductor/Conductor.tscn"
 Trans_1="res://src/Transition/Trans_1/Trans_1.tscn"
+Conductor="*res://src/Levels/Map1/Conductor.tscn"
 
 [display]
 
