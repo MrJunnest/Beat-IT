@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bpnt8ecct1ly0"]
+[gd_scene load_steps=10 format=3 uid="uid://bpnt8ecct1ly0"]
 
 [ext_resource type="PackedScene" uid="uid://c4hk7ypikkhq4" path="res://src/Levels/Map1/Background/Background.tscn" id="1_ud224"]
 [ext_resource type="PackedScene" uid="uid://t5hemb7qyves" path="res://src/Levels/Map1/Scroll/Scroll.tscn" id="2_irptq"]
@@ -6,9 +6,8 @@
 [ext_resource type="PackedScene" uid="uid://c2ti566slfiws" path="res://src/Extra/HitChart/hit_chart.tscn" id="4_fl4fn"]
 [ext_resource type="PackedScene" uid="uid://7vkajok2ya66" path="res://src/Extra/HUD/hud.tscn" id="6_7e7wc"]
 [ext_resource type="PackedScene" uid="uid://be1egpjfr8n0b" path="res://src/Transition/Pause/Pause.tscn" id="7_qxjlt"]
-[ext_resource type="Script" path="res://src/Levels/Map1/Conductor.gd" id="8_6ftys"]
-[ext_resource type="PackedScene" uid="uid://d3i85vy85kakk" path="res://src/Extra/Conductor/Conductor.tscn" id="8_agui0"]
-[ext_resource type="AudioStream" uid="uid://doswvqa1sey28" path="res://assets/music/Carrera_-Spreen-Minina-_Mejorada-y-Extendida_.ogg" id="9_sa6kv"]
+[ext_resource type="AudioStream" uid="uid://dt1nn38idmnvs" path="res://assets/music/song.ogg" id="8_1dn6w"]
+[ext_resource type="PackedScene" uid="uid://d3i85vy85kakk" path="res://src/BG/Conductor/Conductor.tscn" id="8_agui0"]
 
 [sub_resource type="GDScript" id="GDScript_od5wu"]
 script/source = "extends Node
@@ -30,10 +29,7 @@ func _ready():
 	screen_size = get_window().size
 	#var Conductor_node = $Conductor.instantiate()
 	#$Conductor.play_with_beat_offset(8)
-	$Conductor.play_from_beat(140,8)
-	
-
-
+	$Conductor.play_from_beat(130,8)
 	pass
 
 func new_game():
@@ -81,8 +77,6 @@ position = Vector2(58, 26)
 visible = false
 
 [node name="Conductor" parent="." instance=ExtResource("8_agui0")]
-stream = ExtResource("9_sa6kv")
-volume_db = -20.0
-script = ExtResource("8_6ftys")
-bpm = 115
+stream = ExtResource("8_1dn6w")
+bpm = 140
 measures = 4

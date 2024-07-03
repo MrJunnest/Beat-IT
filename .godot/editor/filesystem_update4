@@ -1,12 +1,24 @@
-res://src/Levels/Map1/Map1.tscn
+res://src/Levels/Tests/Test-Signal2/Test-Signal.tscn
 res://src/Characters/Ape/script/Ape.gd
 res://src/Levels/Map1/Script/Map1.gd
 res://src/Transition/Pause/Pause.gd
-res://src/Levels/Map1/Conductor.tscn
-res://src/Levels/Tests/Test-Signal2/Test-Signal.tscn
 res://src/Levels/Tests/Test-Signal2/icon.tscn
-res://src/Levels/Tests/Test Enemy/Enemy.tscn
-res://src/Extra/HitChart/hit_chart.tscn
+res://src/Basic Gameplay/Conductor/Conductor.tscn
+res://src/Levels/Map1/Map1.tscn
+res://src/Basic Gameplay/Global/Global.tscn
+res://src/Basic Gameplay/Game/Game.tscn
+res://src/Basic Gameplay/HitChart/HitChart.tscn
+res://src/Basic Gameplay/HitChart/HitChart.gd
+res://src/Basic Gameplay/Game/Game.gd
+res://src/MainScreens/home-screen.tscn
+res://src/MainScreens/scripts/home_cmd.gd
+res://src/BG/Conductor/Conductor.tscn
+res://src/BG/Global/Global.tscn
+res://src/BG/Game/Game.tscn
+res://src/BG/HitChart/HitChart.tscn
+res://src/BG/Game/Game.gd
+res://src/BG/Note/Note.tscn
 res://src/Extra/HitChart/script/hit_chart.gd
-res://src/Levels/Tests/Test-HitChart/HitChart.tscn
-res://src/Levels/Tests/Test-HitChart/HitChart.gd
+res://src/Levels/Map1/Conductor.gd
+res://src/BG/Global/Global.gd
+res://src/BG/Note/Note.gd

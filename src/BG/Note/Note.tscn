@@ -1,0 +1,166 @@
+[gd_scene load_steps=35 format=3 uid="uid://cnmvvv17lpy6"]
+
+[ext_resource type="Texture2D" uid="uid://ty47xnvevqb8" path="res://assets/obstacles/spells/2/1.png" id="1_lqr7g"]
+[ext_resource type="Script" path="res://src/BG/Note/Note.gd" id="1_n0ww0"]
+[ext_resource type="Texture2D" uid="uid://cob1xuhsahi3m" path="res://assets/obstacles/spells/2/2.png" id="2_s63ub"]
+[ext_resource type="Texture2D" uid="uid://dqk31ejopy3oc" path="res://assets/obstacles/spells/2/3.png" id="3_hmqo2"]
+[ext_resource type="Texture2D" uid="uid://dg4lu7wl74a0f" path="res://assets/obstacles/spells/2/4.png" id="4_b44s8"]
+[ext_resource type="Texture2D" uid="uid://c38e21rw7u71" path="res://assets/obstacles/spells/2/5.png" id="5_je3ys"]
+[ext_resource type="Texture2D" uid="uid://b8c7jfxn7cqa2" path="res://assets/obstacles/spells/2/6.png" id="6_a7eg4"]
+[ext_resource type="Texture2D" uid="uid://bw4i7wutvg15a" path="res://assets/obstacles/spells/2/7.png" id="7_fptsj"]
+[ext_resource type="Texture2D" uid="uid://b5f7olc3qs7vf" path="res://assets/obstacles/spells/2/8.png" id="8_rj7my"]
+[ext_resource type="Texture2D" uid="uid://cw5bq4ymxw3nh" path="res://assets/obstacles/spells/2/9.png" id="9_wfpsi"]
+[ext_resource type="Texture2D" uid="uid://dc0kxrt7do1y4" path="res://assets/obstacles/spells/2/10.png" id="10_t7pei"]
+[ext_resource type="Texture2D" uid="uid://c7npx4wfmd52f" path="res://assets/obstacles/spells/2/11.png" id="11_06as1"]
+[ext_resource type="Texture2D" uid="uid://cp47dvks10ag3" path="res://assets/obstacles/spells/2/12.png" id="12_auih2"]
+[ext_resource type="Texture2D" uid="uid://b1xotnvhjj3tq" path="res://assets/obstacles/spells/2/13.png" id="13_eec74"]
+[ext_resource type="Texture2D" uid="uid://b76jjewievd84" path="res://assets/obstacles/spells/2/14.png" id="14_y5nk2"]
+[ext_resource type="Texture2D" uid="uid://dyib2obns3stk" path="res://assets/obstacles/spells/2/15.png" id="15_1ytw7"]
+[ext_resource type="Texture2D" uid="uid://ci8bgmsbd2w5o" path="res://assets/obstacles/spells/2/16.png" id="16_jlf5n"]
+[ext_resource type="Texture2D" uid="uid://dtmyxmhici4b3" path="res://assets/obstacles/spells/2/17.png" id="17_5ujfx"]
+[ext_resource type="Texture2D" uid="uid://g71r3m423wdd" path="res://assets/obstacles/spells/2/18.png" id="18_pb5aq"]
+[ext_resource type="Texture2D" uid="uid://cl104ic0o6v8h" path="res://assets/obstacles/spells/2/19.png" id="19_71nsy"]
+[ext_resource type="Texture2D" uid="uid://bqb78dcnodt1f" path="res://assets/obstacles/spells/2/20.png" id="20_vfae0"]
+[ext_resource type="Texture2D" uid="uid://doyymwtfed3q0" path="res://assets/obstacles/spells/2/21.png" id="21_pbmow"]
+[ext_resource type="Texture2D" uid="uid://dfbecx2uxmio8" path="res://assets/obstacles/spells/2/22.png" id="22_ffosh"]
+[ext_resource type="Texture2D" uid="uid://ed0svudddxnn" path="res://assets/obstacles/spells/2/23.png" id="23_vgqjy"]
+[ext_resource type="Texture2D" uid="uid://dgca678iw343v" path="res://assets/obstacles/spells/2/24.png" id="24_ywvis"]
+[ext_resource type="Texture2D" uid="uid://udobvmnkuysh" path="res://assets/obstacles/spells/2/25.png" id="25_qc1l4"]
+[ext_resource type="Texture2D" uid="uid://clt4qcqlf5v3a" path="res://assets/obstacles/spells/2/26.png" id="26_rlh31"]
+[ext_resource type="Texture2D" uid="uid://bsei4bapm6vfq" path="res://assets/obstacles/spells/2/27.png" id="27_xo1ht"]
+[ext_resource type="Texture2D" uid="uid://bumoy1puxye6" path="res://assets/obstacles/spells/2/28.png" id="28_qqtl3"]
+[ext_resource type="Texture2D" uid="uid://d3xri781slhax" path="res://assets/obstacles/spells/2/29.png" id="29_2i8se"]
+[ext_resource type="Texture2D" uid="uid://cxtfg2d3dcc4t" path="res://assets/obstacles/spells/2/30.png" id="30_k2be5"]
+[ext_resource type="Texture2D" uid="uid://1kqdo84ddn70" path="res://assets/pop/star/star.png" id="31_2mkkb"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b7yuu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_lqr7g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_s63ub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_hmqo2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_b44s8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_je3ys")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_a7eg4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_fptsj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_rj7my")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_wfpsi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_t7pei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_06as1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_auih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_eec74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_y5nk2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_1ytw7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_jlf5n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_5ujfx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_pb5aq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_71nsy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_vfae0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_pbmow")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ffosh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_vgqjy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ywvis")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_qc1l4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_rlh31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_xo1ht")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_qqtl3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_2i8se")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_k2be5")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gcsh3"]
+radius = 4.0
+
+[node name="Note" type="Area2D" groups=["note"]]
+position = Vector2(146, 89)
+script = ExtResource("1_n0ww0")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(6, 6)
+sprite_frames = SubResource("SpriteFrames_b7yuu")
+frame_progress = 0.11249
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_gcsh3")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+emitting = false
+lifetime = 0.3
+one_shot = true
+explosiveness = 0.8
+texture = ExtResource("31_2mkkb")
+emission_shape = 1
+emission_sphere_radius = 1.0
+spread = 180.0
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Label" type="Label" parent="Node2D"]
+offset_right = 1.0
+offset_bottom = 23.0
+metadata/_edit_use_anchors_ = true

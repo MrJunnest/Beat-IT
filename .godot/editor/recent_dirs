@@ -1,14 +1,12 @@
-res://src/Levels/Tests/Test-HitChart
-res://src/Levels/Tests/Test Enemy
+res://src/BG/Note
 res://assets/music
+res://assets/pop
 res://src/Levels/Map1
-res://src/Levels/Test-AudioManage
 res://src/Levels/Tests/Test-Signal2
 res://src/Levels/Tests/Test-Signals
 res://
 res://assets/pictures/enemy/Slime
 res://src/Obstacles/Antena
-res://src/Extra/Conductor
 res://src/Extra/HitChart/script
 res://src/Extra/HUD
 res://src/Levels/Map1/Script
