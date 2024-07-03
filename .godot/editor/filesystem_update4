@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 res://src/Levels/Level_Selector/selector_screens.tscn
 res://src/Characters/Ape/script/Ape.gd
 res://src/Levels/Map1/Script/Map1.gd
@@ -23,4 +24,13 @@ res://src/Levels/Characters_Selector/scripts/characters_selector.gd
 res://src/Label.gd
 res://src/control.tscn
 res://src/Levels/Level_Selector/scripts/selector_screens.gd
+=======
+res://src/MainScreens/test-scenes/test-button.tscn
+res://addons/midi/MidiPlayer.gd
+res://src/Characters/Ape/script/Ape.gd
+res://src/Levels/Map1/Script/Map1.gd
+res://src/Transition/Pause/Pause.gd
+res://src/MainScreens/home-screen.tscn
+res://src/Levels/Level_Selector/selector_screens.tscn
+>>>>>>> 7d97e750ca79d86419a4d32e16c8e018b444c801
 res://src/MainScreens/scripts/home_cmd.gd
