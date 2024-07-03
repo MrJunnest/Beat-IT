@@ -1,5 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
 <<<<<<< HEAD
+<<<<<<< HEAD
 ::res://::1719967075
 icon.svg::CompressedTexture2D::3838539191210772969::1718951759::1719472010::1::::<><>::
 ::res://addons/::1719472009
@@ -1774,6 +1775,8 @@ trans_1.gd::GDScript::-1::1719472010::0::1::::<>CanvasLayer<>::
 ::res://src/Transition/Trans_2/::1719472010
 Trans_2.tscn::PackedScene::3447422660078305955::1719472010::0::1::::<><>::
 =======
+=======
+>>>>>>> parent of e6f5fec (a)
 ::res://::1719967662
 icon.svg::CompressedTexture2D::3057571810608021860::1718935108::1719471749::1::::<><>::
 LICENSE.txt::TextFile::-1::1719471685::0::1::::<><>::
