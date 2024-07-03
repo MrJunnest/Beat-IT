@@ -1,17 +1,17 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1719967662
+::res://::1719972174
 icon.svg::CompressedTexture2D::3057571810608021860::1718935108::1719471749::1::::<><>::
 LICENSE.txt::TextFile::-1::1719471685::0::1::::<><>::
 readme.md::TextFile::-1::1719471685::0::1::::<><>::
 test_debug.tscn::PackedScene::2027595373601992208::1719471685::0::1::::<><>::uid://dsielojpej1td::::res://scenes/test_debug_char.tscn
 ::res://addons/::1719471685
-::res://addons/midi/::1719621933
+::res://addons/midi/::1719967689
 ADSR.gd::GDScript::-1::1719471685::0::1::::AudioStreamPlayerADSR<>AudioStreamPlayer<>::
 ADSR.tscn::PackedScene::2640952828637262918::1719471685::0::1::::<><>::res://addons/midi/ADSR.gd
 Bank.gd::GDScript::-1::1719471685::0::1::::Bank<>RefCounted<>::
 GMP.gd::GDScript::-1::1719471685::0::1::::<>EditorPlugin<>::
 icon.png::CompressedTexture2D::8102590895663672777::1719471685::1719471685::1::::<><>::
-MidiPlayer.gd::GDScript::-1::1719621933::0::1::::MidiPlayer<>Node<>res://addons/midi/icon.png::
+MidiPlayer.gd::GDScript::-1::1719967689::0::1::::MidiPlayer<>Node<>res://addons/midi/icon.png::
 MidiPlayer.tscn::PackedScene::6226392761835080006::1719471685::0::1::::<><>::res://addons/midi/MidiPlayer.gd
 plugin.cfg::TextFile::-1::1719471685::0::1::::<><>::
 SMF.gd::GDScript::-1::1719471685::0::1::::SMF<>RefCounted<>::
@@ -1706,8 +1706,8 @@ LICENSE.md::TextFile::-1::1719471558::0::1::::<><>::
 ::res://src/Characters/::1719471558
 ::res://src/Characters/Ape/::1719471588
 Ape.tscn::PackedScene::3931853742111255618::1719471588::0::1::::<><>::uid://bfja05brjccax::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png<>res://src/Characters/Ape/script/Ape.gd<>uid://cfcoo1u854wak::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump/Jump.png<>uid://dijdigyfu5tt::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit/Hit.png<>uid://b5uj8ll6vc1tf::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run/Run.png<>uid://ddy7b6awp7q2m::::res://assets/characters/Jungle Monkey Platformer/miscellaneous_4_alex.wav
-::res://src/Characters/Ape/script/::1719621934
-Ape.gd::GDScript::-1::1719621934::0::1::::<>CharacterBody2D<>::
+::res://src/Characters/Ape/script/::1719967689
+Ape.gd::GDScript::-1::1719967689::0::1::::<>CharacterBody2D<>::
 ::res://src/Characters/Elementals_water_priestess/::1719471588
 Elementals_water_priestess.tscn::PackedScene::1724143327678979679::1719471588::0::1::::<><>::res://src/Characters/Elementals_water_priestess/Script/Elementals_water_priestess.gd<>uid://colsijajyqug6::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet3.png<>uid://bsms5eqjm87yj::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet2.png<>uid://2oxlvuugndvy::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet4.png<>uid://bnjup87vupgbh::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet.png
 ::res://src/Characters/Elementals_water_priestess/Script/::1719471558
@@ -1736,8 +1736,8 @@ hud.tscn::PackedScene::2290002594008749037::1719471558::0::1::::<><>::uid://dbcb
 ::res://src/Header/::1719471558
 adm-panel.tscn::PackedScene::5011312506538759355::1719471558::0::1::::<><>::uid://di77x7fyeohm7::::res://assets/pictures/adm-panel/download.png
 ::res://src/Levels/::1719471558
-::res://src/Levels/Level_Selector/::1719127627
-selector_screens.tscn::PackedScene::6352335672474438359::1719127627::0::1::::<><>::res://src/Levels/Level_Selector/scripts/selector_screens.gd<>uid://ccv3k4adqgqte::::res://assets/pictures/selector/background.webp<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png
+::res://src/Levels/Level_Selector/::1719969576
+selector_screens.tscn::PackedScene::6352335672474438359::1719969576::0::1::::<><>::res://src/Levels/Level_Selector/scripts/selector_screens.gd<>uid://ccv3k4adqgqte::::res://assets/pictures/selector/background.webp<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png
 ::res://src/Levels/Level_Selector/scripts/::1719471558
 selector_screens.gd::GDScript::-1::1719471558::0::1::::<>Node<>::
 ::res://src/Levels/Map1/::1719471588
@@ -1746,8 +1746,8 @@ Map1.tscn::PackedScene::3467303016428094389::1719471588::0::1::::<><>::res://src
 ::res://src/Levels/Map1/Background/::1719471593
 Background.gdshader::Shader::-1::1719471593::0::1::::<><>::
 Background.tscn::PackedScene::6823434076609899145::1719471558::0::1::::<><>::uid://hpj15o27v5oq::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_1_ground.png<>uid://utxecgyssduv::::res://assets/packs/scrolling-city-background 2/6/Day/1.png<>uid://dbfhjp5xem1mp::::res://assets/packs/scrolling-city-background 2/1/Night/2.png<>uid://ddajc7d7dfo3w::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_3_moon.png<>uid://cympajwk8gcqo::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_6_far_buildings.png<>uid://d0x31d2xphb0e::::res://assets/packs/scrolling-city-background 2/3/Night/2.png<>uid://cbxsdgpcoixgh::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_7_bg_buildings.png<>uid://eoksnds6cqbm::::res://assets/packs/scrolling-city-background 2/1/Night/3.png<>uid://cncrd0efs16qf::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_9_wall.png<>uid://637rbpfxhs4s::::res://assets/packs/scrolling-city-background 2/8/Night/5.png<>uid://cmcc5xgly24m::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_8_fg_buildings.png
-::res://src/Levels/Map1/Script/::1719621934
-Map1.gd::GDScript::-1::1719621934::0::1::::<>Node<>::
+::res://src/Levels/Map1/Script/::1719967689
+Map1.gd::GDScript::-1::1719967689::0::1::::<>Node<>::
 ::res://src/Levels/Map1/Scroll/::1719471558
 Scroll.tscn::PackedScene::1395952157170682222::1719471558::0::1::::<><>::uid://bpmerqpacp14j::::res://assets/pictures/Map_1/ground.png
 ::res://src/Levels/Map2/::1719471558
@@ -1792,18 +1792,18 @@ updown_button_collision.tscn::PackedScene::7612088857404847775::1719472286::0::1
 enemy_note.gd::GDScript::-1::1719472285::0::1::::<>Area2D<>::
 main_game_logic.gd::GDScript::-1::1719472285::0::1::::<>Node2D<>::
 updown_button_collision.gd::GDScript::-1::1719472285::0::1::::<>AnimatedSprite2D<>::
-::res://src/MainScreens/::1719621937
+::res://src/MainScreens/::1719971745
 download.png::CompressedTexture2D::60834593750847934::1719127627::1719127627::1::::<><>::
-home-screen.tscn::PackedScene::4863310352588076539::1719621937::0::1::::<><>::res://src/MainScreens/scripts/home_cmd.gd<>res://src/MainScreens/scrolls/scrollmenu.gdshader<>uid://d3jsblcke2k1q::::res://assets/pictures/home/background.png<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav<>uid://kdnlrisjrr3y::::res://assets/pictures/Main_menu/Title.png<>uid://ix6leokkv33t::::res://assets/pictures/Main_menu/title2.png<>uid://ch31plm0ek43v::::res://assets/pictures/Main_menu/title3.png<>uid://kmptm3vr1c5m::::res://assets/pictures/Main_menu/title4.png<>uid://q1ub8o0184ck::::res://assets/pictures/Main_menu/title5.png<>uid://dv3p4fynghl5e::::res://assets/pictures/Main_menu/title6.png<>uid://dp3c0xaujjmvx::::res://assets/pictures/Main_menu/title7.png<>uid://bq1t2qwga5a5n::::res://assets/pictures/Main_menu/title8.png<>uid://dj7l4aexds4hf::::res://assets/pictures/Main_menu/title9.png<>uid://wdwopfyxvuny::::res://assets/pictures/Main_menu/title10.png<>uid://db20w5fcl5cbg::::res://assets/pictures/Main_menu/title11.png<>uid://bh2j380no7eko::::res://assets/pictures/Main_menu/title12.png<>uid://dtp3phgmd34wo::::res://assets/pictures/Main_menu/title13.png
-::res://src/MainScreens/scripts/::1719479397
-home_cmd.gd::GDScript::-1::1719479397::0::1::::<>Control<>::
+home-screen.tscn::PackedScene::4863310352588076539::1719971745::0::1::::<><>::res://src/MainScreens/scripts/home_cmd.gd<>res://src/MainScreens/scrolls/scrollmenu.gdshader<>uid://d3jsblcke2k1q::::res://assets/pictures/home/background.png<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav<>uid://kdnlrisjrr3y::::res://assets/pictures/Main_menu/Title.png<>uid://ix6leokkv33t::::res://assets/pictures/Main_menu/title2.png<>uid://ch31plm0ek43v::::res://assets/pictures/Main_menu/title3.png<>uid://kmptm3vr1c5m::::res://assets/pictures/Main_menu/title4.png<>uid://q1ub8o0184ck::::res://assets/pictures/Main_menu/title5.png<>uid://dv3p4fynghl5e::::res://assets/pictures/Main_menu/title6.png<>uid://dp3c0xaujjmvx::::res://assets/pictures/Main_menu/title7.png<>uid://bq1t2qwga5a5n::::res://assets/pictures/Main_menu/title8.png<>uid://dj7l4aexds4hf::::res://assets/pictures/Main_menu/title9.png<>uid://wdwopfyxvuny::::res://assets/pictures/Main_menu/title10.png<>uid://db20w5fcl5cbg::::res://assets/pictures/Main_menu/title11.png<>uid://bh2j380no7eko::::res://assets/pictures/Main_menu/title12.png<>uid://dtp3phgmd34wo::::res://assets/pictures/Main_menu/title13.png
+::res://src/MainScreens/scripts/::1719969575
+home_cmd.gd::GDScript::-1::1719969575::0::1::::<>Control<>::
 ::res://src/MainScreens/scrolls/::1719478717
 scrollmenu.gdshader::Shader::-1::1719478717::0::1::::<><>::
-::res://src/MainScreens/test-scenes/::1719621937
-test-button.tscn::PackedScene::350590999930150008::1719621937::0::1::::<><>::uid://deghce8tehkup::::res://assets/pictures/home/a578391add06b6ea5fec02dd19090bc6_400x400.png
+::res://src/MainScreens/test-scenes/::1719969575
+test-button.tscn::PackedScene::350590999930150008::1719969575::0::1::::<><>::uid://deghce8tehkup::::res://assets/pictures/home/a578391add06b6ea5fec02dd19090bc6_400x400.png
 ::res://src/Transition/::1719471558
-::res://src/Transition/Pause/::1719621934
-Pause.gd::GDScript::-1::1719621934::0::1::::<>Node<>::
+::res://src/Transition/Pause/::1719967689
+Pause.gd::GDScript::-1::1719967689::0::1::::<>Node<>::
 Pause.tscn::PackedScene::2721104264589979647::1719471558::0::1::::<><>::res://src/Transition/Pause/Pause.gd<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf
 ::res://src/Transition/Trans_1/::1719471558
 Trans_1.tscn::PackedScene::593642795758482004::1719471558::0::1::::<><>::res://src/Transition/Trans_1/scripts/trans_1.gd
