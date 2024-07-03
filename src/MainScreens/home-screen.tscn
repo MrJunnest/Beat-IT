@@ -96,7 +96,6 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_6sw8h")
 text = "Quit"
 
 [node name="Admin-Panel" type="Button" parent="VBox-Main"]
-visible = false
 layout_mode = 2
 theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
 theme_override_constants/outline_size = 10
@@ -107,9 +106,6 @@ text = "Admin Panel"
 
 [node name="Hitsound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("6_rxdhw")
-volume_db = -20.0
-pitch_scale = 0.7
-mix_target = 2
 
 [connection signal="mouse_entered" from="VBox-Main/Play-Button" to="." method="_on_play_button_mouse_entered"]
 [connection signal="pressed" from="VBox-Main/Play-Button" to="." method="_on_play_button_pressed"]
@@ -117,3 +113,4 @@ mix_target = 2
 [connection signal="pressed" from="VBox-Main/Settings-Button" to="." method="_on_settings_button_pressed"]
 [connection signal="mouse_entered" from="VBox-Main/Quit-Button" to="." method="_on_quit_button_mouse_entered"]
 [connection signal="pressed" from="VBox-Main/Quit-Button" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="VBox-Main/Admin-Panel" to="." method="_on_admin_panel_pressed"]

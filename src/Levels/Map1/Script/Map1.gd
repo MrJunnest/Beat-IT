@@ -1,7 +1,8 @@
 extends Node
 
 #game variables
-const APE_START_POS := Vector2i(65,40)
+var instance
+const APE_START_POS := Vector2i(70,240)
 const CAM_START_POS := Vector2i(600, 320)
 var score: float
 
@@ -12,6 +13,8 @@ var screen_size : Vector2i
 
 func _ready():
 	new_game()
+	randomize()
+	$Conductor.play_with_beat_offset(8)
 	screen_size = get_window().size
 	pass
 
@@ -34,5 +37,3 @@ func _process(_delta):
 	if $Camera2D.position.x - $Scroll.position.x > screen_size.x * 1.5:
 		$Scroll.position.x += screen_size.x
 	
-
-

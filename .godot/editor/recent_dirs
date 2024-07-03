@@ -1,8 +1,13 @@
-res://assets/characters/Little witch/85x56/Sprite sheet
-res://assets/characters/Little witch/85x56/Pngs/Idle Animation
-res://src/Characters/Little_Witch/script
-res://src/Characters/Little_Witch
-res://src/Extra/Conductor
+res://assets/sounds
+res://assets/music
+res://src/BG/Note
+res://assets/pop
+res://src/Levels/Map1
+res://src/Levels/Tests/Test-Signal2
+res://src/Levels/Tests/Test-Signals
+res://
+res://assets/pictures/enemy/Slime
+res://src/Obstacles/Antena
 res://src/Extra/HitChart/script
 res://src/Extra/HUD
 res://src/Levels/Map1/Script
@@ -10,13 +15,7 @@ res://src/Extra/HitChart
 res://src/Levels/Tests/shader
 res://src/Levels/Map1/Background
 res://src/Characters/Ape/script
-res://src/Levels/Map1
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle
-res://assets/characters/Jungle Monkey Platformer/CUT-Jump
-res://assets/characters/Jungle Monkey Platformer/CUT-Idle
-res://src/Transition/Trans_2
-res://src/Transition/Trans_1/scripts
-res://src/Transition/Trans_1
