@@ -33,9 +33,11 @@ visible = false
 visible = false
 
 [node name="Ape" parent="." instance=ExtResource("3_am1wm")]
+visible = false
 position = Vector2(58, 26)
 
 [node name="Little_Elvis" parent="." instance=ExtResource("8_pwo3o")]
+visible = false
 position = Vector2(105, 497)
 
 [node name="Little_Witch" parent="." instance=ExtResource("8_wlbno")]
