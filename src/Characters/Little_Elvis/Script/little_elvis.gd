@@ -1,7 +1,12 @@
 extends CharacterBody2D
 
+#var gravity := ProjectSettings.get("physics/2d/default_gravity") as float
+#func _physics_process(delta: float) -> void:
+	#velocity.y += gravity * delta
+	#move_and_slide()
+
 # Posiciones de teletransporte
-@export var going_up = Vector2(155, 450)
+@export var going_up = Vector2(155, 400)
 @export var going_down = Vector2(155, 550)
 @export var START = Vector2i(155,550)
 

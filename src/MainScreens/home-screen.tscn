@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://cbj3amxdytmxf"]
+[gd_scene load_steps=13 format=3 uid="uid://cbj3amxdytmxf"]
 
 [ext_resource type="Script" path="res://src/MainScreens/scripts/home_cmd.gd" id="1_0nq01"]
 [ext_resource type="Shader" path="res://src/MainScreens/scrolls/scrollmenu.gdshader" id="2_el4xk"]
@@ -25,6 +25,8 @@ region_rect = Rect2(113, 98, 30, 13)
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1i8qv"]
 texture = ExtResource("5_xxsu8")
 region_rect = Rect2(113, 98, 30, 13)
+
+[sub_resource type="GDScript" id="GDScript_b1mkt"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -109,6 +111,9 @@ stream = ExtResource("6_rxdhw")
 volume_db = -20.0
 pitch_scale = 0.7
 mix_target = 2
+
+[node name="Node" type="Node" parent="."]
+script = SubResource("GDScript_b1mkt")
 
 [connection signal="mouse_entered" from="VBox-Main/Play-Button" to="." method="_on_play_button_mouse_entered"]
 [connection signal="pressed" from="VBox-Main/Play-Button" to="." method="_on_play_button_pressed"]

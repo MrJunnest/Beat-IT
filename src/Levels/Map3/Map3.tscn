@@ -1,0 +1,66 @@
+[gd_scene load_steps=14 format=3 uid="uid://b63gehypwm6hu"]
+
+[ext_resource type="Script" path="res://src/Levels/Map3/Script/Map3.gd" id="1_o0bh6"]
+[ext_resource type="PackedScene" uid="uid://brkyd827hpk26" path="res://src/Levels/Map3/Background/map_3_background.tscn" id="2_hdjsv"]
+[ext_resource type="PackedScene" uid="uid://dsw1e7c82xsd3" path="res://src/Levels/Map2/Scroll/scroll.tscn" id="4_xpvrv"]
+[ext_resource type="PackedScene" uid="uid://c62ulywtyxpu6" path="res://src/Characters/Little_Elvis/little_elvis.tscn" id="5_2dcm6"]
+[ext_resource type="PackedScene" uid="uid://dv8pm11dyd1p" path="res://src/Characters/Little_Witch/little_witch.tscn" id="5_55l1b"]
+[ext_resource type="PackedScene" uid="uid://ytgnhlylgqpb" path="res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn" id="6_oj5w6"]
+[ext_resource type="PackedScene" uid="uid://c2ti566slfiws" path="res://src/Extra/HitChart/hit_chart.tscn" id="7_gt3g2"]
+[ext_resource type="PackedScene" uid="uid://7vkajok2ya66" path="res://src/Extra/HUD/hud.tscn" id="8_lkd33"]
+[ext_resource type="PackedScene" uid="uid://be1egpjfr8n0b" path="res://src/Transition/Pause/Pause.tscn" id="9_nubcy"]
+[ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="10_xsfcn"]
+[ext_resource type="Texture2D" uid="uid://8lqbix2eiyxo" path="res://assets/packs/GUI_1/GUI.png" id="11_gmdg4"]
+
+[sub_resource type="GDScript" id="GDScript_hqued"]
+script/source = "extends ParallaxBackground
+"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_etocg"]
+texture = ExtResource("11_gmdg4")
+region_rect = Rect2(113, 98, 30, 13)
+
+[node name="Main" type="Node"]
+script = ExtResource("1_o0bh6")
+
+[node name="Map3_Background" parent="." instance=ExtResource("2_hdjsv")]
+script = SubResource("GDScript_hqued")
+
+[node name="Map_Scroll" parent="." instance=ExtResource("4_xpvrv")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(600, 320)
+offset = Vector2(-24, 4)
+
+[node name="Little_Witch" parent="." instance=ExtResource("5_55l1b")]
+unique_name_in_owner = true
+position = Vector2(136, -586)
+
+[node name="Little_Elvis" parent="." instance=ExtResource("5_2dcm6")]
+unique_name_in_owner = true
+position = Vector2(263, -42)
+
+[node name="Elementals_water_priestess" parent="." instance=ExtResource("6_oj5w6")]
+unique_name_in_owner = true
+position = Vector2(355, -72)
+
+[node name="HitChart" parent="." instance=ExtResource("7_gt3g2")]
+visible = false
+
+[node name="HUD" parent="." instance=ExtResource("8_lkd33")]
+
+[node name="Pause" parent="." instance=ExtResource("9_nubcy")]
+visible = false
+
+[node name="Menu" type="Button" parent="."]
+offset_left = 17.0
+offset_top = 7.0
+offset_right = 133.0
+offset_bottom = 58.0
+theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("10_xsfcn")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_etocg")
+text = "Menu
+"

@@ -1,28 +1,38 @@
-# MapSelector.gd
 extends Control
 
-func _on_test_1_level_pressed():
-	Global.selected_map = "res://src/Levels/Map1/Map1.tscn"
-	print("Selected map: Map1")
-	start_game()
 
-func _on_test_2_level_pressed():
-	Global.selected_map = "res://src/Levels/Map4/Map4.tscn"
-	print("Selected map: Map4")
-	start_game()
+func _on_map_1_pressed():
+	get_tree().change_scene_to_file("res://src/Levels/Map1/Map1.tscn")
 
-func start_game():
-	if Global.selected_character != "" and Global.selected_map != "":
-		get_tree().change_scene_to_file(Global.selected_map)
-		var player
-		# 配置玩家角色
-		if Global.selected_character == "Witch":
-			player = load("res://path/to/Witch.tscn").instance()
-		elif Global.selected_character == "Elvis":
-			player = load("res://path/to/Elvis.tscn").instance()
-		elif Global.selected_character == "WaterPriestess":
-			player = load("res://path/to/WaterPriestess.tscn").instance()
-		# 将角色添加到新场景中
-		get_tree().current_scene.add_child(player)
-	else:
-		print("Character or map not selected!")
+func _on_map_2_pressed():
+	get_tree().change_scene_to_file("res://src/Levels/Map2/Map2.tscn")
+
+func _on_map_3_pressed():
+	get_tree().change_scene_to_file("res://src/Levels/Map3/Map3.tscn")
+
+func _on_map_4_pressed():
+	get_tree().change_scene_to_file("res://src/Levels/Map4/Map4.tscn")
+
+func _on_map_5_pressed():
+	get_tree().change_scene_to_file("res://src/Levels/Map5/map_5.tscn")
+
+func _on_back_pressed():
+	get_tree().change_scene_to_file("res://src/Levels/Characters_Selector/characters_selector.tscn")
+
+func _on_map_1_mouse_entered():
+	$Hitsound.play()
+	
+func _on_map_2_mouse_entered():
+	$Hitsound.play()
+
+func _on_map_3_mouse_entered():
+	$Hitsound.play()
+	
+func _on_map_4_mouse_entered():
+	$Hitsound.play()
+	
+func _on_map_5_mouse_entered():
+	$Hitsound.play()
+	
+func _on_back_mouse_entered():
+	$Hitsound.play()

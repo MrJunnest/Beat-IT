@@ -1,3 +1,4 @@
+res://src/Levels
 res://src
 res://assets/characters/Little witch/69x56/Sprite sheet
 res://src/Levels/Characters_Selector/scripts
@@ -19,4 +20,3 @@ res://src/Levels/Map3
 res://src/Levels/Map3/Background
 res://src/Levels/Map2/Script
 res://src/Levels/Map2/Scroll
-res://src/Levels/Map2/Background
