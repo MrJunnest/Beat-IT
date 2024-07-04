@@ -13,3 +13,5 @@ res://src/Extra/Intro/Intro.gd
 res://src/MainScreens/scripts/home_cmd.gd
 res://src/Extra/MainScreen/Main.tscn
 res://src/Extra/MainScreen/Main.gd
+res://src/Levels/Map1/Scroll/Scroll.tscn
+res://src/Characters/Ape/Ape.tscn

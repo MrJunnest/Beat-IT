@@ -1,12 +1,10 @@
-[gd_scene load_steps=44 format=3 uid="uid://bwavb6r2uk555"]
+[gd_scene load_steps=40 format=3 uid="uid://bwavb6r2uk555"]
 
 [ext_resource type="Texture2D" uid="uid://bfja05brjccax" path="res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png" id="1_jcw4t"]
 [ext_resource type="Script" path="res://src/Characters/Ape/script/Ape.gd" id="1_w34g3"]
 [ext_resource type="Texture2D" uid="uid://cfcoo1u854wak" path="res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump/Jump.png" id="2_ko2yw"]
 [ext_resource type="Texture2D" uid="uid://dijdigyfu5tt" path="res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit/Hit.png" id="3_d6q1i"]
 [ext_resource type="Texture2D" uid="uid://b5uj8ll6vc1tf" path="res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run/Run.png" id="4_qsaq4"]
-[ext_resource type="AudioStream" uid="uid://ddy7b6awp7q2m" path="res://assets/characters/Jungle Monkey Platformer/miscellaneous_4_alex.wav" id="6_rhvn5"]
-[ext_resource type="Texture2D" uid="uid://wq4v756w1nxg" path="res://assets/pictures/HitChart.png" id="7_en123"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a6iry"]
 atlas = ExtResource("1_jcw4t")
@@ -258,13 +256,7 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ay6tb"]
 size = Vector2(77, 112)
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_6uuf8"]
-radius = 69.0507
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_nyrbd"]
-radius = 70.342
-
-[node name="Ape" type="CharacterBody2D"]
+[node name="Ape" type="Area2D"]
 z_index = 1
 position = Vector2(40, 260)
 script = ExtResource("1_w34g3")
@@ -279,36 +271,4 @@ animation = &"Run"
 position = Vector2(40, 260)
 shape = SubResource("RectangleShape2D_ay6tb")
 
-[node name="extends CanvasLayervar inside_area_UP = falsevar selected_key = 0 var position# Called when the node enters the scene tree for the first time_func _ready()_pass # Replace with function body_# Called every frame_ \'delta\' is the elapsed time since the previous frame_func _process(delta)_if inside_area_UP_passfunc spawn(key_int, pos_Vector2) -> void_position = posmatch key_0_selected_key = KEY_UP1_selected_key = KEY_DOWNpassfunc _on_hit_up_area_entered(area)_inside_area_UP = truepass # Replace with function body_func _on_hit_up_area_exited(area)_inside_area_UP = falsepass # Replace with function body_" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("6_rhvn5")
-volume_db = 0.5
-
-[node name="Box" type="VBoxContainer" parent="."]
-visible = false
-modulate = Color(1, 1, 1, 0.407843)
-offset_left = 134.0
-offset_top = 286.0
-offset_right = 281.0
-offset_bottom = 552.0
-
-[node name="HitUP" type="Area2D" parent="Box"]
-position = Vector2(68, -136)
-
-[node name="UP" type="Sprite2D" parent="Box/HitUP"]
-scale = Vector2(0.5, 0.5)
-texture = ExtResource("7_en123")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Box/HitUP"]
-scale = Vector2(0.5, 0.5)
-shape = SubResource("CircleShape2D_6uuf8")
-
-[node name="HitDown" type="Area2D" parent="Box"]
-position = Vector2(67, -8)
-
-[node name="Down" type="Sprite2D" parent="Box/HitDown"]
-scale = Vector2(0.5, 0.5)
-texture = ExtResource("7_en123")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Box/HitDown"]
-scale = Vector2(0.5, 0.5)
-shape = SubResource("CircleShape2D_nyrbd")
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

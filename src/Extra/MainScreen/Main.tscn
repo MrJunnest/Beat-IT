@@ -117,6 +117,7 @@ theme_override_font_sizes/font_size = 90
 text = "MAIN"
 
 [node name="Label" type="Label" parent="Label"]
+layout_mode = 0
 offset_left = 64.0
 offset_top = 75.0
 offset_right = 405.0

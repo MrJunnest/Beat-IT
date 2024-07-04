@@ -1,3 +1,6 @@
+Area2D
+CanvasLayer
+StaticBody2D
 AudioStreamPlayer
 AudioStreamPlayer2D
 Label
@@ -7,8 +10,5 @@ ColorRect
 AnimationPlayer
 Sprite2D
 Node
-Area2D
 Node2D
 Timer
-CPUParticles2D
-CollisionShape2D
