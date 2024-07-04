@@ -44,7 +44,10 @@ func _process(_delta):
 	$Little_Elvis/Body.position.x += speed
 	$Elementals_water_priestess/Body.position.x += speed
 	$Camera2D.position.x += speed
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 	
 	if $Camera2D.position.x - $Map_Scroll.position.x > screen_size.x * 1.5:
 		$Map_Scroll.position.x += screen_size.x
