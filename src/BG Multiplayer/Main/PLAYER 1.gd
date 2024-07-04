@@ -23,7 +23,7 @@ var spawn_4_beat = 0
 
 var lane = 0
 var rand = 0
-var note1 = load("res://src/BG Multiplayer/Notes/Notes 1/Notes 1.tscn")
+var note = load("res://src/BG Multiplayer/Notes/Notes 1/Notes 1.tscn")
 var instance
 
 
@@ -122,14 +122,14 @@ func _on_Conductor_beat(position):
 func _spawn_notes(to_spawn):
 	if to_spawn > 0:
 		lane = randi() % 2
-		instance = note1.instantiate()
+		instance = note.instantiate()
 		instance.initialize(lane)
 		add_child(instance)
 	if to_spawn > 1:
 		while rand == lane:
 			rand = randi() % 2
 		lane = rand
-		instance = note1.instantiate()
+		instance = note.instantiate()
 		instance.initialize(lane)
 		add_child(instance)
 		

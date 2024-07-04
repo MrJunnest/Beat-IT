@@ -1,12 +1,16 @@
-res://src/MainScreens/home-screen.tscn
+res://src/Extra/MainScreen/Main.tscn
+res://src/BG/HitChart/HitChart.gd
+res://src/BG/Note/Note.gd
 res://src/Characters/Ape/script/Ape.gd
 res://src/Levels/Map1/Script/Map1.gd
 res://src/Transition/Pause/Pause.gd
-res://src/Extra/MainScreen/Main.tscn
-res://src/MainScreens/scripts/settings.tscn
-res://src/Extra/MainScreen/Main.gd
-res://src/MainScreens/scripts/home_cmd.gd
-res://src/Extra/MainScreen/settings.tscn
-res://src/MainScreens/settings/credits.gd
-res://src/MainScreens/settings/credits.tscn
-res://src/Extra/MainScreen/settings.gd
+res://src/Levels/Map1/Map1.tscn
+res://src/BG/HitChart/HitChart.tscn
+res://src/BG/Game/Game.tscn
+res://src/BG Multiplayer/Main/Main.tscn
+res://src/BG/Note/Note.tscn
+res://src/BG Multiplayer/Notes/Notes 1/Notes 1.tscn
+res://src/BG Multiplayer/Notes/Notes 2/Notes 2.tscn
+res://src/BG/Conductor/Conductor.tscn
+res://src/BG Multiplayer/Main/PLAYER 1.gd
+res://src/Characters/Ape/Ape.tscn

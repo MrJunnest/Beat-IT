@@ -44,7 +44,7 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_iusot"]
 radius = 41.1096
 
-[node name="Notes1" type="Area2D" groups=["note1"]]
+[node name="Notes1" type="Area2D" groups=["note"]]
 position = Vector2(91, 87)
 scale = Vector2(0.5, 0.5)
 script = ExtResource("1_m0tkj")
@@ -52,7 +52,7 @@ script = ExtResource("1_m0tkj")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 scale = Vector2(6, 6)
 sprite_frames = SubResource("SpriteFrames_5medk")
-frame_progress = 0.8062
+frame_progress = 0.746224
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_iusot")
