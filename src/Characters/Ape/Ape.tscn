@@ -254,7 +254,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ay6tb"]
-size = Vector2(77, 112)
+size = Vector2(27.5, 103)
 
 [node name="Ape" type="Area2D"]
 z_index = 1
@@ -262,13 +262,13 @@ position = Vector2(40, 260)
 script = ExtResource("1_w34g3")
 
 [node name="Body" type="AnimatedSprite2D" parent="."]
-position = Vector2(40, 260)
+position = Vector2(20, 260)
 scale = Vector2(4.0625, 4)
 sprite_frames = SubResource("SpriteFrames_koa7f")
 animation = &"Run"
 
 [node name="Collision-Run" type="CollisionShape2D" parent="."]
-position = Vector2(40, 260)
+position = Vector2(15.25, 255.5)
 shape = SubResource("RectangleShape2D_ay6tb")
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]

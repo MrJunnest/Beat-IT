@@ -201,7 +201,7 @@ animations = [{
 size = Vector2(75, 125.75)
 
 [node name="Little_Elvis" type="CharacterBody2D"]
-position = Vector2(94, 550)
+position = Vector2(104, 546)
 script = ExtResource("1_4563o")
 
 [node name="Body" type="AnimatedSprite2D" parent="."]

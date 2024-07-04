@@ -5,10 +5,12 @@
 [node name="HUD" type="CanvasLayer"]
 
 [node name="Label" type="Label" parent="."]
-offset_left = 50.0
-offset_top = 50.0
-offset_right = 310.0
-offset_bottom = 160.0
+offset_left = 460.0
+offset_top = 9.0
+offset_right = 608.0
+offset_bottom = 54.0
+size_flags_horizontal = 4
+size_flags_vertical = 3
 theme_override_fonts/font = ExtResource("1_2cwhn")
-theme_override_font_sizes/font_size = 25
-text = "SCORE:"
+theme_override_font_sizes/font_size = 40
+text = "SCORE: 0"

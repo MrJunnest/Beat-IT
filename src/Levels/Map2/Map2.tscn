@@ -1,9 +1,19 @@
-[gd_scene load_steps=5 format=3 uid="uid://snyaihfknssa"]
+[gd_scene load_steps=12 format=3 uid="uid://snyaihfknssa"]
 
 [ext_resource type="Script" path="res://src/Levels/Map2/Script/Map2.gd" id="1_h3l3k"]
 [ext_resource type="PackedScene" uid="uid://dvb2k4uxgndq8" path="res://src/Levels/Map2/Background/Background.tscn" id="2_3e5ch"]
 [ext_resource type="PackedScene" uid="uid://dsw1e7c82xsd3" path="res://src/Levels/Map2/Scroll/scroll.tscn" id="3_m3duc"]
 [ext_resource type="PackedScene" uid="uid://dv8pm11dyd1p" path="res://src/Characters/Little_Witch/little_witch.tscn" id="4_4kjpo"]
+[ext_resource type="PackedScene" uid="uid://c62ulywtyxpu6" path="res://src/Characters/Little_Elvis/little_elvis.tscn" id="5_dt7qw"]
+[ext_resource type="PackedScene" uid="uid://ytgnhlylgqpb" path="res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn" id="6_qsak6"]
+[ext_resource type="PackedScene" uid="uid://7vkajok2ya66" path="res://src/Extra/HUD/hud.tscn" id="8_vx6de"]
+[ext_resource type="PackedScene" uid="uid://be1egpjfr8n0b" path="res://src/Transition/Pause/Pause.tscn" id="9_wvf3d"]
+[ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="10_s7tfr"]
+[ext_resource type="Texture2D" uid="uid://8lqbix2eiyxo" path="res://assets/packs/GUI_1/GUI.png" id="11_ybeas"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_sollv"]
+texture = ExtResource("11_ybeas")
+region_rect = Rect2(113, 98, 30, 13)
 
 [node name="Main" type="Node"]
 script = ExtResource("1_h3l3k")
@@ -13,7 +23,37 @@ script = ExtResource("1_h3l3k")
 [node name="Map_Scroll" parent="." instance=ExtResource("3_m3duc")]
 
 [node name="Camera2D" type="Camera2D" parent="."]
-visible = false
 position = Vector2(600, 320)
+offset = Vector2(-25, 4)
 
 [node name="Little_Witch" parent="." instance=ExtResource("4_4kjpo")]
+unique_name_in_owner = true
+position = Vector2(737, -577)
+
+[node name="Little_Elvis" parent="." instance=ExtResource("5_dt7qw")]
+unique_name_in_owner = true
+position = Vector2(377, -44)
+
+[node name="Elementals_water_priestess" parent="." instance=ExtResource("6_qsak6")]
+unique_name_in_owner = true
+position = Vector2(-4, -77)
+
+[node name="HUD" parent="." instance=ExtResource("8_vx6de")]
+
+[node name="Pause" parent="." instance=ExtResource("9_wvf3d")]
+visible = false
+
+[node name="Menu" type="Button" parent="."]
+offset_left = 17.0
+offset_top = 7.0
+offset_right = 133.0
+offset_bottom = 58.0
+theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("10_s7tfr")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_sollv")
+text = "Menu
+"
+
+[connection signal="pressed" from="Menu" to="." method="_on_menu_pressed"]

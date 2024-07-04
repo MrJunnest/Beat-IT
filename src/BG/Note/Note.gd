@@ -12,7 +12,7 @@ var hit = false
 
 func _ready():
 	pass
-	
+
 func _process(delta):
 	$AnimatedSprite2D.play("default")
 	$AnimatedSprite2D.flip_h = true  # Asegúrate de que no esté volteado horizontalmente
@@ -36,7 +36,7 @@ func initialize(lane):
 	else:
 		printerr("Invalid lane set for note: " + str(lane))
 		return
-	speed = DIST_TO_TARGET / 2.0
+	speed = DIST_TO_TARGET * 1.5 #/ 2.0
 
 func destroy(score):
 	$Hitsound.play(0.2)

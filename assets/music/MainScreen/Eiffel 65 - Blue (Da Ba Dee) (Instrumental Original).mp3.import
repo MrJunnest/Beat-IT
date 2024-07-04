@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bm8anycphen1a"
+path="res://.godot/imported/Eiffel 65 - Blue (Da Ba Dee) (Instrumental Original).mp3-5f0b0cc8406a9d112ea97d919298adca.mp3str"
+
+[deps]
+
+source_file="res://assets/music/MainScreen/Eiffel 65 - Blue (Da Ba Dee) (Instrumental Original).mp3"
+dest_files=["res://.godot/imported/Eiffel 65 - Blue (Da Ba Dee) (Instrumental Original).mp3-5f0b0cc8406a9d112ea97d919298adca.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

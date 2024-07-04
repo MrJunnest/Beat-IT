@@ -294,6 +294,9 @@ text = "MENU"
 
 [node name="Hitsound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_imbvv")
+volume_db = -20.0
+pitch_scale = 0.7
+mix_target = 2
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
 

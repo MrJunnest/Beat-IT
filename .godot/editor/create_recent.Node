@@ -1,7 +1,10 @@
 Area2D
 CanvasLayer
-StaticBody2D
+Node2D
 AudioStreamPlayer
+AudioListener2D
+CharacterBody2D
+StaticBody2D
 AudioStreamPlayer2D
 Label
 Button
@@ -9,6 +12,3 @@ VBoxContainer
 ColorRect
 AnimationPlayer
 Sprite2D
-Node
-Node2D
-Timer
