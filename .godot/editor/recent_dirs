@@ -1,5 +1,4 @@
-res://assets/music/GAMEPLAY/Chachacha - Jose Log
-res://assets/music/GAMEPLAY/Cupid - Fifty Fifty
+res://assets/music/GAMEPLAY/AnimalsGirls
 res://assets/music/GAMEPLAY/Fiesta Pagana - Mago de Oz
 res://src/Extra/MainScreen
 res://assets/pictures
@@ -19,4 +18,3 @@ res://src/Extra/HUD
 res://src/Levels/Map1/Script
 res://src/Extra/HitChart
 res://src/Levels/Tests/shader
-res://src/Levels/Map1/Background

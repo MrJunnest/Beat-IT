@@ -1,6 +1,6 @@
+CanvasLayer
 Area2D
 CharacterBody2D
-CanvasLayer
 StaticBody2D
 AudioStreamPlayer
 AudioStreamPlayer2D

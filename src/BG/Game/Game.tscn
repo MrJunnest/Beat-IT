@@ -1,9 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://crc8d5r8r057w"]
+[gd_scene load_steps=4 format=3 uid="uid://crc8d5r8r057w"]
 
 [ext_resource type="Script" path="res://src/BG/Game/Game.gd" id="1_cx3i0"]
 [ext_resource type="PackedScene" uid="uid://m5agv6axbsc6" path="res://src/BG/HitChart/HitChart.tscn" id="1_qoux8"]
 [ext_resource type="PackedScene" uid="uid://d3i85vy85kakk" path="res://src/BG/Conductor/Conductor.tscn" id="3_g65b7"]
-[ext_resource type="AudioStream" uid="uid://ch20oaf2ca2e" path="res://assets/music/GAMEPLAY/Chachacha - Jose Log/112 4.mp3" id="4_7bj8n"]
 
 [node name="Game" type="CanvasLayer"]
 script = ExtResource("1_cx3i0")
@@ -39,6 +38,5 @@ text = "aaa"
 metadata/_edit_use_anchors_ = true
 
 [node name="Conductor" parent="." instance=ExtResource("3_g65b7")]
-stream = ExtResource("4_7bj8n")
-bpm = 112
-measures = 4
+bpm = 180
+measures = 3
