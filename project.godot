@@ -22,6 +22,15 @@ Conductor="*res://src/Extra/Conductor/Conductor.tscn"
 Trans_1="res://src/Transition/Trans_1/Trans_1.tscn"
 <<<<<<<HEADGlobal="*res://src/Global.gd"
 Trans1="*res://src/Transition/Trans_1.tscn"
+Brigtness="*res://src/MainScreens/Brigtness.tscn"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/mode=2
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
 
 [display]
 

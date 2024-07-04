@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://cbj3amxdytmxf"]
+[gd_scene load_steps=40 format=3 uid="uid://cbj3amxdytmxf"]
 
 [ext_resource type="Script" path="res://src/MainScreens/scripts/home_cmd.gd" id="1_0nq01"]
 [ext_resource type="Shader" path="res://src/MainScreens/scrolls/scrollmenu.gdshader" id="2_el4xk"]
@@ -6,9 +6,122 @@
 [ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="4_7s52y"]
 [ext_resource type="Texture2D" uid="uid://8lqbix2eiyxo" path="res://assets/packs/GUI_1/GUI.png" id="5_xxsu8"]
 [ext_resource type="AudioStream" uid="uid://x0cguunbcqs" path="res://assets/sounds/MI_SFX 43.wav" id="6_rxdhw"]
+[ext_resource type="Texture2D" uid="uid://kdnlrisjrr3y" path="res://assets/pictures/Main_menu/Title.png" id="7_stecg"]
+[ext_resource type="Texture2D" uid="uid://ix6leokkv33t" path="res://assets/pictures/Main_menu/title2.png" id="8_fwvi0"]
+[ext_resource type="Texture2D" uid="uid://ch31plm0ek43v" path="res://assets/pictures/Main_menu/title3.png" id="9_yqmdb"]
+[ext_resource type="Texture2D" uid="uid://kmptm3vr1c5m" path="res://assets/pictures/Main_menu/title4.png" id="10_kjl3f"]
+[ext_resource type="Texture2D" uid="uid://q1ub8o0184ck" path="res://assets/pictures/Main_menu/title5.png" id="11_omnbi"]
+[ext_resource type="Texture2D" uid="uid://dv3p4fynghl5e" path="res://assets/pictures/Main_menu/title6.png" id="12_ttdku"]
+[ext_resource type="Texture2D" uid="uid://dp3c0xaujjmvx" path="res://assets/pictures/Main_menu/title7.png" id="13_bein4"]
+[ext_resource type="Texture2D" uid="uid://bq1t2qwga5a5n" path="res://assets/pictures/Main_menu/title8.png" id="14_v70t4"]
+[ext_resource type="Texture2D" uid="uid://dj7l4aexds4hf" path="res://assets/pictures/Main_menu/title9.png" id="15_5ua82"]
+[ext_resource type="Texture2D" uid="uid://wdwopfyxvuny" path="res://assets/pictures/Main_menu/title10.png" id="16_bpfpf"]
+[ext_resource type="Texture2D" uid="uid://db20w5fcl5cbg" path="res://assets/pictures/Main_menu/title11.png" id="17_2x2vn"]
+[ext_resource type="Texture2D" uid="uid://bh2j380no7eko" path="res://assets/pictures/Main_menu/title12.png" id="18_1bw2q"]
+[ext_resource type="Texture2D" uid="uid://dtp3phgmd34wo" path="res://assets/pictures/Main_menu/title13.png" id="19_anwk3"]
+[ext_resource type="PackedScene" uid="uid://dbovkios5xgxw" path="res://src/MainScreens/settings/settings.tscn" id="20_554bb"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_2oq44"]
 shader = ExtResource("2_el4xk")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bval0"]
+atlas = ExtResource("7_stecg")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g3lx8"]
+atlas = ExtResource("8_fwvi0")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cjs2g"]
+atlas = ExtResource("9_yqmdb")
+region = Rect2(0, 0, 493, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_66k7m"]
+atlas = ExtResource("10_kjl3f")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ybvk"]
+atlas = ExtResource("11_omnbi")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5gon3"]
+atlas = ExtResource("12_ttdku")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e3k4b"]
+atlas = ExtResource("13_bein4")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y6rbm"]
+atlas = ExtResource("14_v70t4")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pksb7"]
+atlas = ExtResource("15_5ua82")
+region = Rect2(0, 0, 493, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ctdpg"]
+atlas = ExtResource("16_bpfpf")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ywt4d"]
+atlas = ExtResource("17_2x2vn")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mmhn3"]
+atlas = ExtResource("18_1bw2q")
+region = Rect2(0, 0, 493, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i6x0k"]
+atlas = ExtResource("19_anwk3")
+region = Rect2(0, 0, 493, 133)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o5w6f"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bval0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g3lx8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cjs2g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_66k7m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ybvk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5gon3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e3k4b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y6rbm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pksb7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ctdpg")
+}, {
+"duration": 1.1,
+"texture": SubResource("AtlasTexture_ywt4d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mmhn3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i6x0k")
+}],
+"loop": true,
+"name": &"default",
+"speed": 9.0
+}]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gp1j2"]
 texture = ExtResource("5_xxsu8")
@@ -26,7 +139,7 @@ region_rect = Rect2(113, 98, 30, 13)
 texture = ExtResource("5_xxsu8")
 region_rect = Rect2(113, 98, 30, 13)
 
-[node name="Control2" type="Control"]
+[node name="Control" type="Control"]
 layout_mode = 3
 anchor_left = 0.00520833
 anchor_top = -0.00154321
@@ -40,16 +153,9 @@ metadata/_edit_use_anchors_ = true
 [node name="Background" type="TextureRect" parent="."]
 texture_repeat = 2
 material = SubResource("ShaderMaterial_2oq44")
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -3.0
-offset_right = 9290.0
-offset_bottom = 5370.0
-grow_horizontal = 2
-grow_vertical = 2
-scale = Vector2(0.11, 0.11)
+layout_mode = 2
+offset_right = 4032.0
+offset_bottom = 1876.0
 texture = ExtResource("3_yowau")
 
 [node name="VBox-Main" type="VBoxContainer" parent="."]
@@ -66,6 +172,14 @@ offset_bottom = 237.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 10
+
+[node name="Title" type="AnimatedSprite2D" parent="VBox-Main"]
+editor_description = "gay title"
+position = Vector2(180.332, -146.889)
+scale = Vector2(1.8, 1.8)
+skew = 0.179769
+sprite_frames = SubResource("SpriteFrames_o5w6f")
+frame_progress = 0.764107
 
 [node name="Play-Button" type="Button" parent="VBox-Main"]
 layout_mode = 2
@@ -109,6 +223,10 @@ stream = ExtResource("6_rxdhw")
 volume_db = -20.0
 pitch_scale = 0.7
 mix_target = 2
+
+[node name="Settings_menu" parent="." instance=ExtResource("20_554bb")]
+visible = false
+layout_mode = 1
 
 [connection signal="mouse_entered" from="VBox-Main/Play-Button" to="." method="_on_play_button_mouse_entered"]
 [connection signal="pressed" from="VBox-Main/Play-Button" to="." method="_on_play_button_pressed"]

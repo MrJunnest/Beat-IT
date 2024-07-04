@@ -1,28 +1,38 @@
-# MapSelector.gd
-extends Control
+extends Node
 
-func _on_test_1_level_pressed():
-	Global.selected_map = "res://src/Levels/Map1/Map1.tscn"
-	print("Selected map: Map1")
-	start_game()
+# Variables
+var speed: float = 100.0
 
-func _on_test_2_level_pressed():
-	Global.selected_map = "res://src/Levels/Map4/Map4.tscn"
-	print("Selected map: Map4")
-	start_game()
+# Referencias a los nodos, inicializadas en _ready()
+var background: Sprite
+var scroll: StaticBody2D
+var ape: CharacterBody2D
+var camera: Camera2D
+var scroll_shape: CollisionShape2D
 
-func start_game():
-	if Global.selected_character != "" and Global.selected_map != "":
-		get_tree().change_scene_to_file(Global.selected_map)
-		var player
-		# 配置玩家角色
-		if Global.selected_character == "Witch":
-			player = load("res://path/to/Witch.tscn").instance()
-		elif Global.selected_character == "Elvis":
-			player = load("res://path/to/Elvis.tscn").instance()
-		elif Global.selected_character == "WaterPriestess":
-			player = load("res://path/to/WaterPriestess.tscn").instance()
-		# 将角色添加到新场景中
-		get_tree().current_scene.add_child(player)
-	else:
-		print("Character or map not selected!")
+func _ready():
+	# Asume que los nodos están en rutas específicas, ajusta según sea necesario
+	background = get_node("/root/YourScene/Background") as Sprite
+	ape = get_node("/root/YourScene/Ape") as CharacterBody2D
+	camera = get_node("/root/YourScene/Camera2D") as Camera2D
+
+	# Accede a nodos instanciados en el árbol de nodos
+	scroll = get_node("/root/Map/Scroll") as StaticBody2D
+	scroll_shape = scroll.get_node("CollisionShape2D") as CollisionShape2D
+
+func _process(delta):
+	# Mover el fondo de derecha a izquierda de forma infinita
+	background.position.x -= speed * delta
+	if background.position.x < -background.texture.get_size().x:
+		background.position.x += background.texture.get_size().x
+
+	# Mover el objeto Scroll de derecha a izquierda de forma infinita
+	scroll.position.x -= speed * delta
+	var extents_x = scroll_shape.shape.extents.x
+	if scroll.position.x < -extents_x * 2:
+		scroll.position.x += get_viewport_rect().size.x + extents_x * 2
+
+	# El personaje Ape no se moverá automáticamente en este script
+
+	# La cámara puede seguir al personaje o mantenerse estática si lo prefieres
+	camera.position = ape.position
