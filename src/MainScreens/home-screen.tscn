@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=3 uid="uid://cbj3amxdytmxf"]
+[gd_scene load_steps=40 format=3 uid="uid://cbj3amxdytmxf"]
 
 [ext_resource type="Script" path="res://src/MainScreens/scripts/home_cmd.gd" id="1_0nq01"]
 [ext_resource type="Shader" path="res://src/MainScreens/scrolls/scrollmenu.gdshader" id="2_el4xk"]
@@ -19,25 +19,10 @@
 [ext_resource type="Texture2D" uid="uid://db20w5fcl5cbg" path="res://assets/pictures/Main_menu/title11.png" id="17_2x2vn"]
 [ext_resource type="Texture2D" uid="uid://bh2j380no7eko" path="res://assets/pictures/Main_menu/title12.png" id="18_1bw2q"]
 [ext_resource type="Texture2D" uid="uid://dtp3phgmd34wo" path="res://assets/pictures/Main_menu/title13.png" id="19_anwk3"]
+[ext_resource type="PackedScene" uid="uid://dbovkios5xgxw" path="res://src/MainScreens/settings/settings.tscn" id="20_554bb"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_2oq44"]
 shader = ExtResource("2_el4xk")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gp1j2"]
-texture = ExtResource("5_xxsu8")
-region_rect = Rect2(113, 98, 30, 13)
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8qeyo"]
-texture = ExtResource("5_xxsu8")
-region_rect = Rect2(113, 98, 30, 13)
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6sw8h"]
-texture = ExtResource("5_xxsu8")
-region_rect = Rect2(113, 98, 30, 13)
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1i8qv"]
-texture = ExtResource("5_xxsu8")
-region_rect = Rect2(113, 98, 30, 13)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bval0"]
 atlas = ExtResource("7_stecg")
@@ -138,6 +123,22 @@ animations = [{
 "speed": 9.0
 }]
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gp1j2"]
+texture = ExtResource("5_xxsu8")
+region_rect = Rect2(113, 98, 30, 13)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8qeyo"]
+texture = ExtResource("5_xxsu8")
+region_rect = Rect2(113, 98, 30, 13)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6sw8h"]
+texture = ExtResource("5_xxsu8")
+region_rect = Rect2(113, 98, 30, 13)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1i8qv"]
+texture = ExtResource("5_xxsu8")
+region_rect = Rect2(113, 98, 30, 13)
+
 [node name="Control" type="Control"]
 layout_mode = 3
 anchor_left = 0.00520833
@@ -152,16 +153,9 @@ metadata/_edit_use_anchors_ = true
 [node name="Background" type="TextureRect" parent="."]
 texture_repeat = 2
 material = SubResource("ShaderMaterial_2oq44")
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -3.0
-offset_right = 9290.0
-offset_bottom = 5370.0
-grow_horizontal = 2
-grow_vertical = 2
-scale = Vector2(0.11, 0.11)
+layout_mode = 2
+offset_right = 4032.0
+offset_bottom = 1876.0
 texture = ExtResource("3_yowau")
 
 [node name="VBox-Main" type="VBoxContainer" parent="."]
@@ -178,6 +172,14 @@ offset_bottom = 237.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 10
+
+[node name="Title" type="AnimatedSprite2D" parent="VBox-Main"]
+editor_description = "gay title"
+position = Vector2(180.332, -146.889)
+scale = Vector2(1.8, 1.8)
+skew = 0.179769
+sprite_frames = SubResource("SpriteFrames_o5w6f")
+frame_progress = 0.764107
 
 [node name="Play-Button" type="Button" parent="VBox-Main"]
 layout_mode = 2
@@ -222,14 +224,9 @@ volume_db = -20.0
 pitch_scale = 0.7
 mix_target = 2
 
-[node name="Title" type="AnimatedSprite2D" parent="."]
-editor_description = "gay title"
-position = Vector2(575, 152)
-rotation = -6.28319
-scale = Vector2(1.8, 1.8)
-skew = 0.179769
-sprite_frames = SubResource("SpriteFrames_o5w6f")
-frame_progress = 0.764107
+[node name="Settings_menu" parent="." instance=ExtResource("20_554bb")]
+visible = false
+layout_mode = 1
 
 [connection signal="mouse_entered" from="VBox-Main/Play-Button" to="." method="_on_play_button_mouse_entered"]
 [connection signal="pressed" from="VBox-Main/Play-Button" to="." method="_on_play_button_pressed"]
