@@ -51,18 +51,17 @@ offset_right = 302.0
 grow_horizontal = 2
 grow_vertical = 0
 
-[node name="Play_Again" type="Button" parent="VBoxContainer"]
-visible = false
+[node name="PLAY AGAIN" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_6q21e")
 theme_override_font_sizes/font_size = 50
 text = "PLAY AGAIN"
 
-[node name="Level_Selection" type="Button" parent="VBoxContainer"]
+[node name="LEVEL SELECTOR" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_6q21e")
 theme_override_font_sizes/font_size = 50
-text = "LEVEL SELECTION"
+text = "SELECT LEVEL"
 
 [node name="Home" type="Button" parent="VBoxContainer"]
 layout_mode = 2
@@ -70,5 +69,6 @@ theme_override_fonts/font = ExtResource("2_6q21e")
 theme_override_font_sizes/font_size = 50
 text = "HOME"
 
-[connection signal="pressed" from="VBoxContainer/Play_Again" to="." method="_on_play_again_pressed"]
-[connection signal="pressed" from="VBoxContainer/Level_Selection" to="." method="_on_level_selection_pressed"]
+[connection signal="pressed" from="VBoxContainer/PLAY AGAIN" to="." method="_on_level_selection_pressed"]
+[connection signal="pressed" from="VBoxContainer/LEVEL SELECTOR" to="." method="_on_level_selector_pressed"]
+[connection signal="pressed" from="VBoxContainer/Home" to="." method="_on_home_pressed"]

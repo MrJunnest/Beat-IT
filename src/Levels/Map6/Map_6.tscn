@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://dif1fwd782xph"]
+[gd_scene load_steps=10 format=3 uid="uid://dif1fwd782xph"]
 
 [ext_resource type="Script" path="res://src/Levels/Map6/Script/map_6.gd" id="1_q3pga"]
 [ext_resource type="PackedScene" uid="uid://cr7rhyavhx4dd" path="res://src/Levels/Map6/Background/map_6_background.tscn" id="2_glt3x"]
@@ -8,13 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://dgafsrhclm8uk" path="res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn" id="6_avorv"]
 [ext_resource type="PackedScene" uid="uid://7vkajok2ya66" path="res://src/Extra/HUD/hud.tscn" id="7_5rrct"]
 [ext_resource type="PackedScene" uid="uid://be1egpjfr8n0b" path="res://src/Transition/Pause/Pause.tscn" id="8_fuxc6"]
-[ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="9_f6ul7"]
-[ext_resource type="Texture2D" uid="uid://8lqbix2eiyxo" path="res://assets/packs/GUI_1/GUI.png" id="10_owirr"]
 [ext_resource type="PackedScene" uid="uid://8yecxtnpwmjk" path="res://src/Levels/Map6/Music/Music6.tscn" id="11_gljwo"]
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kp7aq"]
-texture = ExtResource("10_owirr")
-region_rect = Rect2(113, 98, 30, 13)
 
 [node name="Map6" type="Node"]
 script = ExtResource("1_q3pga")
@@ -42,21 +36,5 @@ position = Vector2(-37, -74)
 [node name="HUD" parent="." instance=ExtResource("7_5rrct")]
 
 [node name="Pause" parent="." instance=ExtResource("8_fuxc6")]
-visible = false
-
-[node name="Menu" type="Button" parent="."]
-offset_left = 17.0
-offset_top = 7.0
-offset_right = 133.0
-offset_bottom = 58.0
-theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
-theme_override_constants/outline_size = 10
-theme_override_fonts/font = ExtResource("9_f6ul7")
-theme_override_font_sizes/font_size = 45
-theme_override_styles/normal = SubResource("StyleBoxTexture_kp7aq")
-text = "Menu
-"
 
 [node name="Game" parent="." instance=ExtResource("11_gljwo")]
-
-[connection signal="pressed" from="Menu" to="." method="_on_menu_pressed"]

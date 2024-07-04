@@ -19,7 +19,7 @@ func _on_elementals_water_priestess_pressed():
 	MapCharacter.character_visible = 3
 
 func _on_back_pressed():
-	get_tree().change_scene_to_file("res://src/MainScreens/home-screen.tscn")
+	get_tree().change_scene_to_file("res://src/Extra/MainScreen/Main.tscn")
 
 func _on_little_witch_mouse_entered():
 	$Hitsound.play()

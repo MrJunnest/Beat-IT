@@ -9,6 +9,7 @@ func _ready():
 	# Asegurarse de que el ColorRect esté oculto inicialmente
 	color_rect.visible = false
 	label.visible = false
+	
 	setting_menu.exit_settings.connect(_on_exit_settings)
 
 func _input(event):
@@ -48,4 +49,6 @@ func _on_exit_settings() : #exit setting button pressed, revert to main menu
 
 
 func _on_return_pressed():
+	get_tree().paused = false
 	get_tree().change_scene_to_file("res://src/Extra/MainScreen/Main.tscn")
+	

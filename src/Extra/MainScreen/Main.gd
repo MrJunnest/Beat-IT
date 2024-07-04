@@ -16,6 +16,7 @@ var rotation_direction = 0
 func _ready():
 	Title.play("default")
 	handle_signal()
+	set_process(true)
 
 func _process(delta): #usefull if need continous shit, but proven useless so far in settings obv, tsk tsk tsk
 	pass
