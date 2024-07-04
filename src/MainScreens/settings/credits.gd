@@ -19,7 +19,6 @@ var scroll_speed : float = base_speed
 var speed_up := false
 
 @onready var colorrect := $ColorRect
-@onready var videoplayer := $VideoPlayer
 @onready var line := $CreditsContainer/Line
 var started := false
 var finished := false
@@ -50,30 +49,27 @@ var credits = [
 	],[
 		"Tools used",
 		"Developed with Godot Engine",
+		" ", 
 		"https://godotengine.org/license",
 		"",
 		"Art created with My Favourite Art Program",
 		"ALL WEBSITE OR ART SPRITE USED PUT HERE!"
 	],[
-		"Special thanks",
+		"Special thanks"," ",
 		"My parents",
 		"My friends",
+		"and",
 		"My pet cock"
 	]
 ]
 
 func _ready():
 	colorrect.color = bg_color
-	videoplayer.set_stream(Video)
 	if !Use_Video_Audio:
 		var stream = AudioStreamPlayer.new()
 		stream.set_stream(Music)
 		add_child(stream)
-		videoplayer.set_volume_db(-80)
 		stream.play()
-	else:
-		videoplayer.set_volume_db(0)
-	videoplayer.play()
 	
 
 func _process(delta):
@@ -114,9 +110,9 @@ func finish():
 		finished = true
 		if to_scene != null:
 			var path = to_scene.get_path()
-			get_tree().change_scene_to_file(path)
+			get_tree().change_scene_to_file("res://src/Extra/MainScreen/Main.tscn")
 		else:
-			get_tree().quit()
+			get_tree().change_scene_to_file("res://src/Extra/MainScreen/Main.tscn")
 
 
 func add_line(): #adding line from array above

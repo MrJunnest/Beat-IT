@@ -19,7 +19,7 @@
 [ext_resource type="Texture2D" uid="uid://db20w5fcl5cbg" path="res://assets/pictures/Main_menu/title11.png" id="17_2x2vn"]
 [ext_resource type="Texture2D" uid="uid://bh2j380no7eko" path="res://assets/pictures/Main_menu/title12.png" id="18_1bw2q"]
 [ext_resource type="Texture2D" uid="uid://dtp3phgmd34wo" path="res://assets/pictures/Main_menu/title13.png" id="19_anwk3"]
-[ext_resource type="PackedScene" uid="uid://dbovkios5xgxw" path="res://src/MainScreens/settings/settings.tscn" id="20_554bb"]
+[ext_resource type="PackedScene" uid="uid://dbovkios5xgxw" path="res://src/Extra/MainScreen/settings.tscn" id="20_554bb"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_2oq44"]
 shader = ExtResource("2_el4xk")
@@ -121,6 +121,11 @@ animations = [{
 "loop": true,
 "name": &"default",
 "speed": 9.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
 }]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gp1j2"]
@@ -179,7 +184,6 @@ position = Vector2(180.332, -146.889)
 scale = Vector2(1.8, 1.8)
 skew = 0.179769
 sprite_frames = SubResource("SpriteFrames_o5w6f")
-frame_progress = 0.764107
 
 [node name="Play-Button" type="Button" parent="VBox-Main"]
 layout_mode = 2
