@@ -1,10 +1,9 @@
-[gd_scene load_steps=14 format=3 uid="uid://bpnt8ecct1ly0"]
+[gd_scene load_steps=13 format=3 uid="uid://bpnt8ecct1ly0"]
 
 [ext_resource type="Script" path="res://src/Levels/Map1/Script/Map1.gd" id="1_fepc6"]
 [ext_resource type="PackedScene" uid="uid://c4hk7ypikkhq4" path="res://src/Levels/Map1/Background/Background.tscn" id="1_ud224"]
 [ext_resource type="PackedScene" uid="uid://t5hemb7qyves" path="res://src/Levels/Map1/Scroll/Scroll.tscn" id="2_irptq"]
 [ext_resource type="PackedScene" uid="uid://bwavb6r2uk555" path="res://src/Characters/Ape/Ape.tscn" id="3_am1wm"]
-[ext_resource type="PackedScene" uid="uid://c2ti566slfiws" path="res://src/Extra/HitChart/hit_chart.tscn" id="4_fl4fn"]
 [ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="4_x45qn"]
 [ext_resource type="Texture2D" uid="uid://8lqbix2eiyxo" path="res://assets/packs/GUI_1/GUI.png" id="5_215g6"]
 [ext_resource type="PackedScene" uid="uid://7vkajok2ya66" path="res://src/Extra/HUD/hud.tscn" id="6_7e7wc"]
@@ -43,8 +42,6 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_hvy5l")
 text = "Menu
 "
 
-[node name="HitChart" parent="." instance=ExtResource("4_fl4fn")]
-
 [node name="HUD" parent="." instance=ExtResource("6_7e7wc")]
 
 [node name="Pause" parent="." instance=ExtResource("7_qxjlt")]
@@ -65,3 +62,5 @@ position = Vector2(556, -597)
 [node name="Elementals_water_priestess" parent="." instance=ExtResource("10_ab2co")]
 unique_name_in_owner = true
 position = Vector2(880, -78)
+
+[connection signal="pressed" from="Menu" to="." method="_on_menu_pressed"]

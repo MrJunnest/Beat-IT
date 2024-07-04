@@ -672,6 +672,7 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_05h2d")
 text = "Water Priestess"
 
 [node name="Back" type="Button" parent="."]
+layout_mode = 0
 offset_left = 38.0
 offset_top = 30.0
 offset_right = 154.0

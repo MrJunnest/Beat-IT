@@ -1,0 +1,73 @@
+[gd_scene load_steps=3 format=3 uid="uid://ctrvya4xrloue"]
+
+[ext_resource type="Script" path="res://src/Extra/End_Scream/End_scrren.gd" id="1_ru1vf"]
+[ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="2_6q21e"]
+
+[node name="End_Screen" type="CanvasLayer"]
+script = ExtResource("1_ru1vf")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.589096, 0.0156664, 0.017095, 0.572549)
+
+[node name="Game Over" type="Label" parent="."]
+offset_top = 56.0
+offset_right = 1149.0
+offset_bottom = 333.0
+theme_override_fonts/font = ExtResource("2_6q21e")
+theme_override_font_sizes/font_size = 100
+text = "Game Over
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Score" type="Label" parent="."]
+anchors_preset = -1
+anchor_top = 0.317
+anchor_bottom = 0.317
+offset_left = 520.0
+offset_top = 90.584
+offset_right = 633.0
+offset_bottom = 147.584
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_6q21e")
+theme_override_font_sizes/font_size = 50
+text = "Score: 0"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -302.0
+offset_top = -289.0
+offset_right = 302.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Play_Again" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_6q21e")
+theme_override_font_sizes/font_size = 50
+text = "PLAY AGAIN"
+
+[node name="Level_Selection" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_6q21e")
+theme_override_font_sizes/font_size = 50
+text = "LEVEL SELECTION"
+
+[node name="Home" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_6q21e")
+theme_override_font_sizes/font_size = 50
+text = "HOME"
+
+[connection signal="pressed" from="VBoxContainer/Play_Again" to="." method="_on_play_again_pressed"]
+[connection signal="pressed" from="VBoxContainer/Level_Selection" to="." method="_on_level_selection_pressed"]

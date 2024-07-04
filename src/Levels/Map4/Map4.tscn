@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://isfrtyy5vv2l"]
+[gd_scene load_steps=12 format=3 uid="uid://isfrtyy5vv2l"]
 
 [ext_resource type="Script" path="res://src/Levels/Map4/Script/Map4.gd" id="1_66uuq"]
 [ext_resource type="PackedScene" uid="uid://dxmfevdiwqcs0" path="res://src/Levels/Map4/Background/map_4_background.tscn" id="1_tdbif"]
@@ -6,7 +6,6 @@
 [ext_resource type="PackedScene" uid="uid://dv8pm11dyd1p" path="res://src/Characters/Little_Witch/little_witch.tscn" id="3_40f5g"]
 [ext_resource type="PackedScene" uid="uid://c62ulywtyxpu6" path="res://src/Characters/Little_Elvis/little_elvis.tscn" id="5_77af0"]
 [ext_resource type="PackedScene" uid="uid://ytgnhlylgqpb" path="res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn" id="6_wobdv"]
-[ext_resource type="PackedScene" uid="uid://c2ti566slfiws" path="res://src/Extra/HitChart/hit_chart.tscn" id="7_u0ktg"]
 [ext_resource type="PackedScene" uid="uid://7vkajok2ya66" path="res://src/Extra/HUD/hud.tscn" id="8_bdol8"]
 [ext_resource type="PackedScene" uid="uid://be1egpjfr8n0b" path="res://src/Transition/Pause/Pause.tscn" id="9_0p8y5"]
 [ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="10_pe85r"]
@@ -40,9 +39,6 @@ position = Vector2(516, -42)
 unique_name_in_owner = true
 position = Vector2(900, -81)
 
-[node name="HitChart" parent="." instance=ExtResource("7_u0ktg")]
-visible = false
-
 [node name="HUD" parent="." instance=ExtResource("8_bdol8")]
 
 [node name="Pause" parent="." instance=ExtResource("9_0p8y5")]
@@ -59,3 +55,5 @@ theme_override_font_sizes/font_size = 45
 theme_override_styles/normal = SubResource("StyleBoxTexture_lbrwd")
 text = "Menu
 "
+
+[connection signal="pressed" from="Menu" to="." method="_on_menu_pressed"]

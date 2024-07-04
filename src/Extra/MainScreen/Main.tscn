@@ -117,6 +117,7 @@ theme_override_font_sizes/font_size = 90
 text = "MAIN"
 
 [node name="Label" type="Label" parent="Label"]
+layout_mode = 0
 offset_left = 64.0
 offset_top = 75.0
 offset_right = 405.0
@@ -127,6 +128,9 @@ text = "MENU"
 
 [node name="Hitsound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_imbvv")
+volume_db = -20.0
+pitch_scale = 0.7
+mix_target = 2
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
 

@@ -7,15 +7,15 @@ func _ready():
 	pass
 
 func _on_little_witch_pressed():
-	get_tree().change_scene_to_file("res://src/Levels/Level_Selector/selector_screens.tscn")
+	get_tree().change_scene_to_file("res://src/Levels/Level_Selector/Witch_selector_screens.tscn")
 	Global.character_visible = 1
 
 func _on_little_elvis_pressed():
-	get_tree().change_scene_to_file("res://src/Levels/Level_Selector/selector_screens.tscn")
+	get_tree().change_scene_to_file("res://src/Levels/Level_Selector/Elvis_selector_screens.tscn")
 	Global.character_visible = 2
 
 func _on_elementals_water_priestess_pressed():
-	get_tree().change_scene_to_file("res://src/Levels/Level_Selector/selector_screens.tscn")
+	get_tree().change_scene_to_file("res://src/Levels/Level_Selector/Elemental_Water_selector_screens.tscn")
 	Global.character_visible = 3
 
 func _on_back_pressed():

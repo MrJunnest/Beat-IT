@@ -7,12 +7,11 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
+
 
 #PLAY BUTTON
 func _on_play_pressed():
-	pass # Replace with function body.
+	get_tree().change_scene_to_file("res://src/Levels/Characters_Selector/characters_selector.tscn")
 func _on_play_mouse_entered():
 	$Hitsound.play()
 	pass # Replace with function body.

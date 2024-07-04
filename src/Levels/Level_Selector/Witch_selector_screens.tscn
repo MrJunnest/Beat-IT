@@ -1,0 +1,174 @@
+[gd_scene load_steps=13 format=3 uid="uid://cwrebm0mqpy3h"]
+
+[ext_resource type="Script" path="res://src/Levels/Level_Selector/scripts/Witch_selector_screens.gd" id="1_iyux2"]
+[ext_resource type="Texture2D" uid="uid://bmeo2pc3trhh1" path="res://assets/pictures/selector/8460d5c67a40fd29263d6f700d4af58c.jpg" id="2_ti5eb"]
+[ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="3_2vsdf"]
+[ext_resource type="Texture2D" uid="uid://8lqbix2eiyxo" path="res://assets/packs/GUI_1/GUI.png" id="4_xptjt"]
+[ext_resource type="AudioStream" uid="uid://x0cguunbcqs" path="res://assets/sounds/MI_SFX 43.wav" id="5_jfykr"]
+[ext_resource type="PackedScene" uid="uid://c4hk7ypikkhq4" path="res://src/Levels/Map1/Background/Background.tscn" id="5_o2e6i"]
+[ext_resource type="PackedScene" uid="uid://dvb2k4uxgndq8" path="res://src/Levels/Map2/Background/Background.tscn" id="7_vci60"]
+[ext_resource type="PackedScene" uid="uid://brkyd827hpk26" path="res://src/Levels/Map3/Background/map_3_background.tscn" id="8_4p2sk"]
+[ext_resource type="PackedScene" uid="uid://dxmfevdiwqcs0" path="res://src/Levels/Map4/Background/map_4_background.tscn" id="9_cblxj"]
+[ext_resource type="PackedScene" uid="uid://crf1gdo1ogqq8" path="res://src/Levels/Map5/Background/map_5_background.tscn" id="10_78gmp"]
+[ext_resource type="PackedScene" uid="uid://cr7rhyavhx4dd" path="res://src/Levels/Map6/Background/map_6_background.tscn" id="11_xqcxr"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jylki"]
+texture = ExtResource("4_xptjt")
+region_rect = Rect2(113, 98, 30, 13)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_iyux2")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+position = Vector2(-6.99994, -0.999969)
+scale = Vector2(0.40148, 0.409806)
+texture = ExtResource("2_ti5eb")
+centered = false
+
+[node name="Map 1" type="Button" parent="."]
+layout_mode = 2
+offset_left = 162.0
+offset_top = 216.0
+offset_right = 371.0
+offset_bottom = 267.0
+theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_2vsdf")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_jylki")
+text = "Level 1
+"
+
+[node name="Map 2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 456.0
+offset_top = 216.0
+offset_right = 665.0
+offset_bottom = 267.0
+theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_2vsdf")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_jylki")
+text = "Level 2
+"
+
+[node name="Map 3" type="Button" parent="."]
+layout_mode = 2
+offset_left = 769.0
+offset_top = 216.0
+offset_right = 978.0
+offset_bottom = 267.0
+theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_2vsdf")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_jylki")
+text = "Level 3"
+
+[node name="Map 4" type="Button" parent="."]
+layout_mode = 0
+offset_left = 162.0
+offset_top = 323.0
+offset_right = 371.0
+offset_bottom = 374.0
+theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_2vsdf")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_jylki")
+text = "Level 4
+"
+
+[node name="Map 5" type="Button" parent="."]
+layout_mode = 0
+offset_left = 456.0
+offset_top = 323.0
+offset_right = 665.0
+offset_bottom = 374.0
+theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_2vsdf")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_jylki")
+text = "Level 5
+"
+
+[node name="Map 6" type="Button" parent="."]
+layout_mode = 0
+offset_left = 769.0
+offset_top = 323.0
+offset_right = 978.0
+offset_bottom = 374.0
+theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_2vsdf")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_jylki")
+text = "Level 6
+"
+
+[node name="Back" type="Button" parent="."]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 30.0
+offset_right = 154.0
+offset_bottom = 81.0
+theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_2vsdf")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_jylki")
+text = "Back
+"
+
+[node name="Hitsound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_jfykr")
+volume_db = -20.0
+pitch_scale = 0.7
+mix_target = 2
+
+[node name="Map1_Background" parent="." instance=ExtResource("5_o2e6i")]
+
+[node name="Map2_Background" parent="." instance=ExtResource("7_vci60")]
+
+[node name="Map3_Background" parent="." instance=ExtResource("8_4p2sk")]
+
+[node name="Map4_Background" parent="." instance=ExtResource("9_cblxj")]
+
+[node name="Map5_Background" parent="." instance=ExtResource("10_78gmp")]
+
+[node name="Map6_Background" parent="." instance=ExtResource("11_xqcxr")]
+
+[node name="MenuButton" type="MenuButton" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_entered" from="Map 1" to="." method="_on_map_1_mouse_entered"]
+[connection signal="mouse_exited" from="Map 1" to="." method="_on_map_1_mouse_exited"]
+[connection signal="pressed" from="Map 1" to="." method="_on_map_1_pressed"]
+[connection signal="mouse_entered" from="Map 2" to="." method="_on_map_2_mouse_entered"]
+[connection signal="mouse_exited" from="Map 2" to="." method="_on_map_2_mouse_exited"]
+[connection signal="pressed" from="Map 2" to="." method="_on_map_2_pressed"]
+[connection signal="mouse_entered" from="Map 3" to="." method="_on_map_3_mouse_entered"]
+[connection signal="mouse_exited" from="Map 3" to="." method="_on_map_3_mouse_exited"]
+[connection signal="pressed" from="Map 3" to="." method="_on_map_3_pressed"]
+[connection signal="mouse_entered" from="Map 4" to="." method="_on_map_4_mouse_entered"]
+[connection signal="mouse_exited" from="Map 4" to="." method="_on_map_4_mouse_exited"]
+[connection signal="pressed" from="Map 4" to="." method="_on_map_4_pressed"]
+[connection signal="mouse_entered" from="Map 5" to="." method="_on_map_5_mouse_entered"]
+[connection signal="mouse_exited" from="Map 5" to="." method="_on_map_5_mouse_exited"]
+[connection signal="pressed" from="Map 5" to="." method="_on_map_5_pressed"]
+[connection signal="mouse_entered" from="Map 6" to="." method="_on_map_6_mouse_entered"]
+[connection signal="mouse_exited" from="Map 6" to="." method="_on_map_6_mouse_exited"]
+[connection signal="pressed" from="Map 6" to="." method="_on_map_6_pressed"]
+[connection signal="mouse_entered" from="Back" to="." method="_on_back_mouse_entered"]
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]

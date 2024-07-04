@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://du4r854onegf1"]
+[gd_scene load_steps=12 format=3 uid="uid://du4r854onegf1"]
 
 [ext_resource type="Script" path="res://src/Levels/Map5/Script/map_5.gd" id="1_epwo5"]
 [ext_resource type="PackedScene" uid="uid://crf1gdo1ogqq8" path="res://src/Levels/Map5/Background/map_5_background.tscn" id="2_x2e5u"]
@@ -6,7 +6,6 @@
 [ext_resource type="PackedScene" uid="uid://dv8pm11dyd1p" path="res://src/Characters/Little_Witch/little_witch.tscn" id="4_4qcn6"]
 [ext_resource type="PackedScene" uid="uid://c62ulywtyxpu6" path="res://src/Characters/Little_Elvis/little_elvis.tscn" id="5_n3gtu"]
 [ext_resource type="PackedScene" uid="uid://ytgnhlylgqpb" path="res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn" id="6_16xap"]
-[ext_resource type="PackedScene" uid="uid://c2ti566slfiws" path="res://src/Extra/HitChart/hit_chart.tscn" id="7_2f5cs"]
 [ext_resource type="PackedScene" uid="uid://7vkajok2ya66" path="res://src/Extra/HUD/hud.tscn" id="8_ukmw5"]
 [ext_resource type="PackedScene" uid="uid://be1egpjfr8n0b" path="res://src/Transition/Pause/Pause.tscn" id="9_77rbp"]
 [ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="10_sf7ep"]
@@ -18,6 +17,10 @@ region_rect = Rect2(113, 98, 30, 13)
 
 [node name="Map5" type="Node"]
 script = ExtResource("1_epwo5")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(600, 320)
+offset = Vector2(-24, 4)
 
 [node name="Map5_Background" parent="." instance=ExtResource("2_x2e5u")]
 
@@ -34,13 +37,6 @@ position = Vector2(231, -43)
 [node name="Elementals_water_priestess" parent="." instance=ExtResource("6_16xap")]
 unique_name_in_owner = true
 position = Vector2(-37, -74)
-
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(600, 320)
-offset = Vector2(-24, 4)
-
-[node name="HitChart" parent="." instance=ExtResource("7_2f5cs")]
-visible = false
 
 [node name="HUD" parent="." instance=ExtResource("8_ukmw5")]
 
@@ -59,3 +55,5 @@ theme_override_font_sizes/font_size = 45
 theme_override_styles/normal = SubResource("StyleBoxTexture_kp7aq")
 text = "Menu
 "
+
+[connection signal="pressed" from="Menu" to="." method="_on_menu_pressed"]

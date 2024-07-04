@@ -31,7 +31,7 @@ func new_game():
 	#reset all nodes
 	score = 0
 	$Little_Witch.position = Vector2i(200,10)
-	$Little_Witch.velocity = Vector2i(0,0)
+	$Little_Witch.velocity = Vector2i(0,0) #may have issues
 	
 	# Set Little_Elvis position same as Little_Witch
 	$Little_Elvis.position = Vector2i(155,550)
@@ -53,6 +53,6 @@ func _process(_delta):
 	#update ground position
 	if $Camera2D.position.x - $Map_Scroll.position.x > screen_size.x * 1.5:
 		$Map_Scroll.position.x += screen_size.x
-	
 
-
+func _on_menu_pressed():
+	get_tree().change_scene_to_file("res://src/Levels/Level_Selector/Witch_selector_screens.tscn")

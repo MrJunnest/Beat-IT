@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1720055362
+::res://::1720097923
 icon.svg::CompressedTexture2D::3838539191210772969::1718951759::1719973246::1::::<><>::
 ::res://addons/::1719973246
 ::res://addons/sprite_cutter/::1718951763
@@ -8,7 +8,7 @@ AtlasScene.gd::GDScript::-1::1718951763::0::1::::AtlasScene<>Node<>::
 icon.svg::CompressedTexture2D::7198111162664490493::1718931754::1718931754::1::::<><>::
 plugin.cfg::TextFile::-1::1718931754::0::1::::<><>::
 sprite_cutter.gd::GDScript::-1::1718931754::0::1::::<>EditorPlugin<>::
-::res://assets/::1719973246
+::res://assets/::1720060668
 ::res://assets/characters/::1719972511
 ::res://assets/characters/Elementals_water_priestess_FREE_v1.1/::1719972511
 spritesheet2.png::CompressedTexture2D::3675739117149905441::1719972511::1719972511::1::::<><>::
@@ -473,9 +473,106 @@ magicSpell6.png::CompressedTexture2D::5236081548322109970::1719972511::171997251
 Abaddon Bold.ttf::FontFile::7233662615732823947::1718931754::1718931754::1::::<><>::
 Abaddon Light.ttf::FontFile::1809076127323556293::1718931754::1718931754::1::::<><>::
 Silver.ttf::FontFile::9160834702302925382::1718931754::1718931754::1::::<><>::
-::res://assets/music/::1719972511
+::res://assets/music/::1720060668
 Carrera, Spreen - Minina (Mejorada y Extendida).mp3::AudioStreamMP3::5848597510214831774::1719972511::1719972511::1::::<><>::
-::res://assets/obstacles/::1719972511
+Carrera_-Spreen-Minina-_Mejorada-y-Extendida_.ogg::AudioStreamOggVorbis::8180438778676860823::1720060668::1720060668::1::::<><>::
+song.ogg::AudioStreamOggVorbis::8547337960034529888::1720060668::1720060668::1::::<><>::
+Super Idol full song.mp3::AudioStreamMP3::7120345646575336372::1720060668::1720060668::1::::<><>::
+::res://assets/obstacles/::1720060668
+::res://assets/obstacles/spells/::1720060668
+::res://assets/obstacles/spells/1/::1720060668
+1.png::CompressedTexture2D::2553875647855039980::1720060668::1720060668::1::::<><>::
+2.png::CompressedTexture2D::6024758696580097646::1720060668::1720060668::1::::<><>::
+3.png::CompressedTexture2D::5227573587892557034::1720060668::1720060668::1::::<><>::
+4.png::CompressedTexture2D::7844325855187367405::1720060668::1720060668::1::::<><>::
+5.png::CompressedTexture2D::8696945777630121334::1720060668::1720060668::1::::<><>::
+6.png::CompressedTexture2D::247702392637521079::1720060668::1720060668::1::::<><>::
+7.png::CompressedTexture2D::8854572207510983111::1720060668::1720060668::1::::<><>::
+8.png::CompressedTexture2D::8259054021052989281::1720060668::1720060668::1::::<><>::
+9.png::CompressedTexture2D::3681511622797169552::1720060668::1720060668::1::::<><>::
+10.png::CompressedTexture2D::6693386236872210980::1720060668::1720060668::1::::<><>::
+11.png::CompressedTexture2D::6694401548009203311::1720060668::1720060668::1::::<><>::
+12.png::CompressedTexture2D::4926221723542621911::1720060668::1720060668::1::::<><>::
+13.png::CompressedTexture2D::4691331093983498429::1720060668::1720060668::1::::<><>::
+14.png::CompressedTexture2D::8768312223905507815::1720060668::1720060668::1::::<><>::
+15.png::CompressedTexture2D::468130565113459439::1720060668::1720060668::1::::<><>::
+16.png::CompressedTexture2D::8827420738159977063::1720060668::1720060668::1::::<><>::
+17.png::CompressedTexture2D::6609820762516524522::1720060668::1720060668::1::::<><>::
+18.png::CompressedTexture2D::5786437351331795316::1720060668::1720060668::1::::<><>::
+19.png::CompressedTexture2D::2202815414312990029::1720060668::1720060668::1::::<><>::
+20.png::CompressedTexture2D::5115134328656290488::1720060668::1720060668::1::::<><>::
+21.png::CompressedTexture2D::465720963231236966::1720060668::1720060668::1::::<><>::
+22.png::CompressedTexture2D::4481299650007700599::1720060668::1720060668::1::::<><>::
+23.png::CompressedTexture2D::2640417864626168504::1720060668::1720060668::1::::<><>::
+24.png::CompressedTexture2D::54576131899823862::1720060668::1720060668::1::::<><>::
+25.png::CompressedTexture2D::2004803647457392803::1720060668::1720060668::1::::<><>::
+26.png::CompressedTexture2D::5743773908751877273::1720060668::1720060668::1::::<><>::
+27.png::CompressedTexture2D::7380175995514035161::1720060668::1720060668::1::::<><>::
+28.png::CompressedTexture2D::2768506895456472549::1720060668::1720060668::1::::<><>::
+29.png::CompressedTexture2D::6252415538868182284::1720060668::1720060668::1::::<><>::
+30.png::CompressedTexture2D::2123389707057131992::1720060668::1720060668::1::::<><>::
+::res://assets/obstacles/spells/2/::1720060668
+1.png::CompressedTexture2D::1384952262495077963::1720060668::1720060668::1::::<><>::
+2.png::CompressedTexture2D::5759170333243212700::1720060668::1720060668::1::::<><>::
+3.png::CompressedTexture2D::8304674057921164798::1720060668::1720060668::1::::<><>::
+4.png::CompressedTexture2D::7640967385850354847::1720060668::1720060668::1::::<><>::
+5.png::CompressedTexture2D::200192527425103658::1720060668::1720060668::1::::<><>::
+6.png::CompressedTexture2D::4708740593950732875::1720060668::1720060668::1::::<><>::
+7.png::CompressedTexture2D::3990986267246029892::1720060668::1720060668::1::::<><>::
+8.png::CompressedTexture2D::4504376408628345695::1720060668::1720060668::1::::<><>::
+9.png::CompressedTexture2D::6379018110569271121::1720060668::1720060668::1::::<><>::
+10.png::CompressedTexture2D::7351898349101099669::1720060668::1720060668::1::::<><>::
+11.png::CompressedTexture2D::7046674660163543051::1720060668::1720060668::1::::<><>::
+12.png::CompressedTexture2D::5887490397266625296::1720060668::1720060668::1::::<><>::
+13.png::CompressedTexture2D::4259695990183147774::1720060668::1720060668::1::::<><>::
+14.png::CompressedTexture2D::4697022160014789107::1720060668::1720060668::1::::<><>::
+15.png::CompressedTexture2D::8860418991340300216::1720060668::1720060668::1::::<><>::
+16.png::CompressedTexture2D::5402548672267842954::1720060668::1720060668::1::::<><>::
+17.png::CompressedTexture2D::8519121535797180242::1720060668::1720060668::1::::<><>::
+18.png::CompressedTexture2D::488803640812709873::1720060668::1720060668::1::::<><>::
+19.png::CompressedTexture2D::5600162606284764213::1720060668::1720060668::1::::<><>::
+20.png::CompressedTexture2D::3513508595892236637::1720060668::1720060668::1::::<><>::
+21.png::CompressedTexture2D::8192930750560105441::1720060668::1720060668::1::::<><>::
+22.png::CompressedTexture2D::7512518337269098669::1720060668::1720060668::1::::<><>::
+23.png::CompressedTexture2D::288499710950660171::1720060668::1720060668::1::::<><>::
+24.png::CompressedTexture2D::7584580960146436929::1720060668::1720060668::1::::<><>::
+25.png::CompressedTexture2D::1410822951848306731::1720060668::1720060668::1::::<><>::
+26.png::CompressedTexture2D::5585931320495646508::1720060668::1720060668::1::::<><>::
+27.png::CompressedTexture2D::3658614957381457190::1720060668::1720060668::1::::<><>::
+28.png::CompressedTexture2D::112231305181602271::1720060668::1720060668::1::::<><>::
+29.png::CompressedTexture2D::9173078569447419691::1720060668::1720060668::1::::<><>::
+30.png::CompressedTexture2D::6426723672156494325::1720060668::1720060668::1::::<><>::
+::res://assets/obstacles/spells/3/::1720060668
+1.png::CompressedTexture2D::6421238659094774422::1720060668::1720060668::1::::<><>::
+2.png::CompressedTexture2D::8298883174873367628::1720060668::1720060668::1::::<><>::
+3.png::CompressedTexture2D::7187810417184077501::1720060668::1720060668::1::::<><>::
+4.png::CompressedTexture2D::8666752063648979331::1720060668::1720060668::1::::<><>::
+5.png::CompressedTexture2D::509945298786658274::1720060668::1720060668::1::::<><>::
+6.png::CompressedTexture2D::4916531311879529848::1720060668::1720060668::1::::<><>::
+7.png::CompressedTexture2D::1526552321031967622::1720060668::1720060668::1::::<><>::
+8.png::CompressedTexture2D::5293291877923687425::1720060668::1720060668::1::::<><>::
+9.png::CompressedTexture2D::8739634822349395111::1720060668::1720060668::1::::<><>::
+10.png::CompressedTexture2D::2104187300461654255::1720060668::1720060668::1::::<><>::
+11.png::CompressedTexture2D::2631598364308541836::1720060668::1720060668::1::::<><>::
+12.png::CompressedTexture2D::648724183790493907::1720060668::1720060668::1::::<><>::
+13.png::CompressedTexture2D::8378116427641674076::1720060668::1720060668::1::::<><>::
+14.png::CompressedTexture2D::2969887296315519352::1720060668::1720060668::1::::<><>::
+15.png::CompressedTexture2D::590135413529586451::1720060668::1720060668::1::::<><>::
+16.png::CompressedTexture2D::1783056488792458443::1720060668::1720060668::1::::<><>::
+17.png::CompressedTexture2D::8292572971957156739::1720060668::1720060668::1::::<><>::
+18.png::CompressedTexture2D::3646362781549246589::1720060668::1720060668::1::::<><>::
+19.png::CompressedTexture2D::2169791916410131084::1720060668::1720060668::1::::<><>::
+20.png::CompressedTexture2D::8005698388578738610::1720060668::1720060668::1::::<><>::
+21.png::CompressedTexture2D::5486110716704201303::1720060668::1720060668::1::::<><>::
+22.png::CompressedTexture2D::3777036209100326967::1720060668::1720060668::1::::<><>::
+23.png::CompressedTexture2D::2566588507687676221::1720060668::1720060668::1::::<><>::
+24.png::CompressedTexture2D::4860550820907045662::1720060668::1720060668::1::::<><>::
+25.png::CompressedTexture2D::7816694558643332131::1720060668::1720060668::1::::<><>::
+26.png::CompressedTexture2D::1086579032663853005::1720060668::1720060668::1::::<><>::
+27.png::CompressedTexture2D::4315602805650431114::1720060668::1720060668::1::::<><>::
+28.png::CompressedTexture2D::6683548171467650893::1720060668::1720060668::1::::<><>::
+29.png::CompressedTexture2D::8891433632315030126::1720060668::1720060668::1::::<><>::
+30.png::CompressedTexture2D::6473145765350680155::1720060668::1720060668::1::::<><>::
 ::res://assets/obstacles/trash assets/::1719972511
 alcohol 1.png::CompressedTexture2D::79373644769740355::1719972511::1719972511::1::::<><>::
 alcohol 2.png::CompressedTexture2D::973523926840685493::1719972511::1719972511::1::::<><>::
@@ -1603,8 +1700,10 @@ WINDOWS.png::CompressedTexture2D::2347930535283438998::1718931754::1718931754::1
 X.png::CompressedTexture2D::3634906512488997129::1718931754::1718931754::1::::<><>::
 Y.png::CompressedTexture2D::2155236423504567595::1718931754::1718931754::1::::<><>::
 Z.png::CompressedTexture2D::624409751668488918::1718931754::1718931754::1::::<><>::
-::res://assets/pictures/::1719973246
-HitChart.png::CompressedTexture2D::1578984627094171480::1719972511::1719972511::1::::<><>::
+::res://assets/pictures/::1720060668
+HitChart1.png::CompressedTexture2D::5084412084467547520::1720060668::1720060668::1::::<><>::
+HitChart.png::CompressedTexture2D::1578984627094171480::1720060668::1719972511::1::::<><>::
+Logo.png::CompressedTexture2D::4908272901553460737::1720060668::1720060668::1::::<><>::
 ::res://assets/pictures/adm-panel/::1718931754
 download.png::CompressedTexture2D::7788818594909395524::1718931754::1718931754::1::::<><>::
 ::res://assets/pictures/enemy/::1719972511
@@ -1660,23 +1759,51 @@ layer_6_far_buildings.png::CompressedTexture2D::6483057409833734070::1719972511:
 layer_7_bg_buildings.png::CompressedTexture2D::4891609501041208271::1719972511::1719972511::1::::<><>::
 layer_8_fg_buildings.png::CompressedTexture2D::165276837417418434::1719972511::1719972511::1::::<><>::
 layer_9_wall.png::CompressedTexture2D::5690463955962747953::1719972511::1719972511::1::::<><>::
-::res://assets/pictures/selector/::1718931754
+::res://assets/pictures/selector/::1720083277
+8460d5c67a40fd29263d6f700d4af58c.jpg::CompressedTexture2D::3237843364938011228::1720082959::1720083277::1::::<><>::
 background.webp::CompressedTexture2D::4958290444569128922::1718931754::1718931754::1::::<><>::
-::res://assets/sounds/::1719972511
+my-retro-garage-am-2560x1700.jpg::CompressedTexture2D::6815709501664895548::1720082536::1720082540::1::::<><>::
+下载.png::CompressedTexture2D::4162304953896304413::1720083273::1720083277::1::::<><>::
+::res://assets/pop/::1720060668
+::res://assets/pop/Smoke/::1720060668
+Free Smoke Fx  Pixel 04.png::CompressedTexture2D::3616119725953328633::1720060668::1720060668::1::::<><>::
+Free Smoke Fx  Pixel 05.png::CompressedTexture2D::7374960239860526178::1720060668::1720060668::1::::<><>::
+Free Smoke Fx  Pixel 06.png::CompressedTexture2D::5426243380383392035::1720060668::1720060668::1::::<><>::
+Free Smoke Fx  Pixel 07.png::CompressedTexture2D::3171775444642558433::1720060668::1720060668::1::::<><>::
+::res://assets/pop/star/::1720060668
+star.png::CompressedTexture2D::1846531329022635957::1720060668::1720060668::1::::<><>::
+::res://assets/sounds/::1720060668
+HitChart.mp3::AudioStreamMP3::3170242513507496889::1720060668::1720060668::1::::<><>::
 MI_SFX 43.wav::AudioStreamWAV::49002531712658450::1719972511::1719972511::1::::<><>::
-::res://src/::1719991943
+::res://src/::1720060668
 LICENSE.md::TextFile::-1::1719972511::0::1::::<><>::
+::res://src/BG/::1720060668
+::res://src/BG/Conductor/::1720060668
+Conductor.gd::GDScript::-1::1720060668::0::1::::<>AudioStreamPlayer<>::
+Conductor.tscn::PackedScene::9143123071160639790::1720060668::0::1::::<><>::res://src/Levels/Map1/Conductor.gd
+::res://src/BG/Game/::1720060668
+Game.gd::GDScript::-1::1720060668::0::1::::<>Node2D<>::
+Game.tscn::PackedScene::5972191086369164678::1720060668::0::1::::<><>::res://src/BG/Game/Game.gd<>uid://m5agv6axbsc6::::res://src/BG/HitChart/HitChart.tscn<>uid://d3i85vy85kakk::::res://src/BG/Conductor/Conductor.tscn<>uid://c8pfb1xuokoam::::res://assets/music/Super Idol full song.mp3
+::res://src/BG/Global/::1720060668
+Global.gd::GDScript::-1::1720060668::0::1::::<>Node2D<>::
+Global.tscn::PackedScene::4402301800560674546::1720060668::0::1::::<><>::res://src/BG/Global/Global.gd
+::res://src/BG/HitChart/::1720060668
+HitChart.gd::GDScript::-1::1720060668::0::1::::<>AnimatedSprite2D<>::
+HitChart.tscn::PackedScene::904209321951697123::1720060668::0::1::::<><>::uid://wq4v756w1nxg::::res://assets/pictures/HitChart.png<>uid://ceo6r270ad6y3::::res://assets/pictures/HitChart1.png<>res://src/BG/HitChart/HitChart.gd
+::res://src/BG/Note/::1720060668
+Note.gd::GDScript::-1::1720060668::0::1::::<>Area2D<>::
+Note.tscn::PackedScene::167981840319822307::1720060668::0::1::::<><>::uid://ty47xnvevqb8::::res://assets/obstacles/spells/2/1.png<>res://src/BG/Note/Note.gd<>uid://cob1xuhsahi3m::::res://assets/obstacles/spells/2/2.png<>uid://dqk31ejopy3oc::::res://assets/obstacles/spells/2/3.png<>uid://dg4lu7wl74a0f::::res://assets/obstacles/spells/2/4.png<>uid://c38e21rw7u71::::res://assets/obstacles/spells/2/5.png<>uid://b8c7jfxn7cqa2::::res://assets/obstacles/spells/2/6.png<>uid://bw4i7wutvg15a::::res://assets/obstacles/spells/2/7.png<>uid://b5f7olc3qs7vf::::res://assets/obstacles/spells/2/8.png<>uid://cw5bq4ymxw3nh::::res://assets/obstacles/spells/2/9.png<>uid://dc0kxrt7do1y4::::res://assets/obstacles/spells/2/10.png<>uid://c7npx4wfmd52f::::res://assets/obstacles/spells/2/11.png<>uid://cp47dvks10ag3::::res://assets/obstacles/spells/2/12.png<>uid://b1xotnvhjj3tq::::res://assets/obstacles/spells/2/13.png<>uid://b76jjewievd84::::res://assets/obstacles/spells/2/14.png<>uid://dyib2obns3stk::::res://assets/obstacles/spells/2/15.png<>uid://ci8bgmsbd2w5o::::res://assets/obstacles/spells/2/16.png<>uid://dtmyxmhici4b3::::res://assets/obstacles/spells/2/17.png<>uid://g71r3m423wdd::::res://assets/obstacles/spells/2/18.png<>uid://cl104ic0o6v8h::::res://assets/obstacles/spells/2/19.png<>uid://bqb78dcnodt1f::::res://assets/obstacles/spells/2/20.png<>uid://doyymwtfed3q0::::res://assets/obstacles/spells/2/21.png<>uid://dfbecx2uxmio8::::res://assets/obstacles/spells/2/22.png<>uid://ed0svudddxnn::::res://assets/obstacles/spells/2/23.png<>uid://dgca678iw343v::::res://assets/obstacles/spells/2/24.png<>uid://udobvmnkuysh::::res://assets/obstacles/spells/2/25.png<>uid://clt4qcqlf5v3a::::res://assets/obstacles/spells/2/26.png<>uid://bsei4bapm6vfq::::res://assets/obstacles/spells/2/27.png<>uid://bumoy1puxye6::::res://assets/obstacles/spells/2/28.png<>uid://d3xri781slhax::::res://assets/obstacles/spells/2/29.png<>uid://cxtfg2d3dcc4t::::res://assets/obstacles/spells/2/30.png<>uid://1kqdo84ddn70::::res://assets/pop/star/star.png<>uid://blfxowi1r7hnt::::res://assets/sounds/HitChart.mp3
 ::res://src/Characters/::1719972511
-::res://src/Characters/Ape/::1719995001
-Ape.tscn::PackedScene::3931853742111255618::1719995001::0::1::::<><>::uid://bfja05brjccax::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png<>res://src/Characters/Ape/script/Ape.gd<>uid://cfcoo1u854wak::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump/Jump.png<>uid://dijdigyfu5tt::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit/Hit.png<>uid://b5uj8ll6vc1tf::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run/Run.png<>uid://ddy7b6awp7q2m::::res://assets/characters/Jungle Monkey Platformer/miscellaneous_4_alex.wav
-::res://src/Characters/Ape/script/::1720053859
-Ape.gd::GDScript::-1::1720055377::0::1::::<>CharacterBody2D<>::
-::res://src/Characters/Elementals_water_priestess/::1720055318
-Elementals_water_priestess.tscn::PackedScene::1724143327678979679::1720055318::0::1::::<><>::res://src/Characters/Elementals_water_priestess/Script/Elementals_water_priestess.gd<>uid://colsijajyqug6::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet3.png<>uid://bsms5eqjm87yj::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet2.png<>uid://2oxlvuugndvy::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet4.png<>uid://bnjup87vupgbh::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet.png
+::res://src/Characters/Ape/::1720060668
+Ape.tscn::PackedScene::3931853742111255618::1720060668::0::1::::<><>::uid://bfja05brjccax::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png<>res://src/Characters/Ape/script/Ape.gd<>uid://cfcoo1u854wak::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump/Jump.png<>uid://dijdigyfu5tt::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit/Hit.png<>uid://b5uj8ll6vc1tf::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run/Run.png<>uid://ddy7b6awp7q2m::::res://assets/characters/Jungle Monkey Platformer/miscellaneous_4_alex.wav<>uid://wq4v756w1nxg::::res://assets/pictures/HitChart.png
+::res://src/Characters/Ape/script/::1720097537
+Ape.gd::GDScript::-1::1720097537::0::1::::<>CharacterBody2D<>::
+::res://src/Characters/Elementals_water_priestess/::1720057739
+Elementals_water_priestess.tscn::PackedScene::1724143327678979679::1720057739::0::1::::<><>::res://src/Characters/Elementals_water_priestess/Script/Elementals_water_priestess.gd<>uid://colsijajyqug6::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet3.png<>uid://bsms5eqjm87yj::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet2.png<>uid://2oxlvuugndvy::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet4.png<>uid://bnjup87vupgbh::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet.png
 ::res://src/Characters/Elementals_water_priestess/Script/::1720054409
 Elementals_water_priestess.gd::GDScript::-1::1720054409::0::1::::<>CharacterBody2D<>::
-::res://src/Characters/Little_Elvis/::1720055318
-little_elvis.tscn::PackedScene::7005668998555470875::1720055318::0::1::::<><>::res://src/Characters/Little_Elvis/Script/little_elvis.gd<>uid://yecywvmr48oe::::res://assets/characters/Little Elvis/idle.png<>uid://drr4yd3sa35ds::::res://assets/characters/Little Elvis/jump.png<>uid://bqbxd1hytexdp::::res://assets/characters/Little Elvis/death.png<>uid://bm42jwf3qnr4e::::res://assets/characters/Little Elvis/run.png
+::res://src/Characters/Little_Elvis/::1720057739
+little_elvis.tscn::PackedScene::7005668998555470875::1720057739::0::1::::<><>::res://src/Characters/Little_Elvis/Script/little_elvis.gd<>uid://yecywvmr48oe::::res://assets/characters/Little Elvis/idle.png<>uid://drr4yd3sa35ds::::res://assets/characters/Little Elvis/jump.png<>uid://bqbxd1hytexdp::::res://assets/characters/Little Elvis/death.png<>uid://bm42jwf3qnr4e::::res://assets/characters/Little Elvis/run.png
 ::res://src/Characters/Little_Elvis/Script/::1719997248
 little_elvis.gd::GDScript::-1::1719997248::0::1::::<>CharacterBody2D<>::
 ::res://src/Characters/Little_Witch/::1720053860
@@ -1686,87 +1813,119 @@ little_witch.gd::GDScript::-1::1719972511::0::1::::<>CharacterBody2D<>::
 ::res://src/Enemies/::1719972511
 ::res://src/Enemies/Slime/::1719972511
 Slime.tscn::PackedScene::4825243479695930526::1719972511::0::1::::<><>::uid://deppstbqhggy4::::res://assets/pictures/enemy/Slime/Individual Sprites/slime-die-0.png<>uid://iugpxd7lg6m0::::res://assets/pictures/enemy/Slime/Individual Sprites/slime-die-1.png<>uid://b18uueunpsq7o::::res://assets/pictures/enemy/Slime/Individual Sprites/slime-die-2.png<>uid://bm1wv57cvso5o::::res://assets/pictures/enemy/Slime/Individual Sprites/slime-die-3.png<>uid://wo7skgfky0pe::::res://assets/pictures/enemy/Slime/Individual Sprites/slime-move-0.png<>uid://b048cqh3y2biu::::res://assets/pictures/enemy/Slime/Individual Sprites/slime-move-1.png<>uid://0jky4va11hlu::::res://assets/pictures/enemy/Slime/Individual Sprites/slime-move-2.png<>uid://cu8qgo4fngah1::::res://assets/pictures/enemy/Slime/Individual Sprites/slime-move-3.png
-::res://src/Extra/::1719972511
-::res://src/Extra/Conductor/::1719972511
-Conductor.gd::GDScript::-1::1719972511::0::1::::<>AudioStreamPlayer<>::
-Conductor.tscn::PackedScene::9143123071160639790::1719972511::0::1::::<><>::res://src/Extra/Conductor/Conductor.gd
-::res://src/Extra/HitChart/::1719972511
-hit_chart.tscn::PackedScene::6707704309645026038::1719972511::0::1::::<><>::uid://wq4v756w1nxg::::res://assets/pictures/HitChart.png<>res://src/Extra/HitChart/script/hit_chart.gd
-::res://src/Extra/HitChart/script/::1719972511
-hit_chart.gd::GDScript::-1::1719972511::0::1::::<>CanvasLayer<>::
-::res://src/Extra/HUD/::1719972511
-hud.tscn::PackedScene::2290002594008749037::1719972511::0::1::::<><>::uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf
+::res://src/Extra/::1720079438
+::res://src/Extra/End_Scream/::1720097693
+End_scrren.gd::GDScript::-1::1720097341::0::1::::<>CanvasLayer<>::
+End_scrren.tscn::PackedScene::6142841780097156588::1720097693::0::1::::<><>::res://src/Extra/End_Scream/End_scrren.gd<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf
+::res://src/Extra/HitChart/::1720060668
+hit_chart.tscn::PackedScene::6707704309645026038::1720060668::0::1::::<><>::uid://wq4v756w1nxg::::res://assets/pictures/HitChart.png<>res://src/Extra/HitChart/script/hit_chart.gd
+::res://src/Extra/HitChart/script/::1720060668
+hit_chart.gd::GDScript::-1::1720060668::0::1::::<>CanvasLayer<>::
+::res://src/Extra/HUD/::1720059096
+hud.tscn::PackedScene::2290002594008749037::1720059096::0::1::::<><>::uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf
+::res://src/Extra/Intro/::1720060668
+Intro.gd::GDScript::-1::1720060668::0::1::::<>Node2D<>::
+Intro.tscn::PackedScene::118115912078442896::1720060668::0::1::::<><>::uid://cb6usjpc07bdh::::res://assets/pictures/Logo.png<>res://src/Extra/Intro/Intro.gd
+::res://src/Extra/MainScreen/::1720095908
+Main.gd::GDScript::-1::1720095908::0::1::::<>Control<>::
+Main.tscn::PackedScene::551164960465454747::1720061973::0::1::::<><>::res://src/MainScreens/scrolls/scrollmenu.gdshader<>res://src/Extra/MainScreen/Main.gd<>uid://d3jsblcke2k1q::::res://assets/pictures/home/background.png<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav
 ::res://src/Header/::1719972511
 adm-panel.tscn::PackedScene::5011312506538759355::1719972511::0::1::::<><>::uid://di77x7fyeohm7::::res://assets/pictures/adm-panel/download.png
-::res://src/Levels/::1719993900
-Global.gd::GDScript::-1::1719993900::0::1::::<>Node<>::
-::res://src/Levels/Characters_Selector/::1720055318
-characters_selector.tscn::PackedScene::5040911561690456790::1720055318::0::1::::<><>::res://src/Levels/Characters_Selector/scripts/characters_selector.gd<>uid://ccv3k4adqgqte::::res://assets/pictures/selector/background.webp<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://yecywvmr48oe::::res://assets/characters/Little Elvis/idle.png<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png<>uid://drr4yd3sa35ds::::res://assets/characters/Little Elvis/jump.png<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav<>uid://333qbt02n4rh::::res://assets/characters/Little witch/69x56/Sprite sheet/IdleAnimation.png<>uid://bqbxd1hytexdp::::res://assets/characters/Little Elvis/death.png<>uid://bm42jwf3qnr4e::::res://assets/characters/Little Elvis/run.png<>uid://colsijajyqug6::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet3.png<>uid://bsms5eqjm87yj::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet2.png<>uid://2oxlvuugndvy::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet4.png<>uid://bnjup87vupgbh::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet.png
-::res://src/Levels/Characters_Selector/scripts/::1719997866
-characters_selector.gd::GDScript::-1::1719997866::0::1::::<>Control<>::
-::res://src/Levels/Level_Selector/::1720055318
-selector_screens.tscn::PackedScene::6352335672474438359::1720055318::0::1::::<><>::res://src/Levels/Level_Selector/scripts/selector_screens.gd<>uid://ccv3k4adqgqte::::res://assets/pictures/selector/background.webp<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav
-::res://src/Levels/Level_Selector/scripts/::1720055277
-selector_screens.gd::GDScript::-1::1720055277::0::1::::<>Control<>::
-::res://src/Levels/Map1/::1720055317
+::res://src/Levels/::1720097003
+Global.gd::GDScript::-1::1720097003::0::1::::<>Node<>::
+::res://src/Levels/Characters_Selector/::1720097693
+characters_selector.tscn::PackedScene::5040911561690456790::1720097693::0::1::::<><>::res://src/Levels/Characters_Selector/scripts/characters_selector.gd<>uid://ccv3k4adqgqte::::res://assets/pictures/selector/background.webp<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://yecywvmr48oe::::res://assets/characters/Little Elvis/idle.png<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png<>uid://drr4yd3sa35ds::::res://assets/characters/Little Elvis/jump.png<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav<>uid://333qbt02n4rh::::res://assets/characters/Little witch/69x56/Sprite sheet/IdleAnimation.png<>uid://bqbxd1hytexdp::::res://assets/characters/Little Elvis/death.png<>uid://bm42jwf3qnr4e::::res://assets/characters/Little Elvis/run.png<>uid://colsijajyqug6::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet3.png<>uid://bsms5eqjm87yj::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet2.png<>uid://2oxlvuugndvy::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet4.png<>uid://bnjup87vupgbh::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet.png
+::res://src/Levels/Characters_Selector/scripts/::1720095838
+characters_selector.gd::GDScript::-1::1720095838::0::1::::<>Control<>::
+::res://src/Levels/Level_Selector/::1720097693
+Elemental_Water_selector_screens.tscn::PackedScene::8426324132460768340::1720097693::0::1::::<><>::uid://ccv3k4adqgqte::::res://assets/pictures/selector/background.webp<>res://src/Levels/Level_Selector/scripts/Elemental_Water_selector_screens.gd<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav<>uid://c4hk7ypikkhq4::::res://src/Levels/Map1/Background/Background.tscn<>uid://dvb2k4uxgndq8::::res://src/Levels/Map2/Background/Background.tscn<>uid://brkyd827hpk26::::res://src/Levels/Map3/Background/map_3_background.tscn<>uid://dxmfevdiwqcs0::::res://src/Levels/Map4/Background/map_4_background.tscn<>uid://crf1gdo1ogqq8::::res://src/Levels/Map5/Background/map_5_background.tscn<>uid://cr7rhyavhx4dd::::res://src/Levels/Map6/Background/map_6_background.tscn
+Elvis_selector_screens.tscn::PackedScene::1224381983213354180::1720097693::0::1::::<><>::res://src/Levels/Level_Selector/scripts/Elvis_selector_screens.gd<>uid://b0kis375vr65n::::res://assets/pictures/selector/下载.png<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav<>uid://c4hk7ypikkhq4::::res://src/Levels/Map1/Background/Background.tscn<>uid://dvb2k4uxgndq8::::res://src/Levels/Map2/Background/Background.tscn<>uid://brkyd827hpk26::::res://src/Levels/Map3/Background/map_3_background.tscn<>uid://dxmfevdiwqcs0::::res://src/Levels/Map4/Background/map_4_background.tscn<>uid://crf1gdo1ogqq8::::res://src/Levels/Map5/Background/map_5_background.tscn<>uid://cr7rhyavhx4dd::::res://src/Levels/Map6/Background/map_6_background.tscn
+Witch_selector_screens.tscn::PackedScene::6352335672474438359::1720097693::0::1::::<><>::res://src/Levels/Level_Selector/scripts/Witch_selector_screens.gd<>uid://bmeo2pc3trhh1::::res://assets/pictures/selector/8460d5c67a40fd29263d6f700d4af58c.jpg<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav<>uid://c4hk7ypikkhq4::::res://src/Levels/Map1/Background/Background.tscn<>uid://dvb2k4uxgndq8::::res://src/Levels/Map2/Background/Background.tscn<>uid://brkyd827hpk26::::res://src/Levels/Map3/Background/map_3_background.tscn<>uid://dxmfevdiwqcs0::::res://src/Levels/Map4/Background/map_4_background.tscn<>uid://crf1gdo1ogqq8::::res://src/Levels/Map5/Background/map_5_background.tscn<>uid://cr7rhyavhx4dd::::res://src/Levels/Map6/Background/map_6_background.tscn
+::res://src/Levels/Level_Selector/scripts/::1720096771
+Elemental_Water_selector_screens.gd::GDScript::-1::1720082228::0::1::::<>Control<>::
+Elvis_selector_screens.gd::GDScript::-1::1720082047::0::1::::<>Control<>::
+Witch_selector_screens.gd::GDScript::-1::1720096771::0::1::::<>Control<>::
+::res://src/Levels/Map1/::1720097693
+Conductor.gd::GDScript::-1::1720060668::0::1::::<>AudioStreamPlayer<>::
 made_node.tscn::PackedScene::2782171183979453818::1720053860::0::1::::<><>::
-Map1.tscn::PackedScene::3467303016428094389::1720055317::0::1::::<><>::res://src/Levels/Map1/Script/Map1.gd<>uid://c4hk7ypikkhq4::::res://src/Levels/Map1/Background/Background.tscn<>uid://t5hemb7qyves::::res://src/Levels/Map1/Scroll/Scroll.tscn<>uid://bwavb6r2uk555::::res://src/Characters/Ape/Ape.tscn<>uid://c2ti566slfiws::::res://src/Extra/HitChart/hit_chart.tscn<>uid://7vkajok2ya66::::res://src/Extra/HUD/hud.tscn<>uid://be1egpjfr8n0b::::res://src/Transition/Pause/Pause.tscn<>uid://c62ulywtyxpu6::::res://src/Characters/Little_Elvis/little_elvis.tscn<>uid://dv8pm11dyd1p::::res://src/Characters/Little_Witch/little_witch.tscn<>uid://ytgnhlylgqpb::::res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn
-::res://src/Levels/Map1/Background/::1720055318
-Background.gdshader::Shader::-1::1720055393::0::1::::<><>::
-Background.tscn::PackedScene::6823434076609899145::1719972511::0::1::::<><>::uid://hpj15o27v5oq::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_1_ground.png<>uid://utxecgyssduv::::res://assets/packs/scrolling-city-background 2/6/Day/1.png<>uid://dbfhjp5xem1mp::::res://assets/packs/scrolling-city-background 2/1/Night/2.png<>uid://ddajc7d7dfo3w::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_3_moon.png<>uid://cympajwk8gcqo::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_6_far_buildings.png<>uid://d0x31d2xphb0e::::res://assets/packs/scrolling-city-background 2/3/Night/2.png<>uid://cbxsdgpcoixgh::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_7_bg_buildings.png<>uid://eoksnds6cqbm::::res://assets/packs/scrolling-city-background 2/1/Night/3.png<>uid://cncrd0efs16qf::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_9_wall.png<>uid://637rbpfxhs4s::::res://assets/packs/scrolling-city-background 2/8/Night/5.png<>uid://cmcc5xgly24m::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_8_fg_buildings.png
-::res://src/Levels/Map1/Script/::1720054943
-Map1.gd::GDScript::-1::1720055377::0::1::::<>Node<>::
-::res://src/Levels/Map1/Scroll/::1719972511
-Scroll.tscn::PackedScene::1395952157170682222::1719972511::0::1::::<><>::uid://bpmerqpacp14j::::res://assets/pictures/Map_1/ground.png
-::res://src/Levels/Map2/::1720055317
-Map2.tscn::PackedScene::1291693735355260052::1720055317::0::1::::<><>::res://src/Levels/Map2/Script/Map2.gd<>uid://dvb2k4uxgndq8::::res://src/Levels/Map2/Background/Background.tscn<>uid://dsw1e7c82xsd3::::res://src/Levels/Map2/Scroll/scroll.tscn<>uid://dv8pm11dyd1p::::res://src/Characters/Little_Witch/little_witch.tscn<>uid://c62ulywtyxpu6::::res://src/Characters/Little_Elvis/little_elvis.tscn<>uid://ytgnhlylgqpb::::res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn
-::res://src/Levels/Map2/Background/::1719972511
-Background.tscn::PackedScene::8636950917102576757::1719972511::0::1::::<><>::uid://4wjw5xv8m6gy::::res://assets/packs/scrolling-city-background/city 2/1.png<>uid://b31ot7gglqf13::::res://assets/packs/scrolling-city-background/city 2/2.png<>uid://bcvl6whfvnflb::::res://assets/packs/scrolling-city-background/city 2/3.png<>uid://ckkrbvkybmhni::::res://assets/packs/scrolling-city-background/city 2/4.png<>uid://dlv63t6rpq8np::::res://assets/packs/scrolling-city-background/city 2/5.png<>uid://b1aoftfxda6n5::::res://assets/packs/scrolling-city-background/city 2/6.png
-::res://src/Levels/Map2/Script/::1720054943
-Map2.gd::GDScript::-1::1720054943::0::1::::<>Node<>::
+Map1.tscn::PackedScene::3467303016428094389::1720097693::0::1::::<><>::res://src/Levels/Map1/Script/Map1.gd<>uid://c4hk7ypikkhq4::::res://src/Levels/Map1/Background/Background.tscn<>uid://t5hemb7qyves::::res://src/Levels/Map1/Scroll/Scroll.tscn<>uid://bwavb6r2uk555::::res://src/Characters/Ape/Ape.tscn<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png<>uid://7vkajok2ya66::::res://src/Extra/HUD/hud.tscn<>uid://be1egpjfr8n0b::::res://src/Transition/Pause/Pause.tscn<>uid://c62ulywtyxpu6::::res://src/Characters/Little_Elvis/little_elvis.tscn<>uid://dv8pm11dyd1p::::res://src/Characters/Little_Witch/little_witch.tscn<>uid://ytgnhlylgqpb::::res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn
+::res://src/Levels/Map1/Background/::1720097795
+Background.gdshader::Shader::-1::1720097795::0::1::::<><>::
+Background.tscn::PackedScene::6823434076609899145::1720096010::0::1::::<><>::uid://hpj15o27v5oq::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_1_ground.png<>uid://utxecgyssduv::::res://assets/packs/scrolling-city-background 2/6/Day/1.png<>uid://dbfhjp5xem1mp::::res://assets/packs/scrolling-city-background 2/1/Night/2.png<>uid://ddajc7d7dfo3w::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_3_moon.png<>uid://cympajwk8gcqo::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_6_far_buildings.png<>uid://d0x31d2xphb0e::::res://assets/packs/scrolling-city-background 2/3/Night/2.png<>uid://cbxsdgpcoixgh::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_7_bg_buildings.png<>uid://eoksnds6cqbm::::res://assets/packs/scrolling-city-background 2/1/Night/3.png<>uid://cncrd0efs16qf::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_9_wall.png<>uid://637rbpfxhs4s::::res://assets/packs/scrolling-city-background 2/8/Night/5.png<>uid://cmcc5xgly24m::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_8_fg_buildings.png
+::res://src/Levels/Map1/Script/::1720097693
+Map1.gd::GDScript::-1::1720097693::0::1::::<>Node<>::
+::res://src/Levels/Map1/Scroll/::1720061973
+Scroll.tscn::PackedScene::1395952157170682222::1720061973::0::1::::<><>::uid://bpmerqpacp14j::::res://assets/pictures/Map_1/ground.png
+::res://src/Levels/Map2/::1720077752
+Map2.tscn::PackedScene::1291693735355260052::1720077752::0::1::::<><>::res://src/Levels/Map2/Script/Map2.gd<>uid://dvb2k4uxgndq8::::res://src/Levels/Map2/Background/Background.tscn<>uid://dsw1e7c82xsd3::::res://src/Levels/Map2/Scroll/scroll.tscn<>uid://dv8pm11dyd1p::::res://src/Characters/Little_Witch/little_witch.tscn<>uid://c62ulywtyxpu6::::res://src/Characters/Little_Elvis/little_elvis.tscn<>uid://ytgnhlylgqpb::::res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn<>uid://7vkajok2ya66::::res://src/Extra/HUD/hud.tscn<>uid://be1egpjfr8n0b::::res://src/Transition/Pause/Pause.tscn<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png
+::res://src/Levels/Map2/Background/::1720077752
+Background.tscn::PackedScene::8636950917102576757::1720077752::0::1::::<><>::uid://4wjw5xv8m6gy::::res://assets/packs/scrolling-city-background/city 2/1.png<>uid://b31ot7gglqf13::::res://assets/packs/scrolling-city-background/city 2/2.png<>uid://bcvl6whfvnflb::::res://assets/packs/scrolling-city-background/city 2/3.png<>uid://ckkrbvkybmhni::::res://assets/packs/scrolling-city-background/city 2/4.png<>uid://dlv63t6rpq8np::::res://assets/packs/scrolling-city-background/city 2/5.png<>uid://b1aoftfxda6n5::::res://assets/packs/scrolling-city-background/city 2/6.png
+::res://src/Levels/Map2/Script/::1720061795
+Map2.gd::GDScript::-1::1720061795::0::1::::<>Node<>::
 ::res://src/Levels/Map2/Scroll/::1720053860
 scroll.tscn::PackedScene::8469665017513937234::1720053860::0::1::::<><>::uid://bpmerqpacp14j::::res://assets/pictures/Map_1/ground.png
-::res://src/Levels/Map3/::1720055317
-Map3.tscn::PackedScene::4620449264168192542::1720055317::0::1::::<><>::res://src/Levels/Map3/Script/Map3.gd<>uid://brkyd827hpk26::::res://src/Levels/Map3/Background/map_3_background.tscn<>uid://dsw1e7c82xsd3::::res://src/Levels/Map2/Scroll/scroll.tscn<>uid://c62ulywtyxpu6::::res://src/Characters/Little_Elvis/little_elvis.tscn<>uid://dv8pm11dyd1p::::res://src/Characters/Little_Witch/little_witch.tscn<>uid://ytgnhlylgqpb::::res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn
+::res://src/Levels/Map3/::1720082079
+Map3.tscn::PackedScene::4620449264168192542::1720082079::0::1::::<><>::res://src/Levels/Map3/Script/Map3.gd<>uid://brkyd827hpk26::::res://src/Levels/Map3/Background/map_3_background.tscn<>uid://dsw1e7c82xsd3::::res://src/Levels/Map2/Scroll/scroll.tscn<>uid://c62ulywtyxpu6::::res://src/Characters/Little_Elvis/little_elvis.tscn<>uid://dv8pm11dyd1p::::res://src/Characters/Little_Witch/little_witch.tscn<>uid://ytgnhlylgqpb::::res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn<>uid://7vkajok2ya66::::res://src/Extra/HUD/hud.tscn<>uid://be1egpjfr8n0b::::res://src/Transition/Pause/Pause.tscn<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png
 ::res://src/Levels/Map3/Background/::1719972511
 map_3_background.tscn::PackedScene::3601739144732523141::1719972511::0::1::::<><>::uid://dveljned7kcss::::res://assets/packs/scrolling-city-background/city 6/1.png<>uid://xd3lny5hdgs7::::res://assets/packs/scrolling-city-background/city 6/2.png<>uid://dust4nkbpodgc::::res://assets/packs/scrolling-city-background/city 6/3.png<>uid://bxgbw453vrkye::::res://assets/packs/scrolling-city-background/city 6/4.png<>uid://b2ijyamk3a2d6::::res://assets/packs/scrolling-city-background/city 6/5.png<>uid://ddao1uemxkvos::::res://assets/packs/scrolling-city-background/city 6/6.png
-::res://src/Levels/Map3/Script/::1720055052
-Map3.gd::GDScript::-1::1720055052::0::1::::<>Node<>::
+::res://src/Levels/Map3/Script/::1720061802
+Map3.gd::GDScript::-1::1720061802::0::1::::<>Node<>::
 ::res://src/Levels/Map3/Scroll/::1719283288
-::res://src/Levels/Map4/::1720055318
-Map4.tscn::PackedScene::599004528287900157::1720055377::0::1::::<><>::res://src/Levels/Map4/Script/Map4.gd<>uid://dxmfevdiwqcs0::::res://src/Levels/Map4/Background/map_4_background.tscn<>uid://dsw1e7c82xsd3::::res://src/Levels/Map2/Scroll/scroll.tscn<>uid://dv8pm11dyd1p::::res://src/Characters/Little_Witch/little_witch.tscn<>uid://c62ulywtyxpu6::::res://src/Characters/Little_Elvis/little_elvis.tscn<>uid://ytgnhlylgqpb::::res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn
+::res://src/Levels/Map4/::1720061973
+Map4.tscn::PackedScene::599004528287900157::1720061973::0::1::::<><>::res://src/Levels/Map4/Script/Map4.gd<>uid://dxmfevdiwqcs0::::res://src/Levels/Map4/Background/map_4_background.tscn<>uid://dsw1e7c82xsd3::::res://src/Levels/Map2/Scroll/scroll.tscn<>uid://dv8pm11dyd1p::::res://src/Characters/Little_Witch/little_witch.tscn<>uid://c62ulywtyxpu6::::res://src/Characters/Little_Elvis/little_elvis.tscn<>uid://ytgnhlylgqpb::::res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn<>uid://7vkajok2ya66::::res://src/Extra/HUD/hud.tscn<>uid://be1egpjfr8n0b::::res://src/Transition/Pause/Pause.tscn<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png
 ::res://src/Levels/Map4/Background/::1720055257
 map_4_background.tscn::PackedScene::8798689823960498085::1719995001::0::1::::<><>::uid://xyibo6figknf::::res://assets/packs/scrolling-city-background/city 1/1.png<>uid://bihnfujuwnoga::::res://assets/packs/scrolling-city-background/city 1/2.png<>uid://btbc10tqa3t7h::::res://assets/packs/scrolling-city-background/city 1/3.png<>uid://dgvp8blo2850p::::res://assets/packs/scrolling-city-background/city 1/4.png<>uid://cl7d385bawyko::::res://assets/packs/scrolling-city-background/city 1/5.png
-::res://src/Levels/Map4/Script/::1720055162
-Map4.gd::GDScript::-1::1720055162::0::1::::<>Node<>::
+::res://src/Levels/Map4/Script/::1720061807
+Map4.gd::GDScript::-1::1720061807::0::1::::<>Node<>::
 ::res://src/Levels/Map4/Scroll/::1719284377
-::res://src/Levels/Map5/::1720053860
-map_5.tscn::PackedScene::8623998619937040844::1720055393::0::1::::<><>::res://src/Levels/Map5/Script/map_5.gd<>uid://crf1gdo1ogqq8::::res://src/Levels/Map5/Background/map_5_background.tscn<>uid://dsw1e7c82xsd3::::res://src/Levels/Map2/Scroll/scroll.tscn<>uid://dv8pm11dyd1p::::res://src/Characters/Little_Witch/little_witch.tscn<>uid://c62ulywtyxpu6::::res://src/Characters/Little_Elvis/little_elvis.tscn<>uid://ytgnhlylgqpb::::res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn
-::res://src/Levels/Map5/Background/::1720053860
-map_5_background.tscn::PackedScene::5977963134976005841::1720053860::0::1::::<><>::uid://c52gbqp6h8fsp::::res://assets/packs/scrolling-city-background/city 8/1.png<>uid://deec2qnqevxd6::::res://assets/packs/scrolling-city-background/city 8/2.png<>uid://bbajtor1wi1oh::::res://assets/packs/scrolling-city-background/city 8/3.png<>uid://bbnmjvk0qqoc8::::res://assets/packs/scrolling-city-background/city 8/4.png<>uid://g16ldmh0g6r3::::res://assets/packs/scrolling-city-background/city 8/5.png
-::res://src/Levels/Map5/Script/::1719972511
-map_5.gd::GDScript::-1::1719972511::0::1::::<>Node<>::
+::res://src/Levels/Map5/::1720077752
+Map_5.tscn::PackedScene::8623998619937040844::1720077752::0::1::::<><>::res://src/Levels/Map5/Script/map_5.gd<>uid://crf1gdo1ogqq8::::res://src/Levels/Map5/Background/map_5_background.tscn<>uid://dsw1e7c82xsd3::::res://src/Levels/Map2/Scroll/scroll.tscn<>uid://dv8pm11dyd1p::::res://src/Characters/Little_Witch/little_witch.tscn<>uid://c62ulywtyxpu6::::res://src/Characters/Little_Elvis/little_elvis.tscn<>uid://ytgnhlylgqpb::::res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn<>uid://7vkajok2ya66::::res://src/Extra/HUD/hud.tscn<>uid://be1egpjfr8n0b::::res://src/Transition/Pause/Pause.tscn<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png
+::res://src/Levels/Map5/Background/::1720077074
+map_5_background.tscn::PackedScene::5977963134976005841::1720077074::0::1::::<><>::uid://c52gbqp6h8fsp::::res://assets/packs/scrolling-city-background/city 8/1.png<>uid://deec2qnqevxd6::::res://assets/packs/scrolling-city-background/city 8/2.png<>uid://bbajtor1wi1oh::::res://assets/packs/scrolling-city-background/city 8/3.png<>uid://bbnmjvk0qqoc8::::res://assets/packs/scrolling-city-background/city 8/4.png<>uid://g16ldmh0g6r3::::res://assets/packs/scrolling-city-background/city 8/5.png
+::res://src/Levels/Map5/Script/::1720077422
+map_5.gd::GDScript::-1::1720077422::0::1::::<>Node<>::
+map_5_background.gd::GDScript::-1::1720063987::0::1::::<>RefCounted<>::
 ::res://src/Levels/Map5/Scroll/::1719299158
-::res://src/Levels/Tests/::1719972511
-::res://src/Levels/Tests/shader/::1720055318
-shader.gdshader::Shader::-1::1720055393::0::1::::<><>::
+::res://src/Levels/Map6/::1720077752
+Map_6.tscn::PackedScene::7732683421382551049::1720077752::0::1::::<><>::res://src/Levels/Map6/Script/map_6.gd<>uid://cr7rhyavhx4dd::::res://src/Levels/Map6/Background/map_6_background.tscn<>uid://dsw1e7c82xsd3::::res://src/Levels/Map2/Scroll/scroll.tscn<>uid://dv8pm11dyd1p::::res://src/Characters/Little_Witch/little_witch.tscn<>uid://c62ulywtyxpu6::::res://src/Characters/Little_Elvis/little_elvis.tscn<>uid://ytgnhlylgqpb::::res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn<>uid://7vkajok2ya66::::res://src/Extra/HUD/hud.tscn<>uid://be1egpjfr8n0b::::res://src/Transition/Pause/Pause.tscn<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png
+::res://src/Levels/Map6/Background/::1720062235
+map_6_background.tscn::PackedScene::6033157748321868965::1720062235::0::1::::<><>::uid://dco1c18qijmhm::::res://assets/packs/scrolling-city-background/city 5/1.png<>uid://dbgytqje4ulgr::::res://assets/packs/scrolling-city-background/city 5/2.png<>uid://dl31grko67aj6::::res://assets/packs/scrolling-city-background/city 5/3.png<>uid://cffxd55wysdg2::::res://assets/packs/scrolling-city-background/city 5/4.png<>uid://7w7xc0msqcr6::::res://assets/packs/scrolling-city-background/city 5/5.png
+::res://src/Levels/Map6/Script/::1720062556
+map_6.gd::GDScript::-1::1720062556::0::1::::<>Node<>::
+::res://src/Levels/Map6/Scroll/::1720062071
+::res://src/Levels/Tests/::1720060668
+::res://src/Levels/Tests/shader/::1720097795
+shader.gdshader::Shader::-1::1720097795::0::1::::<><>::
 shader.tscn::PackedScene::2957339101064438844::1719972511::0::1::::<><>::res://src/Levels/Tests/shader/shader.gdshader<>uid://cri4l3pex2dfe::::res://assets/pictures/Map_1/sky.jpg
+::res://src/Levels/Tests/Test-Signal2/::1720060668
+icon.gd::GDScript::-1::1720060668::0::1::::<>Sprite2D<>::
+icon.tscn::PackedScene::8843302243851392318::1720060668::0::1::::<><>::uid://buxogdxolduy8::::res://icon.svg
+Test-Signal.tscn::PackedScene::7172810954093504761::1720060668::0::1::::<><>::uid://dx805px1lhl2u::::res://src/Levels/Tests/Test-Signal2/icon.tscn<>res://src/Levels/Tests/Test-Signal2/icon.gd
+::res://src/Levels/Tests/Test-Signals/::1720060668
+icon.gd::GDScript::-1::1720060668::0::1::::<>Sprite2D<>::
+icon.tscn::PackedScene::6690581183123212497::1720060668::0::1::::<><>::uid://buxogdxolduy8::::res://icon.svg
+node_2d.gd::GDScript::-1::1720060668::0::1::::<>Node2D<>::
+node_2d.tscn::PackedScene::1971913799959190955::1720060668::0::1::::<><>::uid://c2k75oetk3g38::::res://src/Levels/Tests/Test-Signals/icon.tscn<>res://src/Levels/Tests/Test-Signals/icon.gd
+Sprite2D.gd::GDScript::-1::1720060668::0::1::::<>Sprite2D<>::
 ::res://src/Levels/Tests/TestLevel/::1718931963
 ::res://src/Levels/Tests/TestLevel/Test1/::1719973246
 Test1.tscn::PackedScene::742119041763967950::1719973246::0::1::::<><>::
-::res://src/MainScreens/::1720053859
+::res://src/MainScreens/::1720079690
 download.png::CompressedTexture2D::60834593750847934::1718931754::1718931754::1::::<><>::
-home-screen.tscn::PackedScene::4863310352588076539::1720053859::0::1::::<><>::res://src/MainScreens/scripts/home_cmd.gd<>res://src/MainScreens/scrolls/scrollmenu.gdshader<>uid://d3jsblcke2k1q::::res://assets/pictures/home/background.png<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav
-::res://src/MainScreens/scripts/::1719991972
-home_cmd.gd::GDScript::-1::1719991972::0::1::::<>Control<>::
-::res://src/MainScreens/scrolls/::1720055318
-scrollmenu.gdshader::Shader::-1::1720055393::0::1::::<><>::
+home-screen.tscn::PackedScene::4863310352588076539::1720079690::0::1::::<><>::res://src/MainScreens/scripts/home_cmd.gd<>res://src/MainScreens/scrolls/scrollmenu.gdshader<>uid://d3jsblcke2k1q::::res://assets/pictures/home/background.png<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav
+::res://src/MainScreens/scripts/::1720060735
+home_cmd.gd::GDScript::-1::1720060735::0::1::::<>Control<>::
+::res://src/MainScreens/scrolls/::1720097795
+scrollmenu.gdshader::Shader::-1::1720097795::0::1::::<><>::
 ::res://src/MainScreens/test-scenes/::1719973246
 test-button.tscn::PackedScene::350590999930150008::1719973246::0::1::::<><>::uid://deghce8tehkup::::res://assets/home/a578391add06b6ea5fec02dd19090bc6_400x400.png
+::res://src/Obstacles/::1720060668
+::res://src/Obstacles/Antena/::1720060668
+antena.tscn::PackedScene::9054786304310266171::1720060668::0::1::::<><>::uid://ccitp52khlkh0::::res://assets/obstacles/trash assets/satellite dish.png
 ::res://src/Transition/::1719972511
-::res://src/Transition/Pause/::1720053859
-Pause.gd::GDScript::-1::1720055377::0::1::::<>Node<>::
-Pause.tscn::PackedScene::2721104264589979647::1719972511::0::1::::<><>::res://src/Transition/Pause/Pause.gd<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf
+::res://src/Transition/Pause/::1720097537
+Pause.gd::GDScript::-1::1720097537::0::1::::<>Node<>::
+Pause.tscn::PackedScene::2721104264589979647::1720061973::0::1::::<><>::res://src/Transition/Pause/Pause.gd<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf
 ::res://src/Transition/Trans_1/::1719972511
 Trans_1.tscn::PackedScene::593642795758482004::1719972511::0::1::::<><>::res://src/Transition/Trans_1/scripts/trans_1.gd
 ::res://src/Transition/Trans_1/scripts/::1719972511

@@ -1,3 +1,11 @@
+res://src/Levels/Level_Selector/scripts
+res://src/Levels/Level_Selector
+res://src/Extra/End_Scream
+res://src/Levels/Map5/Script
+res://src/Levels/Map6/Script
+res://src/Levels/Map6
+res://src/Levels/Map6/Background
+res://src/Extra/MainScreen
 res://src/Levels
 res://src
 res://assets/characters/Little witch/69x56/Sprite sheet
@@ -6,17 +14,9 @@ res://src/Characters/Elementals_water_priestess/Script
 res://assets/characters/Elementals_water_priestess_FREE_v1.1
 res://src/Characters/Elementals_water_priestess
 res://assets/characters/Elementals_water_priestess_FREE_v1.1/png/01_idle
-res://src/Levels/Map5/Script
 res://src/Levels/Map5
 res://src/Levels/Map5/Background
 res://src/Characters/Little_Witch
 res://src/Characters/Little_Elvis/Script
 res://assets/characters/Little Elvis
 res://src/Characters/Little_Elvis
-res://src/Levels/Map4/Script
-res://src/Levels/Map4/Background
-res://src/Levels/Map3/Script
-res://src/Levels/Map3
-res://src/Levels/Map3/Background
-res://src/Levels/Map2/Script
-res://src/Levels/Map2/Scroll
