@@ -1,7 +1,12 @@
-[gd_scene load_steps=3 format=3 uid="uid://be1egpjfr8n0b"]
+[gd_scene load_steps=5 format=3 uid="uid://be1egpjfr8n0b"]
 
 [ext_resource type="Script" path="res://src/Transition/Pause/Pause.gd" id="1_xirlt"]
 [ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="2_irawm"]
+[ext_resource type="Texture2D" uid="uid://8lqbix2eiyxo" path="res://assets/packs/GUI_1/GUI.png" id="3_7hehm"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nsbis"]
+texture = ExtResource("3_7hehm")
+region_rect = Rect2(113, 98, 30, 13)
 
 [node name="Pause" type="CanvasLayer"]
 process_mode = 3
@@ -27,3 +32,18 @@ grow_horizontal = 2
 scale = Vector2(6, 6)
 theme_override_fonts/font = ExtResource("2_irawm")
 text = "Pause"
+
+[node name="Menu" type="Button" parent="."]
+offset_left = 17.0
+offset_top = 7.0
+offset_right = 133.0
+offset_bottom = 58.0
+theme_override_colors/font_outline_color = Color(0.419608, 0.388235, 0.662745, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_irawm")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_nsbis")
+text = "Menu
+"
+
+[connection signal="pressed" from="Menu" to="." method="_on_menu_pressed"]

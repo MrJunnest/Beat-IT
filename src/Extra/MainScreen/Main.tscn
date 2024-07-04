@@ -235,6 +235,7 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_jne86")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_rpuwp")
 theme_override_styles/disabled = SubResource("StyleBoxEmpty_8f6cr")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_8f6cr")
+action_mode = 0
 text = "PLAY"
 alignment = 0
 icon_alignment = 1

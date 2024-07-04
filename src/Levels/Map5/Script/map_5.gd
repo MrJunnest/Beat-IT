@@ -13,15 +13,15 @@ var screen_size : Vector2i
 func _ready():
 	new_game()
 	screen_size = get_window().size
-	if Global.character_visible == 1:
+	if MapCharacter.character_visible == 1:
 		%Little_Elvis.visible = false
 		%Elementals_water_priestess.visible = false
 
-	if Global.character_visible == 2:
+	if MapCharacter.character_visible == 2:
 		%Little_Witch.visible = false
 		%Elementals_water_priestess.visible = false
 	
-	if Global.character_visible == 3:
+	if MapCharacter.character_visible == 3:
 		%Little_Witch.visible = false
 		%Little_Elvis.visible = false
 	
