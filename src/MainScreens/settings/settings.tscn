@@ -1,0 +1,98 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbovkios5xgxw"]
+
+[ext_resource type="Script" path="res://src/MainScreens/settings/settings.gd" id="1_80c5s"]
+[ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="2_5dmt2"]
+
+[node name="Settings_menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_80c5s")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 62.0
+offset_top = 31.0
+offset_right = 1214.0
+offset_bottom = 682.0
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Title" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_5dmt2")
+theme_override_font_sizes/font_size = 50
+text = "SETTINGS"
+horizontal_alignment = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 250
+theme_override_constants/margin_top = 30
+theme_override_constants/margin_right = 100
+theme_override_constants/margin_bottom = 25
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/MarginContainer"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_constants/separation = 15
+
+[node name="Sound" type="Label" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 25
+text = "Sounds"
+
+[node name="Volume" type="HSlider" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/Sound"]
+layout_mode = 2
+offset_left = 155.0
+offset_top = 10.0
+offset_right = 533.0
+offset_bottom = 26.0
+value = 100.0
+
+[node name="Resolution" type="Label" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Resolutions"
+
+[node name="Resolution_b" type="OptionButton" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/Resolution"]
+layout_mode = 0
+offset_left = 154.0
+offset_top = 2.0
+offset_right = 375.0
+offset_bottom = 33.0
+item_count = 2
+popup/item_0/text = "COCK"
+popup/item_0/id = 0
+popup/item_1/text = "COCK1"
+popup/item_1/id = 1
+
+[node name="credits" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 10
+text = "CREDITSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSASASA"
+
+[node name="Back_but" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 10
+size_flags_stretch_ratio = 0.0
+theme_override_fonts/font = ExtResource("2_5dmt2")
+theme_override_font_sizes/font_size = 20
+text = "RETURN"
+
+[connection signal="value_changed" from="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/Sound/Volume" to="." method="_on_volume_value_changed"]
+[connection signal="item_selected" from="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/Resolution/Resolution_b" to="." method="_on_resolution_b_item_selected"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/credits" to="." method="_on_credits_pressed"]
