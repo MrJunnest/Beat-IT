@@ -218,9 +218,6 @@ text = "Admin Panel"
 
 [node name="Hitsound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("6_rxdhw")
-volume_db = -20.0
-pitch_scale = 0.7
-mix_target = 2
 
 [node name="Title" type="AnimatedSprite2D" parent="."]
 editor_description = "gay title"
@@ -237,3 +234,4 @@ frame_progress = 0.764107
 [connection signal="pressed" from="VBox-Main/Settings-Button" to="." method="_on_settings_button_pressed"]
 [connection signal="mouse_entered" from="VBox-Main/Quit-Button" to="." method="_on_quit_button_mouse_entered"]
 [connection signal="pressed" from="VBox-Main/Quit-Button" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="VBox-Main/Admin-Panel" to="." method="_on_admin_panel_pressed"]

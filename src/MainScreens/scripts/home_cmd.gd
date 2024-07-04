@@ -22,3 +22,7 @@ func _on_quit_button_mouse_entered():
 func _on_quit_button_pressed():
 	get_tree().quit()
 	pass # Replace with function body.
+
+
+func _on_admin_panel_pressed():
+	get_tree().change_scene_to_file("res://src/BG/Game/Game.tscn")

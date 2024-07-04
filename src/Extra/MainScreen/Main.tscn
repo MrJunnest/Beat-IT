@@ -1,0 +1,141 @@
+[gd_scene load_steps=11 format=3 uid="uid://h38uu74u2dgl"]
+
+[ext_resource type="Shader" path="res://src/MainScreens/scrolls/scrollmenu.gdshader" id="1_2v6li"]
+[ext_resource type="Script" path="res://src/Extra/MainScreen/Main.gd" id="1_xby4l"]
+[ext_resource type="Texture2D" uid="uid://d3jsblcke2k1q" path="res://assets/pictures/home/background.png" id="2_o53ph"]
+[ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="3_c1he2"]
+[ext_resource type="AudioStream" uid="uid://x0cguunbcqs" path="res://assets/sounds/MI_SFX 43.wav" id="5_imbvv"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fdv2k"]
+shader = ExtResource("1_2v6li")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8f6cr"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_moa0r"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_t3u3o"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_udvnr"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xby4l")
+metadata/_edit_vertical_guides_ = [55.0]
+
+[node name="Background" type="TextureRect" parent="."]
+texture_repeat = 2
+material = SubResource("ShaderMaterial_fdv2k")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -3.0
+offset_right = 9454.0
+offset_bottom = 5370.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.11, 0.11)
+texture = ExtResource("2_o53ph")
+
+[node name="Left ColorBox" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -20.0
+offset_right = 431.0
+offset_bottom = 662.0
+color = Color(0.0567602, 0.21816, 0.313073, 1)
+
+[node name="Left ButtonBox" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 319.0
+offset_right = 433.0
+offset_bottom = 616.0
+theme_override_constants/separation = 15
+alignment = 1
+
+[node name="PLAY" type="Button" parent="Left ButtonBox"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_c1he2")
+theme_override_font_sizes/font_size = 55
+theme_override_styles/normal = SubResource("StyleBoxEmpty_8f6cr")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_8f6cr")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_8f6cr")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_8f6cr")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_8f6cr")
+text = "PLAY"
+alignment = 0
+
+[node name="SETTINGS" type="Button" parent="Left ButtonBox"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_c1he2")
+theme_override_font_sizes/font_size = 55
+theme_override_styles/normal = SubResource("StyleBoxEmpty_moa0r")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_moa0r")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_moa0r")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_moa0r")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_moa0r")
+text = "SETTINGS"
+alignment = 0
+
+[node name="CREDITS" type="Button" parent="Left ButtonBox"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_c1he2")
+theme_override_font_sizes/font_size = 55
+theme_override_styles/normal = SubResource("StyleBoxEmpty_t3u3o")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_t3u3o")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_t3u3o")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_t3u3o")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_t3u3o")
+text = "CREDITS"
+alignment = 0
+
+[node name="QUIT" type="Button" parent="Left ButtonBox"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_c1he2")
+theme_override_font_sizes/font_size = 55
+theme_override_styles/normal = SubResource("StyleBoxEmpty_udvnr")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_udvnr")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_udvnr")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_udvnr")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_udvnr")
+text = "QUIT"
+alignment = 0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 63.0
+offset_right = 401.0
+offset_bottom = 230.0
+theme_override_fonts/font = ExtResource("3_c1he2")
+theme_override_font_sizes/font_size = 90
+text = "MAIN"
+
+[node name="Label" type="Label" parent="Label"]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 75.0
+offset_right = 405.0
+offset_bottom = 242.0
+theme_override_fonts/font = ExtResource("3_c1he2")
+theme_override_font_sizes/font_size = 90
+text = "MENU"
+
+[node name="Hitsound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_imbvv")
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+
+[connection signal="mouse_entered" from="Left ButtonBox/PLAY" to="." method="_on_play_mouse_entered"]
+[connection signal="pressed" from="Left ButtonBox/PLAY" to="." method="_on_play_pressed"]
+[connection signal="mouse_entered" from="Left ButtonBox/SETTINGS" to="." method="_on_settings_mouse_entered"]
+[connection signal="pressed" from="Left ButtonBox/SETTINGS" to="." method="_on_settings_pressed"]
+[connection signal="mouse_entered" from="Left ButtonBox/CREDITS" to="." method="_on_credits_mouse_entered"]
+[connection signal="pressed" from="Left ButtonBox/CREDITS" to="." method="_on_credits_pressed"]
+[connection signal="mouse_entered" from="Left ButtonBox/QUIT" to="." method="_on_quit_mouse_entered"]
+[connection signal="pressed" from="Left ButtonBox/QUIT" to="." method="_on_quit_pressed"]

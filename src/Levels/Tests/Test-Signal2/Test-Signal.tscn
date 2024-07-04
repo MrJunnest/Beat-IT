@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dagtfbu2iwevp"]
+
+[ext_resource type="PackedScene" uid="uid://dx805px1lhl2u" path="res://src/Levels/Tests/Test-Signal2/icon.tscn" id="1_nrlap"]
+[ext_resource type="Script" path="res://src/Levels/Tests/Test-Signal2/icon.gd" id="2_mr6k0"]
+
+[node name="Test-signal" type="Node2D"]
+
+[node name="Node2D" parent="." instance=ExtResource("1_nrlap")]
+script = ExtResource("2_mr6k0")
+
+[node name="Timer" type="Timer" parent="Node2D"]
