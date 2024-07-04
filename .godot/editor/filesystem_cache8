@@ -258,18 +258,18 @@ magicSpell6.png::CompressedTexture2D::5236081548322109970::1720062192::172006219
 Abaddon Bold.ttf::FontFile::7233662615732823947::1719285868::1719285868::1::::<><>::
 Abaddon Light.ttf::FontFile::1809076127323556293::1719285868::1719285868::1::::<><>::
 Silver.ttf::FontFile::9160834702302925382::1719285868::1719285868::1::::<><>::
-::res://assets/music/::1720063836
+::res://assets/music/::1720081314
 Carrera, Spreen - Minina (Mejorada y Extendida).mp3::AudioStreamMP3::5848597510214831774::1719297591::1719297591::1::::<><>::
 Carrera_-Spreen-Minina-_Mejorada-y-Extendida_.ogg::AudioStreamOggVorbis::8180438778676860823::1719999003::1719999003::1::::<><>::
 song.ogg::AudioStreamOggVorbis::8547337960034529888::1719999003::1719999003::1::::<><>::
 Super Idol full song.mp3::AudioStreamMP3::7120345646575336372::1719999003::1719999003::1::::<><>::
-::res://assets/music/GAMEPLAY/::1720079549
-::res://assets/music/GAMEPLAY/AnimalsGirls/::1720080173
-180 3.mp3::AudioStreamMP3::8516817220123290976::1720079481::1720080175::1::::<><>::
-::res://assets/music/GAMEPLAY/BlingBangBangBorn/::1720078316
-156 3.mp3::AudioStreamMP3::5921170542539783629::1720077170::1720078313::1::::<><>::
-::res://assets/music/GAMEPLAY/Fiesta Pagana - Mago de Oz/::1720064005
-135.ogg::AudioStreamOggVorbis::1936333255879699804::1720063871::1720064005::1::::<><>::
+::res://assets/music/GAMEPLAY/::1720081314
+::res://assets/music/GAMEPLAY/AnimalsGirls/::1720081314
+180 3.mp3::AudioStreamMP3::8516817220123290976::1720081314::1720081314::1::::<><>::
+::res://assets/music/GAMEPLAY/BlingBangBangBorn/::1720081314
+156 3.mp3::AudioStreamMP3::5921170542539783629::1720081314::1720081314::1::::<><>::
+::res://assets/music/GAMEPLAY/Fiesta Pagana - Mago de Oz/::1720081314
+135.ogg::AudioStreamOggVorbis::1936333255879699804::1720081314::1720081314::1::::<><>::
 ::res://assets/music/midi/::1719297586
 ::res://assets/music/soundfont/::1719297586
 ::res://assets/obstacles/::1719999003
@@ -1563,32 +1563,33 @@ Free Smoke Fx  Pixel 06.png::CompressedTexture2D::5426243380383392035::171999900
 Free Smoke Fx  Pixel 07.png::CompressedTexture2D::3171775444642558433::1719999003::1719999003::1::::<><>::
 ::res://assets/pop/star/::1719999003
 star.png::CompressedTexture2D::1846531329022635957::1719999003::1719999003::1::::<><>::
-::res://assets/sounds/::1719999003
+::res://assets/sounds/::1720081734
 HitChart.mp3::AudioStreamMP3::3170242513507496889::1719999003::1719999003::1::::<><>::
+LogoAudio.wav::AudioStreamWAV::7845085561137503989::1720081712::1720081737::1::::<><>::
 MI_SFX 43.wav::AudioStreamWAV::49002531712658450::1719297591::1719297591::1::::<><>::
 ::res://src/::1720055238
 ::res://src/BG/::1719999003
-::res://src/BG/Conductor/::1720080051
+::res://src/BG/Conductor/::1720081414
 Conductor.gd::GDScript::-1::1719999003::0::1::::<>AudioStreamPlayer<>::
-Conductor.tscn::PackedScene::9143123071160639790::1720080051::0::1::::<><>::res://src/Levels/Map1/Conductor.gd
-::res://src/BG/Game/::1720080051
+Conductor.tscn::PackedScene::9143123071160639790::1720081414::0::1::::<><>::res://src/Levels/Map1/Conductor.gd
+::res://src/BG/Game/::1720081414
 Game.gd::GDScript::-1::1720062192::0::1::::<>CanvasLayer<>::
-Game.tscn::PackedScene::5972191086369164678::1720080051::0::1::::<><>::res://src/BG/Game/Game.gd<>uid://m5agv6axbsc6::::res://src/BG/HitChart/HitChart.tscn<>uid://d3i85vy85kakk::::res://src/BG/Conductor/Conductor.tscn<>uid://c3q43s8jjnl4q::::res://assets/music/GAMEPLAY/AnimalsGirls/91 6.mp3
+Game.tscn::PackedScene::5972191086369164678::1720081414::0::1::::<><>::res://src/BG/Game/Game.gd<>uid://m5agv6axbsc6::::res://src/BG/HitChart/HitChart.tscn<>uid://d3i85vy85kakk::::res://src/BG/Conductor/Conductor.tscn
 ::res://src/BG/Global/::1719999003
 Global.gd::GDScript::-1::1719999003::0::1::::<>Node2D<>::
 Global.tscn::PackedScene::4402301800560674546::1719999003::0::1::::<><>::res://src/BG/Global/Global.gd
 ::res://src/BG/HitChart/::1720060555
 HitChart.gd::GDScript::-1::1719999003::0::1::::<>AnimatedSprite2D<>::
 HitChart.tscn::PackedScene::904209321951697123::1720060555::0::1::::<><>::uid://wq4v756w1nxg::::res://assets/pictures/HitChart.png<>uid://ceo6r270ad6y3::::res://assets/pictures/HitChart1.png<>res://src/BG/HitChart/HitChart.gd
-::res://src/BG/Note/::1720080051
-Note.gd::GDScript::-1::1720077881::0::1::::<>Area2D<>::
-Note.tscn::PackedScene::167981840319822307::1720080051::0::1::::<><>::uid://ty47xnvevqb8::::res://assets/obstacles/spells/2/1.png<>res://src/BG/Note/Note.gd<>uid://cob1xuhsahi3m::::res://assets/obstacles/spells/2/2.png<>uid://dqk31ejopy3oc::::res://assets/obstacles/spells/2/3.png<>uid://dg4lu7wl74a0f::::res://assets/obstacles/spells/2/4.png<>uid://c38e21rw7u71::::res://assets/obstacles/spells/2/5.png<>uid://b8c7jfxn7cqa2::::res://assets/obstacles/spells/2/6.png<>uid://bw4i7wutvg15a::::res://assets/obstacles/spells/2/7.png<>uid://b5f7olc3qs7vf::::res://assets/obstacles/spells/2/8.png<>uid://cw5bq4ymxw3nh::::res://assets/obstacles/spells/2/9.png<>uid://dc0kxrt7do1y4::::res://assets/obstacles/spells/2/10.png<>uid://c7npx4wfmd52f::::res://assets/obstacles/spells/2/11.png<>uid://cp47dvks10ag3::::res://assets/obstacles/spells/2/12.png<>uid://b1xotnvhjj3tq::::res://assets/obstacles/spells/2/13.png<>uid://b76jjewievd84::::res://assets/obstacles/spells/2/14.png<>uid://dyib2obns3stk::::res://assets/obstacles/spells/2/15.png<>uid://ci8bgmsbd2w5o::::res://assets/obstacles/spells/2/16.png<>uid://dtmyxmhici4b3::::res://assets/obstacles/spells/2/17.png<>uid://g71r3m423wdd::::res://assets/obstacles/spells/2/18.png<>uid://cl104ic0o6v8h::::res://assets/obstacles/spells/2/19.png<>uid://bqb78dcnodt1f::::res://assets/obstacles/spells/2/20.png<>uid://doyymwtfed3q0::::res://assets/obstacles/spells/2/21.png<>uid://dfbecx2uxmio8::::res://assets/obstacles/spells/2/22.png<>uid://ed0svudddxnn::::res://assets/obstacles/spells/2/23.png<>uid://dgca678iw343v::::res://assets/obstacles/spells/2/24.png<>uid://udobvmnkuysh::::res://assets/obstacles/spells/2/25.png<>uid://clt4qcqlf5v3a::::res://assets/obstacles/spells/2/26.png<>uid://bsei4bapm6vfq::::res://assets/obstacles/spells/2/27.png<>uid://bumoy1puxye6::::res://assets/obstacles/spells/2/28.png<>uid://d3xri781slhax::::res://assets/obstacles/spells/2/29.png<>uid://cxtfg2d3dcc4t::::res://assets/obstacles/spells/2/30.png<>uid://1kqdo84ddn70::::res://assets/pop/star/star.png<>uid://blfxowi1r7hnt::::res://assets/sounds/HitChart.mp3
+::res://src/BG/Note/::1720081414
+Note.gd::GDScript::-1::1720081414::0::1::::<>Area2D<>::
+Note.tscn::PackedScene::167981840319822307::1720081414::0::1::::<><>::uid://ty47xnvevqb8::::res://assets/obstacles/spells/2/1.png<>res://src/BG/Note/Note.gd<>uid://cob1xuhsahi3m::::res://assets/obstacles/spells/2/2.png<>uid://dqk31ejopy3oc::::res://assets/obstacles/spells/2/3.png<>uid://dg4lu7wl74a0f::::res://assets/obstacles/spells/2/4.png<>uid://c38e21rw7u71::::res://assets/obstacles/spells/2/5.png<>uid://b8c7jfxn7cqa2::::res://assets/obstacles/spells/2/6.png<>uid://bw4i7wutvg15a::::res://assets/obstacles/spells/2/7.png<>uid://b5f7olc3qs7vf::::res://assets/obstacles/spells/2/8.png<>uid://cw5bq4ymxw3nh::::res://assets/obstacles/spells/2/9.png<>uid://dc0kxrt7do1y4::::res://assets/obstacles/spells/2/10.png<>uid://c7npx4wfmd52f::::res://assets/obstacles/spells/2/11.png<>uid://cp47dvks10ag3::::res://assets/obstacles/spells/2/12.png<>uid://b1xotnvhjj3tq::::res://assets/obstacles/spells/2/13.png<>uid://b76jjewievd84::::res://assets/obstacles/spells/2/14.png<>uid://dyib2obns3stk::::res://assets/obstacles/spells/2/15.png<>uid://ci8bgmsbd2w5o::::res://assets/obstacles/spells/2/16.png<>uid://dtmyxmhici4b3::::res://assets/obstacles/spells/2/17.png<>uid://g71r3m423wdd::::res://assets/obstacles/spells/2/18.png<>uid://cl104ic0o6v8h::::res://assets/obstacles/spells/2/19.png<>uid://bqb78dcnodt1f::::res://assets/obstacles/spells/2/20.png<>uid://doyymwtfed3q0::::res://assets/obstacles/spells/2/21.png<>uid://dfbecx2uxmio8::::res://assets/obstacles/spells/2/22.png<>uid://ed0svudddxnn::::res://assets/obstacles/spells/2/23.png<>uid://dgca678iw343v::::res://assets/obstacles/spells/2/24.png<>uid://udobvmnkuysh::::res://assets/obstacles/spells/2/25.png<>uid://clt4qcqlf5v3a::::res://assets/obstacles/spells/2/26.png<>uid://bsei4bapm6vfq::::res://assets/obstacles/spells/2/27.png<>uid://bumoy1puxye6::::res://assets/obstacles/spells/2/28.png<>uid://d3xri781slhax::::res://assets/obstacles/spells/2/29.png<>uid://cxtfg2d3dcc4t::::res://assets/obstacles/spells/2/30.png<>uid://1kqdo84ddn70::::res://assets/pop/star/star.png<>uid://blfxowi1r7hnt::::res://assets/sounds/HitChart.mp3
 ::res://src/BG/Targets/::1719975867
 ::res://src/Characters/::1720062192
-::res://src/Characters/Ape/::1720075148
-Ape.tscn::PackedScene::3931853742111255618::1720075148::0::1::::<><>::uid://bfja05brjccax::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png<>res://src/Characters/Ape/script/Ape.gd<>uid://cfcoo1u854wak::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump/Jump.png<>uid://dijdigyfu5tt::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit/Hit.png<>uid://b5uj8ll6vc1tf::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run/Run.png
-::res://src/Characters/Ape/script/::1720073753
-Ape.gd::GDScript::-1::1720073753::0::1::::<>Area2D<>::
+::res://src/Characters/Ape/::1720081314
+Ape.tscn::PackedScene::3931853742111255618::1720081314::0::1::::<><>::uid://bfja05brjccax::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png<>res://src/Characters/Ape/script/Ape.gd<>uid://cfcoo1u854wak::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump/Jump.png<>uid://dijdigyfu5tt::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit/Hit.png<>uid://b5uj8ll6vc1tf::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run/Run.png
+::res://src/Characters/Ape/script/::1720081414
+Ape.gd::GDScript::-1::1720081414::0::1::::<>Area2D<>::
 ::res://src/Characters/Little_Witch/::1720062192
 little_witch.tscn::PackedScene::255949583050613439::1720060490::0::1::::<><>::res://src/Characters/Little_Witch/script/little_witch.gd<>uid://eawnfg2l4yhh::::res://assets/characters/Little witch/85x56/Sprite sheet/IdleAnimation.png<>uid://cl1ar2wduowfp::::res://assets/characters/Little witch/85x56/Sprite sheet/JumpUpAndDownAttack.png<>uid://4v1vaqky3cgq::::res://assets/characters/Little witch/85x56/Sprite sheet/deathAnimation.png<>uid://g4d4ov0oesmj::::res://assets/characters/Little witch/85x56/Sprite sheet/RunAnimation.png<>uid://ddy7b6awp7q2m::::res://assets/characters/Jungle Monkey Platformer/miscellaneous_4_alex.wav
 ::res://src/Characters/Little_Witch/Script/::1720062192
@@ -1603,9 +1604,9 @@ hit_chart.tscn::PackedScene::6707704309645026038::1719999003::0::1::::<><>::uid:
 hit_chart.gd::GDScript::-1::1719999003::0::1::::<>CanvasLayer<>::
 ::res://src/Extra/HUD/::1719297591
 hud.tscn::PackedScene::2290002594008749037::1719297591::0::1::::<><>::uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf
-::res://src/Extra/Intro/::1720060495
-Intro.tscn::PackedScene::118115912078442896::1720058805::0::1::::<><>::uid://cb6usjpc07bdh::::res://assets/pictures/Logo.png<>res://src/Extra/Intro/Intro.gd
-Intro.gd::GDScript::-1::1720060495::0::1::::<>Node2D<>::
+::res://src/Extra/Intro/::1720081414
+Intro.tscn::PackedScene::118115912078442896::1720081414::0::1::::<><>::uid://cb6usjpc07bdh::::res://assets/pictures/Logo.png<>res://src/Extra/Intro/Intro.gd
+Intro.gd::GDScript::-1::1720081314::0::1::::<>CanvasLayer<>::
 ::res://src/Extra/MainScreen/::1720062192
 Main.tscn::PackedScene::551164960465454747::1720060555::0::1::::<><>::res://src/MainScreens/scrolls/scrollmenu.gdshader<>res://src/Extra/MainScreen/Main.gd<>uid://d3jsblcke2k1q::::res://assets/pictures/home/background.png<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav
 Main.gd::GDScript::-1::1720060495::0::1::::<>Control<>::
@@ -1616,10 +1617,10 @@ adm-panel.tscn::PackedScene::5011312506538759355::1719297591::0::1::::<><>::uid:
 selector_screens.tscn::PackedScene::6352335672474438359::1719999003::0::1::::<><>::res://src/Levels/Level_Selector/scripts/selector_screens.gd<>uid://ccv3k4adqgqte::::res://assets/pictures/selector/background.webp<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png
 ::res://src/Levels/Level_Selector/scripts/::1719297591
 selector_screens.gd::GDScript::-1::1719297591::0::1::::<>Node<>::
-::res://src/Levels/Map1/::1720080051
+::res://src/Levels/Map1/::1720081414
 Conductor.gd::GDScript::-1::1720057292::0::1::::<>AudioStreamPlayer<>::
 made_node.tscn::PackedScene::2782171183979453818::1720057292::0::1::::<><>::
-Map1.tscn::PackedScene::3467303016428094389::1720080051::0::1::::<><>::res://src/Levels/Map1/Script/Map1.gd<>uid://c4hk7ypikkhq4::::res://src/Levels/Map1/Background/Background.tscn<>uid://t5hemb7qyves::::res://src/Levels/Map1/Scroll/Scroll.tscn<>uid://bwavb6r2uk555::::res://src/Characters/Ape/Ape.tscn<>uid://7vkajok2ya66::::res://src/Extra/HUD/hud.tscn<>uid://be1egpjfr8n0b::::res://src/Transition/Pause/Pause.tscn<>uid://crc8d5r8r057w::::res://src/BG/Game/Game.tscn
+Map1.tscn::PackedScene::3467303016428094389::1720081414::0::1::::<><>::res://src/Levels/Map1/Script/Map1.gd<>uid://c4hk7ypikkhq4::::res://src/Levels/Map1/Background/Background.tscn<>uid://t5hemb7qyves::::res://src/Levels/Map1/Scroll/Scroll.tscn<>uid://bwavb6r2uk555::::res://src/Characters/Ape/Ape.tscn<>uid://7vkajok2ya66::::res://src/Extra/HUD/hud.tscn<>uid://be1egpjfr8n0b::::res://src/Transition/Pause/Pause.tscn<>uid://crc8d5r8r057w::::res://src/BG/Game/Game.tscn
 ::res://src/Levels/Map1/Background/::1720057287
 Background.gdshader::Shader::-1::1720057287::0::1::::<><>::
 Background.tscn::PackedScene::6823434076609899145::1720057264::0::1::::<><>::uid://hpj15o27v5oq::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_1_ground.png<>uid://utxecgyssduv::::res://assets/packs/scrolling-city-background 2/6/Day/1.png<>uid://dbfhjp5xem1mp::::res://assets/packs/scrolling-city-background 2/1/Night/2.png<>uid://ddajc7d7dfo3w::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_3_moon.png<>uid://cympajwk8gcqo::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_6_far_buildings.png<>uid://d0x31d2xphb0e::::res://assets/packs/scrolling-city-background 2/3/Night/2.png<>uid://cbxsdgpcoixgh::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_7_bg_buildings.png<>uid://eoksnds6cqbm::::res://assets/packs/scrolling-city-background 2/1/Night/3.png<>uid://cncrd0efs16qf::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_9_wall.png<>uid://637rbpfxhs4s::::res://assets/packs/scrolling-city-background 2/8/Night/5.png<>uid://cmcc5xgly24m::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_8_fg_buildings.png

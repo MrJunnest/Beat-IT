@@ -1,8 +1,9 @@
+AudioStreamPlayer
+AudioListener2D
 CanvasLayer
 Area2D
 CharacterBody2D
 StaticBody2D
-AudioStreamPlayer
 AudioStreamPlayer2D
 Label
 Button
@@ -11,4 +12,3 @@ ColorRect
 AnimationPlayer
 Sprite2D
 Node
-Node2D

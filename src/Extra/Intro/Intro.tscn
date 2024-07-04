@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://bxhl7x0a3u85"]
+[gd_scene load_steps=8 format=3 uid="uid://bxhl7x0a3u85"]
 
 [ext_resource type="Texture2D" uid="uid://cb6usjpc07bdh" path="res://assets/pictures/Logo.png" id="1_drw2n"]
 [ext_resource type="Script" path="res://src/Extra/Intro/Intro.gd" id="1_lpn6j"]
+[ext_resource type="AudioStream" uid="uid://dj1hobo76i5j2" path="res://assets/sounds/LogoAudio.wav" id="3_f7exy"]
 
 [sub_resource type="Animation" id="Animation_cy0bv"]
 length = 0.001
@@ -82,3 +83,6 @@ color = Color(0.933333, 0.92549, 0.882353, 1)
 libraries = {
 "": SubResource("AnimationLibrary_rybms")
 }
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_f7exy")
