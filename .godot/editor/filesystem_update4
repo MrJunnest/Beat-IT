@@ -1,3 +1,4 @@
+res://src/MainScreens/settings/settings.gd
 res://src/MainScreens/settings/settings.tscn
 res://addons/midi/MidiPlayer.gd
 res://src/Characters/Ape/script/Ape.gd
@@ -6,5 +7,5 @@ res://src/Transition/Pause/Pause.gd
 res://src/MainScreens/scrolls/scrollmenu.gdshader
 res://src/Levels/Level_Selector/selector_screens.tscn
 res://src/MainScreens/home-screen.tscn
-res://src/MainScreens/settings/settings.gd
-res://src/MainScreens/scripts/home_cmd.gd
+res://src/MainScreens/settings/credits.tscn
+res://src/MainScreens/Brigtness.tscn

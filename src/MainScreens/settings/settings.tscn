@@ -58,17 +58,7 @@ offset_left = 155.0
 offset_top = 10.0
 offset_right = 533.0
 offset_bottom = 26.0
-
-[node name="Brightness" type="Label" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 25
-text = "Brightness"
-
-[node name="Brightnes_s" type="HSlider" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/Brightness"]
-offset_left = 155.0
-offset_top = 10.0
-offset_right = 533.0
-offset_bottom = 26.0
+value = 100.0
 
 [node name="Resolution" type="Label" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
@@ -103,3 +93,4 @@ text = "RETURN"
 
 [connection signal="value_changed" from="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/Sound/Volume" to="." method="_on_volume_value_changed"]
 [connection signal="item_selected" from="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/Resolution/Resolution_b" to="." method="_on_resolution_b_item_selected"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/credits" to="." method="_on_credits_pressed"]

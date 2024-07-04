@@ -1,9 +1,10 @@
-HSlider
+WorldEnvironment
 Label
+VBoxContainer
+HSlider
 Button
 MarginContainer
 OptionButton
-VBoxContainer
 Control
 AnimatedSprite2D
 CollisionShape2D

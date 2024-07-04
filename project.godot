@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 Trans1="*res://src/Transition/Trans_1.tscn"
+Brigtness="*res://src/MainScreens/Brigtness.tscn"
 
 [display]
 
