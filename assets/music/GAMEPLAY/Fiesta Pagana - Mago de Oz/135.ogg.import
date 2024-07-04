@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://2t8ejplfcib1"
+path="res://.godot/imported/135.ogg-32ab7d5dfe9d30165ee207c7f3578a6d.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/music/GAMEPLAY/Fiesta Pagana - Mago de Oz/135.ogg"
+dest_files=["res://.godot/imported/135.ogg-32ab7d5dfe9d30165ee207c7f3578a6d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

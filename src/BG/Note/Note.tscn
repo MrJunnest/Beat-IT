@@ -133,7 +133,7 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_gcsh3"]
-radius = 4.0
+radius = 41.1096
 
 [node name="Note" type="Area2D" groups=["note"]]
 position = Vector2(146, 89)

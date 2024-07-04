@@ -26,7 +26,6 @@ position = Vector2(24, 61)
 
 [node name="HUD" parent="." instance=ExtResource("6_7e7wc")]
 
-[node name="Pause" parent="." instance=ExtResource("7_qxjlt")]
-visible = false
-
 [node name="Game" parent="." instance=ExtResource("8_tsdml")]
+
+[node name="Pause" parent="." instance=ExtResource("7_qxjlt")]

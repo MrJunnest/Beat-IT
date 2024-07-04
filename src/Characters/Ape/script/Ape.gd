@@ -5,6 +5,8 @@ extends Area2D
 @export var going_down = Vector2(65, 240)
 @export var START = Vector2i(65,240)
 
+
+
 func _ready():
 	global_position = START
 	$Body.play("Run")
@@ -19,6 +21,5 @@ func _input(event):
 
 
 
-func _on_area_entered(area):
-	get_tree().change_scene_to_file("res://src/Extra/MainScreen/Main.tscn")
-
+#func _on_area_entered(area):
+	#get_tree().change_scene_to_file("res://src/Extra/MainScreen/Main.tscn")

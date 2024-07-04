@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1720057524
+::res://::1720060495
 icon.svg::CompressedTexture2D::3838539191210772969::1718951617::1719297591::1::::<><>::
 LICENSE.md::TextFile::-1::1719285868::0::1::::<><>::
 ::res://addons/::1719297591
@@ -10,7 +10,7 @@ icon.svg::CompressedTexture2D::7198111162664490493::1719285868::1719285868::1:::
 plugin.cfg::TextFile::-1::1719285868::0::1::::<><>::
 sprite_cutter.gd::GDScript::-1::1719285868::0::1::::<>EditorPlugin<>::
 ::res://assets/::1719999003
-::res://assets/characters/::1720053707
+::res://assets/characters/::1720062192
 ::res://assets/characters/Jungle Monkey Platformer/::1719297591
 miscellaneous_4_alex.wav::AudioStreamWAV::7421320006898022674::1719297591::1719297591::1::::<><>::
 ::res://assets/characters/Jungle Monkey Platformer/1-Sprites/::1719285868
@@ -61,16 +61,217 @@ Run3.atlastex::AtlasTexture::6634249390454365080::1719297591::0::1::::<><>::uid:
 Run4.atlastex::AtlasTexture::1809025961381251582::1719297591::0::1::::<><>::uid://b5uj8ll6vc1tf::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run/Run.png
 Run.atlastex::AtlasTexture::8424763657191710610::1719297591::0::1::::<><>::uid://b5uj8ll6vc1tf::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run/Run.png
 Sprite2D.atlastex::AtlasTexture::6271987113146661620::1719297591::0::1::::<><>::uid://bfja05brjccax::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png
+::res://assets/characters/Little witch/::1720062192
+license.txt::TextFile::-1::1720060490::0::1::::<><>::
+ReadMe.txt::TextFile::-1::1720060490::0::1::::<><>::
+::res://assets/characters/Little witch/69x56/::1720062192
+::res://assets/characters/Little witch/69x56/aseprite/::1720062192
+::res://assets/characters/Little witch/69x56/Gifs/::1720062192
+::res://assets/characters/Little witch/69x56/Pngs/::1720062192
+::res://assets/characters/Little witch/69x56/Pngs/Attack Animation/::1720062192
+Attackanimation1.png::CompressedTexture2D::2629342229077160890::1720062192::1720062192::1::::<><>::
+Attackanimation2.png::CompressedTexture2D::361912609085840309::1720062192::1720062192::1::::<><>::
+Attackanimation3.png::CompressedTexture2D::7173850716345981482::1720062192::1720062192::1::::<><>::
+Attackanimation4.png::CompressedTexture2D::8200334650692722400::1720062192::1720062192::1::::<><>::
+Attackanimation5.png::CompressedTexture2D::8264099796677041268::1720062192::1720062192::1::::<><>::
+Attackanimation6.png::CompressedTexture2D::1533142739369795343::1720062192::1720062192::1::::<><>::
+Attackanimation7.png::CompressedTexture2D::5093855661631834335::1720062192::1720062192::1::::<><>::
+Attackanimation8.png::CompressedTexture2D::62724588236053300::1720062192::1720062192::1::::<><>::
+Attackanimation9.png::CompressedTexture2D::575151291475874102::1720062192::1720062192::1::::<><>::
+Attackanimation10.png::CompressedTexture2D::1762428800502069635::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/69x56/Pngs/Death Animation/::1720062192
+Deathanimation1.png::CompressedTexture2D::3852394376646894517::1720062192::1720062192::1::::<><>::
+Deathanimation2.png::CompressedTexture2D::9205391844048882154::1720062192::1720062192::1::::<><>::
+Deathanimation3.png::CompressedTexture2D::6911569118772307846::1720062192::1720062192::1::::<><>::
+Deathanimation4.png::CompressedTexture2D::8545761208830604206::1720062192::1720062192::1::::<><>::
+Deathanimation5.png::CompressedTexture2D::2438128434345489056::1720062192::1720062192::1::::<><>::
+Deathanimation6.png::CompressedTexture2D::6483310346257137192::1720062192::1720062192::1::::<><>::
+Deathanimation7.png::CompressedTexture2D::353243803480298180::1720062192::1720062192::1::::<><>::
+Deathanimation8.png::CompressedTexture2D::8939495272332809294::1720062192::1720062192::1::::<><>::
+Deathanimation9.png::CompressedTexture2D::7901816681369189387::1720062192::1720062192::1::::<><>::
+Deathanimation10.png::CompressedTexture2D::1040739747904870176::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/69x56/Pngs/Hit Animation/::1720062192
+Hitanimation1.png::CompressedTexture2D::7201865554318765167::1720062192::1720062192::1::::<><>::
+Hitanimation2.png::CompressedTexture2D::4691273445108460605::1720062192::1720062192::1::::<><>::
+Hitanimation3.png::CompressedTexture2D::7624471911567577941::1720062192::1720062192::1::::<><>::
+Hitanimation4.png::CompressedTexture2D::150018610472245562::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/69x56/Pngs/Idle Animation/::1720062192
+Idleanimation1.png::CompressedTexture2D::7773878364878373210::1720062192::1720062192::1::::<><>::
+Idleanimation2.png::CompressedTexture2D::1458323013276974161::1720062192::1720062192::1::::<><>::
+Idleanimation3.png::CompressedTexture2D::8121257683639651624::1720062192::1720062192::1::::<><>::
+Idleanimation4.png::CompressedTexture2D::3592906341884306070::1720062192::1720062192::1::::<><>::
+Idleanimation5.png::CompressedTexture2D::9109058005609453273::1720062192::1720062192::1::::<><>::
+Idleanimation6.png::CompressedTexture2D::3052658970430859348::1720062192::1720062192::1::::<><>::
+Idleanimation7.png::CompressedTexture2D::6958913305542352762::1720062192::1720062192::1::::<><>::
+Idleanimation8.png::CompressedTexture2D::8043667440835018261::1720062192::1720062192::1::::<><>::
+Idleanimation9.png::CompressedTexture2D::5081301005785818591::1720062192::1720062192::1::::<><>::
+Idleanimation10.png::CompressedTexture2D::7646127831155855705::1720062192::1720062192::1::::<><>::
+Idleanimation11.png::CompressedTexture2D::5859488176143287375::1720062192::1720062192::1::::<><>::
+Idleanimation12.png::CompressedTexture2D::2109938501291871181::1720062192::1720062192::1::::<><>::
+Idleanimation13.png::CompressedTexture2D::3248217842094318566::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/69x56/Pngs/Jump Animation/::1720062192
+Jumpanimation1.png::CompressedTexture2D::6486786141145674858::1720062192::1720062192::1::::<><>::
+Jumpanimation2.png::CompressedTexture2D::528655913367338809::1720062192::1720062192::1::::<><>::
+Jumpanimation3.png::CompressedTexture2D::2070595589339695387::1720062192::1720062192::1::::<><>::
+Jumpanimation4.png::CompressedTexture2D::4582729207240840594::1720062192::1720062192::1::::<><>::
+Jumpanimation5.png::CompressedTexture2D::976009786108732534::1720062192::1720062192::1::::<><>::
+Jumpanimation6.png::CompressedTexture2D::5593418874428552431::1720062192::1720062192::1::::<><>::
+Jumpanimation7.png::CompressedTexture2D::3447392618746809778::1720062192::1720062192::1::::<><>::
+Jumpanimation8.png::CompressedTexture2D::8780244187669296154::1720062192::1720062192::1::::<><>::
+Jumpanimation9.png::CompressedTexture2D::6508315398728748796::1720062192::1720062192::1::::<><>::
+Jumpanimation10.png::CompressedTexture2D::4881989511172873116::1720062192::1720062192::1::::<><>::
+Jumpanimation11.png::CompressedTexture2D::3521389535385880224::1720062192::1720062192::1::::<><>::
+Jumpanimation12.png::CompressedTexture2D::8303912927830156119::1720062192::1720062192::1::::<><>::
+Jumpanimation13.png::CompressedTexture2D::2367683780676583005::1720062192::1720062192::1::::<><>::
+Jumpanimation14.png::CompressedTexture2D::3942781646992045584::1720062192::1720062192::1::::<><>::
+Jumpanimation15.png::CompressedTexture2D::6125991563443112159::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/69x56/Pngs/Jump Up and Down attack/::1720062192
+JumpDownAttack.png::CompressedTexture2D::888863543346509914::1720062192::1720062192::1::::<><>::
+JumpUpAttack.png::CompressedTexture2D::940954343454777953::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/69x56/Pngs/Run Animation/::1720062192
+Runanimation1.png::CompressedTexture2D::8342494961146001417::1720062192::1720062192::1::::<><>::
+Runanimation2.png::CompressedTexture2D::2149351655872970833::1720062192::1720062192::1::::<><>::
+Runanimation3.png::CompressedTexture2D::4511488236143754432::1720062192::1720062192::1::::<><>::
+Runanimation4.png::CompressedTexture2D::1282668501386156597::1720062192::1720062192::1::::<><>::
+Runanimation5.png::CompressedTexture2D::2977456084702408951::1720062192::1720062192::1::::<><>::
+Runanimation6.png::CompressedTexture2D::7599775082340270131::1720062192::1720062192::1::::<><>::
+Runanimation7.png::CompressedTexture2D::2036979345967529116::1720062192::1720062192::1::::<><>::
+Runanimation8.png::CompressedTexture2D::904510498625374605::1720062192::1720062192::1::::<><>::
+Runanimation9.png::CompressedTexture2D::5585068859869152888::1720062192::1720062192::1::::<><>::
+Runanimation10.png::CompressedTexture2D::7629226254000016670::1720062192::1720062192::1::::<><>::
+Runanimation11.png::CompressedTexture2D::4414693677161595662::1720062192::1720062192::1::::<><>::
+Runanimation12.png::CompressedTexture2D::5922273804680096061::1720062192::1720062192::1::::<><>::
+Runanimation13.png::CompressedTexture2D::5739825385909283693::1720062192::1720062192::1::::<><>::
+Runanimation14.png::CompressedTexture2D::1524882417934025333::1720062192::1720062192::1::::<><>::
+Runanimation15.png::CompressedTexture2D::2240000500207376919::1720062192::1720062192::1::::<><>::
+Runanimation16.png::CompressedTexture2D::3991664673038271863::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/69x56/Sprite sheet/::1720062192
+AllRedWitchAnimations.png::CompressedTexture2D::4666180119746417549::1720062192::1720062192::1::::<><>::
+AttackAnimation.png::CompressedTexture2D::3963649693785185227::1720062192::1720062192::1::::<><>::
+DeathAnimation.png::CompressedTexture2D::8680133339278531921::1720062192::1720062192::1::::<><>::
+HitAnimation.png::CompressedTexture2D::8124694254005986193::1720062192::1720062192::1::::<><>::
+IdleAnimation.png::CompressedTexture2D::2024818930525665589::1720062192::1720062192::1::::<><>::
+JumpAnimation.png::CompressedTexture2D::7899815377993906874::1720062192::1720062192::1::::<><>::
+JumpUpAndDownAttackAnimation.png::CompressedTexture2D::2432048023634340476::1720062192::1720062192::1::::<><>::
+RunAnimation.png::CompressedTexture2D::6356314026450760016::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/85x56/::1720062192
+::res://assets/characters/Little witch/85x56/aseprite/::1720062192
+::res://assets/characters/Little witch/85x56/Gifs/::1720062192
+::res://assets/characters/Little witch/85x56/Pngs/::1720062192
+::res://assets/characters/Little witch/85x56/Pngs/Attack Animation/::1720062192
+AttackAnimation1.png::CompressedTexture2D::5907508135986859374::1720062192::1720062192::1::::<><>::
+AttackAnimation2.png::CompressedTexture2D::1319794505383339897::1720062192::1720062192::1::::<><>::
+AttackAnimation3.png::CompressedTexture2D::1314464390907891519::1720062192::1720062192::1::::<><>::
+AttackAnimation4.png::CompressedTexture2D::4834748729830116406::1720062192::1720062192::1::::<><>::
+AttackAnimation5.png::CompressedTexture2D::8953000001208728278::1720062192::1720062192::1::::<><>::
+AttackAnimation6.png::CompressedTexture2D::1286109106096931624::1720062192::1720062192::1::::<><>::
+AttackAnimation7.png::CompressedTexture2D::6592127095826598078::1720062192::1720062192::1::::<><>::
+AttackAnimation8.png::CompressedTexture2D::3114654064456876052::1720062192::1720062192::1::::<><>::
+AttackAnimation9.png::CompressedTexture2D::2503061211826319156::1720062192::1720062192::1::::<><>::
+AttackAnimation10.png::CompressedTexture2D::1785724100022976351::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/85x56/Pngs/Death Animation/::1720062192
+deathAnimation1.png::CompressedTexture2D::1773718117257712293::1720062192::1720062192::1::::<><>::
+deathAnimation2.png::CompressedTexture2D::1773752411605669387::1720062192::1720062192::1::::<><>::
+deathAnimation3.png::CompressedTexture2D::704840342931712414::1720062192::1720062192::1::::<><>::
+deathAnimation4.png::CompressedTexture2D::8132360214601797500::1720062192::1720062192::1::::<><>::
+deathAnimation5.png::CompressedTexture2D::3664446251005483931::1720062192::1720062192::1::::<><>::
+deathAnimation6.png::CompressedTexture2D::1290501323029840482::1720062192::1720062192::1::::<><>::
+deathAnimation7.png::CompressedTexture2D::5656293569618859546::1720062192::1720062192::1::::<><>::
+deathAnimation8.png::CompressedTexture2D::5553825857747510848::1720062192::1720062192::1::::<><>::
+deathAnimation9.png::CompressedTexture2D::5133965799810918539::1720062192::1720062192::1::::<><>::
+deathAnimation10.png::CompressedTexture2D::5325748127543998587::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/85x56/Pngs/Hit Animation/::1720062192
+HitAnimation1.png::CompressedTexture2D::7114560779000977298::1720062192::1720062192::1::::<><>::
+HitAnimation2.png::CompressedTexture2D::1163860401881193176::1720062192::1720062192::1::::<><>::
+HitAnimation3.png::CompressedTexture2D::1665403326514407966::1720062192::1720062192::1::::<><>::
+HitAnimation4.png::CompressedTexture2D::4473325716981350185::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/85x56/Pngs/Idle Animation/::1720062192
+IdleAnimation1.png::CompressedTexture2D::5781275954049567793::1720062192::1720062192::1::::<><>::
+IdleAnimation2.png::CompressedTexture2D::3436524012628646978::1720062192::1720062192::1::::<><>::
+IdleAnimation3.png::CompressedTexture2D::1147995435485760245::1720062192::1720062192::1::::<><>::
+IdleAnimation4.png::CompressedTexture2D::4911098850893042423::1720062192::1720062192::1::::<><>::
+IdleAnimation5.png::CompressedTexture2D::4295064159022490926::1720062192::1720062192::1::::<><>::
+IdleAnimation6.png::CompressedTexture2D::6652231121604215810::1720062192::1720062192::1::::<><>::
+IdleAnimation7.png::CompressedTexture2D::5808193365084912892::1720062192::1720062192::1::::<><>::
+IdleAnimation8.png::CompressedTexture2D::4640230477311853039::1720062192::1720062192::1::::<><>::
+IdleAnimation9.png::CompressedTexture2D::4750482749903149497::1720062192::1720062192::1::::<><>::
+IdleAnimation10.png::CompressedTexture2D::1311764996300055403::1720062192::1720062192::1::::<><>::
+IdleAnimation11.png::CompressedTexture2D::1928767042884374618::1720062192::1720062192::1::::<><>::
+IdleAnimation12.png::CompressedTexture2D::2344819881369101252::1720062192::1720062192::1::::<><>::
+IdleAnimation13.png::CompressedTexture2D::6347087075123423979::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/85x56/Pngs/Jump Animation/::1720062192
+JumpAnimation1.png::CompressedTexture2D::7900879780124150957::1720062192::1720062192::1::::<><>::
+JumpAnimation2.png::CompressedTexture2D::5479420652018035597::1720062192::1720062192::1::::<><>::
+JumpAnimation3.png::CompressedTexture2D::6390782260743311685::1720062192::1720062192::1::::<><>::
+JumpAnimation4.png::CompressedTexture2D::5982089509306101447::1720062192::1720062192::1::::<><>::
+JumpAnimation5.png::CompressedTexture2D::8706329113798375563::1720062192::1720062192::1::::<><>::
+JumpAnimation6.png::CompressedTexture2D::6342627866735621863::1720062192::1720062192::1::::<><>::
+JumpAnimation7.png::CompressedTexture2D::3387344328333984223::1720062192::1720062192::1::::<><>::
+JumpAnimation8.png::CompressedTexture2D::7437681061185410801::1720062192::1720062192::1::::<><>::
+JumpAnimation9.png::CompressedTexture2D::6132224184474224449::1720062192::1720062192::1::::<><>::
+JumpAnimation10.png::CompressedTexture2D::5808876375251511754::1720062192::1720062192::1::::<><>::
+JumpAnimation11.png::CompressedTexture2D::6239856348906063192::1720062192::1720062192::1::::<><>::
+JumpAnimation12.png::CompressedTexture2D::8969534380565441822::1720062192::1720062192::1::::<><>::
+JumpAnimation13.png::CompressedTexture2D::6375522886409155444::1720062192::1720062192::1::::<><>::
+JumpAnimation14.png::CompressedTexture2D::2068242743842012550::1720062192::1720062192::1::::<><>::
+JumpAnimation15.png::CompressedTexture2D::2246804227731042413::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/85x56/Pngs/Jump Up and Down Attack/::1720062192
+JumpUpAttack1.png::CompressedTexture2D::865402089286866828::1720062192::1720062192::1::::<><>::
+JumpUpAttack2.png::CompressedTexture2D::7934867467778000298::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/85x56/Pngs/Run Animation/::1720062192
+RunAnimation1.png::CompressedTexture2D::3009575210673834900::1720062192::1720062192::1::::<><>::
+RunAnimation2.png::CompressedTexture2D::1614908047325817100::1720062192::1720062192::1::::<><>::
+RunAnimation3.png::CompressedTexture2D::7099745819288533161::1720062192::1720062192::1::::<><>::
+RunAnimation4.png::CompressedTexture2D::7230852931013610979::1720062192::1720062192::1::::<><>::
+RunAnimation5.png::CompressedTexture2D::8941088965957261506::1720062192::1720062192::1::::<><>::
+RunAnimation6.png::CompressedTexture2D::5017578775384330441::1720062192::1720062192::1::::<><>::
+RunAnimation7.png::CompressedTexture2D::8119155907782313515::1720062192::1720062192::1::::<><>::
+RunAnimation8.png::CompressedTexture2D::5352450492873721291::1720062192::1720062192::1::::<><>::
+RunAnimation9.png::CompressedTexture2D::5449427781501476511::1720062192::1720062192::1::::<><>::
+RunAnimation10.png::CompressedTexture2D::1072311856823253121::1720062192::1720062192::1::::<><>::
+RunAnimation11.png::CompressedTexture2D::4481943410042855471::1720062192::1720062192::1::::<><>::
+RunAnimation12.png::CompressedTexture2D::8210210779435148767::1720062192::1720062192::1::::<><>::
+RunAnimation13.png::CompressedTexture2D::7812288160743267878::1720062192::1720062192::1::::<><>::
+RunAnimation14.png::CompressedTexture2D::667693851990622761::1720062192::1720062192::1::::<><>::
+RunAnimation15.png::CompressedTexture2D::7175279007618154632::1720062192::1720062192::1::::<><>::
+RunAnimation16.png::CompressedTexture2D::3170215928995443637::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/85x56/Sprite sheet/::1720062192
+Allredwitchanimations.png::CompressedTexture2D::9048766131416354277::1720062192::1720062192::1::::<><>::
+AttackAnimation.png::CompressedTexture2D::1156310230004299393::1720062192::1720062192::1::::<><>::
+deathAnimation.png::CompressedTexture2D::2080444567026525316::1720062192::1720062192::1::::<><>::
+HitAnimation.png::CompressedTexture2D::775909688945234379::1720062192::1720062192::1::::<><>::
+IdleAnimation.png::CompressedTexture2D::282114636841956557::1720062192::1720062192::1::::<><>::
+JumpAnimation.png::CompressedTexture2D::503242707085030160::1720062192::1720062192::1::::<><>::
+JumpUpAndDownAttack.png::CompressedTexture2D::5598624279786255649::1720062192::1720062192::1::::<><>::
+RunAnimation.png::CompressedTexture2D::481234724620036681::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/Magic Spell/::1720062192
+MagicSpellSpriteSheet.png::CompressedTexture2D::4409807593474600435::1720062192::1720062192::1::::<><>::
+::res://assets/characters/Little witch/Magic Spell/Pngs/::1720062192
+magicSpell1.png::CompressedTexture2D::8101561785590551516::1720062192::1720062192::1::::<><>::
+magicSpell2.png::CompressedTexture2D::5764720486509086110::1720062192::1720062192::1::::<><>::
+magicSpell3.png::CompressedTexture2D::329197237138609428::1720062192::1720062192::1::::<><>::
+magicSpell4.png::CompressedTexture2D::576410465152952120::1720062192::1720062192::1::::<><>::
+magicSpell5.png::CompressedTexture2D::6350080924679489879::1720062192::1720062192::1::::<><>::
+magicSpell6.png::CompressedTexture2D::5236081548322109970::1720062192::1720062192::1::::<><>::
 ::res://assets/enemies/::1719128317
 ::res://assets/fonts/::1719285868
 Abaddon Bold.ttf::FontFile::7233662615732823947::1719285868::1719285868::1::::<><>::
 Abaddon Light.ttf::FontFile::1809076127323556293::1719285868::1719285868::1::::<><>::
 Silver.ttf::FontFile::9160834702302925382::1719285868::1719285868::1::::<><>::
-::res://assets/music/::1719999003
+::res://assets/music/::1720063836
 Carrera, Spreen - Minina (Mejorada y Extendida).mp3::AudioStreamMP3::5848597510214831774::1719297591::1719297591::1::::<><>::
 Carrera_-Spreen-Minina-_Mejorada-y-Extendida_.ogg::AudioStreamOggVorbis::8180438778676860823::1719999003::1719999003::1::::<><>::
 song.ogg::AudioStreamOggVorbis::8547337960034529888::1719999003::1719999003::1::::<><>::
 Super Idol full song.mp3::AudioStreamMP3::7120345646575336372::1719999003::1719999003::1::::<><>::
+::res://assets/music/GAMEPLAY/::1720075082
+::res://assets/music/GAMEPLAY/Bones - Imagine Dragons/::1720074369
+115 4.mp3::AudioStreamMP3::8364334293584567389::1720074298::1720074369::1::::<><>::
+::res://assets/music/GAMEPLAY/Chachacha - Jose Log/::1720075125
+112 4.mp3::AudioStreamMP3::156513070797039866::1720075074::1720075127::1::::<><>::
+::res://assets/music/GAMEPLAY/Cupid - Fifty Fifty/::1720074213
+120 4.mp3::AudioStreamMP3::2659261388407593716::1720073514::1720074196::1::::<><>::
+::res://assets/music/GAMEPLAY/Fiesta Pagana - Mago de Oz/::1720064005
+135.ogg::AudioStreamOggVorbis::1936333255879699804::1720063871::1720064005::1::::<><>::
 ::res://assets/music/midi/::1719297586
 ::res://assets/music/soundfont/::1719297586
 ::res://assets/obstacles/::1719999003
@@ -1295,10 +1496,10 @@ WINDOWS.png::CompressedTexture2D::2347930535283438998::1719285868::1719285868::1
 X.png::CompressedTexture2D::3634906512488997129::1719285868::1719285868::1::::<><>::
 Y.png::CompressedTexture2D::2155236423504567595::1719285868::1719285868::1::::<><>::
 Z.png::CompressedTexture2D::624409751668488918::1719285868::1719285868::1::::<><>::
-::res://assets/pictures/::1720058033
+::res://assets/pictures/::1720060495
 HitChart1.png::CompressedTexture2D::5084412084467547520::1719999003::1719999003::1::::<><>::
 HitChart.png::CompressedTexture2D::1578984627094171480::1719999003::1719969426::1::::<><>::
-Logo.png::CompressedTexture2D::4908272901553460737::1720058017::1720058035::1::::<><>::
+Logo.png::CompressedTexture2D::4908272901553460737::1720060495::1720060495::1::::<><>::
 ::res://assets/pictures/adm-panel/::1719285868
 download.png::CompressedTexture2D::7788818594909395524::1719285868::1719285868::1::::<><>::
 ::res://assets/pictures/enemy/::1719297591
@@ -1369,39 +1570,47 @@ HitChart.mp3::AudioStreamMP3::3170242513507496889::1719999003::1719999003::1::::
 MI_SFX 43.wav::AudioStreamWAV::49002531712658450::1719297591::1719297591::1::::<><>::
 ::res://src/::1720055238
 ::res://src/BG/::1719999003
-::res://src/BG/Conductor/::1720057614
+::res://src/BG/Conductor/::1720074868
 Conductor.gd::GDScript::-1::1719999003::0::1::::<>AudioStreamPlayer<>::
-Conductor.tscn::PackedScene::9143123071160639790::1720057614::0::1::::<><>::res://src/Levels/Map1/Conductor.gd
-::res://src/BG/Game/::1720057784
-Game.gd::GDScript::-1::1720057784::0::1::::<>Node2D<>::
-Game.tscn::PackedScene::5972191086369164678::1720057724::0::1::::<><>::res://src/BG/Game/Game.gd<>uid://m5agv6axbsc6::::res://src/BG/HitChart/HitChart.tscn<>uid://d3i85vy85kakk::::res://src/BG/Conductor/Conductor.tscn<>uid://c8pfb1xuokoam::::res://assets/music/Super Idol full song.mp3
+Conductor.tscn::PackedScene::9143123071160639790::1720074868::0::1::::<><>::res://src/Levels/Map1/Conductor.gd
+::res://src/BG/Game/::1720074868
+Game.gd::GDScript::-1::1720062192::0::1::::<>CanvasLayer<>::
+Game.tscn::PackedScene::5972191086369164678::1720074868::0::1::::<><>::res://src/BG/Game/Game.gd<>uid://m5agv6axbsc6::::res://src/BG/HitChart/HitChart.tscn<>uid://d3i85vy85kakk::::res://src/BG/Conductor/Conductor.tscn<>uid://dqgqfnji21pdk::::res://assets/music/GAMEPLAY/La Noche Mas Linda del Mundo/152  4.mp3
 ::res://src/BG/Global/::1719999003
 Global.gd::GDScript::-1::1719999003::0::1::::<>Node2D<>::
 Global.tscn::PackedScene::4402301800560674546::1719999003::0::1::::<><>::res://src/BG/Global/Global.gd
-::res://src/BG/HitChart/::1720057614
+::res://src/BG/HitChart/::1720060555
 HitChart.gd::GDScript::-1::1719999003::0::1::::<>AnimatedSprite2D<>::
-HitChart.tscn::PackedScene::904209321951697123::1720057614::0::1::::<><>::uid://wq4v756w1nxg::::res://assets/pictures/HitChart.png<>uid://ceo6r270ad6y3::::res://assets/pictures/HitChart1.png<>res://src/BG/HitChart/HitChart.gd
-::res://src/BG/Note/::1720057614
+HitChart.tscn::PackedScene::904209321951697123::1720060555::0::1::::<><>::uid://wq4v756w1nxg::::res://assets/pictures/HitChart.png<>uid://ceo6r270ad6y3::::res://assets/pictures/HitChart1.png<>res://src/BG/HitChart/HitChart.gd
+::res://src/BG/Note/::1720074868
 Note.gd::GDScript::-1::1720057292::0::1::::<>Area2D<>::
-Note.tscn::PackedScene::167981840319822307::1720057614::0::1::::<><>::uid://ty47xnvevqb8::::res://assets/obstacles/spells/2/1.png<>res://src/BG/Note/Note.gd<>uid://cob1xuhsahi3m::::res://assets/obstacles/spells/2/2.png<>uid://dqk31ejopy3oc::::res://assets/obstacles/spells/2/3.png<>uid://dg4lu7wl74a0f::::res://assets/obstacles/spells/2/4.png<>uid://c38e21rw7u71::::res://assets/obstacles/spells/2/5.png<>uid://b8c7jfxn7cqa2::::res://assets/obstacles/spells/2/6.png<>uid://bw4i7wutvg15a::::res://assets/obstacles/spells/2/7.png<>uid://b5f7olc3qs7vf::::res://assets/obstacles/spells/2/8.png<>uid://cw5bq4ymxw3nh::::res://assets/obstacles/spells/2/9.png<>uid://dc0kxrt7do1y4::::res://assets/obstacles/spells/2/10.png<>uid://c7npx4wfmd52f::::res://assets/obstacles/spells/2/11.png<>uid://cp47dvks10ag3::::res://assets/obstacles/spells/2/12.png<>uid://b1xotnvhjj3tq::::res://assets/obstacles/spells/2/13.png<>uid://b76jjewievd84::::res://assets/obstacles/spells/2/14.png<>uid://dyib2obns3stk::::res://assets/obstacles/spells/2/15.png<>uid://ci8bgmsbd2w5o::::res://assets/obstacles/spells/2/16.png<>uid://dtmyxmhici4b3::::res://assets/obstacles/spells/2/17.png<>uid://g71r3m423wdd::::res://assets/obstacles/spells/2/18.png<>uid://cl104ic0o6v8h::::res://assets/obstacles/spells/2/19.png<>uid://bqb78dcnodt1f::::res://assets/obstacles/spells/2/20.png<>uid://doyymwtfed3q0::::res://assets/obstacles/spells/2/21.png<>uid://dfbecx2uxmio8::::res://assets/obstacles/spells/2/22.png<>uid://ed0svudddxnn::::res://assets/obstacles/spells/2/23.png<>uid://dgca678iw343v::::res://assets/obstacles/spells/2/24.png<>uid://udobvmnkuysh::::res://assets/obstacles/spells/2/25.png<>uid://clt4qcqlf5v3a::::res://assets/obstacles/spells/2/26.png<>uid://bsei4bapm6vfq::::res://assets/obstacles/spells/2/27.png<>uid://bumoy1puxye6::::res://assets/obstacles/spells/2/28.png<>uid://d3xri781slhax::::res://assets/obstacles/spells/2/29.png<>uid://cxtfg2d3dcc4t::::res://assets/obstacles/spells/2/30.png<>uid://1kqdo84ddn70::::res://assets/pop/star/star.png<>uid://blfxowi1r7hnt::::res://assets/sounds/HitChart.mp3
+Note.tscn::PackedScene::167981840319822307::1720074868::0::1::::<><>::uid://ty47xnvevqb8::::res://assets/obstacles/spells/2/1.png<>res://src/BG/Note/Note.gd<>uid://cob1xuhsahi3m::::res://assets/obstacles/spells/2/2.png<>uid://dqk31ejopy3oc::::res://assets/obstacles/spells/2/3.png<>uid://dg4lu7wl74a0f::::res://assets/obstacles/spells/2/4.png<>uid://c38e21rw7u71::::res://assets/obstacles/spells/2/5.png<>uid://b8c7jfxn7cqa2::::res://assets/obstacles/spells/2/6.png<>uid://bw4i7wutvg15a::::res://assets/obstacles/spells/2/7.png<>uid://b5f7olc3qs7vf::::res://assets/obstacles/spells/2/8.png<>uid://cw5bq4ymxw3nh::::res://assets/obstacles/spells/2/9.png<>uid://dc0kxrt7do1y4::::res://assets/obstacles/spells/2/10.png<>uid://c7npx4wfmd52f::::res://assets/obstacles/spells/2/11.png<>uid://cp47dvks10ag3::::res://assets/obstacles/spells/2/12.png<>uid://b1xotnvhjj3tq::::res://assets/obstacles/spells/2/13.png<>uid://b76jjewievd84::::res://assets/obstacles/spells/2/14.png<>uid://dyib2obns3stk::::res://assets/obstacles/spells/2/15.png<>uid://ci8bgmsbd2w5o::::res://assets/obstacles/spells/2/16.png<>uid://dtmyxmhici4b3::::res://assets/obstacles/spells/2/17.png<>uid://g71r3m423wdd::::res://assets/obstacles/spells/2/18.png<>uid://cl104ic0o6v8h::::res://assets/obstacles/spells/2/19.png<>uid://bqb78dcnodt1f::::res://assets/obstacles/spells/2/20.png<>uid://doyymwtfed3q0::::res://assets/obstacles/spells/2/21.png<>uid://dfbecx2uxmio8::::res://assets/obstacles/spells/2/22.png<>uid://ed0svudddxnn::::res://assets/obstacles/spells/2/23.png<>uid://dgca678iw343v::::res://assets/obstacles/spells/2/24.png<>uid://udobvmnkuysh::::res://assets/obstacles/spells/2/25.png<>uid://clt4qcqlf5v3a::::res://assets/obstacles/spells/2/26.png<>uid://bsei4bapm6vfq::::res://assets/obstacles/spells/2/27.png<>uid://bumoy1puxye6::::res://assets/obstacles/spells/2/28.png<>uid://d3xri781slhax::::res://assets/obstacles/spells/2/29.png<>uid://cxtfg2d3dcc4t::::res://assets/obstacles/spells/2/30.png<>uid://1kqdo84ddn70::::res://assets/pop/star/star.png<>uid://blfxowi1r7hnt::::res://assets/sounds/HitChart.mp3
 ::res://src/BG/Targets/::1719975867
-::res://src/Characters/::1720053707
-::res://src/Characters/Ape/::1720053707
-Ape.tscn::PackedScene::3931853742111255618::1720053707::0::1::::<><>::uid://bfja05brjccax::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png<>res://src/Characters/Ape/script/Ape.gd<>uid://cfcoo1u854wak::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump/Jump.png<>uid://dijdigyfu5tt::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit/Hit.png<>uid://b5uj8ll6vc1tf::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run/Run.png<>uid://ddy7b6awp7q2m::::res://assets/characters/Jungle Monkey Platformer/miscellaneous_4_alex.wav<>uid://wq4v756w1nxg::::res://assets/pictures/HitChart.png
-::res://src/Characters/Ape/script/::1720057465
-Ape.gd::GDScript::-1::1720057465::0::1::::<>CharacterBody2D<>::
+::res://src/Characters/::1720062192
+::res://src/Characters/Ape/::1720074868
+Ape.tscn::PackedScene::3931853742111255618::1720074868::0::1::::<><>::uid://bfja05brjccax::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png<>res://src/Characters/Ape/script/Ape.gd<>uid://cfcoo1u854wak::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump/Jump.png<>uid://dijdigyfu5tt::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit/Hit.png<>uid://b5uj8ll6vc1tf::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run/Run.png
+::res://src/Characters/Ape/script/::1720073753
+Ape.gd::GDScript::-1::1720073753::0::1::::<>Area2D<>::
+::res://src/Characters/Little_Witch/::1720062192
+little_witch.tscn::PackedScene::255949583050613439::1720060490::0::1::::<><>::res://src/Characters/Little_Witch/script/little_witch.gd<>uid://eawnfg2l4yhh::::res://assets/characters/Little witch/85x56/Sprite sheet/IdleAnimation.png<>uid://cl1ar2wduowfp::::res://assets/characters/Little witch/85x56/Sprite sheet/JumpUpAndDownAttack.png<>uid://4v1vaqky3cgq::::res://assets/characters/Little witch/85x56/Sprite sheet/deathAnimation.png<>uid://g4d4ov0oesmj::::res://assets/characters/Little witch/85x56/Sprite sheet/RunAnimation.png<>uid://ddy7b6awp7q2m::::res://assets/characters/Jungle Monkey Platformer/miscellaneous_4_alex.wav
+::res://src/Characters/Little_Witch/Script/::1720062192
+little_witch.gd::GDScript::-1::1720062192::0::1::::<>CharacterBody2D<>::
 ::res://src/Enemies/::1719297591
 ::res://src/Enemies/Slime/::1719297591
 Slime.tscn::PackedScene::4825243479695930526::1719297591::0::1::::<><>::uid://deppstbqhggy4::::res://assets/pictures/enemy/Slime/Individual Sprites/slime-die-0.png<>uid://iugpxd7lg6m0::::res://assets/pictures/enemy/Slime/Individual Sprites/slime-die-1.png<>uid://b18uueunpsq7o::::res://assets/pictures/enemy/Slime/Individual Sprites/slime-die-2.png<>uid://bm1wv57cvso5o::::res://assets/pictures/enemy/Slime/Individual Sprites/slime-die-3.png<>uid://wo7skgfky0pe::::res://assets/pictures/enemy/Slime/Individual Sprites/slime-move-0.png<>uid://b048cqh3y2biu::::res://assets/pictures/enemy/Slime/Individual Sprites/slime-move-1.png<>uid://0jky4va11hlu::::res://assets/pictures/enemy/Slime/Individual Sprites/slime-move-2.png<>uid://cu8qgo4fngah1::::res://assets/pictures/enemy/Slime/Individual Sprites/slime-move-3.png
-::res://src/Extra/::1720056345
+::res://src/Extra/::1720060495
 ::res://src/Extra/HitChart/::1719999003
 hit_chart.tscn::PackedScene::6707704309645026038::1719999003::0::1::::<><>::uid://wq4v756w1nxg::::res://assets/pictures/HitChart.png<>res://src/Extra/HitChart/script/hit_chart.gd
 ::res://src/Extra/HitChart/script/::1719999003
 hit_chart.gd::GDScript::-1::1719999003::0::1::::<>CanvasLayer<>::
 ::res://src/Extra/HUD/::1719297591
 hud.tscn::PackedScene::2290002594008749037::1719297591::0::1::::<><>::uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf
-::res://src/Extra/Intro/::1720057792
-Intro.tscn::PackedScene::118115912078442896::1720057792::0::1::::<><>::
+::res://src/Extra/Intro/::1720060495
+Intro.tscn::PackedScene::118115912078442896::1720058805::0::1::::<><>::uid://cb6usjpc07bdh::::res://assets/pictures/Logo.png<>res://src/Extra/Intro/Intro.gd
+Intro.gd::GDScript::-1::1720060495::0::1::::<>Node2D<>::
+::res://src/Extra/MainScreen/::1720062192
+Main.tscn::PackedScene::551164960465454747::1720060555::0::1::::<><>::res://src/MainScreens/scrolls/scrollmenu.gdshader<>res://src/Extra/MainScreen/Main.gd<>uid://d3jsblcke2k1q::::res://assets/pictures/home/background.png<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav
+Main.gd::GDScript::-1::1720060495::0::1::::<>Control<>::
 ::res://src/Header/::1719297591
 adm-panel.tscn::PackedScene::5011312506538759355::1719297591::0::1::::<><>::uid://di77x7fyeohm7::::res://assets/pictures/adm-panel/download.png
 ::res://src/Levels/::1719971497
@@ -1409,17 +1618,17 @@ adm-panel.tscn::PackedScene::5011312506538759355::1719297591::0::1::::<><>::uid:
 selector_screens.tscn::PackedScene::6352335672474438359::1719999003::0::1::::<><>::res://src/Levels/Level_Selector/scripts/selector_screens.gd<>uid://ccv3k4adqgqte::::res://assets/pictures/selector/background.webp<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png
 ::res://src/Levels/Level_Selector/scripts/::1719297591
 selector_screens.gd::GDScript::-1::1719297591::0::1::::<>Node<>::
-::res://src/Levels/Map1/::1720057614
+::res://src/Levels/Map1/::1720074868
 Conductor.gd::GDScript::-1::1720057292::0::1::::<>AudioStreamPlayer<>::
 made_node.tscn::PackedScene::2782171183979453818::1720057292::0::1::::<><>::
-Map1.tscn::PackedScene::3467303016428094389::1720057614::0::1::::<><>::uid://c4hk7ypikkhq4::::res://src/Levels/Map1/Background/Background.tscn<>uid://t5hemb7qyves::::res://src/Levels/Map1/Scroll/Scroll.tscn<>uid://bwavb6r2uk555::::res://src/Characters/Ape/Ape.tscn<>uid://c2ti566slfiws::::res://src/Extra/HitChart/hit_chart.tscn<>uid://7vkajok2ya66::::res://src/Extra/HUD/hud.tscn<>uid://be1egpjfr8n0b::::res://src/Transition/Pause/Pause.tscn<>uid://dt1nn38idmnvs::::res://assets/music/song.ogg<>uid://d3i85vy85kakk::::res://src/BG/Conductor/Conductor.tscn
+Map1.tscn::PackedScene::3467303016428094389::1720074868::0::1::::<><>::res://src/Levels/Map1/Script/Map1.gd<>uid://c4hk7ypikkhq4::::res://src/Levels/Map1/Background/Background.tscn<>uid://t5hemb7qyves::::res://src/Levels/Map1/Scroll/Scroll.tscn<>uid://bwavb6r2uk555::::res://src/Characters/Ape/Ape.tscn<>uid://7vkajok2ya66::::res://src/Extra/HUD/hud.tscn<>uid://be1egpjfr8n0b::::res://src/Transition/Pause/Pause.tscn<>uid://crc8d5r8r057w::::res://src/BG/Game/Game.tscn
 ::res://src/Levels/Map1/Background/::1720057287
 Background.gdshader::Shader::-1::1720057287::0::1::::<><>::
 Background.tscn::PackedScene::6823434076609899145::1720057264::0::1::::<><>::uid://hpj15o27v5oq::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_1_ground.png<>uid://utxecgyssduv::::res://assets/packs/scrolling-city-background 2/6/Day/1.png<>uid://dbfhjp5xem1mp::::res://assets/packs/scrolling-city-background 2/1/Night/2.png<>uid://ddajc7d7dfo3w::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_3_moon.png<>uid://cympajwk8gcqo::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_6_far_buildings.png<>uid://d0x31d2xphb0e::::res://assets/packs/scrolling-city-background 2/3/Night/2.png<>uid://cbxsdgpcoixgh::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_7_bg_buildings.png<>uid://eoksnds6cqbm::::res://assets/packs/scrolling-city-background 2/1/Night/3.png<>uid://cncrd0efs16qf::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_9_wall.png<>uid://637rbpfxhs4s::::res://assets/packs/scrolling-city-background 2/8/Night/5.png<>uid://cmcc5xgly24m::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_8_fg_buildings.png
-::res://src/Levels/Map1/Script/::1720057465
-Map1.gd::GDScript::-1::1720057465::0::1::::<>Node<>::
-::res://src/Levels/Map1/Scroll/::1720057264
-Scroll.tscn::PackedScene::1395952157170682222::1720057264::0::1::::<><>::uid://bpmerqpacp14j::::res://assets/pictures/Map_1/ground.png
+::res://src/Levels/Map1/Script/::1720062234
+Map1.gd::GDScript::-1::1720062234::0::1::::<>Node<>::
+::res://src/Levels/Map1/Scroll/::1720074868
+Scroll.tscn::PackedScene::1395952157170682222::1720074868::0::1::::<><>::uid://bpmerqpacp14j::::res://assets/pictures/Map_1/ground.png
 ::res://src/Levels/Tests/::1719999003
 ::res://src/Levels/Tests/shader/::1719297675
 shader.gdshader::Shader::-1::1719297675::0::1::::<><>::
@@ -1438,11 +1647,11 @@ Sprite2D.gd::GDScript::-1::1719999003::0::1::::<>Sprite2D<>::
 ::res://src/Levels/Tests/TestLevel/::1719285868
 ::res://src/Levels/Tests/TestLevel/Test1/::1719297591
 Test1.tscn::PackedScene::742119041763967950::1719297591::0::1::::<><>::
-::res://src/MainScreens/::1720057614
+::res://src/MainScreens/::1720060437
 download.png::CompressedTexture2D::60834593750847934::1719285868::1719285868::1::::<><>::
-home-screen.tscn::PackedScene::4863310352588076539::1720057614::0::1::::<><>::res://src/MainScreens/scripts/home_cmd.gd<>res://src/MainScreens/scrolls/scrollmenu.gdshader<>uid://d3jsblcke2k1q::::res://assets/pictures/home/background.png<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav
-::res://src/MainScreens/scripts/::1719999003
-home_cmd.gd::GDScript::-1::1719999003::0::1::::<>Control<>::
+home-screen.tscn::PackedScene::4863310352588076539::1720060437::0::1::::<><>::res://src/MainScreens/scripts/home_cmd.gd<>res://src/MainScreens/scrolls/scrollmenu.gdshader<>uid://d3jsblcke2k1q::::res://assets/pictures/home/background.png<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav
+::res://src/MainScreens/scripts/::1720058907
+home_cmd.gd::GDScript::-1::1720058907::0::1::::<>Control<>::
 ::res://src/MainScreens/scrolls/::1719297675
 scrollmenu.gdshader::Shader::-1::1719297675::0::1::::<><>::
 ::res://src/MainScreens/test-scenes/::1719285868

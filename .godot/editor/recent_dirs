@@ -1,3 +1,6 @@
+res://assets/music/GAMEPLAY/Chachacha - Jose Log
+res://assets/music/GAMEPLAY/Cupid - Fifty Fifty
+res://assets/music/GAMEPLAY/Fiesta Pagana - Mago de Oz
 res://src/Extra/MainScreen
 res://assets/pictures
 res://src/Extra/Intro
@@ -17,6 +20,3 @@ res://src/Levels/Map1/Script
 res://src/Extra/HitChart
 res://src/Levels/Tests/shader
 res://src/Levels/Map1/Background
-res://src/Characters/Ape/script
-res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit
-res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump
