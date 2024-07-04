@@ -1,3 +1,6 @@
+res://src/Extra/MainScreen
+res://assets/pictures
+res://src/Extra/Intro
 res://assets/sounds
 res://assets/music
 res://src/BG/Note
@@ -17,5 +20,3 @@ res://src/Levels/Map1/Background
 res://src/Characters/Ape/script
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit
 res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump
-res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run
-res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle

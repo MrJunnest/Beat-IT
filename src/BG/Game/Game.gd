@@ -35,7 +35,7 @@ func _ready():
 
 
 func _input(event):
-	if event.is_action("escape"):
+	if event.is_action("ui_end"):
 		if get_tree().change_scene_to_file("res://Scenes/Menu.tscn") != OK:
 			print ("Error changing scene to Menu")
 
