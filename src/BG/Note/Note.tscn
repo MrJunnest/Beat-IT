@@ -149,13 +149,15 @@ shape = SubResource("CircleShape2D_gcsh3")
 
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
 emitting = false
+amount = 20
 lifetime = 0.3
 one_shot = true
 explosiveness = 0.8
 texture = ExtResource("31_2mkkb")
 emission_shape = 1
-emission_sphere_radius = 1.0
+emission_sphere_radius = 60.0
 spread = 180.0
+gravity = Vector2(0, 0)
 
 [node name="Timer" type="Timer" parent="."]
 
