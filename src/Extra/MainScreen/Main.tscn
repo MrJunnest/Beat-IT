@@ -1,11 +1,24 @@
-[gd_scene load_steps=12 format=3 uid="uid://h38uu74u2dgl"]
+[gd_scene load_steps=39 format=3 uid="uid://h38uu74u2dgl"]
 
 [ext_resource type="Shader" path="res://src/MainScreens/scrolls/scrollmenu.gdshader" id="1_2v6li"]
 [ext_resource type="Script" path="res://src/Extra/MainScreen/Main.gd" id="1_xby4l"]
 [ext_resource type="Texture2D" uid="uid://d3jsblcke2k1q" path="res://assets/pictures/home/background.png" id="2_o53ph"]
 [ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="3_c1he2"]
 [ext_resource type="AudioStream" uid="uid://x0cguunbcqs" path="res://assets/sounds/MI_SFX 43.wav" id="5_imbvv"]
-[ext_resource type="AudioStream" uid="uid://bm8anycphen1a" path="res://assets/music/MainScreen/Eiffel 65 - Blue (Da Ba Dee) (Instrumental Original).mp3" id="6_hdnv5"]
+[ext_resource type="Texture2D" uid="uid://kdnlrisjrr3y" path="res://assets/pictures/Main_menu/Title.png" id="6_4qg2a"]
+[ext_resource type="Texture2D" uid="uid://ix6leokkv33t" path="res://assets/pictures/Main_menu/title2.png" id="7_5c26k"]
+[ext_resource type="Texture2D" uid="uid://ch31plm0ek43v" path="res://assets/pictures/Main_menu/title3.png" id="8_r4kxj"]
+[ext_resource type="Texture2D" uid="uid://kmptm3vr1c5m" path="res://assets/pictures/Main_menu/title4.png" id="9_ok2l3"]
+[ext_resource type="Texture2D" uid="uid://q1ub8o0184ck" path="res://assets/pictures/Main_menu/title5.png" id="10_jiewe"]
+[ext_resource type="Texture2D" uid="uid://dv3p4fynghl5e" path="res://assets/pictures/Main_menu/title6.png" id="11_t131h"]
+[ext_resource type="Texture2D" uid="uid://dp3c0xaujjmvx" path="res://assets/pictures/Main_menu/title7.png" id="12_tml5x"]
+[ext_resource type="Texture2D" uid="uid://bq1t2qwga5a5n" path="res://assets/pictures/Main_menu/title8.png" id="13_sca0c"]
+[ext_resource type="Texture2D" uid="uid://dj7l4aexds4hf" path="res://assets/pictures/Main_menu/title9.png" id="14_4cq8j"]
+[ext_resource type="Texture2D" uid="uid://wdwopfyxvuny" path="res://assets/pictures/Main_menu/title10.png" id="15_qgphl"]
+[ext_resource type="Texture2D" uid="uid://db20w5fcl5cbg" path="res://assets/pictures/Main_menu/title11.png" id="16_iphx5"]
+[ext_resource type="Texture2D" uid="uid://bh2j380no7eko" path="res://assets/pictures/Main_menu/title12.png" id="17_pk22h"]
+[ext_resource type="Texture2D" uid="uid://dtp3phgmd34wo" path="res://assets/pictures/Main_menu/title13.png" id="18_v8a64"]
+[ext_resource type="PackedScene" uid="uid://dbovkios5xgxw" path="res://src/Extra/MainScreen/settings.tscn" id="19_ccsol"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_fdv2k"]
 shader = ExtResource("1_2v6li")
@@ -17,6 +30,105 @@ shader = ExtResource("1_2v6li")
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_t3u3o"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_udvnr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bval0"]
+atlas = ExtResource("6_4qg2a")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g3lx8"]
+atlas = ExtResource("7_5c26k")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cjs2g"]
+atlas = ExtResource("8_r4kxj")
+region = Rect2(0, 0, 493, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_66k7m"]
+atlas = ExtResource("9_ok2l3")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ybvk"]
+atlas = ExtResource("10_jiewe")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5gon3"]
+atlas = ExtResource("11_t131h")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e3k4b"]
+atlas = ExtResource("12_tml5x")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y6rbm"]
+atlas = ExtResource("13_sca0c")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pksb7"]
+atlas = ExtResource("14_4cq8j")
+region = Rect2(0, 0, 493, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ctdpg"]
+atlas = ExtResource("15_qgphl")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ywt4d"]
+atlas = ExtResource("16_iphx5")
+region = Rect2(0, 0, 494, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mmhn3"]
+atlas = ExtResource("17_pk22h")
+region = Rect2(0, 0, 493, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i6x0k"]
+atlas = ExtResource("18_v8a64")
+region = Rect2(0, 0, 493, 133)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_txskd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bval0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g3lx8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cjs2g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_66k7m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ybvk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5gon3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e3k4b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y6rbm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pksb7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ctdpg")
+}, {
+"duration": 1.1,
+"texture": SubResource("AtlasTexture_ywt4d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mmhn3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i6x0k")
+}],
+"loop": true,
+"name": &"default",
+"speed": 9.0
+}]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -46,7 +158,7 @@ texture = ExtResource("2_o53ph")
 [node name="Left ColorBox" type="ColorRect" parent="."]
 layout_mode = 0
 offset_left = -20.0
-offset_right = 431.0
+offset_right = 464.0
 offset_bottom = 662.0
 color = Color(0.0567602, 0.21816, 0.313073, 1)
 
@@ -54,7 +166,7 @@ color = Color(0.0567602, 0.21816, 0.313073, 1)
 layout_mode = 0
 offset_left = 54.0
 offset_top = 319.0
-offset_right = 265.0
+offset_right = 433.0
 offset_bottom = 616.0
 theme_override_constants/separation = 15
 alignment = 1
@@ -109,10 +221,10 @@ alignment = 0
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 60.0
-offset_top = 63.0
-offset_right = 401.0
-offset_bottom = 230.0
+offset_left = 1228.0
+offset_top = -168.0
+offset_right = 1569.0
+offset_bottom = -1.0
 theme_override_fonts/font = ExtResource("3_c1he2")
 theme_override_font_sizes/font_size = 90
 text = "MAIN"
@@ -129,13 +241,19 @@ text = "MENU"
 
 [node name="Hitsound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_imbvv")
-volume_db = -10.0
-mix_target = 2
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("6_hdnv5")
-volume_db = -15.0
-autoplay = true
+
+[node name="Title" type="AnimatedSprite2D" parent="."]
+editor_description = "gay title"
+position = Vector2(226, 144)
+scale = Vector2(0.97303, 0.954401)
+skew = 0.179769
+sprite_frames = SubResource("SpriteFrames_txskd")
+
+[node name="Settings_menu" parent="." instance=ExtResource("19_ccsol")]
+visible = false
+layout_mode = 1
 
 [connection signal="mouse_entered" from="Left ButtonBox/PLAY" to="." method="_on_play_mouse_entered"]
 [connection signal="pressed" from="Left ButtonBox/PLAY" to="." method="_on_play_pressed"]
