@@ -198,19 +198,18 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vgcs1"]
-size = Vector2(75, 125.75)
+size = Vector2(70, 278.875)
 
 [node name="Little_Elvis" type="CharacterBody2D"]
-position = Vector2(104, 546)
 script = ExtResource("1_4563o")
 
 [node name="Body" type="AnimatedSprite2D" parent="."]
-position = Vector2(55.9374, -44.7499)
+position = Vector2(45, -36)
 scale = Vector2(5.44531, 5.44531)
 sprite_frames = SubResource("SpriteFrames_hqymq")
 animation = &"Idle"
 frame_progress = 0.650651
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(54.5, -20)
+position = Vector2(41, -85)
 shape = SubResource("RectangleShape2D_vgcs1")

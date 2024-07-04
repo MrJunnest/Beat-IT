@@ -1,0 +1,45 @@
+[gd_scene load_steps=5 format=3 uid="uid://bc5e34om4ltll"]
+
+[ext_resource type="Script" path="res://src/BG/Game/Game.gd" id="1_vtqce"]
+[ext_resource type="PackedScene" uid="uid://m5agv6axbsc6" path="res://src/BG/HitChart/HitChart.tscn" id="2_8s42g"]
+[ext_resource type="PackedScene" uid="uid://d3i85vy85kakk" path="res://src/BG/Conductor/Conductor.tscn" id="3_gl70y"]
+[ext_resource type="AudioStream" uid="uid://dtluy887k7lka" path="res://assets/music/GAMEPLAY/3AnimalsGirls/180 3.mp3" id="4_xm7ti"]
+
+[node name="Game" type="CanvasLayer"]
+script = ExtResource("1_vtqce")
+metadata/_edit_horizontal_guides_ = [365.0, 536.0]
+metadata/_edit_vertical_guides_ = [181.0, 1150.0]
+
+[node name="HitIt" parent="." instance=ExtResource("2_8s42g")]
+position = Vector2(183, 374)
+input = "UP"
+
+[node name="HitIt2" parent="." instance=ExtResource("2_8s42g")]
+position = Vector2(184, 531)
+input = "DOWN"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 408.0
+offset_top = 128.0
+offset_right = 448.0
+offset_bottom = 151.0
+text = "0
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="Combo" type="Label" parent="."]
+anchors_preset = -1
+anchor_top = -0.0617284
+anchor_right = 0.0772569
+offset_left = 410.0
+offset_top = 183.0
+offset_right = 450.0
+offset_bottom = 206.0
+text = "aaa"
+metadata/_edit_use_anchors_ = true
+
+[node name="Conductor" parent="." instance=ExtResource("3_gl70y")]
+stream = ExtResource("4_xm7ti")
+volume_db = -10.0
+bpm = 183
+measures = 3

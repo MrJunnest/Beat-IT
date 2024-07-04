@@ -275,18 +275,18 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tdsxg"]
-size = Vector2(54, 147)
+size = Vector2(54, 171)
 
 [node name="Elementals_water_priestess" type="CharacterBody2D"]
 position = Vector2(212, 566)
 script = ExtResource("1_67vov")
 
 [node name="Body" type="AnimatedSprite2D" parent="."]
-position = Vector2(151.749, -202.572)
+position = Vector2(155, -196)
 scale = Vector2(4.0203, 4.44418)
 sprite_frames = SubResource("SpriteFrames_myyej")
-animation = &"Idle"
+animation = &"Run"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(157, -1.5)
+position = Vector2(155, -0.5)
 shape = SubResource("RectangleShape2D_tdsxg")

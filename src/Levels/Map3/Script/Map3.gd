@@ -1,82 +1,51 @@
-extends Control
+extends Node
+
+# Game variables
+const APE_START_POS := Vector2i(65, 40)
+const CAM_START_POS := Vector2i(600, 320)
+var score: float
+var speed: float
+const START_SPEED: float = 2.0
+const MAX_SPEED: float = 25
+var screen_size: Vector2i
 
 func _ready():
-	hide_all_backgrounds()
+	new_game()
+	screen_size = get_window().size
 	
-func hide_all_backgrounds():
-	$Map1_Background.visible = false
-	$Map2_Background.visible = false
-	$Map3_Background.visible = false
-	$Map4_Background.visible = false
-	$Map5_Background.visible = false
-	$Map6_Background.visible = false
+	 #Hide characters based on MapCharacter visibility choose character
+	if MapCharacter.character_visible == 1:
+		$Little_Elvis.visible = false
+		$Elementals_water_priestess.visible = false
 
-func show_background(background):
-	hide_all_backgrounds()
-	background.visible = true
-	$Sprite.visible = false
-	$Hitsound.play()
+	if MapCharacter.character_visible == 2:
+		$Little_Witch.visible = false
+		$Elementals_water_priestess.visible = false
+	
+	if MapCharacter.character_visible == 3:
+		$Little_Witch.visible = false
+		$Little_Elvis.visible = false
+	
 
-func reset_background():
-	hide_all_backgrounds()
-	$Sprite.visible = true
+func new_game():
+	# Reset all nodes
+	score = 0
+	$Little_Witch.position = Vector2i(70, 500)
 
-func _on_map_1_pressed():
-	get_tree().change_scene_to_file("res://src/Levels/Map1/Map1.tscn")
+	$Little_Elvis.position = Vector2i(10, 550)
 
-func _on_map_2_pressed():
-	get_tree().change_scene_to_file("res://src/Levels/Map2/Map2.tscn")
+	$Elementals_water_priestess.position = Vector2i(-80, 500)
 
-func _on_map_3_pressed():
-	get_tree().change_scene_to_file("res://src/Levels/Map3/Map3.tscn")
 
-func _on_map_4_pressed():
-	get_tree().change_scene_to_file("res://src/Levels/Map4/Map4.tscn")
+func _process(_delta):
+	speed = START_SPEED 
+	
+	$Little_Witch/Body.position.x += speed 
+	$Little_Elvis/Body.position.x += speed
+	$Elementals_water_priestess/Body.position.x += speed
+	$Camera2D.position.x += speed
 
-func _on_map_5_pressed():
-	get_tree().change_scene_to_file("res://src/Levels/Map5/map_5.tscn")
+	
+	if $Camera2D.position.x - $Map_Scroll.position.x > screen_size.x * 1.5:
+		$Map_Scroll.position.x += screen_size.x
 
-func _on_map_6_pressed():
-	get_tree().change_scene_to_file("res://src/Levels/Map6/Map_6.tscn")
-
-func _on_back_pressed():
-	get_tree().change_scene_to_file("res://src/Levels/Characters_Selector/characters_selector.tscn")
-
-func _on_map_1_mouse_entered():
-	show_background($Map1_Background)
-
-func _on_map_1_mouse_exited():
-	reset_background()
-
-func _on_map_2_mouse_entered():
-	show_background($Map2_Background)
-
-func _on_map_2_mouse_exited():
-	reset_background()
-
-func _on_map_3_mouse_entered():
-	show_background($Map3_Background)
-
-func _on_map_3_mouse_exited():
-	reset_background()
-
-func _on_map_4_mouse_entered():
-	show_background($Map4_Background)
-
-func _on_map_4_mouse_exited():
-	reset_background()
-
-func _on_map_5_mouse_entered():
-	show_background($Map5_Background)
-
-func _on_map_5_mouse_exited():
-	reset_background()
-
-func _on_map_6_mouse_entered():
-	show_background($Map6_Background)
-
-func _on_map_6_mouse_exited():
-	reset_background()
-
-func _on_back_mouse_entered():
-	$Hitsound.play()

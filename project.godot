@@ -22,7 +22,8 @@ MapCharacter="*res://src/Levels/map_character.gd"
 
 [display]
 
-window/size/resizable=false
+window/size/viewport_width=1200
+window/size/viewport_height=670
 window/stretch/mode="viewport"
 window/stretch/aspect="expand"
 

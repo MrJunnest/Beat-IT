@@ -2,8 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://bpmerqpacp14j" path="res://assets/pictures/Map_1/ground.png" id="1_8riwv"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_1dj3i"]
-size = Vector2(2363, 95)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_40bg3"]
 
 [node name="Map2_Scroll" type="StaticBody2D"]
 
@@ -13,9 +12,4 @@ scale = Vector2(1.01606, 1.28125)
 texture = ExtResource("1_8riwv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1173, 595)
-shape = SubResource("RectangleShape2D_1dj3i")
-
-[node name="AA" type="CollisionShape2D" parent="."]
-position = Vector2(1178, 258)
-shape = SubResource("RectangleShape2D_1dj3i")
+shape = SubResource("RectangleShape2D_40bg3")

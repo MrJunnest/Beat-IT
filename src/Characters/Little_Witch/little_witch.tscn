@@ -1,11 +1,10 @@
-[gd_scene load_steps=53 format=3 uid="uid://ccldp7qiqx7ae"]
+[gd_scene load_steps=52 format=3 uid="uid://ccldp7qiqx7ae"]
 
 [ext_resource type="Script" path="res://src/Characters/Little_Witch/script/little_witch.gd" id="1_64eel"]
 [ext_resource type="Texture2D" uid="uid://eawnfg2l4yhh" path="res://assets/characters/Little witch/85x56/Sprite sheet/IdleAnimation.png" id="2_hmoxy"]
 [ext_resource type="Texture2D" uid="uid://dc77uwkwcu5kd" path="res://assets/characters/Little witch/69x56/Sprite sheet/JumpUpAndDownAttackAnimation2.png" id="3_kffgm"]
 [ext_resource type="Texture2D" uid="uid://4v1vaqky3cgq" path="res://assets/characters/Little witch/85x56/Sprite sheet/deathAnimation.png" id="4_yxew8"]
 [ext_resource type="Texture2D" uid="uid://g4d4ov0oesmj" path="res://assets/characters/Little witch/85x56/Sprite sheet/RunAnimation.png" id="5_cls31"]
-[ext_resource type="AudioStream" path="res://assets/characters/Jungle Monkey Platformer/miscellaneous_4_alex.wav" id="6_sams0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ovalp"]
 atlas = ExtResource("2_hmoxy")
@@ -339,23 +338,20 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ygnnf"]
-size = Vector2(64, 164.5)
+size = Vector2(64, 398)
 
-[node name="Little_Witch" type="CharacterBody2D"]
-position = Vector2(65, -95)
+[node name="Little_Witch" type="Area2D"]
 script = ExtResource("1_64eel")
+metadata/_edit_horizontal_guides_ = [652.0]
 
 [node name="Body" type="AnimatedSprite2D" parent="."]
-position = Vector2(20, 467)
 scale = Vector2(4.063, 4.063)
 sprite_frames = SubResource("SpriteFrames_4mf4p")
 animation = &"Idle"
 frame_progress = 0.367423
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-15, 498.75)
+position = Vector2(-34, 22)
 shape = SubResource("RectangleShape2D_ygnnf")
 
-[node name="Jump" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("6_sams0")
-volume_db = 0.5
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

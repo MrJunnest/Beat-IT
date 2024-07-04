@@ -21,5 +21,5 @@ func _input(event):
 
 
 
-#func _on_area_entered(area):
-	#get_tree().change_scene_to_file("res://src/Extra/MainScreen/Main.tscn")
+func _on_area_entered(area):
+	get_tree().change_scene_to_file("res://src/Extra/MainScreen/Main.tscn")

@@ -13,7 +13,7 @@ func _ready():
 	new_game()
 	screen_size = get_window().size
 	
-	# Hide characters based on MapCharacter visibility
+	 #Hide characters based on MapCharacter visibility choose character
 	if MapCharacter.character_visible == 1:
 		$Little_Elvis.visible = false
 		$Elementals_water_priestess.visible = false
@@ -26,33 +26,26 @@ func _ready():
 		$Little_Witch.visible = false
 		$Little_Elvis.visible = false
 	
-	# Connect the menu button pressed signal
-	#$Menu.connect("pressed", self, "_on_menu_pressed")
 
 func new_game():
 	# Reset all nodes
 	score = 0
-	$Little_Witch.position = Vector2i(200, 10)
-	$Little_Witch.velocity = Vector2i(0, 0) # May have issues
-	
-	# Set Little_Elvis position same as Little_Witch
-	$Little_Elvis.position = Vector2i(155, 550)
-	$Little_Elvis.velocity = Vector2i(0, 0)
+	$Little_Witch.position = Vector2i(70, 500)
 
-	$Elementals_water_priestess.position = Vector2i(55, 520)
-	$Elementals_water_priestess.velocity = Vector2i(0, 0)
+	$Little_Elvis.position = Vector2i(10, 550)
+
+	$Elementals_water_priestess.position = Vector2i(-80, 500)
+
 
 func _process(_delta):
 	speed = START_SPEED 
 	
-	# Move Ape and camera
 	$Little_Witch/Body.position.x += speed 
 	$Little_Elvis/Body.position.x += speed
 	$Elementals_water_priestess/Body.position.x += speed
 	$Camera2D.position.x += speed
-	$Menu.position.x += speed
+
 	
-	# Update ground position
 	if $Camera2D.position.x - $Map_Scroll.position.x > screen_size.x * 1.5:
 		$Map_Scroll.position.x += screen_size.x
 

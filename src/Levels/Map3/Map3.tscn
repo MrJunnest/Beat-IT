@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://b63gehypwm6hu"]
+[gd_scene load_steps=14 format=3 uid="uid://b63gehypwm6hu"]
 
 [ext_resource type="Script" path="res://src/Levels/Map3/Script/Map3.gd" id="1_o0bh6"]
 [ext_resource type="PackedScene" uid="uid://brkyd827hpk26" path="res://src/Levels/Map3/Background/map_3_background.tscn" id="2_hdjsv"]
@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://be1egpjfr8n0b" path="res://src/Transition/Pause/Pause.tscn" id="9_nubcy"]
 [ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="10_xsfcn"]
 [ext_resource type="Texture2D" uid="uid://8lqbix2eiyxo" path="res://assets/packs/GUI_1/GUI.png" id="11_gmdg4"]
+[ext_resource type="PackedScene" uid="uid://bc5e34om4ltll" path="res://src/Levels/Map3/Music/Music3.tscn" id="11_gtaei"]
 
 [sub_resource type="GDScript" id="GDScript_hqued"]
 script/source = "extends ParallaxBackground
@@ -60,5 +61,7 @@ theme_override_font_sizes/font_size = 45
 theme_override_styles/normal = SubResource("StyleBoxTexture_etocg")
 text = "Menu
 "
+
+[node name="Game" parent="." instance=ExtResource("11_gtaei")]
 
 [connection signal="pressed" from="Menu" to="." method="_on_menu_pressed"]

@@ -1,12 +1,14 @@
-[gd_scene load_steps=8 format=3 uid="uid://bpnt8ecct1ly0"]
+[gd_scene load_steps=10 format=3 uid="uid://bpnt8ecct1ly0"]
 
 [ext_resource type="Script" path="res://src/Levels/Map1/Script/Map1.gd" id="1_fepc6"]
 [ext_resource type="PackedScene" uid="uid://c4hk7ypikkhq4" path="res://src/Levels/Map1/Background/Background.tscn" id="1_ud224"]
 [ext_resource type="PackedScene" uid="uid://t5hemb7qyves" path="res://src/Levels/Map1/Scroll/Scroll.tscn" id="2_irptq"]
-[ext_resource type="PackedScene" uid="uid://bwavb6r2uk555" path="res://src/Characters/Ape/Ape.tscn" id="3_am1wm"]
 [ext_resource type="PackedScene" uid="uid://7vkajok2ya66" path="res://src/Extra/HUD/hud.tscn" id="6_7e7wc"]
 [ext_resource type="PackedScene" uid="uid://be1egpjfr8n0b" path="res://src/Transition/Pause/Pause.tscn" id="7_qxjlt"]
+[ext_resource type="PackedScene" uid="uid://dvij0t03ys2m5" path="res://src/Characters/Little_Elvis/little_elvis.tscn" id="8_mh6cr"]
 [ext_resource type="PackedScene" uid="uid://crc8d5r8r057w" path="res://src/BG/Game/Game.tscn" id="8_tsdml"]
+[ext_resource type="PackedScene" uid="uid://ccldp7qiqx7ae" path="res://src/Characters/Little_Witch/little_witch.tscn" id="9_gp0n6"]
+[ext_resource type="PackedScene" uid="uid://dgafsrhclm8uk" path="res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn" id="10_40v5v"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_fepc6")
@@ -15,17 +17,22 @@ metadata/_edit_vertical_guides_ = [73.0]
 
 [node name="Background" parent="." instance=ExtResource("1_ud224")]
 
-[node name="Scroll" parent="." instance=ExtResource("2_irptq")]
+[node name="Map_Scroll" parent="." instance=ExtResource("2_irptq")]
 position = Vector2(-11, 11)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(600, 320)
-
-[node name="Ape" parent="." instance=ExtResource("3_am1wm")]
-position = Vector2(24, 61)
 
 [node name="HUD" parent="." instance=ExtResource("6_7e7wc")]
 
 [node name="Game" parent="." instance=ExtResource("8_tsdml")]
 
 [node name="Pause" parent="." instance=ExtResource("7_qxjlt")]
+
+[node name="Little_Elvis" parent="." instance=ExtResource("8_mh6cr")]
+
+[node name="Elementals_water_priestess" parent="." instance=ExtResource("10_40v5v")]
+position = Vector2(271, 534)
+
+[node name="Little_Witch" parent="." instance=ExtResource("9_gp0n6")]
+position = Vector2(72, 459)

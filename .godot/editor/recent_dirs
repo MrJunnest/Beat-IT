@@ -1,3 +1,8 @@
+res://assets/music/GAMEPLAY/3AnimalsGirls
+res://assets/music/GAMEPLAY/4Bad_apple
+res://assets/music/GAMEPLAY/5DUNDUNDUNDUNDUNDUDNUDNUDNNDUNDUNDUNDUN
+res://assets/music/GAMEPLAY/6DUNDUNDUNDUNTADUNDUNDUNDUNPAMPAM
+res://assets/music/GAMEPLAY/BlingBangBangBorn
 res://src/Levels
 res://assets/packs/Coin Gems
 res://assets/music
@@ -6,7 +11,6 @@ res://src/Levels/Tests/Multiplayer
 res://src/Extra/Intro
 res://assets/music/MainScreen
 res://assets/sounds
-res://assets/music/GAMEPLAY/AnimalsGirls
 res://src/Extra/MainScreen
 res://assets/pictures
 res://src/BG/Note
@@ -16,7 +20,3 @@ res://src/Levels/Tests/Test-Signal2
 res://src/Levels/Tests/Test-Signals
 res://
 res://assets/pictures/enemy/Slime
-res://src/Obstacles/Antena
-res://src/Extra/HUD
-res://src/Levels/Map1/Script
-res://src/Levels/Tests/shader

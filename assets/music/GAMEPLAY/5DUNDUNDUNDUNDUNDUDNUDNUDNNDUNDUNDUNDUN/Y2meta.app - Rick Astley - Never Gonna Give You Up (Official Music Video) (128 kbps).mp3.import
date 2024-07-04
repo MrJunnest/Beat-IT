@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bhiwxk3rahmyw"
+path="res://.godot/imported/Y2meta.app - Rick Astley - Never Gonna Give You Up (Official Music Video) (128 kbps).mp3-438f7dee991759280c7a51ac179433df.mp3str"
+
+[deps]
+
+source_file="res://assets/music/GAMEPLAY/5DUNDUNDUNDUNDUNDUDNUDNUDNNDUNDUNDUNDUN/Y2meta.app - Rick Astley - Never Gonna Give You Up (Official Music Video) (128 kbps).mp3"
+dest_files=["res://.godot/imported/Y2meta.app - Rick Astley - Never Gonna Give You Up (Official Music Video) (128 kbps).mp3-438f7dee991759280c7a51ac179433df.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

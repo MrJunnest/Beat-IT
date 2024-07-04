@@ -30,34 +30,34 @@ func _unhandled_input(event):
 
 
 func _on_PerfectArea_area_entered(area):
-	if area.is_in_group("note1"):
+	if area.is_in_group("note"):
 		perfect = true
 
 
 func _on_PerfectArea_area_exited(area):
-	if area.is_in_group("note1"):
+	if area.is_in_group("note"):
 		perfect = false
 
 
 func _on_GoodArea_area_entered(area):
-	if area.is_in_group("note1"):
+	if area.is_in_group("note"):
 		good = true
 
 
 func _on_GoodArea_area_exited(area):
-	if area.is_in_group("note1"):
+	if area.is_in_group("note"):
 		good = false
 
 
 func _on_OkayArea_area_entered(area):
-	if area.is_in_group("note1"):
+	if area.is_in_group("note"):
 
 		okay = true
 		current_note1 = area
 
 
 func _on_OkayArea_area_exited(area):
-	if area.is_in_group("note1"):
+	if area.is_in_group("note"):
 		okay = false
 		current_note1 = null
 

@@ -10,8 +10,8 @@
 [node name="Map2_Background" type="ParallaxBackground"]
 
 [node name="Background" type="Sprite2D" parent="."]
-position = Vector2(574, 325)
-scale = Vector2(2, 2)
+position = Vector2(1046.5, 325.5)
+scale = Vector2(3.64063, 1.99691)
 texture = ExtResource("1_pro3b")
 
 [node name="City" type="ParallaxLayer" parent="."]
