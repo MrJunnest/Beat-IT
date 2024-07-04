@@ -133,7 +133,7 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_gcsh3"]
-radius = 4.0
+radius = 41.1096
 
 [node name="Note" type="Area2D" groups=["note"]]
 position = Vector2(146, 89)
@@ -142,7 +142,7 @@ script = ExtResource("1_n0ww0")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 scale = Vector2(6, 6)
 sprite_frames = SubResource("SpriteFrames_b7yuu")
-frame_progress = 0.11249
+frame_progress = 0.924777
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_gcsh3")
@@ -170,4 +170,4 @@ metadata/_edit_use_anchors_ = true
 
 [node name="Hitsound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("33_plb0o")
-volume_db = 10.0
+volume_db = -5.0

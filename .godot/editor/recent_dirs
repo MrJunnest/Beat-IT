@@ -1,22 +1,21 @@
-res://src/Levels/Level_Selector/scripts
-res://src/Levels/Level_Selector
-res://src/Extra/End_Scream
-res://src/Levels/Map5/Script
-res://src/Levels/Map6/Script
-res://src/Levels/Map6
-res://src/Levels/Map6/Background
+res://assets/packs/Coin Gems
+res://assets/music
+res://src/BG Multiplayer/Main
+res://src/Levels/Tests/Multiplayer
+res://src/Extra/Intro
+res://assets/music/MainScreen
+res://assets/sounds
+res://assets/music/GAMEPLAY/AnimalsGirls
 res://src/Extra/MainScreen
-res://src/Levels
-res://src
-res://assets/characters/Little witch/69x56/Sprite sheet
-res://src/Levels/Characters_Selector/scripts
-res://src/Characters/Elementals_water_priestess/Script
-res://assets/characters/Elementals_water_priestess_FREE_v1.1
-res://src/Characters/Elementals_water_priestess
-res://assets/characters/Elementals_water_priestess_FREE_v1.1/png/01_idle
-res://src/Levels/Map5
-res://src/Levels/Map5/Background
-res://src/Characters/Little_Witch
-res://src/Characters/Little_Elvis/Script
-res://assets/characters/Little Elvis
-res://src/Characters/Little_Elvis
+res://assets/pictures
+res://src/BG/Note
+res://assets/pop
+res://src/Levels/Map1
+res://src/Levels/Tests/Test-Signal2
+res://src/Levels/Tests/Test-Signals
+res://
+res://assets/pictures/enemy/Slime
+res://src/Obstacles/Antena
+res://src/Extra/HUD
+res://src/Levels/Map1/Script
+res://src/Levels/Tests/shader

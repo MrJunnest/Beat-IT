@@ -1,0 +1,84 @@
+[gd_scene load_steps=4 format=3 uid="uid://dldm0t0opvrml"]
+
+[ext_resource type="Script" path="res://src/Levels/Tests/Multiplayer/MP_Map1.gd" id="1_qik0x"]
+[ext_resource type="Texture2D" uid="uid://bpmerqpacp14j" path="res://assets/pictures/Map_1/ground.png" id="1_y3nh8"]
+[ext_resource type="PackedScene" uid="uid://m5agv6axbsc6" path="res://src/BG/HitChart/HitChart.tscn" id="2_tsc0n"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_qik0x")
+metadata/_edit_horizontal_guides_ = [326.0, 440.0, 561.0, 243.0]
+metadata/_edit_vertical_guides_ = [202.0]
+
+[node name="PLAYER 1" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="PLAYER 1"]
+position = Vector2(1167, 305)
+scale = Vector2(1.01432, 0.5)
+texture = ExtResource("1_y3nh8")
+
+[node name="HITCHART-PLAYER1_UP" parent="PLAYER 1" instance=ExtResource("2_tsc0n")]
+position = Vector2(200, 120)
+scale = Vector2(0.35, 0.35)
+input = "PLAYER 1 UP"
+
+[node name="HITCHART-PLAYER1_DOWN" parent="PLAYER 1" instance=ExtResource("2_tsc0n")]
+position = Vector2(200, 560)
+scale = Vector2(0.35, 0.35)
+input = " PLAYER 1 DOWN"
+
+[node name="Label" type="Label" parent="PLAYER 1"]
+offset_left = 1113.0
+offset_top = 6.0
+offset_right = 1153.0
+offset_bottom = 29.0
+text = "0
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="Combo" type="Label" parent="PLAYER 1"]
+anchors_preset = -1
+anchor_top = -0.0617284
+anchor_right = 0.0772569
+offset_left = 181.0
+offset_top = 42.0
+offset_right = 221.0
+offset_bottom = 65.0
+text = "COMBO
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="PLAYER 2" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="PLAYER 2"]
+position = Vector2(1169, 627)
+scale = Vector2(1.01432, 0.5)
+texture = ExtResource("1_y3nh8")
+
+[node name="HITCHART-PLAYER2_UP" parent="PLAYER 2" instance=ExtResource("2_tsc0n")]
+position = Vector2(200, 440)
+scale = Vector2(0.35, 0.35)
+
+[node name="HITCHART-PLAYER2_DOWN" parent="PLAYER 2" instance=ExtResource("2_tsc0n")]
+position = Vector2(200, 240)
+scale = Vector2(0.35, 0.35)
+
+[node name="Label" type="Label" parent="PLAYER 2"]
+offset_left = 1107.0
+offset_top = 330.0
+offset_right = 1147.0
+offset_bottom = 353.0
+text = "0
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="Combo" type="Label" parent="PLAYER 2"]
+anchors_preset = -1
+anchor_top = -0.0617284
+anchor_right = 0.0772569
+offset_left = 172.0
+offset_top = 366.0
+offset_right = 233.0
+offset_bottom = 389.0
+text = "COMBO
+"
+metadata/_edit_use_anchors_ = true

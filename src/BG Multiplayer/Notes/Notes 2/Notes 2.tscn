@@ -1,0 +1,81 @@
+[gd_scene load_steps=11 format=3 uid="uid://x02sdjxokowt"]
+
+[ext_resource type="Script" path="res://src/BG Multiplayer/Notes/Notes 2/Notes 2.gd" id="1_4f1ym"]
+[ext_resource type="Texture2D" uid="uid://cq86t7yquxwhj" path="res://assets/packs/Coin Gems/spr_coin_azu.png" id="1_ebug6"]
+[ext_resource type="Texture2D" uid="uid://1kqdo84ddn70" path="res://assets/pop/star/star.png" id="2_71jr0"]
+[ext_resource type="AudioStream" uid="uid://blfxowi1r7hnt" path="res://assets/sounds/HitChart.mp3" id="3_1434v"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v0am3"]
+atlas = ExtResource("1_ebug6")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tusd1"]
+atlas = ExtResource("1_ebug6")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_42x2d"]
+atlas = ExtResource("1_ebug6")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2f62r"]
+atlas = ExtResource("1_ebug6")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_w14gi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v0am3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tusd1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_42x2d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2f62r")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wo6ck"]
+radius = 41.1096
+
+[node name="Notes2" type="Area2D" groups=["note1"]]
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_4f1ym")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(6, 6)
+sprite_frames = SubResource("SpriteFrames_w14gi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_wo6ck")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+emitting = false
+amount = 20
+lifetime = 0.3
+one_shot = true
+explosiveness = 0.8
+texture = ExtResource("2_71jr0")
+emission_shape = 1
+emission_sphere_radius = 60.0
+spread = 180.0
+gravity = Vector2(0, 0)
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Label" type="Label" parent="Node2D"]
+offset_right = 1.0
+offset_bottom = 23.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Hitsound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_1434v")
+volume_db = -5.0
