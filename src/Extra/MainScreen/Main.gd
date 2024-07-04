@@ -17,7 +17,7 @@ func _ready():
 	Title.play("default")
 	handle_signal()
 
-func _process(delta):
+func _process(delta): #usefull if need continous shit, but proven useless so far in settings obv, tsk tsk tsk
 	pass
 
 #PLAY BUTTON

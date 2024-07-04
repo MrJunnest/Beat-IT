@@ -60,7 +60,8 @@ offset_left = 155.0
 offset_top = 10.0
 offset_right = 533.0
 offset_bottom = 26.0
-value = 100.0
+max_value = 25.0
+value = 15.0
 
 [node name="Resolution" type="Label" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
@@ -73,11 +74,13 @@ offset_left = 154.0
 offset_top = 2.0
 offset_right = 375.0
 offset_bottom = 33.0
-item_count = 2
-popup/item_0/text = "COCK"
+item_count = 3
+popup/item_0/text = "1280 x 720"
 popup/item_0/id = 0
-popup/item_1/text = "COCK1"
+popup/item_1/text = "1366 x 768"
 popup/item_1/id = 1
+popup/item_2/text = "1920 x 1080"
+popup/item_2/id = 2
 
 [node name="Back_but" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2

@@ -1,12 +1,7 @@
-res://src/MainScreens/home-screen.tscn
+res://src/Extra/MainScreen/Main.tscn
 res://src/Characters/Ape/script/Ape.gd
 res://src/Levels/Map1/Script/Map1.gd
 res://src/Transition/Pause/Pause.gd
-res://src/Extra/MainScreen/Main.tscn
-res://src/MainScreens/scripts/settings.tscn
-res://src/Extra/MainScreen/Main.gd
-res://src/MainScreens/scripts/home_cmd.gd
+res://src/MainScreens/home-screen.tscn
 res://src/Extra/MainScreen/settings.tscn
-res://src/MainScreens/settings/credits.gd
-res://src/MainScreens/settings/credits.tscn
 res://src/Extra/MainScreen/settings.gd

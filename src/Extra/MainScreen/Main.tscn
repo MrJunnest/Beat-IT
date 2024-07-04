@@ -1,9 +1,10 @@
-[gd_scene load_steps=39 format=3 uid="uid://h38uu74u2dgl"]
+[gd_scene load_steps=52 format=3 uid="uid://h38uu74u2dgl"]
 
 [ext_resource type="Shader" path="res://src/MainScreens/scrolls/scrollmenu.gdshader" id="1_2v6li"]
 [ext_resource type="Script" path="res://src/Extra/MainScreen/Main.gd" id="1_xby4l"]
 [ext_resource type="Texture2D" uid="uid://d3jsblcke2k1q" path="res://assets/pictures/home/background.png" id="2_o53ph"]
 [ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="3_c1he2"]
+[ext_resource type="Texture2D" uid="uid://8lqbix2eiyxo" path="res://assets/packs/GUI_1/GUI.png" id="5_0imu8"]
 [ext_resource type="AudioStream" uid="uid://x0cguunbcqs" path="res://assets/sounds/MI_SFX 43.wav" id="5_imbvv"]
 [ext_resource type="Texture2D" uid="uid://kdnlrisjrr3y" path="res://assets/pictures/Main_menu/Title.png" id="6_4qg2a"]
 [ext_resource type="Texture2D" uid="uid://ix6leokkv33t" path="res://assets/pictures/Main_menu/title2.png" id="7_5c26k"]
@@ -23,11 +24,65 @@
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_fdv2k"]
 shader = ExtResource("1_2v6li")
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5wkyh"]
+content_margin_left = 125.0
+texture = ExtResource("5_0imu8")
+texture_margin_top = 0.359717
+region_rect = Rect2(113, 113, 30, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jne86"]
+content_margin_left = 125.0
+texture = ExtResource("5_0imu8")
+region_rect = Rect2(113, 113, 30, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rpuwp"]
+content_margin_left = 125.0
+texture = ExtResource("5_0imu8")
+region_rect = Rect2(145, 65, 46, 14)
+
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8f6cr"]
+resource_local_to_scene = true
+content_margin_left = 125.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_s0kan"]
+texture = ExtResource("5_0imu8")
+region_rect = Rect2(113, 81, 30, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_am2rj"]
+texture = ExtResource("5_0imu8")
+region_rect = Rect2(113, 113, 30, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tutue"]
+texture = ExtResource("5_0imu8")
+region_rect = Rect2(145, 65, 46, 14)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_moa0r"]
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8v2qj"]
+texture = ExtResource("5_0imu8")
+region_rect = Rect2(113, 81, 30, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gvc1e"]
+texture = ExtResource("5_0imu8")
+region_rect = Rect2(113, 113, 30, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rmoo6"]
+texture = ExtResource("5_0imu8")
+region_rect = Rect2(145, 65, 46, 14)
+
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_t3u3o"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_st765"]
+texture = ExtResource("5_0imu8")
+region_rect = Rect2(113, 81, 30, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_pae7m"]
+texture = ExtResource("5_0imu8")
+region_rect = Rect2(113, 113, 30, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nh4ql"]
+texture = ExtResource("5_0imu8")
+region_rect = Rect2(145, 65, 46, 14)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_udvnr"]
 
@@ -175,49 +230,47 @@ alignment = 1
 layout_mode = 2
 theme_override_fonts/font = ExtResource("3_c1he2")
 theme_override_font_sizes/font_size = 55
-theme_override_styles/normal = SubResource("StyleBoxEmpty_8f6cr")
-theme_override_styles/hover = SubResource("StyleBoxEmpty_8f6cr")
-theme_override_styles/pressed = SubResource("StyleBoxEmpty_8f6cr")
+theme_override_styles/normal = SubResource("StyleBoxTexture_5wkyh")
+theme_override_styles/hover = SubResource("StyleBoxTexture_jne86")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_rpuwp")
 theme_override_styles/disabled = SubResource("StyleBoxEmpty_8f6cr")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_8f6cr")
 text = "PLAY"
 alignment = 0
+icon_alignment = 1
 
 [node name="SETTINGS" type="Button" parent="Left ButtonBox"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("3_c1he2")
 theme_override_font_sizes/font_size = 55
-theme_override_styles/normal = SubResource("StyleBoxEmpty_moa0r")
-theme_override_styles/hover = SubResource("StyleBoxEmpty_moa0r")
-theme_override_styles/pressed = SubResource("StyleBoxEmpty_moa0r")
+theme_override_styles/normal = SubResource("StyleBoxTexture_s0kan")
+theme_override_styles/hover = SubResource("StyleBoxTexture_am2rj")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_tutue")
 theme_override_styles/disabled = SubResource("StyleBoxEmpty_moa0r")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_moa0r")
 text = "SETTINGS"
-alignment = 0
 
 [node name="CREDITS" type="Button" parent="Left ButtonBox"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("3_c1he2")
 theme_override_font_sizes/font_size = 55
-theme_override_styles/normal = SubResource("StyleBoxEmpty_t3u3o")
-theme_override_styles/hover = SubResource("StyleBoxEmpty_t3u3o")
-theme_override_styles/pressed = SubResource("StyleBoxEmpty_t3u3o")
+theme_override_styles/normal = SubResource("StyleBoxTexture_8v2qj")
+theme_override_styles/hover = SubResource("StyleBoxTexture_gvc1e")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_rmoo6")
 theme_override_styles/disabled = SubResource("StyleBoxEmpty_t3u3o")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_t3u3o")
 text = "CREDITS"
-alignment = 0
 
 [node name="QUIT" type="Button" parent="Left ButtonBox"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("3_c1he2")
 theme_override_font_sizes/font_size = 55
-theme_override_styles/normal = SubResource("StyleBoxEmpty_udvnr")
-theme_override_styles/hover = SubResource("StyleBoxEmpty_udvnr")
-theme_override_styles/pressed = SubResource("StyleBoxEmpty_udvnr")
+theme_override_styles/normal = SubResource("StyleBoxTexture_st765")
+theme_override_styles/hover = SubResource("StyleBoxTexture_pae7m")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_nh4ql")
 theme_override_styles/disabled = SubResource("StyleBoxEmpty_udvnr")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_udvnr")
 text = "QUIT"
-alignment = 0
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0

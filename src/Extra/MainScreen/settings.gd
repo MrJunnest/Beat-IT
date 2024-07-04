@@ -23,6 +23,10 @@ func _on_volume_value_changed(value): #volume slider, change value change volume
 func _on_resolution_b_item_selected(index):
 	match index:
 		0:
-			DisplayServer.window_set_size(Vector2i(1920,1080))
-		1:
 			DisplayServer.window_set_size(Vector2i(1280,720))
+			
+		1:
+			DisplayServer.window_set_size(Vector2i(1366,768))
+			
+		2:
+			DisplayServer.window_set_size(Vector2i(1920,1080))
