@@ -38,5 +38,6 @@ text = "aaa"
 metadata/_edit_use_anchors_ = true
 
 [node name="Conductor" parent="." instance=ExtResource("3_g65b7")]
-bpm = 180
-measures = 3
+volume_db = -10.0
+bpm = 135
+measures = 6

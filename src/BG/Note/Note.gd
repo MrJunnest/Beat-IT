@@ -12,7 +12,7 @@ var hit = false
 
 func _ready():
 	pass
-	
+
 func _process(delta):
 	$AnimatedSprite2D.play("default")
 	$AnimatedSprite2D.flip_h = true  # Asegúrate de que no esté volteado horizontalmente

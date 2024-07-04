@@ -1,18 +1,19 @@
-res://src/BG/Conductor/Conductor.tscn
+res://src/Levels/Map1/Map1.tscn
+res://src/BG/Note/Note.gd
 res://src/Characters/Ape/script/Ape.gd
 res://src/Levels/Map1/Script/Map1.gd
 res://src/Transition/Pause/Pause.gd
-res://src/Levels/Map1/Map1.tscn
-res://src/BG/Game/Game.tscn
 res://src/BG/HitChart/HitChart.tscn
-res://src/BG/Note/Note.tscn
-res://src/MainScreens/home-screen.tscn
-res://src/BG/Game/Game.gd
-res://src/Extra/Intro/Intro.tscn
-res://src/Extra/Intro/Intro.gd
-res://src/MainScreens/scripts/home_cmd.gd
-res://src/Extra/MainScreen/Main.tscn
-res://src/Extra/MainScreen/Main.gd
 res://src/Levels/Map1/Scroll/Scroll.tscn
-res://src/Characters/Ape/Ape.tscn
-res://src/BG/Note/Note.gd
+res://src/BG/Game/Game.tscn
+res://src/BG Multiplayer/Main/Main.tscn
+res://src/BG Multiplayer/Main/PLAYER 1.gd
+res://src/BG Multiplayer/Main/Main.gd
+res://src/BG Multiplayer/Notes/Notes 1/Notes 1.tscn
+res://src/BG/Note/Note.tscn
+res://src/BG Multiplayer/Notes/Notes 1/Notes 1.gd
+res://src/BG Multiplayer/Main/PLAYER 2.gd
+res://src/BG/Conductor/Conductor.tscn
+res://src/BG Multiplayer/Notes/Notes 2/Notes 2.tscn
+res://src/BG Multiplayer/Notes/Notes 2/Notes 2.gd
+res://src/BG/HitChart/HitChart.gd

@@ -1,10 +1,11 @@
-[gd_scene load_steps=11 format=3 uid="uid://h38uu74u2dgl"]
+[gd_scene load_steps=12 format=3 uid="uid://h38uu74u2dgl"]
 
 [ext_resource type="Shader" path="res://src/MainScreens/scrolls/scrollmenu.gdshader" id="1_2v6li"]
 [ext_resource type="Script" path="res://src/Extra/MainScreen/Main.gd" id="1_xby4l"]
 [ext_resource type="Texture2D" uid="uid://d3jsblcke2k1q" path="res://assets/pictures/home/background.png" id="2_o53ph"]
 [ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="3_c1he2"]
 [ext_resource type="AudioStream" uid="uid://x0cguunbcqs" path="res://assets/sounds/MI_SFX 43.wav" id="5_imbvv"]
+[ext_resource type="AudioStream" uid="uid://bm8anycphen1a" path="res://assets/music/MainScreen/Eiffel 65 - Blue (Da Ba Dee) (Instrumental Original).mp3" id="6_hdnv5"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_fdv2k"]
 shader = ExtResource("1_2v6li")
@@ -53,7 +54,7 @@ color = Color(0.0567602, 0.21816, 0.313073, 1)
 layout_mode = 0
 offset_left = 54.0
 offset_top = 319.0
-offset_right = 433.0
+offset_right = 265.0
 offset_bottom = 616.0
 theme_override_constants/separation = 15
 alignment = 1
@@ -128,8 +129,13 @@ text = "MENU"
 
 [node name="Hitsound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_imbvv")
+volume_db = -10.0
+mix_target = 2
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_hdnv5")
+volume_db = -15.0
+autoplay = true
 
 [connection signal="mouse_entered" from="Left ButtonBox/PLAY" to="." method="_on_play_mouse_entered"]
 [connection signal="pressed" from="Left ButtonBox/PLAY" to="." method="_on_play_pressed"]

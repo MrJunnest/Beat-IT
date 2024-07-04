@@ -1,0 +1,101 @@
+[gd_scene load_steps=7 format=3 uid="uid://bfpmtsqcxf04a"]
+
+[ext_resource type="Texture2D" uid="uid://bpmerqpacp14j" path="res://assets/pictures/Map_1/ground.png" id="1_qxvkv"]
+[ext_resource type="PackedScene" uid="uid://m5agv6axbsc6" path="res://src/BG/HitChart/HitChart.tscn" id="2_1421j"]
+[ext_resource type="Script" path="res://src/BG Multiplayer/Main/PLAYER 1.gd" id="4_aepn2"]
+[ext_resource type="PackedScene" uid="uid://d3i85vy85kakk" path="res://src/BG/Conductor/Conductor.tscn" id="4_uwe43"]
+[ext_resource type="AudioStream" uid="uid://c8pfb1xuokoam" path="res://assets/music/Super Idol full song.mp3" id="5_3jjyo"]
+[ext_resource type="Script" path="res://src/BG Multiplayer/Main/PLAYER 2.gd" id="6_8dxmi"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+metadata/_edit_horizontal_guides_ = [437.0, 562.0]
+metadata/_edit_vertical_guides_ = [191.0]
+
+[node name="PLAYER 1" type="CanvasLayer" parent="."]
+script = ExtResource("4_aepn2")
+
+[node name="Conductor" parent="PLAYER 1" instance=ExtResource("4_uwe43")]
+stream = ExtResource("5_3jjyo")
+volume_db = -10.0
+bpm = 140
+measures = 4
+
+[node name="Sprite2D" type="Sprite2D" parent="PLAYER 1"]
+position = Vector2(1167, 305)
+scale = Vector2(1.01432, 0.5)
+texture = ExtResource("1_qxvkv")
+
+[node name="HITCHART-PLAYER1_UP" parent="PLAYER 1" instance=ExtResource("2_1421j")]
+position = Vector2(200, 120)
+scale = Vector2(0.35, 0.35)
+input = "PLAYER 1 UP"
+
+[node name="HITCHART-PLAYER1_DOWN" parent="PLAYER 1" instance=ExtResource("2_1421j")]
+position = Vector2(200, 240)
+scale = Vector2(0.35, 0.35)
+input = " PLAYER 1 DOWN"
+
+[node name="Label" type="Label" parent="PLAYER 1"]
+offset_left = 1113.0
+offset_top = 6.0
+offset_right = 1153.0
+offset_bottom = 29.0
+text = "0
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="Combo" type="Label" parent="PLAYER 1"]
+anchors_preset = -1
+anchor_top = -0.0617284
+anchor_right = 0.0772569
+offset_left = 181.0
+offset_top = 42.0
+offset_right = 221.0
+offset_bottom = 65.0
+text = "COMBO
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="PLAYER 2" type="CanvasLayer" parent="."]
+script = ExtResource("6_8dxmi")
+
+[node name="Conductor" parent="PLAYER 2" instance=ExtResource("4_uwe43")]
+volume_db = -80.0
+bpm = 140
+measures = 4
+
+[node name="Sprite2D" type="Sprite2D" parent="PLAYER 2"]
+position = Vector2(1169, 627)
+scale = Vector2(1.01432, 0.5)
+texture = ExtResource("1_qxvkv")
+
+[node name="HITCHART-PLAYER2_UP" parent="PLAYER 2" instance=ExtResource("2_1421j")]
+position = Vector2(200, 440)
+scale = Vector2(0.35, 0.35)
+input = " PLAYER 2 UP"
+
+[node name="HITCHART-PLAYER2_DOWN" parent="PLAYER 2" instance=ExtResource("2_1421j")]
+position = Vector2(200, 560)
+scale = Vector2(0.35, 0.35)
+input = " PLAYER 2 DOWN"
+
+[node name="Label" type="Label" parent="PLAYER 2"]
+offset_left = 1107.0
+offset_top = 330.0
+offset_right = 1147.0
+offset_bottom = 353.0
+text = "0
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="Combo" type="Label" parent="PLAYER 2"]
+anchors_preset = -1
+anchor_top = -0.0617284
+anchor_right = 0.0772569
+offset_left = 172.0
+offset_top = 366.0
+offset_right = 233.0
+offset_bottom = 389.0
+text = "COMBO
+"
+metadata/_edit_use_anchors_ = true

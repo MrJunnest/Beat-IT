@@ -1,7 +1,8 @@
+Area2D
+CanvasLayer
+Node2D
 AudioStreamPlayer
 AudioListener2D
-CanvasLayer
-Area2D
 CharacterBody2D
 StaticBody2D
 AudioStreamPlayer2D
@@ -11,4 +12,3 @@ VBoxContainer
 ColorRect
 AnimationPlayer
 Sprite2D
-Node

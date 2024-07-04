@@ -1,10 +1,13 @@
+res://assets/packs/Coin Gems
+res://assets/music
+res://src/BG Multiplayer/Main
+res://src/Levels/Tests/Multiplayer
+res://src/Extra/Intro
+res://assets/music/MainScreen
 res://assets/sounds
 res://assets/music/GAMEPLAY/AnimalsGirls
-res://assets/music/GAMEPLAY/Fiesta Pagana - Mago de Oz
 res://src/Extra/MainScreen
 res://assets/pictures
-res://src/Extra/Intro
-res://assets/music
 res://src/BG/Note
 res://assets/pop
 res://src/Levels/Map1
@@ -13,8 +16,6 @@ res://src/Levels/Tests/Test-Signals
 res://
 res://assets/pictures/enemy/Slime
 res://src/Obstacles/Antena
-res://src/Extra/HitChart/script
 res://src/Extra/HUD
 res://src/Levels/Map1/Script
-res://src/Extra/HitChart
 res://src/Levels/Tests/shader
