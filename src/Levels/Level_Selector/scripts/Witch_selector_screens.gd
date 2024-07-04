@@ -23,7 +23,7 @@ func reset_background():
 
 func _on_map_1_pressed():
 	get_tree().change_scene_to_file("res://src/Levels/Map1/Map1.tscn")
-	Global.map_selector = 11
+	MapCharacter.map_selector = 11
 
 func _on_map_2_pressed():
 	get_tree().change_scene_to_file("res://src/Levels/Map2/Map2.tscn")

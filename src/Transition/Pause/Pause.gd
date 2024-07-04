@@ -10,6 +10,7 @@ func _ready():
 	label.visible = false
 
 func _input(event):
+	
 	if event.is_action_pressed("Pause"):
 		# Alternar el estado de pausa
 		get_tree().paused = not get_tree().paused
@@ -17,3 +18,13 @@ func _input(event):
 		# Alternar la visibilidad del ColorRect
 		color_rect.visible = get_tree().paused
 		label.visible = get_tree().paused
+		
+
+
+func _on_menu_pressed() -> void:
+	# Alternar el estado de pausa
+	get_tree().paused = not get_tree().paused
+		
+	# Alternar la visibilidad del ColorRect
+	color_rect.visible = get_tree().paused
+	label.visible = get_tree().paused

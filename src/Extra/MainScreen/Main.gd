@@ -22,7 +22,8 @@ func _process(delta):
 
 #PLAY BUTTON
 func _on_play_pressed():
-	get_tree().change_scene_to_file("res://src/Levels/Level_Selector/selector_screens.tscn")
+	get_tree().change_scene_to_file("res://src/Levels/Characters_Selector/characters_selector.tscn")
+
 
 
 func _on_play_mouse_entered():
