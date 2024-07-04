@@ -5,3 +5,6 @@ res://src/Transition/Pause/Pause.gd
 res://src/MainScreens/home-screen.tscn
 res://src/Extra/MainScreen/settings.tscn
 res://src/Extra/MainScreen/settings.gd
+res://src/BG/Game/Game.tscn
+res://src/Levels/Map1/Map1.tscn
+res://src/Transition/Pause/Pause.tscn
