@@ -1,3 +1,4 @@
+class_name settings
 extends Control
 
 
@@ -10,7 +11,6 @@ signal exit_settings
 func _ready():
 	button.button_down.connect(on_exit_pressed)
 	set_process(false)
-	
 	
 func on_exit_pressed() -> void:
 	#print("EXIT DAMMIT") #debug line incase some twat code line decide it doesn't want to work

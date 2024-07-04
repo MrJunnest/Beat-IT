@@ -1,3 +1,4 @@
+res://assets/packs/GUI_1
 res://src/Levels
 res://assets/packs/Coin Gems
 res://assets/music
@@ -19,4 +20,3 @@ res://assets/pictures/enemy/Slime
 res://src/Obstacles/Antena
 res://src/Extra/HUD
 res://src/Levels/Map1/Script
-res://src/Levels/Tests/shader

@@ -1,19 +1,19 @@
-[gd_scene load_steps=7 format=3 uid="uid://dbovkios5xgxw"]
+[gd_scene load_steps=7 format=3 uid="uid://b44yqk1c22r55"]
 
-[ext_resource type="Script" path="res://src/Extra/MainScreen/settings.gd" id="1_80c5s"]
-[ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="2_5dmt2"]
-[ext_resource type="Texture2D" uid="uid://8lqbix2eiyxo" path="res://assets/packs/GUI_1/GUI.png" id="3_c841l"]
+[ext_resource type="Script" path="res://src/Extra/MainScreen/settings.gd" id="1_n5hlr"]
+[ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="2_aapqu"]
+[ext_resource type="Texture2D" uid="uid://8lqbix2eiyxo" path="res://assets/packs/GUI_1/GUI.png" id="3_43ads"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gcdt8"]
-texture = ExtResource("3_c841l")
+texture = ExtResource("3_43ads")
 region_rect = Rect2(145, 81, 46, 14)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jdc11"]
-texture = ExtResource("3_c841l")
+texture = ExtResource("3_43ads")
 region_rect = Rect2(145, 113, 46, 14)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vofio"]
-texture = ExtResource("3_c841l")
+texture = ExtResource("3_43ads")
 region_rect = Rect2(145, 65, 46, 14)
 
 [node name="Settings_menu" type="Control"]
@@ -23,7 +23,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_80c5s")
+script = ExtResource("1_n5hlr")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 0
@@ -46,7 +46,7 @@ theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/shadow_offset_x = 6
-theme_override_fonts/font = ExtResource("2_5dmt2")
+theme_override_fonts/font = ExtResource("2_aapqu")
 theme_override_font_sizes/font_size = 55
 text = "SETTINGS"
 horizontal_alignment = 1
@@ -113,7 +113,7 @@ popup/item_2/id = 2
 layout_mode = 2
 size_flags_vertical = 10
 size_flags_stretch_ratio = 0.0
-theme_override_fonts/font = ExtResource("2_5dmt2")
+theme_override_fonts/font = ExtResource("2_aapqu")
 theme_override_font_sizes/font_size = 25
 theme_override_styles/normal = SubResource("StyleBoxTexture_gcdt8")
 theme_override_styles/hover = SubResource("StyleBoxTexture_jdc11")
