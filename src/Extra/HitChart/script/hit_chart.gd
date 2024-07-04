@@ -1,37 +1,31 @@
 extends CanvasLayer
 
-var inside_area_UP = false
-var selected_key = 0 
-var position
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
+var perfect = false
+var good = false
+var okay = false
+var current_note = null
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	if inside_area_UP:
-		pass
-	
-
-func spawn(key:int, pos:Vector2) -> void:
-	position = pos
-	match key:
-		0:
-			selected_key = KEY_UP
-			
-		1:
-			selected_key = KEY_DOWN
-	pass
+@export var input = ""
 
 
-
-func _on_hit_up_area_entered(area):
-	inside_area_UP = true
-	pass # Replace with function body.
-
-
-func _on_hit_up_area_exited(area):
-	inside_area_UP = false
-	pass # Replace with function body.
+func _unhandled_input(event):
+	if event.is_action(input):
+		if event.is_action_pressed(input, false):
+			if current_note != null:
+				if perfect:
+					get_parent().increment_score(3)
+					current_note.destroy(3)
+				elif good:
+					get_parent().increment_score(2)
+					current_note.destroy(2)
+				elif okay:
+					get_parent().increment_score(1)
+					current_note.destroy(1)
+				_reset()
+			else:
+				get_parent().increment_score(0)
+		if event.is_action_pressed(input):
+			frame = 1
+		elif event.is_action_released(input):
+			$PushTimer.start()

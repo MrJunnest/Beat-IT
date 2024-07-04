@@ -1,9 +1,9 @@
 extends CharacterBody2D
 
 # Posiciones de teletransporte
-@export var going_up = Vector2(65, -95)
-@export var going_down = Vector2(65, 40)
-@export var START = Vector2i(65,40)
+@export var going_up = Vector2(70, 95)
+@export var going_down = Vector2(70, 240)
+@export var START = Vector2i(70,240)
 
 func _ready():
 	global_position = START

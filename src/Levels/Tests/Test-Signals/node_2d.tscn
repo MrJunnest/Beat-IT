@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://3dheq2ny2ec6"]
+
+[ext_resource type="PackedScene" uid="uid://c2k75oetk3g38" path="res://src/Levels/Tests/Test-Signals/icon.tscn" id="1_56ucv"]
+[ext_resource type="Script" path="res://src/Levels/Tests/Test-Signals/icon.gd" id="2_hq166"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2d" parent="." instance=ExtResource("1_56ucv")]
+position = Vector2(140, 176)
+script = ExtResource("2_hq166")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 78.0
+offset_top = 82.0
+offset_right = 226.0
+offset_bottom = 152.0
+text = "Toggle Motion"
+
+[connection signal="pressed" from="Button" to="Sprite2d" method="_on_button_pressed"]

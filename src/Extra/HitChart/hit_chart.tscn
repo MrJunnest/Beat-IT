@@ -11,6 +11,7 @@ radius = 70.342
 
 [node name="HitChart" type="CanvasLayer"]
 script = ExtResource("1_n1h5p")
+input = null
 
 [node name="Box" type="VBoxContainer" parent="."]
 modulate = Color(1, 1, 1, 0.407843)
@@ -20,29 +21,23 @@ offset_right = 281.0
 offset_bottom = 552.0
 
 [node name="HitUP" type="Area2D" parent="Box"]
-position = Vector2(-105, 62)
+position = Vector2(75, 94)
 
 [node name="UP" type="Sprite2D" parent="Box/HitUP"]
-position = Vector2(179, 32)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("1_f8t8v")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Box/HitUP"]
-position = Vector2(179, 32)
 scale = Vector2(0.5, 0.5)
 shape = SubResource("CircleShape2D_y0om4")
 
-[node name="HitDOWN" type="Area2D" parent="Box"]
+[node name="HitDown" type="Area2D" parent="Box"]
+position = Vector2(74, 222)
 
-[node name="Down" type="Sprite2D" parent="Box/HitDOWN"]
-position = Vector2(74, 225)
+[node name="Down" type="Sprite2D" parent="Box/HitDown"]
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("1_f8t8v")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Box/HitDOWN"]
-position = Vector2(74, 225)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Box/HitDown"]
 scale = Vector2(0.5, 0.5)
 shape = SubResource("CircleShape2D_m0ixw")
-
-[connection signal="area_entered" from="Box/HitUP" to="." method="_on_hit_up_area_entered"]
-[connection signal="area_exited" from="Box/HitUP" to="." method="_on_hit_up_area_exited"]

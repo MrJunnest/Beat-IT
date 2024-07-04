@@ -1,16 +1,25 @@
 extends Control
 
 func _on_play_button_pressed():
-	get_tree().change_scene_to_file("res://src/Levels/Characters_Selector/characters_selector.tscn")
-
+	get_tree().change_scene_to_file("res://src/Levels/Level_Selector/selector_screens.tscn")
+	#get_tree().change_scene_to_file("")
+	pass # Replace with function body.
+	
 func _on_play_button_mouse_entered():
 	$Hitsound.play()
 
 func _on_settings_button_mouse_entered():
 	$Hitsound.play()
 
+
+
 func _on_quit_button_mouse_entered():
 	$Hitsound.play()
-
+	
 func _on_quit_button_pressed():
 	get_tree().quit()
+	pass # Replace with function body.
+
+
+func _on_admin_panel_pressed():
+	get_tree().change_scene_to_file("res://src/BG/Game/Game.tscn")

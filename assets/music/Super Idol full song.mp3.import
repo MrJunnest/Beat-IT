@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c8pfb1xuokoam"
+path="res://.godot/imported/Super Idol full song.mp3-1f2a64baa60518ce9657d508f2ce3ba9.mp3str"
+
+[deps]
+
+source_file="res://assets/music/Super Idol full song.mp3"
+dest_files=["res://.godot/imported/Super Idol full song.mp3-1f2a64baa60518ce9657d508f2ce3ba9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
