@@ -32,34 +32,38 @@ var lines := []
 
 var credits = [
 	[
-		"A game by 三个老外"
+		"A game by 三老"
 	],[
 		"Programming",
 		"Elvis",
 		"Luciano",
 		"Elbert"
 	],[
-		"Sound Effects",
-		"Why are you Gay?"
-	],[
 		"Testers",
-		"三",
-		"个",
-		"老外"
+		"三老外"
+	],[
+		"UI",
+		"Elbert",
+		"Elvis",
+		"Luciano"
+	],[
+		"Music",
+		"Youtube"
 	],[
 		"Tools used",
 		"Developed with Godot Engine",
 		" ", 
 		"https://godotengine.org/license",
 		"",
-		"Art created with My Favourite Art Program",
-		"ALL WEBSITE OR ART SPRITE USED PUT HERE!"
+		"Art",
+		"https://itch.io/game-assets/tag-2d
+"
 	],[
 		"Special thanks"," ",
 		"My parents",
 		"My friends",
 		"and",
-		"My pet cock"
+		"My brain for keeping up with this s-"
 	]
 ]
 
