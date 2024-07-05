@@ -16,3 +16,10 @@ res://src/Extra/MainScreen/Main.tscn
 res://src/Levels/Map1/Map1.tscn
 res://src/Extra/End_Scream/End_scrren.tscn
 res://src/Levels/Level_Selector/Elemental_Water_selector_screens.tscn
+res://src/Levels/Mutiplayer_Map/Background/Multi_Map.tscn
+res://src/Levels/Map6/Background/map_6_background.tscn
+res://src/Levels/Map1/Background/Background.tscn
+res://src/Levels/Map2/Background/Background.tscn
+res://src/Levels/Map3/Background/map_3_background.tscn
+res://src/Levels/Map4/Background/map_4_background.tscn
+res://src/Levels/Map5/Background/map_5_background.tscn

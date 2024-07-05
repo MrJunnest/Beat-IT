@@ -19,8 +19,8 @@ position = Vector2(287, 175)
 texture = ExtResource("1_ghp4d")
 
 [node name="Background2" type="Sprite2D" parent="."]
-position = Vector2(584.5, 319.5)
-scale = Vector2(1.63071, 2.56641)
+position = Vector2(610.499, 352)
+scale = Vector2(1.70263, 2.82031)
 texture = ExtResource("1_ab1fw")
 
 [node name="Moon" type="Sprite2D" parent="."]

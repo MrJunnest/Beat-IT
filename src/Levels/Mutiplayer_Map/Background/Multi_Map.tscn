@@ -1,0 +1,37 @@
+[gd_scene load_steps=6 format=3 uid="uid://bjsctijy0vnyg"]
+
+[ext_resource type="Texture2D" uid="uid://dco1c18qijmhm" path="res://assets/packs/scrolling-city-background/city 5/1.png" id="1_b20xm"]
+[ext_resource type="Texture2D" uid="uid://dbgytqje4ulgr" path="res://assets/packs/scrolling-city-background/city 5/2.png" id="2_hv3dq"]
+[ext_resource type="Texture2D" uid="uid://dl31grko67aj6" path="res://assets/packs/scrolling-city-background/city 5/3.png" id="3_lcgpe"]
+[ext_resource type="Texture2D" uid="uid://cffxd55wysdg2" path="res://assets/packs/scrolling-city-background/city 5/4.png" id="4_bd8k6"]
+[ext_resource type="Texture2D" uid="uid://7w7xc0msqcr6" path="res://assets/packs/scrolling-city-background/city 5/5.png" id="5_r5qkx"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(574, 325)
+scale = Vector2(2, 2)
+texture = ExtResource("1_b20xm")
+
+[node name="City" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1152, 0)
+
+[node name="2" type="Sprite2D" parent="City"]
+position = Vector2(574, 325)
+scale = Vector2(2, 2)
+texture = ExtResource("2_hv3dq")
+
+[node name="3" type="Sprite2D" parent="City"]
+position = Vector2(574, 325)
+scale = Vector2(2, 2)
+texture = ExtResource("3_lcgpe")
+
+[node name="4" type="Sprite2D" parent="City"]
+position = Vector2(574, 325)
+scale = Vector2(2, 2)
+texture = ExtResource("4_bd8k6")
+
+[node name="5" type="Sprite2D" parent="City"]
+position = Vector2(574, 325)
+scale = Vector2(2, 2)
+texture = ExtResource("5_r5qkx")
