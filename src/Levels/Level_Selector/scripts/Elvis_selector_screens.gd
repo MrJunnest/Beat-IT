@@ -43,30 +43,35 @@ func _on_back_pressed():
 	get_tree().change_scene_to_file("res://src/Levels/Characters_Selector/characters_selector.tscn")
 
 func _on_map_1_mouse_entered():
+	$Hitsound.play()
 	show_background($Map1_Background)
 
 func _on_map_1_mouse_exited():
 	reset_background()
 
 func _on_map_2_mouse_entered():
+	$Hitsound.play()
 	show_background($Map2_Background)
 
 func _on_map_2_mouse_exited():
 	reset_background()
 
 func _on_map_3_mouse_entered():
+	$Hitsound.play()
 	show_background($Map3_Background)
 
 func _on_map_3_mouse_exited():
 	reset_background()
 
 func _on_map_4_mouse_entered():
+	$Hitsound.play()
 	show_background($Map4_Background)
 
 func _on_map_4_mouse_exited():
 	reset_background()
 
 func _on_map_5_mouse_entered():
+	$Hitsound.play()
 	show_background($Map5_Background)
 
 func _on_map_5_mouse_exited():

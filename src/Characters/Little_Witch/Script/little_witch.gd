@@ -19,5 +19,5 @@ func _input(event):
 		global_position = going_down
 		$Body.play("Run")
 
-func _on_area_entered(area): #game over scene
+func _on_area_entered(): #game over scene
 	get_tree().change_scene_to_file("res://src/Extra/End_Scream/End_scrren.tscn")

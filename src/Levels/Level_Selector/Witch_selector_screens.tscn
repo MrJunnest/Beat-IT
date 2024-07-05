@@ -152,6 +152,7 @@ offset_right = 8.0
 offset_bottom = 8.0
 
 [connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
 [connection signal="mouse_entered" from="Map 1" to="." method="_on_map_1_mouse_entered"]
 [connection signal="mouse_exited" from="Map 1" to="." method="_on_map_1_mouse_exited"]
 [connection signal="pressed" from="Map 1" to="." method="_on_map_1_pressed"]
