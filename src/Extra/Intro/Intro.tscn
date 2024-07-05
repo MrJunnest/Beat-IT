@@ -73,7 +73,6 @@ position = Vector2(850, 460)
 texture = ExtResource("1_drw2n")
 
 [node name="ColorRect2" type="ColorRect" parent="."]
-visible = false
 offset_left = -271.0
 offset_top = -157.0
 offset_right = 1561.0

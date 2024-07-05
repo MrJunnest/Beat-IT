@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://du4r854onegf1"]
+[gd_scene load_steps=12 format=3 uid="uid://du4r854onegf1"]
 
 [ext_resource type="Script" path="res://src/Levels/Map5/Script/map_5.gd" id="1_epwo5"]
 [ext_resource type="PackedScene" uid="uid://crf1gdo1ogqq8" path="res://src/Levels/Map5/Background/map_5_background.tscn" id="2_x2e5u"]
@@ -6,7 +6,6 @@
 [ext_resource type="PackedScene" uid="uid://ccldp7qiqx7ae" path="res://src/Characters/Little_Witch/little_witch.tscn" id="4_4qcn6"]
 [ext_resource type="PackedScene" uid="uid://dvij0t03ys2m5" path="res://src/Characters/Little_Elvis/little_elvis.tscn" id="5_n3gtu"]
 [ext_resource type="PackedScene" uid="uid://dgafsrhclm8uk" path="res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn" id="6_16xap"]
-[ext_resource type="PackedScene" uid="uid://7vkajok2ya66" path="res://src/Extra/HUD/hud.tscn" id="8_ukmw5"]
 [ext_resource type="PackedScene" uid="uid://be1egpjfr8n0b" path="res://src/Transition/Pause/Pause.tscn" id="9_77rbp"]
 [ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="10_sf7ep"]
 [ext_resource type="Texture2D" uid="uid://8lqbix2eiyxo" path="res://assets/packs/GUI_1/GUI.png" id="11_v7he4"]
@@ -38,8 +37,6 @@ position = Vector2(231, -43)
 [node name="Elementals_water_priestess" parent="." instance=ExtResource("6_16xap")]
 unique_name_in_owner = true
 position = Vector2(-37, -74)
-
-[node name="HUD" parent="." instance=ExtResource("8_ukmw5")]
 
 [node name="Pause" parent="." instance=ExtResource("9_77rbp")]
 visible = false

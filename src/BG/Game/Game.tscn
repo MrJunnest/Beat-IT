@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://crc8d5r8r057w"]
+[gd_scene load_steps=6 format=3 uid="uid://crc8d5r8r057w"]
 
 [ext_resource type="Script" path="res://src/BG/Game/Game.gd" id="1_cx3i0"]
 [ext_resource type="PackedScene" uid="uid://m5agv6axbsc6" path="res://src/BG/HitChart/HitChart.tscn" id="1_qoux8"]
 [ext_resource type="PackedScene" uid="uid://d3i85vy85kakk" path="res://src/BG/Conductor/Conductor.tscn" id="3_g65b7"]
+[ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="3_i51ju"]
 [ext_resource type="AudioStream" uid="uid://bqe3grvre2xyv" path="res://assets/music/we will rock you - QUEEN [LYRICS+MP3 DOWNLOAD].mp3" id="4_1urej"]
 
 [node name="Game" type="CanvasLayer"]
@@ -18,27 +19,43 @@ input = "UP"
 position = Vector2(184, 531)
 input = "DOWN"
 
+[node name="Conductor" parent="." instance=ExtResource("3_g65b7")]
+stream = ExtResource("4_1urej")
+bpm = 90
+measures = 4
+
+[node name="SCORE" type="Label" parent="."]
+anchors_preset = -1
+anchor_right = 0.293913
+anchor_bottom = 0.144615
+offset_left = 398.0
+offset_top = 2.0
+offset_right = 438.0
+offset_bottom = 25.0
+theme_override_fonts/font = ExtResource("3_i51ju")
+theme_override_font_sizes/font_size = 50
+text = "SCORE:
+
+"
+
 [node name="Label" type="Label" parent="."]
-offset_left = 408.0
-offset_top = 128.0
-offset_right = 448.0
-offset_bottom = 151.0
+offset_left = 556.0
+offset_top = 3.0
+offset_right = 632.0
+offset_bottom = 61.0
+theme_override_fonts/font = ExtResource("3_i51ju")
+theme_override_font_sizes/font_size = 50
 text = "0
 "
-metadata/_edit_use_anchors_ = true
 
 [node name="Combo" type="Label" parent="."]
 anchors_preset = -1
 anchor_top = -0.0617284
 anchor_right = 0.0772569
-offset_left = 410.0
-offset_top = 183.0
-offset_right = 450.0
-offset_bottom = 206.0
-text = "aaa"
-metadata/_edit_use_anchors_ = true
-
-[node name="Conductor" parent="." instance=ExtResource("3_g65b7")]
-stream = ExtResource("4_1urej")
-bpm = 90
-measures = 4
+offset_left = 268.0
+offset_top = 337.123
+offset_right = 725.155
+offset_bottom = 365.0
+theme_override_fonts/font = ExtResource("3_i51ju")
+theme_override_font_sizes/font_size = 60
+text = "START DOING COMBO!"

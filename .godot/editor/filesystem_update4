@@ -23,3 +23,15 @@ res://src/Levels/Map2/Background/Background.tscn
 res://src/Levels/Map3/Background/map_3_background.tscn
 res://src/Levels/Map4/Background/map_4_background.tscn
 res://src/Levels/Map5/Background/map_5_background.tscn
+res://src/BG/Game/Game.tscn
+res://src/Levels/Map2/Music/Music2.tscn
+res://src/Extra/HUD/hud.tscn
+res://src/Levels/Map6/Music/Music6.tscn
+res://src/Levels/Map5/Music/Music5.tscn
+res://src/Levels/Map4/Music/Music4.tscn
+res://src/Levels/Map3/Music/Music3.tscn
+res://src/BG/Game/Game.gd
+res://src/Levels/Tests/Multiplayer/MP_Map1.tscn
+res://src/Levels/Map5/map_5.tscn
+res://src/Levels/Map4/Map4.tscn
+res://src/Levels/Map3/Map3.tscn
