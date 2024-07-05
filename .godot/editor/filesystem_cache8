@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1720094679
+::res://::1720137876
 icon.svg::CompressedTexture2D::3838539191210772969::1718951617::1719297591::1::::<><>::
 ::res://addons/::1719297591
 ::res://addons/sprite_cutter/::1719285868
@@ -470,7 +470,117 @@ magicSpell3.png::CompressedTexture2D::329197237138609428::1720062192::1720062192
 magicSpell4.png::CompressedTexture2D::576410465152952120::1720062192::1720062192::1::::<><>::
 magicSpell5.png::CompressedTexture2D::6350080924679489879::1720062192::1720062192::1::::<><>::
 magicSpell6.png::CompressedTexture2D::5236081548322109970::1720062192::1720062192::1::::<><>::
-::res://assets/enemies/::1719128317
+::res://assets/enemies/::1720134572
+::res://assets/enemies/Boss/::1720135845
+demon_slime_FREE_v1.0_288x160_spritesheet.png::CompressedTexture2D::5684129003237396989::1635220003::1720134585::1::::<><>::
+::res://assets/enemies/Boss/01_demon_idle/::1720134584
+demon_idle_1.png::CompressedTexture2D::5320002467766312093::1623500944::1720134584::1::::<><>::
+demon_idle_2.png::CompressedTexture2D::5896317738329317027::1623500944::1720134584::1::::<><>::
+demon_idle_3.png::CompressedTexture2D::2818243717107021260::1623500944::1720134584::1::::<><>::
+demon_idle_4.png::CompressedTexture2D::8590116483597671472::1623500944::1720134584::1::::<><>::
+demon_idle_5.png::CompressedTexture2D::7463143571654734947::1623500944::1720134584::1::::<><>::
+demon_idle_6.png::CompressedTexture2D::3575729363050650586::1623500944::1720134584::1::::<><>::
+::res://assets/enemies/Boss/02_demon_walk/::1720134585
+demon_walk_1.png::CompressedTexture2D::5094310624033876857::1623500962::1720134584::1::::<><>::
+demon_walk_2.png::CompressedTexture2D::5865505702614730612::1623500962::1720134584::1::::<><>::
+demon_walk_3.png::CompressedTexture2D::4931442483475949261::1623500962::1720134584::1::::<><>::
+demon_walk_4.png::CompressedTexture2D::8777312062917465130::1623500962::1720134584::1::::<><>::
+demon_walk_5.png::CompressedTexture2D::2831664429019370298::1623500962::1720134584::1::::<><>::
+demon_walk_6.png::CompressedTexture2D::7814548602207272257::1623500962::1720134584::1::::<><>::
+demon_walk_7.png::CompressedTexture2D::1167634632449651249::1623500962::1720134585::1::::<><>::
+demon_walk_8.png::CompressedTexture2D::7323445122858742547::1623500962::1720134585::1::::<><>::
+demon_walk_9.png::CompressedTexture2D::9009675420507522688::1623500962::1720134585::1::::<><>::
+demon_walk_10.png::CompressedTexture2D::1701860461606434530::1623500962::1720134585::1::::<><>::
+demon_walk_11.png::CompressedTexture2D::6054776121675956149::1623500962::1720134585::1::::<><>::
+demon_walk_12.png::CompressedTexture2D::916809961449161428::1623500962::1720134585::1::::<><>::
+::res://assets/enemies/Boss/03_demon_cleave/::1720134585
+demon_cleave_1.png::CompressedTexture2D::5289833958266084461::1623500980::1720134585::1::::<><>::
+demon_cleave_2.png::CompressedTexture2D::7050956622982485509::1623500980::1720134585::1::::<><>::
+demon_cleave_3.png::CompressedTexture2D::9158874774955165159::1623500980::1720134585::1::::<><>::
+demon_cleave_4.png::CompressedTexture2D::6749119555821871674::1623500980::1720134585::1::::<><>::
+demon_cleave_5.png::CompressedTexture2D::6645246619334259510::1623500980::1720134585::1::::<><>::
+demon_cleave_6.png::CompressedTexture2D::2822900719726126967::1623500980::1720134585::1::::<><>::
+demon_cleave_7.png::CompressedTexture2D::5047190315066952200::1623500980::1720134585::1::::<><>::
+demon_cleave_8.png::CompressedTexture2D::4809540187835569281::1623500980::1720134585::1::::<><>::
+demon_cleave_9.png::CompressedTexture2D::4670405330101141411::1623500980::1720134585::1::::<><>::
+demon_cleave_10.png::CompressedTexture2D::1245861162367631476::1623500980::1720134585::1::::<><>::
+demon_cleave_11.png::CompressedTexture2D::7415262802405488985::1623500980::1720134585::1::::<><>::
+demon_cleave_12.png::CompressedTexture2D::5704427199258362485::1623500980::1720134585::1::::<><>::
+demon_cleave_13.png::CompressedTexture2D::3523839839314934981::1623500980::1720134585::1::::<><>::
+demon_cleave_14.png::CompressedTexture2D::197404448553030614::1623500980::1720134584::1::::<><>::
+demon_cleave_15.png::CompressedTexture2D::340514081803153064::1623500980::1720134584::1::::<><>::
+::res://assets/enemies/Boss/04_demon_take_hit/::1720134584
+demon_take_hit_1.png::CompressedTexture2D::5070690744478076057::1623501133::1720134584::1::::<><>::
+demon_take_hit_2.png::CompressedTexture2D::5114250839727073182::1623501133::1720134584::1::::<><>::
+demon_take_hit_3.png::CompressedTexture2D::7858388304670878550::1623501133::1720134584::1::::<><>::
+demon_take_hit_4.png::CompressedTexture2D::7355639021146042854::1623501133::1720134584::1::::<><>::
+demon_take_hit_5.png::CompressedTexture2D::6463237422210770342::1623501133::1720134584::1::::<><>::
+::res://assets/enemies/Boss/05_demon_death/::1720134584
+demon_death_1.png::CompressedTexture2D::6767190261904783275::1623501103::1720134584::1::::<><>::
+demon_death_2.png::CompressedTexture2D::8151233854720441591::1623501103::1720134584::1::::<><>::
+demon_death_3.png::CompressedTexture2D::6768153380860330881::1623501103::1720134584::1::::<><>::
+demon_death_4.png::CompressedTexture2D::4674412448959754487::1623501103::1720134584::1::::<><>::
+demon_death_5.png::CompressedTexture2D::718086908699077944::1623501103::1720134584::1::::<><>::
+demon_death_6.png::CompressedTexture2D::7734674993244341529::1623501103::1720134584::1::::<><>::
+demon_death_7.png::CompressedTexture2D::5282351625535093464::1623501103::1720134584::1::::<><>::
+demon_death_8.png::CompressedTexture2D::2122954802075360986::1623501103::1720134584::1::::<><>::
+demon_death_9.png::CompressedTexture2D::5195936316317295456::1623501103::1720134584::1::::<><>::
+demon_death_10.png::CompressedTexture2D::674336921458418787::1623501103::1720134584::1::::<><>::
+demon_death_11.png::CompressedTexture2D::1356652676932905441::1623501103::1720134584::1::::<><>::
+demon_death_12.png::CompressedTexture2D::7711813775579134512::1623501103::1720134584::1::::<><>::
+demon_death_13.png::CompressedTexture2D::467809610174026713::1623501103::1720134584::1::::<><>::
+demon_death_14.png::CompressedTexture2D::2987626934856759242::1623501103::1720134584::1::::<><>::
+demon_death_15.png::CompressedTexture2D::8137244812734303558::1623501103::1720134584::1::::<><>::
+demon_death_16.png::CompressedTexture2D::1064157832960903703::1623501103::1720134584::1::::<><>::
+demon_death_17.png::CompressedTexture2D::6053645314609928661::1623501103::1720134584::1::::<><>::
+demon_death_18.png::CompressedTexture2D::4757606209080679339::1623501103::1720134584::1::::<><>::
+demon_death_19.png::CompressedTexture2D::2591866787160066108::1623501103::1720134584::1::::<><>::
+demon_death_20.png::CompressedTexture2D::1666296064993153011::1623501103::1720134584::1::::<><>::
+demon_death_21.png::CompressedTexture2D::4325525145832412473::1623501103::1720134584::1::::<><>::
+demon_death_22.png::CompressedTexture2D::5529289674610168502::1623501103::1720134584::1::::<><>::
+::res://assets/enemies/Boss/imgs/::1720135004
+img_0.png::CompressedTexture2D::2329952339811180947::1617026448::1720135003::1::::<><>::
+img_1.png::CompressedTexture2D::220601924150363365::1617026448::1720135003::1::::<><>::
+img_2.png::CompressedTexture2D::7895719715967350828::1617026448::1720135003::1::::<><>::
+img_3.png::CompressedTexture2D::3587228136772309459::1617026448::1720135003::1::::<><>::
+img_4.png::CompressedTexture2D::7603199973593663192::1617026448::1720135003::1::::<><>::
+img_5.png::CompressedTexture2D::1273077813712750582::1617026448::1720135003::1::::<><>::
+img_6.png::CompressedTexture2D::475910059396748559::1617026448::1720135003::1::::<><>::
+img_7.png::CompressedTexture2D::1224467606267351510::1617026448::1720135003::1::::<><>::
+img_8.png::CompressedTexture2D::7682213142443192988::1617026448::1720135003::1::::<><>::
+img_9.png::CompressedTexture2D::3450820265946623044::1617026448::1720135003::1::::<><>::
+img_10.png::CompressedTexture2D::301120463650630545::1617026448::1720135003::1::::<><>::
+img_11.png::CompressedTexture2D::2704245099523991884::1617026449::1720135003::1::::<><>::
+img_12.png::CompressedTexture2D::6785311087020360011::1617026449::1720135004::1::::<><>::
+img_13.png::CompressedTexture2D::6255868787146010396::1617026449::1720135004::1::::<><>::
+img_14.png::CompressedTexture2D::7845264364367154841::1617026449::1720135004::1::::<><>::
+img_15.png::CompressedTexture2D::7600451276516245055::1617026449::1720135004::1::::<><>::
+img_16.png::CompressedTexture2D::1019746886302893322::1617026449::1720135004::1::::<><>::
+img_17.png::CompressedTexture2D::8187612974505894597::1617026449::1720135004::1::::<><>::
+img_18.png::CompressedTexture2D::333625798106581968::1617026449::1720135004::1::::<><>::
+img_19.png::CompressedTexture2D::1082800866945612955::1617026449::1720135004::1::::<><>::
+img_20.png::CompressedTexture2D::2023429659590198546::1617026449::1720135002::1::::<><>::
+img_21.png::CompressedTexture2D::8587982449210095824::1617026449::1720135002::1::::<><>::
+img_22.png::CompressedTexture2D::7586597788489387204::1617026450::1720135002::1::::<><>::
+img_23.png::CompressedTexture2D::8486295802348747675::1617026450::1720135002::1::::<><>::
+img_24.png::CompressedTexture2D::3642056431425293929::1617026450::1720135002::1::::<><>::
+img_25.png::CompressedTexture2D::1603111351882146772::1617026450::1720135002::1::::<><>::
+img_26.png::CompressedTexture2D::5424759713344917861::1617026450::1720135002::1::::<><>::
+img_27.png::CompressedTexture2D::3134151627222103824::1617026450::1720135002::1::::<><>::
+img_28.png::CompressedTexture2D::8349309786906552022::1617026450::1720135002::1::::<><>::
+img_29.png::CompressedTexture2D::1999001953424824682::1617026450::1720135002::1::::<><>::
+img_30.png::CompressedTexture2D::4985695289512663955::1617026450::1720135002::1::::<><>::
+img_31.png::CompressedTexture2D::7018530152840394097::1617026451::1720135002::1::::<><>::
+img_32.png::CompressedTexture2D::7514892041149708873::1617026451::1720135002::1::::<><>::
+img_33.png::CompressedTexture2D::3020664832032149204::1617026451::1720135002::1::::<><>::
+img_34.png::CompressedTexture2D::2617318836105559789::1617026451::1720135002::1::::<><>::
+img_35.png::CompressedTexture2D::7866045550574322373::1617026451::1720135002::1::::<><>::
+img_36.png::CompressedTexture2D::7488885460941303315::1617026451::1720135003::1::::<><>::
+img_37.png::CompressedTexture2D::4519781128396486569::1617026451::1720135003::1::::<><>::
+img_38.png::CompressedTexture2D::3560933431330058208::1617026451::1720135003::1::::<><>::
+img_39.png::CompressedTexture2D::3421455012614067523::1617026451::1720135003::1::::<><>::
+::res://assets/enemies/Boss/spike/::1720135851
+Moving Spikes 32x32 scaled 64x64.png::CompressedTexture2D::2585695460154277852::1720134929::1720135851::1::::<><>::
 ::res://assets/fonts/::1719285868
 Abaddon Bold.ttf::FontFile::7233662615732823947::1719285868::1719285868::1::::<><>::
 Abaddon Light.ttf::FontFile::1809076127323556293::1719285868::1719285868::1::::<><>::
@@ -1808,44 +1918,62 @@ LogoAudio.wav::AudioStreamWAV::7845085561137503989::1720094558::1720094558::1:::
 MI_SFX 43.wav::AudioStreamWAV::49002531712658450::1719297591::1719297591::1::::<><>::
 ::res://scenes/::1720094427
 test_debug.tscn::PackedScene::3461845787794299092::1720094427::0::1::::<><>::
-::res://src/::1720094558
+::res://src/::1720133295
 Global.gd::GDScript::-1::1720094427::0::1::::<>Node<>::
 LICENSE.md::TextFile::-1::1720094427::0::1::::<><>::
 ::res://src/BG/::1719999003
-::res://src/BG/Conductor/::1720094644
+::res://src/BG/Conductor/::1720094764
 Conductor.gd::GDScript::-1::1719999003::0::1::::<>AudioStreamPlayer<>::
-Conductor.tscn::PackedScene::9143123071160639790::1720094644::0::1::::<><>::res://src/Levels/Map1/Conductor.gd
-::res://src/BG/Game/::1720094644
+Conductor.tscn::PackedScene::9143123071160639790::1720094764::0::1::::<><>::res://src/Levels/Map1/Conductor.gd
+::res://src/BG/Game/::1720138858
 Game.gd::GDScript::-1::1720062192::0::1::::<>CanvasLayer<>::
-Game.tscn::PackedScene::5972191086369164678::1720094644::0::1::::<><>::res://src/BG/Game/Game.gd<>uid://m5agv6axbsc6::::res://src/BG/HitChart/HitChart.tscn<>uid://d3i85vy85kakk::::res://src/BG/Conductor/Conductor.tscn
+Game.tscn::PackedScene::5972191086369164678::1720138858::0::1::::<><>::res://src/BG/Game/Game.gd<>uid://m5agv6axbsc6::::res://src/BG/HitChart/HitChart.tscn<>uid://d3i85vy85kakk::::res://src/BG/Conductor/Conductor.tscn
 ::res://src/BG/Global/::1719999003
 Global.gd::GDScript::-1::1719999003::0::1::::<>Node2D<>::
 Global.tscn::PackedScene::4402301800560674546::1719999003::0::1::::<><>::res://src/BG/Global/Global.gd
-::res://src/BG/HitChart/::1720094644
-HitChart.gd::GDScript::-1::1720094558::0::1::::<>AnimatedSprite2D<>::
-HitChart.tscn::PackedScene::904209321951697123::1720094644::0::1::::<><>::uid://wq4v756w1nxg::::res://assets/pictures/HitChart.png<>uid://ceo6r270ad6y3::::res://assets/pictures/HitChart1.png<>res://src/BG/HitChart/HitChart.gd
-::res://src/BG/Note/::1720094644
-Note.gd::GDScript::-1::1720094558::0::1::::<>Area2D<>::
-Note.tscn::PackedScene::167981840319822307::1720094644::0::1::::<><>::uid://ty47xnvevqb8::::res://assets/obstacles/spells/2/1.png<>res://src/BG/Note/Note.gd<>uid://cob1xuhsahi3m::::res://assets/obstacles/spells/2/2.png<>uid://dqk31ejopy3oc::::res://assets/obstacles/spells/2/3.png<>uid://dg4lu7wl74a0f::::res://assets/obstacles/spells/2/4.png<>uid://c38e21rw7u71::::res://assets/obstacles/spells/2/5.png<>uid://b8c7jfxn7cqa2::::res://assets/obstacles/spells/2/6.png<>uid://bw4i7wutvg15a::::res://assets/obstacles/spells/2/7.png<>uid://b5f7olc3qs7vf::::res://assets/obstacles/spells/2/8.png<>uid://cw5bq4ymxw3nh::::res://assets/obstacles/spells/2/9.png<>uid://dc0kxrt7do1y4::::res://assets/obstacles/spells/2/10.png<>uid://c7npx4wfmd52f::::res://assets/obstacles/spells/2/11.png<>uid://cp47dvks10ag3::::res://assets/obstacles/spells/2/12.png<>uid://b1xotnvhjj3tq::::res://assets/obstacles/spells/2/13.png<>uid://b76jjewievd84::::res://assets/obstacles/spells/2/14.png<>uid://dyib2obns3stk::::res://assets/obstacles/spells/2/15.png<>uid://ci8bgmsbd2w5o::::res://assets/obstacles/spells/2/16.png<>uid://dtmyxmhici4b3::::res://assets/obstacles/spells/2/17.png<>uid://g71r3m423wdd::::res://assets/obstacles/spells/2/18.png<>uid://cl104ic0o6v8h::::res://assets/obstacles/spells/2/19.png<>uid://bqb78dcnodt1f::::res://assets/obstacles/spells/2/20.png<>uid://doyymwtfed3q0::::res://assets/obstacles/spells/2/21.png<>uid://dfbecx2uxmio8::::res://assets/obstacles/spells/2/22.png<>uid://ed0svudddxnn::::res://assets/obstacles/spells/2/23.png<>uid://dgca678iw343v::::res://assets/obstacles/spells/2/24.png<>uid://udobvmnkuysh::::res://assets/obstacles/spells/2/25.png<>uid://clt4qcqlf5v3a::::res://assets/obstacles/spells/2/26.png<>uid://bsei4bapm6vfq::::res://assets/obstacles/spells/2/27.png<>uid://bumoy1puxye6::::res://assets/obstacles/spells/2/28.png<>uid://d3xri781slhax::::res://assets/obstacles/spells/2/29.png<>uid://cxtfg2d3dcc4t::::res://assets/obstacles/spells/2/30.png<>uid://1kqdo84ddn70::::res://assets/pop/star/star.png<>uid://blfxowi1r7hnt::::res://assets/sounds/HitChart.mp3
+::res://src/BG/HitChart/::1720138858
+HitChart.gd::GDScript::-1::1720137542::0::1::::<>AnimatedSprite2D<>::
+HitChart.tscn::PackedScene::904209321951697123::1720138858::0::1::::<><>::uid://wq4v756w1nxg::::res://assets/pictures/HitChart.png<>uid://ceo6r270ad6y3::::res://assets/pictures/HitChart1.png<>res://src/BG/HitChart/HitChart.gd
+::res://src/BG/Note/::1720137542
+Note.gd::GDScript::-1::1720137542::0::1::::<>Area2D<>::
+Note.tscn::PackedScene::167981840319822307::1720106564::0::1::::<><>::uid://ty47xnvevqb8::::res://assets/obstacles/spells/2/1.png<>res://src/BG/Note/Note.gd<>uid://cob1xuhsahi3m::::res://assets/obstacles/spells/2/2.png<>uid://dqk31ejopy3oc::::res://assets/obstacles/spells/2/3.png<>uid://dg4lu7wl74a0f::::res://assets/obstacles/spells/2/4.png<>uid://c38e21rw7u71::::res://assets/obstacles/spells/2/5.png<>uid://b8c7jfxn7cqa2::::res://assets/obstacles/spells/2/6.png<>uid://bw4i7wutvg15a::::res://assets/obstacles/spells/2/7.png<>uid://b5f7olc3qs7vf::::res://assets/obstacles/spells/2/8.png<>uid://cw5bq4ymxw3nh::::res://assets/obstacles/spells/2/9.png<>uid://dc0kxrt7do1y4::::res://assets/obstacles/spells/2/10.png<>uid://c7npx4wfmd52f::::res://assets/obstacles/spells/2/11.png<>uid://cp47dvks10ag3::::res://assets/obstacles/spells/2/12.png<>uid://b1xotnvhjj3tq::::res://assets/obstacles/spells/2/13.png<>uid://b76jjewievd84::::res://assets/obstacles/spells/2/14.png<>uid://dyib2obns3stk::::res://assets/obstacles/spells/2/15.png<>uid://ci8bgmsbd2w5o::::res://assets/obstacles/spells/2/16.png<>uid://dtmyxmhici4b3::::res://assets/obstacles/spells/2/17.png<>uid://g71r3m423wdd::::res://assets/obstacles/spells/2/18.png<>uid://cl104ic0o6v8h::::res://assets/obstacles/spells/2/19.png<>uid://bqb78dcnodt1f::::res://assets/obstacles/spells/2/20.png<>uid://doyymwtfed3q0::::res://assets/obstacles/spells/2/21.png<>uid://dfbecx2uxmio8::::res://assets/obstacles/spells/2/22.png<>uid://ed0svudddxnn::::res://assets/obstacles/spells/2/23.png<>uid://dgca678iw343v::::res://assets/obstacles/spells/2/24.png<>uid://udobvmnkuysh::::res://assets/obstacles/spells/2/25.png<>uid://clt4qcqlf5v3a::::res://assets/obstacles/spells/2/26.png<>uid://bsei4bapm6vfq::::res://assets/obstacles/spells/2/27.png<>uid://bumoy1puxye6::::res://assets/obstacles/spells/2/28.png<>uid://d3xri781slhax::::res://assets/obstacles/spells/2/29.png<>uid://cxtfg2d3dcc4t::::res://assets/obstacles/spells/2/30.png<>uid://1kqdo84ddn70::::res://assets/pop/star/star.png<>uid://blfxowi1r7hnt::::res://assets/sounds/HitChart.mp3
 ::res://src/BG/Targets/::1719975867
+::res://src/BG Boss/::1720136813
+::res://src/BG Boss/Boss/::1720137709
+Boss.tscn::PackedScene::4408777271837315685::1720137709::0::1::::<><>::uid://chmo17b8y6kor::::res://assets/enemies/Boss/03_demon_cleave/demon_cleave_1.png<>uid://c7pshwuaxrvfp::::res://assets/enemies/Boss/03_demon_cleave/demon_cleave_2.png<>uid://d3qvlg2llqjox::::res://assets/enemies/Boss/03_demon_cleave/demon_cleave_3.png<>uid://c3flapb7xh2sc::::res://assets/enemies/Boss/03_demon_cleave/demon_cleave_4.png<>uid://c1xaigr218xtm::::res://assets/enemies/Boss/03_demon_cleave/demon_cleave_5.png<>uid://bgho06mjhhd6f::::res://assets/enemies/Boss/03_demon_cleave/demon_cleave_6.png<>uid://cd55qtcn1sllw::::res://assets/enemies/Boss/03_demon_cleave/demon_cleave_7.png<>uid://car1oongqkg54::::res://assets/enemies/Boss/03_demon_cleave/demon_cleave_8.png<>uid://b7sm5m2pmcoo6::::res://assets/enemies/Boss/03_demon_cleave/demon_cleave_9.png<>uid://r0rfe6srdss7::::res://assets/enemies/Boss/03_demon_cleave/demon_cleave_10.png<>uid://ddwaka8t6mgy8::::res://assets/enemies/Boss/03_demon_cleave/demon_cleave_11.png<>uid://cnjjc2olihtib::::res://assets/enemies/Boss/03_demon_cleave/demon_cleave_12.png<>uid://bqg8elf7m5s5r::::res://assets/enemies/Boss/03_demon_cleave/demon_cleave_13.png<>uid://c2vhteiterys::::res://assets/enemies/Boss/03_demon_cleave/demon_cleave_14.png<>uid://e37hnb7g5bpw::::res://assets/enemies/Boss/03_demon_cleave/demon_cleave_15.png<>uid://ceijshkd0wev6::::res://assets/enemies/Boss/04_demon_take_hit/demon_take_hit_1.png<>uid://ce4m71sefvs4e::::res://assets/enemies/Boss/04_demon_take_hit/demon_take_hit_2.png<>uid://dj7wrincqpv5o::::res://assets/enemies/Boss/04_demon_take_hit/demon_take_hit_3.png<>uid://dc2ekg2o1hi4u::::res://assets/enemies/Boss/04_demon_take_hit/demon_take_hit_4.png<>uid://cyc3tt6gmt3c1::::res://assets/enemies/Boss/04_demon_take_hit/demon_take_hit_5.png<>uid://ch2bws4tjq51b::::res://assets/enemies/Boss/01_demon_idle/demon_idle_1.png<>uid://cqahqynjxgbxr::::res://assets/enemies/Boss/01_demon_idle/demon_idle_2.png<>uid://bgfgcd8p5um1i::::res://assets/enemies/Boss/01_demon_idle/demon_idle_3.png<>uid://dund700tdn1l1::::res://assets/enemies/Boss/01_demon_idle/demon_idle_4.png<>uid://delg5cgocpmgp::::res://assets/enemies/Boss/01_demon_idle/demon_idle_5.png<>uid://bq7d0fwnacipm::::res://assets/enemies/Boss/01_demon_idle/demon_idle_6.png<>uid://c3ocvt7xmv2lb::::res://assets/enemies/Boss/05_demon_death/demon_death_1.png<>uid://doervpceqk6i2::::res://assets/enemies/Boss/05_demon_death/demon_death_2.png<>uid://c3osq56turben::::res://assets/enemies/Boss/05_demon_death/demon_death_3.png<>uid://b7uk5i7i4veot::::res://assets/enemies/Boss/05_demon_death/demon_death_4.png<>uid://kh310frp3uyi::::res://assets/enemies/Boss/05_demon_death/demon_death_5.png<>uid://digy747pjpv74::::res://assets/enemies/Boss/05_demon_death/demon_death_6.png<>uid://chi2ta2beuldg::::res://assets/enemies/Boss/05_demon_death/demon_death_7.png<>uid://5im0xjeoi35o::::res://assets/enemies/Boss/05_demon_death/demon_death_8.png<>uid://cga7kuwu0m481::::res://assets/enemies/Boss/05_demon_death/demon_death_9.png<>uid://juwh3srdbbd8::::res://assets/enemies/Boss/05_demon_death/demon_death_10.png<>uid://tlf4vkx81v7n::::res://assets/enemies/Boss/05_demon_death/demon_death_11.png<>uid://dh4wpf1n8ai77::::res://assets/enemies/Boss/05_demon_death/demon_death_12.png<>uid://gwu0x4e1r0w8::::res://assets/enemies/Boss/05_demon_death/demon_death_13.png<>uid://bith1qwrhiale::::res://assets/enemies/Boss/05_demon_death/demon_death_14.png<>uid://dn60h6tw0cwj3::::res://assets/enemies/Boss/05_demon_death/demon_death_15.png<>uid://pfqr21u1qsx8::::res://assets/enemies/Boss/05_demon_death/demon_death_16.png<>uid://csiowh5hmjfgn::::res://assets/enemies/Boss/05_demon_death/demon_death_17.png<>uid://b81vcxrv3tlu6::::res://assets/enemies/Boss/05_demon_death/demon_death_18.png<>uid://bc6rwxn41f1i3::::res://assets/enemies/Boss/05_demon_death/demon_death_19.png<>uid://x0fwgtmaol2b::::res://assets/enemies/Boss/05_demon_death/demon_death_20.png<>uid://b2vk1c4otmda4::::res://assets/enemies/Boss/05_demon_death/demon_death_21.png<>uid://ck1oufvi5bdhu::::res://assets/enemies/Boss/05_demon_death/demon_death_22.png<>uid://cetys00u4kgab::::res://assets/enemies/Boss/02_demon_walk/demon_walk_1.png<>uid://cptka0nfhmyoi::::res://assets/enemies/Boss/02_demon_walk/demon_walk_2.png<>uid://cci3ewu51nl38::::res://assets/enemies/Boss/02_demon_walk/demon_walk_3.png<>uid://dxb2buw45iwtm::::res://assets/enemies/Boss/02_demon_walk/demon_walk_4.png<>uid://bglxdm7gbevss::::res://assets/enemies/Boss/02_demon_walk/demon_walk_5.png<>uid://djloqdwus8dth::::res://assets/enemies/Boss/02_demon_walk/demon_walk_6.png<>uid://qvu1ig68ui5f::::res://assets/enemies/Boss/02_demon_walk/demon_walk_7.png<>uid://dclscokvqqjgd::::res://assets/enemies/Boss/02_demon_walk/demon_walk_8.png<>uid://d1mmbj0qtx5gu::::res://assets/enemies/Boss/02_demon_walk/demon_walk_9.png<>uid://yinnmqw3jyyk::::res://assets/enemies/Boss/02_demon_walk/demon_walk_10.png<>uid://csi8jpq3ufpib::::res://assets/enemies/Boss/02_demon_walk/demon_walk_11.png<>uid://ncdyxnk5qrmy::::res://assets/enemies/Boss/02_demon_walk/demon_walk_12.png
+::res://src/BG Boss/Conductor/::1720137542
+Conductor.gd::GDScript::-1::1720137542::0::1::::<>AudioStreamPlayer<>::
+Conductor.tscn::PackedScene::5140943453864851895::1720137121::0::1::::<><>::res://src/BG Boss/Conductor/Conductor.gd
+::res://src/BG Boss/fireball/::1720138858
+fireball.gd::GDScript::-1::1720135667::0::1::::<>Area2D<>::
+fireball.tscn::PackedScene::6613744723068010306::1720138858::0::1::::<><>::res://src/BG Boss/fireball/fireball.gd<>uid://8gv8ewyln7wp::::res://assets/enemies/Boss/imgs/img_0.png<>uid://de4jtmrxfnld::::res://assets/enemies/Boss/imgs/img_1.png<>uid://dkq0l51as48xs::::res://assets/enemies/Boss/imgs/img_2.png<>uid://brdxegswljo4j::::res://assets/enemies/Boss/imgs/img_3.png<>uid://dglbufgn8h2s7::::res://assets/enemies/Boss/imgs/img_4.png<>uid://sexn14olh4es::::res://assets/enemies/Boss/imgs/img_5.png<>uid://g1sf0sfexrbr::::res://assets/enemies/Boss/imgs/img_6.png<>uid://rpe2j1sh4his::::res://assets/enemies/Boss/imgs/img_7.png<>uid://dhpk6s35hur5m::::res://assets/enemies/Boss/imgs/img_8.png<>uid://bpfurgqpq4awq::::res://assets/enemies/Boss/imgs/img_9.png<>uid://ej4n7aj8tcjp::::res://assets/enemies/Boss/imgs/img_10.png<>uid://ber7r0cwqna2o::::res://assets/enemies/Boss/imgs/img_11.png<>uid://c3w4c2da2ygln::::res://assets/enemies/Boss/imgs/img_12.png<>uid://cvenile0l1igq::::res://assets/enemies/Boss/imgs/img_13.png<>uid://dj1kmfx4pogyr::::res://assets/enemies/Boss/imgs/img_14.png<>uid://dgjyk7lg8aauh::::res://assets/enemies/Boss/imgs/img_15.png<>uid://or8c2b8uyugo::::res://assets/enemies/Boss/imgs/img_16.png<>uid://dowe13vel21l6::::res://assets/enemies/Boss/imgs/img_17.png<>uid://e0u1d8oqayhc::::res://assets/enemies/Boss/imgs/img_18.png<>uid://portplakpl52::::res://assets/enemies/Boss/imgs/img_19.png<>uid://33fudbooayrq::::res://assets/enemies/Boss/imgs/img_20.png<>uid://dumc20swh776c::::res://assets/enemies/Boss/imgs/img_21.png<>uid://dgdaflxbnavuy::::res://assets/enemies/Boss/imgs/img_22.png<>uid://ds53b1d4jnrpb::::res://assets/enemies/Boss/imgs/img_23.png<>uid://br5iew0ajgsqb::::res://assets/enemies/Boss/imgs/img_24.png<>uid://w3taljeuqh61::::res://assets/enemies/Boss/imgs/img_25.png<>uid://cjj1885rx7l6l::::res://assets/enemies/Boss/imgs/img_26.png<>uid://bkwhawokk8qom::::res://assets/enemies/Boss/imgs/img_27.png<>uid://dq7p6awwa0ix7::::res://assets/enemies/Boss/imgs/img_28.png<>uid://3qljgiuqtlxy::::res://assets/enemies/Boss/imgs/img_29.png<>uid://cdbdw48s5l70j::::res://assets/enemies/Boss/imgs/img_30.png<>uid://c683fwehj6nvl::::res://assets/enemies/Boss/imgs/img_31.png<>uid://dfcjf6eboml3f::::res://assets/enemies/Boss/imgs/img_32.png<>uid://bjbh55gcl7wh5::::res://assets/enemies/Boss/imgs/img_33.png<>uid://bdj34g2w6hrab::::res://assets/enemies/Boss/imgs/img_34.png<>uid://dkcmvd31lt4jx::::res://assets/enemies/Boss/imgs/img_35.png<>uid://dexw3455i674b::::res://assets/enemies/Boss/imgs/img_36.png<>uid://b5noet4u0e2vd::::res://assets/enemies/Boss/imgs/img_37.png<>uid://bqy7b2xcmscpk::::res://assets/enemies/Boss/imgs/img_38.png<>uid://bo0m4m8uy10j4::::res://assets/enemies/Boss/imgs/img_39.png<>uid://1kqdo84ddn70::::res://assets/pop/star/star.png<>uid://blfxowi1r7hnt::::res://assets/sounds/HitChart.mp3
+::res://src/BG Boss/Main/::1720138858
+Main.gd::GDScript::-1::1720137847::0::1::::<>CanvasLayer<>::
+Main.tscn::PackedScene::4085097947820051787::1720138858::0::1::::<><>::res://src/BG Boss/Main/Main.gd<>uid://b32v6gw4m2uvt::::res://src/BG Boss/Boss/Boss.tscn<>uid://cfikt8inslm8n::::res://src/BG Boss/Conductor/Conductor.tscn<>uid://dt1nn38idmnvs::::res://assets/music/song.ogg
+::res://src/BG Boss/spike/::1720138858
+spike.gd::GDScript::-1::1720136192::0::1::::<>Area2D<>::
+spike.tscn::PackedScene::7319399237749800285::1720138858::0::1::::<><>::res://src/BG Boss/spike/spike.gd<>uid://bc3sa5t0kpnfg::::res://assets/enemies/Boss/spike/Moving Spikes 32x32 scaled 64x64.png<>uid://1kqdo84ddn70::::res://assets/pop/star/star.png<>uid://blfxowi1r7hnt::::res://assets/sounds/HitChart.mp3
+::res://src/BG Boss/token/::1720138858
+token.gd::GDScript::-1::1720136753::0::1::::<>Area2D<>::
+token.tscn::PackedScene::7788356365489426803::1720138858::0::1::::<><>::res://src/BG Boss/token/token.gd<>uid://cbvs35ft4pa4d::::res://assets/packs/Coin Gems/spr_coin_gri.png<>uid://1kqdo84ddn70::::res://assets/pop/star/star.png<>uid://blfxowi1r7hnt::::res://assets/sounds/HitChart.mp3
 ::res://src/BG Multiplayer/::1720094558
-::res://src/BG Multiplayer/Main/::1720094644
+::res://src/BG Multiplayer/Main/::1720137309
 Main.gd::GDScript::-1::1720094558::0::1::::<>RefCounted<>::
-Main.tscn::PackedScene::2769094072450556438::1720094644::0::1::::<><>::uid://bpmerqpacp14j::::res://assets/pictures/Map_1/ground.png<>uid://m5agv6axbsc6::::res://src/BG/HitChart/HitChart.tscn<>res://src/BG Multiplayer/Main/PLAYER 1.gd<>uid://d3i85vy85kakk::::res://src/BG/Conductor/Conductor.tscn<>uid://c8pfb1xuokoam::::res://assets/music/Super Idol full song.mp3<>res://src/BG Multiplayer/Main/PLAYER 2.gd
-PLAYER 1.gd::GDScript::-1::1720094558::0::1::::<>CanvasLayer<>::
+Main.tscn::PackedScene::2769094072450556438::1720137309::0::1::::<><>::uid://bpmerqpacp14j::::res://assets/pictures/Map_1/ground.png<>uid://m5agv6axbsc6::::res://src/BG/HitChart/HitChart.tscn<>res://src/BG Multiplayer/Main/PLAYER 1.gd<>uid://d3i85vy85kakk::::res://src/BG/Conductor/Conductor.tscn<>uid://c8pfb1xuokoam::::res://assets/music/Super Idol full song.mp3<>res://src/BG Multiplayer/Main/PLAYER 2.gd
+PLAYER 1.gd::GDScript::-1::1720106564::0::1::::<>CanvasLayer<>::
 PLAYER 2.gd::GDScript::-1::1720094558::0::1::::<>CanvasLayer<>::
 ::res://src/BG Multiplayer/Notes/::1720094558
-::res://src/BG Multiplayer/Notes/Notes 1/::1720094644
+::res://src/BG Multiplayer/Notes/Notes 1/::1720137309
 Notes 1.gd::GDScript::-1::1720094558::0::1::::<>Area2D<>::
-Notes 1.tscn::PackedScene::4887845136898850279::1720094644::0::1::::<><>::uid://cvul0o7nux0ww::::res://assets/packs/Coin Gems/spr_coin_roj.png<>res://src/BG Multiplayer/Notes/Notes 1/Notes 1.gd<>uid://1kqdo84ddn70::::res://assets/pop/star/star.png<>uid://blfxowi1r7hnt::::res://assets/sounds/HitChart.mp3
-::res://src/BG Multiplayer/Notes/Notes 2/::1720094644
+Notes 1.tscn::PackedScene::4887845136898850279::1720137309::0::1::::<><>::uid://cvul0o7nux0ww::::res://assets/packs/Coin Gems/spr_coin_roj.png<>res://src/BG Multiplayer/Notes/Notes 1/Notes 1.gd<>uid://1kqdo84ddn70::::res://assets/pop/star/star.png<>uid://blfxowi1r7hnt::::res://assets/sounds/HitChart.mp3
+::res://src/BG Multiplayer/Notes/Notes 2/::1720137309
 Notes 2.gd::GDScript::-1::1720094558::0::1::::<>Area2D<>::
-Notes 2.tscn::PackedScene::1667624523158645511::1720094644::0::1::::<><>::res://src/BG Multiplayer/Notes/Notes 2/Notes 2.gd<>uid://cq86t7yquxwhj::::res://assets/packs/Coin Gems/spr_coin_azu.png<>uid://1kqdo84ddn70::::res://assets/pop/star/star.png<>uid://blfxowi1r7hnt::::res://assets/sounds/HitChart.mp3
+Notes 2.tscn::PackedScene::1667624523158645511::1720137309::0::1::::<><>::res://src/BG Multiplayer/Notes/Notes 2/Notes 2.gd<>uid://cq86t7yquxwhj::::res://assets/packs/Coin Gems/spr_coin_azu.png<>uid://1kqdo84ddn70::::res://assets/pop/star/star.png<>uid://blfxowi1r7hnt::::res://assets/sounds/HitChart.mp3
 ::res://src/Characters/::1720094427
-::res://src/Characters/Ape/::1720081314
-Ape.tscn::PackedScene::3931853742111255618::1720081314::0::1::::<><>::uid://bfja05brjccax::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png<>res://src/Characters/Ape/script/Ape.gd<>uid://cfcoo1u854wak::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump/Jump.png<>uid://dijdigyfu5tt::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit/Hit.png<>uid://b5uj8ll6vc1tf::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run/Run.png
-::res://src/Characters/Ape/script/::1720091773
-Ape.gd::GDScript::-1::1720091773::0::1::::<>Area2D<>::
+::res://src/Characters/Ape/::1720137309
+Ape.tscn::PackedScene::3931853742111255618::1720137309::0::1::::<><>::uid://bfja05brjccax::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/1-Idle/Idle.png<>res://src/Characters/Ape/script/Ape.gd<>uid://cfcoo1u854wak::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/3-Jump/Jump.png<>uid://dijdigyfu5tt::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/4-Hit/Hit.png<>uid://b5uj8ll6vc1tf::::res://assets/characters/Jungle Monkey Platformer/1-Sprites/Character Spritesheets/2-Run/Run.png
+::res://src/Characters/Ape/script/::1720137542
+Ape.gd::GDScript::-1::1720137542::0::1::::<>Area2D<>::
 ::res://src/Characters/Elementals_water_priestess/::1720094427
 Elementals_water_priestess.tscn::PackedScene::7580731745978282310::1720094427::0::1::::<><>::res://src/Characters/Elementals_water_priestess/Script/Elementals_water_priestess.gd<>uid://colsijajyqug6::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet3.png<>uid://bsms5eqjm87yj::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet2.png<>uid://2oxlvuugndvy::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet4.png<>uid://bnjup87vupgbh::::res://assets/characters/Elementals_water_priestess_FREE_v1.1/spritesheet.png
 ::res://src/Characters/Elementals_water_priestess/Script/::1720094427
@@ -1867,9 +1995,9 @@ hud.tscn::PackedScene::2290002594008749037::1719297591::0::1::::<><>::uid://dbcb
 ::res://src/Extra/Intro/::1720094558
 Intro.gd::GDScript::-1::1720094558::0::1::::<>CanvasLayer<>::
 Intro.tscn::PackedScene::118115912078442896::1720094558::0::1::::<><>::uid://cb6usjpc07bdh::::res://assets/pictures/Logo.png<>res://src/Extra/Intro/Intro.gd<>uid://dj1hobo76i5j2::::res://assets/sounds/LogoAudio.wav
-::res://src/Extra/MainScreen/::1720094660
+::res://src/Extra/MainScreen/::1720094765
 Main.gd::GDScript::-1::1720094536::0::1::::Main_menu<>Control<>::
-Main.tscn::PackedScene::551164960465454747::1720094660::0::1::::<><>::res://src/MainScreens/scrolls/scrollmenu.gdshader<>res://src/Extra/MainScreen/Main.gd<>uid://d3jsblcke2k1q::::res://assets/pictures/home/background.png<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav<>uid://kdnlrisjrr3y::::res://assets/pictures/Main_menu/Title.png<>uid://ix6leokkv33t::::res://assets/pictures/Main_menu/title2.png<>uid://ch31plm0ek43v::::res://assets/pictures/Main_menu/title3.png<>uid://kmptm3vr1c5m::::res://assets/pictures/Main_menu/title4.png<>uid://q1ub8o0184ck::::res://assets/pictures/Main_menu/title5.png<>uid://dv3p4fynghl5e::::res://assets/pictures/Main_menu/title6.png<>uid://dp3c0xaujjmvx::::res://assets/pictures/Main_menu/title7.png<>uid://bq1t2qwga5a5n::::res://assets/pictures/Main_menu/title8.png<>uid://dj7l4aexds4hf::::res://assets/pictures/Main_menu/title9.png<>uid://wdwopfyxvuny::::res://assets/pictures/Main_menu/title10.png<>uid://db20w5fcl5cbg::::res://assets/pictures/Main_menu/title11.png<>uid://bh2j380no7eko::::res://assets/pictures/Main_menu/title12.png<>uid://dtp3phgmd34wo::::res://assets/pictures/Main_menu/title13.png<>res://src/Extra/MainScreen/settings.tscn
+Main.tscn::PackedScene::551164960465454747::1720094765::0::1::::<><>::res://src/MainScreens/scrolls/scrollmenu.gdshader<>res://src/Extra/MainScreen/Main.gd<>uid://d3jsblcke2k1q::::res://assets/pictures/home/background.png<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://x0cguunbcqs::::res://assets/sounds/MI_SFX 43.wav<>uid://kdnlrisjrr3y::::res://assets/pictures/Main_menu/Title.png<>uid://ix6leokkv33t::::res://assets/pictures/Main_menu/title2.png<>uid://ch31plm0ek43v::::res://assets/pictures/Main_menu/title3.png<>uid://kmptm3vr1c5m::::res://assets/pictures/Main_menu/title4.png<>uid://q1ub8o0184ck::::res://assets/pictures/Main_menu/title5.png<>uid://dv3p4fynghl5e::::res://assets/pictures/Main_menu/title6.png<>uid://dp3c0xaujjmvx::::res://assets/pictures/Main_menu/title7.png<>uid://bq1t2qwga5a5n::::res://assets/pictures/Main_menu/title8.png<>uid://dj7l4aexds4hf::::res://assets/pictures/Main_menu/title9.png<>uid://wdwopfyxvuny::::res://assets/pictures/Main_menu/title10.png<>uid://db20w5fcl5cbg::::res://assets/pictures/Main_menu/title11.png<>uid://bh2j380no7eko::::res://assets/pictures/Main_menu/title12.png<>uid://dtp3phgmd34wo::::res://assets/pictures/Main_menu/title13.png<>uid://dbovkios5xgxw::::res://src/Extra/MainScreen/settings.tscn
 settings.gd::GDScript::-1::1720094427::0::1::::settings<>Control<>::
 settings.tscn::PackedScene::7259645540734219540::1720094427::0::1::::<><>::res://src/Extra/MainScreen/settings.gd<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf
 ::res://src/Header/::1719297591
@@ -1883,15 +2011,15 @@ characters_selector.gd::GDScript::-1::1720094427::0::1::::<>Control<>::
 selector_screens.tscn::PackedScene::6352335672474438359::1719999003::0::1::::<><>::res://src/Levels/Level_Selector/scripts/selector_screens.gd<>uid://ccv3k4adqgqte::::res://assets/pictures/selector/background.webp<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf<>uid://8lqbix2eiyxo::::res://assets/packs/GUI_1/GUI.png
 ::res://src/Levels/Level_Selector/scripts/::1720094427
 selector_screens.gd::GDScript::-1::1720094427::0::1::::<>Control<>::
-::res://src/Levels/Map1/::1720094644
+::res://src/Levels/Map1/::1720137309
 Conductor.gd::GDScript::-1::1720057292::0::1::::<>AudioStreamPlayer<>::
 made_node.tscn::PackedScene::2782171183979453818::1720057292::0::1::::<><>::
-Map1.tscn::PackedScene::3467303016428094389::1720094644::0::1::::<><>::res://src/Levels/Map1/Script/Map1.gd<>uid://c4hk7ypikkhq4::::res://src/Levels/Map1/Background/Background.tscn<>uid://t5hemb7qyves::::res://src/Levels/Map1/Scroll/Scroll.tscn<>uid://bwavb6r2uk555::::res://src/Characters/Ape/Ape.tscn<>uid://7vkajok2ya66::::res://src/Extra/HUD/hud.tscn<>uid://be1egpjfr8n0b::::res://src/Transition/Pause/Pause.tscn<>uid://crc8d5r8r057w::::res://src/BG/Game/Game.tscn
+Map1.tscn::PackedScene::3467303016428094389::1720137309::0::1::::<><>::res://src/Levels/Map1/Script/Map1.gd<>uid://c4hk7ypikkhq4::::res://src/Levels/Map1/Background/Background.tscn<>uid://t5hemb7qyves::::res://src/Levels/Map1/Scroll/Scroll.tscn<>uid://bwavb6r2uk555::::res://src/Characters/Ape/Ape.tscn<>uid://7vkajok2ya66::::res://src/Extra/HUD/hud.tscn<>uid://be1egpjfr8n0b::::res://src/Transition/Pause/Pause.tscn<>uid://crc8d5r8r057w::::res://src/BG/Game/Game.tscn
 ::res://src/Levels/Map1/Background/::1720057287
 Background.gdshader::Shader::-1::1720057287::0::1::::<><>::
 Background.tscn::PackedScene::6823434076609899145::1720057264::0::1::::<><>::uid://hpj15o27v5oq::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_1_ground.png<>uid://utxecgyssduv::::res://assets/packs/scrolling-city-background 2/6/Day/1.png<>uid://dbfhjp5xem1mp::::res://assets/packs/scrolling-city-background 2/1/Night/2.png<>uid://ddajc7d7dfo3w::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_3_moon.png<>uid://cympajwk8gcqo::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_6_far_buildings.png<>uid://d0x31d2xphb0e::::res://assets/packs/scrolling-city-background 2/3/Night/2.png<>uid://cbxsdgpcoixgh::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_7_bg_buildings.png<>uid://eoksnds6cqbm::::res://assets/packs/scrolling-city-background 2/1/Night/3.png<>uid://cncrd0efs16qf::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_9_wall.png<>uid://637rbpfxhs4s::::res://assets/packs/scrolling-city-background 2/8/Night/5.png<>uid://cmcc5xgly24m::::res://assets/pictures/Map_1/post_soviet_city_parallax/layer_8_fg_buildings.png
-::res://src/Levels/Map1/Script/::1720091773
-Map1.gd::GDScript::-1::1720091773::0::1::::<>Node<>::
+::res://src/Levels/Map1/Script/::1720137542
+Map1.gd::GDScript::-1::1720137542::0::1::::<>Node<>::
 ::res://src/Levels/Map1/Scroll/::1720091996
 Scroll.tscn::PackedScene::1395952157170682222::1720091996::0::1::::<><>::uid://bpmerqpacp14j::::res://assets/pictures/Map_1/ground.png
 ::res://src/Levels/Map2/::1720094427
@@ -1959,8 +2087,8 @@ test-button.tscn::PackedScene::350590999930150008::1720094427::0::1::::<><>::uid
 antena.tscn::PackedScene::9054786304310266171::1719999003::0::1::::<><>::uid://ccitp52khlkh0::::res://assets/obstacles/trash assets/satellite dish.png
 ::res://src/Obstacles/Antena/script/::1719278146
 ::res://src/Transition/::1719297591
-::res://src/Transition/Pause/::1720091773
-Pause.gd::GDScript::-1::1720091773::0::1::::<>Node<>::
+::res://src/Transition/Pause/::1720137542
+Pause.gd::GDScript::-1::1720137542::0::1::::<>Node<>::
 Pause.tscn::PackedScene::2721104264589979647::1719297591::0::1::::<><>::res://src/Transition/Pause/Pause.gd<>uid://dbcbmpufkv7it::::res://assets/fonts/Abaddon Bold.ttf
 ::res://src/Transition/Trans_1/::1719297591
 Trans_1.tscn::PackedScene::593642795758482004::1719297591::0::1::::<><>::res://src/Transition/Trans_1/scripts/trans_1.gd

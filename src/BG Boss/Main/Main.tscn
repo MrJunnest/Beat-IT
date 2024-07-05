@@ -1,0 +1,49 @@
+[gd_scene load_steps=6 format=3 uid="uid://byg374d3cys8b"]
+
+[ext_resource type="Script" path="res://src/BG Boss/Main/Main.gd" id="1_0d1bj"]
+[ext_resource type="PackedScene" uid="uid://b32v6gw4m2uvt" path="res://src/BG Boss/Boss/Boss.tscn" id="2_2l5y7"]
+[ext_resource type="PackedScene" uid="uid://d3i85vy85kakk" path="res://src/BG/Conductor/Conductor.tscn" id="3_tpse8"]
+[ext_resource type="AudioStream" uid="uid://cqmi2wxkpesdp" path="res://assets/music/GAMEPLAY/BlingBangBangBorn/156 3.mp3" id="4_u3pwa"]
+[ext_resource type="PackedScene" uid="uid://m5agv6axbsc6" path="res://src/BG/HitChart/HitChart.tscn" id="5_ms3u8"]
+
+[node name="Main" type="CanvasLayer"]
+script = ExtResource("1_0d1bj")
+metadata/_edit_horizontal_guides_ = [376.0, 592.0]
+metadata/_edit_vertical_guides_ = [191.0]
+
+[node name="Boss" parent="." instance=ExtResource("2_2l5y7")]
+position = Vector2(1047, 334)
+
+[node name="HitIt" parent="." instance=ExtResource("5_ms3u8")]
+position = Vector2(183, 374)
+input = "UP"
+
+[node name="HitIt2" parent="." instance=ExtResource("5_ms3u8")]
+position = Vector2(184, 531)
+input = "DOWN"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 408.0
+offset_top = 128.0
+offset_right = 448.0
+offset_bottom = 151.0
+text = "0
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="Combo" type="Label" parent="."]
+anchors_preset = -1
+anchor_top = -0.0617284
+anchor_right = 0.0772569
+offset_left = 410.0
+offset_top = 183.0
+offset_right = 450.0
+offset_bottom = 206.0
+text = "aaa"
+metadata/_edit_use_anchors_ = true
+
+[node name="Conductor" parent="." instance=ExtResource("3_tpse8")]
+stream = ExtResource("4_u3pwa")
+volume_db = -10.0
+bpm = 156
+measures = 3

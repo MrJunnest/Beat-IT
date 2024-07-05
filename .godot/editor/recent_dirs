@@ -1,5 +1,18 @@
-res://assets/packs/Coin Gems
+res://assets/music/GAMEPLAY/BlingBangBangBorn
 res://assets/music
+res://assets/enemies/Boss/01_demon_idle
+res://assets/enemies/Boss/05_demon_death
+res://assets/enemies/Boss
+res://assets/packs/Coin Gems
+res://assets/packs/GUI_1
+res://assets/pop/Smoke
+res://assets/enemies/Boss/spike
+res://src/BG Boss/Conductor
+res://assets/enemies/Boss/imgs
+res://assets/enemies/Boss/04_demon_take_hit
+res://assets/enemies/Boss/03_demon_cleave
+res://assets/enemies/Boss/02_demon_walk
+res://src/BG Boss/Main
 res://src/BG Multiplayer/Main
 res://src/Levels/Tests/Multiplayer
 res://src/Extra/Intro
@@ -7,15 +20,3 @@ res://assets/music/MainScreen
 res://assets/sounds
 res://assets/music/GAMEPLAY/AnimalsGirls
 res://src/Extra/MainScreen
-res://assets/pictures
-res://src/BG/Note
-res://assets/pop
-res://src/Levels/Map1
-res://src/Levels/Tests/Test-Signal2
-res://src/Levels/Tests/Test-Signals
-res://
-res://assets/pictures/enemy/Slime
-res://src/Obstacles/Antena
-res://src/Extra/HUD
-res://src/Levels/Map1/Script
-res://src/Levels/Tests/shader

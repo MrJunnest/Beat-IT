@@ -1,0 +1,110 @@
+[gd_scene load_steps=15 format=3 uid="uid://dcjto3dhsi0ld"]
+
+[ext_resource type="Script" path="res://src/BG Boss/spike/spike.gd" id="1_dbqlr"]
+[ext_resource type="Texture2D" uid="uid://bc3sa5t0kpnfg" path="res://assets/enemies/Boss/spike/Moving Spikes 32x32 scaled 64x64.png" id="1_v7byg"]
+[ext_resource type="Texture2D" uid="uid://1kqdo84ddn70" path="res://assets/pop/star/star.png" id="2_ykdfg"]
+[ext_resource type="AudioStream" uid="uid://blfxowi1r7hnt" path="res://assets/sounds/HitChart.mp3" id="3_ewh0w"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ihkiu"]
+atlas = ExtResource("1_v7byg")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rgq26"]
+atlas = ExtResource("1_v7byg")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l04x1"]
+atlas = ExtResource("1_v7byg")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t1pcm"]
+atlas = ExtResource("1_v7byg")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7w7it"]
+atlas = ExtResource("1_v7byg")
+region = Rect2(0, 64, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4gtjv"]
+atlas = ExtResource("1_v7byg")
+region = Rect2(64, 64, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gk7fi"]
+atlas = ExtResource("1_v7byg")
+region = Rect2(128, 64, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8ra1g"]
+atlas = ExtResource("1_v7byg")
+region = Rect2(192, 64, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_aawly"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ihkiu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rgq26")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l04x1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t1pcm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7w7it")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4gtjv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gk7fi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8ra1g")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8g0xu"]
+
+[node name="Spike" type="Area2D" groups=["spike"]]
+script = ExtResource("1_dbqlr")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.226641, 0.277344)
+sprite_frames = SubResource("SpriteFrames_aawly")
+animation = &"new_animation"
+frame_progress = 0.495616
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_8g0xu")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+emitting = false
+amount = 20
+lifetime = 0.3
+one_shot = true
+explosiveness = 0.8
+texture = ExtResource("2_ykdfg")
+emission_shape = 1
+emission_sphere_radius = 60.0
+spread = 180.0
+gravity = Vector2(0, 0)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+
+[node name="Node2D" type="Node2D" parent="." groups=["note"]]
+
+[node name="Label" type="Label" parent="Node2D"]
+offset_right = 1.0
+offset_bottom = 23.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Hitsound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_ewh0w")
+volume_db = -5.0

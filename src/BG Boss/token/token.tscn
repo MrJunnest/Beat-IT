@@ -1,0 +1,81 @@
+[gd_scene load_steps=11 format=3 uid="uid://di70ddyhiy7cp"]
+
+[ext_resource type="Script" path="res://src/BG Boss/token/token.gd" id="1_7fm87"]
+[ext_resource type="Texture2D" uid="uid://cbvs35ft4pa4d" path="res://assets/packs/Coin Gems/spr_coin_gri.png" id="1_km0ss"]
+[ext_resource type="Texture2D" uid="uid://1kqdo84ddn70" path="res://assets/pop/star/star.png" id="1_x7wb2"]
+[ext_resource type="AudioStream" uid="uid://blfxowi1r7hnt" path="res://assets/sounds/HitChart.mp3" id="2_a3lb2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qxs58"]
+atlas = ExtResource("1_km0ss")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_37mp4"]
+atlas = ExtResource("1_km0ss")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_leqxu"]
+atlas = ExtResource("1_km0ss")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4w0h0"]
+atlas = ExtResource("1_km0ss")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_s7ujs"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qxs58")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_37mp4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_leqxu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4w0h0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4g8no"]
+radius = 41.1096
+
+[node name="Token" type="Area2D" groups=["token"]]
+script = ExtResource("1_7fm87")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(3.625, 4.1875)
+sprite_frames = SubResource("SpriteFrames_s7ujs")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_4g8no")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+emitting = false
+amount = 20
+lifetime = 0.3
+one_shot = true
+explosiveness = 0.8
+texture = ExtResource("1_x7wb2")
+emission_shape = 1
+emission_sphere_radius = 60.0
+spread = 180.0
+gravity = Vector2(0, 0)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Label" type="Label" parent="Node2D"]
+offset_right = 1.0
+offset_bottom = 23.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Hitsound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_a3lb2")
+volume_db = -5.0

@@ -1,4 +1,4 @@
-extends AudioStreamPlayer
+jextends AudioStreamPlayer
 
 @export var bpm = 100
 @export var measures = 4
