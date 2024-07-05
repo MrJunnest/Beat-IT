@@ -1,10 +1,11 @@
+res://src/Levels
+res://src/Extra/Controlers
 res://assets/fonts
 res://assets/music/GAMEPLAY/3AnimalsGirls
 res://assets/music/GAMEPLAY/4Bad_apple
 res://assets/music/GAMEPLAY/5DUNDUNDUNDUNDUNDUDNUDNUDNNDUNDUNDUNDUN
 res://assets/music/GAMEPLAY/6DUNDUNDUNDUNTADUNDUNDUNDUNPAMPAM
 res://assets/music/GAMEPLAY/BlingBangBangBorn
-res://src/Levels
 res://assets/packs/Coin Gems
 res://assets/music
 res://src/BG Multiplayer/Main
@@ -19,4 +20,3 @@ res://assets/pop
 res://src/Levels/Map1
 res://src/Levels/Tests/Test-Signal2
 res://src/Levels/Tests/Test-Signals
-res://
