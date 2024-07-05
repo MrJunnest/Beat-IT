@@ -9,8 +9,8 @@
 [node name="ParallaxBackground" type="ParallaxBackground"]
 
 [node name="Background" type="Sprite2D" parent="."]
-position = Vector2(574, 325)
-scale = Vector2(2, 2)
+position = Vector2(602.5, 338.5)
+scale = Vector2(2.09896, 2.08333)
 texture = ExtResource("1_ij2gq")
 
 [node name="City" type="ParallaxLayer" parent="."]
