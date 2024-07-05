@@ -1,0 +1,40 @@
+[gd_scene load_steps=10 format=3 uid="uid://dif1fwd782xph"]
+
+[ext_resource type="Script" path="res://src/Levels/Map6/Script/map_6.gd" id="1_q3pga"]
+[ext_resource type="PackedScene" uid="uid://cr7rhyavhx4dd" path="res://src/Levels/Map6/Background/map_6_background.tscn" id="2_glt3x"]
+[ext_resource type="PackedScene" uid="uid://nbrdrgot62h6" path="res://src/Levels/Map2/Scroll/scroll.tscn" id="3_6vs4g"]
+[ext_resource type="PackedScene" uid="uid://ccldp7qiqx7ae" path="res://src/Characters/Little_Witch/little_witch.tscn" id="4_kp144"]
+[ext_resource type="PackedScene" uid="uid://dvij0t03ys2m5" path="res://src/Characters/Little_Elvis/little_elvis.tscn" id="5_ndh6q"]
+[ext_resource type="PackedScene" uid="uid://dgafsrhclm8uk" path="res://src/Characters/Elementals_water_priestess/Elementals_water_priestess.tscn" id="6_avorv"]
+[ext_resource type="PackedScene" uid="uid://be1egpjfr8n0b" path="res://src/Transition/Pause/Pause.tscn" id="8_fuxc6"]
+[ext_resource type="PackedScene" uid="uid://c83medvhkaj05" path="res://src/Extra/Controlers/controllers.tscn" id="9_rs3n3"]
+[ext_resource type="PackedScene" uid="uid://8yecxtnpwmjk" path="res://src/Levels/Map6/Music/Music6.tscn" id="11_gljwo"]
+
+[node name="Map6" type="Node"]
+script = ExtResource("1_q3pga")
+
+[node name="ParallaxBackground" parent="." instance=ExtResource("2_glt3x")]
+
+[node name="Map_Scroll" parent="." instance=ExtResource("3_6vs4g")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(600, 320)
+offset = Vector2(-24, 4)
+
+[node name="Little_Witch" parent="." instance=ExtResource("4_kp144")]
+unique_name_in_owner = true
+position = Vector2(538, -584)
+
+[node name="Little_Elvis" parent="." instance=ExtResource("5_ndh6q")]
+unique_name_in_owner = true
+position = Vector2(231, -43)
+
+[node name="Elementals_water_priestess" parent="." instance=ExtResource("6_avorv")]
+unique_name_in_owner = true
+position = Vector2(-37, -74)
+
+[node name="Pause" parent="." instance=ExtResource("8_fuxc6")]
+
+[node name="Game" parent="." instance=ExtResource("11_gljwo")]
+
+[node name="Controllers" parent="." instance=ExtResource("9_rs3n3")]

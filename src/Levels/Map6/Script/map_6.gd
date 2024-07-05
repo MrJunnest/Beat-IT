@@ -2,7 +2,7 @@ extends Node
 
 # Game variables
 const APE_START_POS := Vector2i(65, 40)
-const CAM_START_POS := Vector2i(600, 320)
+const CAM_START_POS := Vector2i(600, 320)  
 var score: float
 var speed: float
 const START_SPEED: float = 2.0
