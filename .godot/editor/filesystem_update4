@@ -46,3 +46,18 @@ res://src/Characters/Little_Witch/script/little_witch.gd
 res://src/Characters/Little_Witch/little_witch.tscn
 res://src/Levels/Characters_Selector/scripts/characters_selector.gd
 res://src/Levels/Level_Selector/scripts/Witch_selector_screens.gd
+res://src/Characters/Little_Witch/Script/little_witch.gd
+res://src/Levels/Level_Selector/scripts/Elemental_Water_selector_screens.gd
+res://src/Levels/Level_Selector/scripts/Elvis_selector_screens.gd
+res://src/BG/Game/Game.gd
+res://src/BG/Global/Global.gd
+res://src/MainScreens/scripts/home_cmd.gd
+res://src/Characters/Little_Elvis/Script/little_elvis.gd
+res://src/Extra/MainScreen/Main.gd
+res://src/Levels/Map2/Script/Map2.gd
+res://src/Levels/Map3/Script/Map3.gd
+res://src/Levels/Map4/Script/Map4.gd
+res://src/Levels/Tests/Multiplayer/MP_Map1.gd
+res://src/BG Multiplayer/Main/PLAYER 1.gd
+res://src/Transition/Pause/settings.gd
+res://src/Levels/Level_Selector/Elvis_selector_screens.tscn

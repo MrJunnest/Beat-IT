@@ -30,5 +30,5 @@ func _on_little_elvis_mouse_entered():
 func _on_elementals_water_priestess_mouse_entered():
 	$Hitsound.play()
 
-func _on_back_mouse_exited():
+func _on_back_mouse_entered() -> void:
 	$Hitsound.play()
