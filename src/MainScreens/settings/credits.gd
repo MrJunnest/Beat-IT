@@ -32,20 +32,18 @@ var lines := []
 
 var credits = [
 	[
-		"A game by 三个老外"
+		"A game by 三老"
 	],[
 		"Programming",
 		"Elvis",
 		"Luciano",
 		"Elbert"
 	],[
-		"Sound Effects",
-		"Why are you Gay?"
+		"Music",
+		"Youtube"
 	],[
 		"Testers",
-		"三",
-		"个",
-		"老外"
+		"三老"
 	],[
 		"Tools used",
 		"Developed with Godot Engine",
@@ -53,13 +51,13 @@ var credits = [
 		"https://godotengine.org/license",
 		"",
 		"Art created with My Favourite Art Program",
-		"ALL WEBSITE OR ART SPRITE USED PUT HERE!"
+		" "
 	],[
 		"Special thanks"," ",
 		"My parents",
 		"My friends",
 		"and",
-		"My pet cock"
+		"My brain for keeping up with this s-"
 	]
 ]
 
