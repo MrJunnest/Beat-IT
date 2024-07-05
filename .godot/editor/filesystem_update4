@@ -38,3 +38,6 @@ res://src/Extra/Controlers/canvas_layer.gd
 res://src/Extra/Controlers/controllers.tscn
 res://src/Extra/MainScreen/settings.tscn
 res://src/Extra/MainScreen/settings.gd
+res://src/Levels/MapCharacter.gd
+res://src/Levels/Level_Selector/Elemental_Water_selector_screens.tscn
+res://src/Extra/End_Scream/End_scrren.gd
