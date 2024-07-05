@@ -1,0 +1,118 @@
+[gd_scene load_steps=12 format=3 uid="uid://ilvhnphcaigm"]
+
+[ext_resource type="Script" path="res://src/Extra/Win_Screen/Win.gd" id="1_4s8dw"]
+[ext_resource type="FontFile" uid="uid://dbcbmpufkv7it" path="res://assets/fonts/Abaddon Bold.ttf" id="2_w0mj0"]
+[ext_resource type="Texture2D" uid="uid://8lqbix2eiyxo" path="res://assets/packs/GUI_1/GUI.png" id="3_dija7"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2ml4y"]
+texture = ExtResource("3_dija7")
+texture_margin_top = 10.2286
+texture_margin_bottom = 10.2286
+region_rect = Rect2(51, 51, 42, 10)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kd4u2"]
+texture = ExtResource("3_dija7")
+region_rect = Rect2(145, 81, 46, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mkyqf"]
+texture = ExtResource("3_dija7")
+region_rect = Rect2(145, 113, 46, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ukebo"]
+texture = ExtResource("3_dija7")
+region_rect = Rect2(145, 65, 46, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7oxld"]
+texture = ExtResource("3_dija7")
+region_rect = Rect2(145, 81, 46, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_oew27"]
+texture = ExtResource("3_dija7")
+region_rect = Rect2(145, 113, 46, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gevc7"]
+texture = ExtResource("3_dija7")
+region_rect = Rect2(145, 81, 46, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rrbd0"]
+texture = ExtResource("3_dija7")
+region_rect = Rect2(145, 113, 46, 14)
+
+[node name="Win_screen" type="CanvasLayer"]
+script = ExtResource("1_4s8dw")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.483022, 0.00265605, 0.804249, 0.572549)
+
+[node name="Win" type="Label" parent="."]
+offset_left = 15.0
+offset_top = 48.0
+offset_right = 1164.0
+offset_bottom = 325.0
+theme_override_fonts/font = ExtResource("2_w0mj0")
+theme_override_font_sizes/font_size = 100
+theme_override_styles/normal = SubResource("StyleBoxTexture_2ml4y")
+text = "WE HAVE A WINNER!
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Score" type="Label" parent="."]
+anchors_preset = -1
+anchor_top = 0.317
+anchor_bottom = 0.317
+offset_left = 520.0
+offset_top = 90.584
+offset_right = 633.0
+offset_bottom = 147.584
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_w0mj0")
+theme_override_font_sizes/font_size = 50
+text = "Score: 0"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -302.0
+offset_top = -289.0
+offset_right = 302.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="PLAY AGAIN" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_w0mj0")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxTexture_kd4u2")
+theme_override_styles/hover = SubResource("StyleBoxTexture_mkyqf")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_ukebo")
+text = "PLAY AGAIN"
+
+[node name="LEVEL SELECTOR" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_w0mj0")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxTexture_7oxld")
+theme_override_styles/hover = SubResource("StyleBoxTexture_oew27")
+text = "SELECT LEVEL"
+
+[node name="Home" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_w0mj0")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxTexture_gevc7")
+theme_override_styles/hover = SubResource("StyleBoxTexture_rrbd0")
+text = "HOME"
+
+[connection signal="pressed" from="VBoxContainer/PLAY AGAIN" to="." method="_on_level_selection_pressed"]
+[connection signal="pressed" from="VBoxContainer/LEVEL SELECTOR" to="." method="_on_level_selector_pressed"]
+[connection signal="pressed" from="VBoxContainer/Home" to="." method="_on_home_pressed"]

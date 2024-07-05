@@ -20,6 +20,7 @@ signal measure_signal
 
 func _ready():
 	sec_per_beat = 60.0 / bpm
+	
 
 func _physics_process(_delta):
 	if playing:

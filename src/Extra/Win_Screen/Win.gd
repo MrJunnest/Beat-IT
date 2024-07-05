@@ -17,7 +17,7 @@ func _on_level_selection_pressed(): #play again that current map
 	if MapCharacter.map_selector == 15:
 		get_tree().change_scene_to_file("res://src/Levels/Map5/Map5.tscn")
 	if MapCharacter.map_selector == 16:
-		get_tree().change_scene_to_file("res://src/Levels/Map6/Map6.tscn") #have bug???
+		get_tree().change_scene_to_file("res://src/Levels/Map6/Map6.tscn")
 
 func _on_level_selector_pressed(): #back to selector
 	get_tree().change_scene_to_file("res://src/Levels/Level_Selector/Witch_selector_screens.tscn")

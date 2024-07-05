@@ -8,13 +8,13 @@ signal exit_settings
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	button.button_down.connect(on_exit_pressed)
+	button.button_down.connect(on_exit_pressed) #back button
 	set_process(false)
 	
 	
-func on_exit_pressed() -> void:
+func on_exit_pressed() -> void: #exit signal
 	#print("EXIT DAMMIT") #debug line incase some twat code line decide it doesn't want to work
-	emit_signal("exit_settings")
+	emit_signal("exit_settings") 
 	set_process(false)
 
 func _on_volume_value_changed(value): #volume slider, change value change volume

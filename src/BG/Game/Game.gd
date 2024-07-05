@@ -30,8 +30,8 @@ var instance
 func _ready():
 	Global.beat.connect(_on_Conductor_beat)
 	Global.measure.connect(_on_Conductor_measure)
-	$Conductor.play_with_beat_offset(8)	#start music	 
-	#$Conductor.play_from_beat(110,4)	#Choose track
+	#$Conductor.play_with_beat_offset(8)	#start music	 
+	$Conductor.play_from_beat(350,4)	#Choose track
 
 
 func _input(event):
@@ -114,7 +114,8 @@ func _on_Conductor_beat(position):
 		Global.good = good
 		Global.okay = okay
 		Global.missed = missed
-		if get_tree().change_scene_to_file("res://Scenes/End.tscn") != OK:
+		get_tree().change_scene_to_file("res://src/Extra/Win_Screen/Win.tscn")
+		if get_tree().change_scene_to_file("res://src/Extra/Win_Screen/Win.tscn") != OK:
 			print ("Error changing scene to End")
 
 
@@ -160,7 +161,7 @@ func increment_score(by):
 	else:
 		$Combo.text = ""
 
-
 func reset_combo():
 	combo = 0
 	$Combo.text = ""
+

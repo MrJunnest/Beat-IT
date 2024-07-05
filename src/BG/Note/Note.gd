@@ -10,6 +10,8 @@ const DOWN_LANE_SPAWN = Vector2(SPAWN_X, 535) #ABAJO
 var speed = 0
 var hit = false
 
+signal Finish
+
 func _ready():
 	pass
 
@@ -56,3 +58,5 @@ func destroy(score):
 
 func _on_Timer_timeout():
 	queue_free()
+	emit_signal("Finish")
+	

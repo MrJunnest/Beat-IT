@@ -35,10 +35,12 @@ offset_left = 410.0
 offset_top = 183.0
 offset_right = 450.0
 offset_bottom = 206.0
-text = "aaa"
+text = "
+
+"
 metadata/_edit_use_anchors_ = true
 
 [node name="Conductor" parent="." instance=ExtResource("3_g65b7")]
 stream = ExtResource("4_1urej")
-bpm = 90
+bpm = 180
 measures = 4

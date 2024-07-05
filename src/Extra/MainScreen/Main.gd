@@ -74,4 +74,5 @@ func _on_exit_settings() : #exit setting button pressed, revert to main menu
 	Title2.visible = true
 
 func handle_signal(): #a place for lost signals...(it's a meme mf, just a place to tidy up the signals)
-	setting_menu.exit_settings.connect(_on_exit_settings) #exit button from settings scene
+	setting_menu.exit_settings.connect(_on_exit_settings) #exit button from settings scene, receive signal
+	
