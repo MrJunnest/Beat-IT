@@ -30,8 +30,8 @@ var instance
 func _ready():
 	Global.beat.connect(_on_Conductor_beat)
 	Global.measure.connect(_on_Conductor_measure)
-	#$Conductor.play_with_beat_offset(8)	#start music	 
-	$Conductor.play_from_beat(350,4)	#Choose track
+	$Conductor.play_with_beat_offset(8)	#start music	 
+	#$Conductor.play_from_beat(350,4)	#Choose track
 
 
 func _input(event):
